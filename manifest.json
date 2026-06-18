@@ -1,0 +1,25 @@
+{
+  "name": "석재 구매원가 계산기",
+  "short_name": "석재 계산기",
+  "description": "수입 석재 총 원가 자동 산출",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f1e8",
+  "theme_color": "#1a1a1a",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "./icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
