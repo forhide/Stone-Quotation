@@ -1,0 +1,55 @@
+{
+  "report_schema_version": 1,
+  "app_name": "Personal Color Lab",
+  "app_version": "0.2.2",
+  "python_version": "3.13.16",
+  "platform": "win32",
+  "machine": "AMD64",
+  "frozen": false,
+  "ok": true,
+  "checks": [
+    {
+      "name": "locale_resources",
+      "ok": true,
+      "details": {
+        "languages": [
+          "en",
+          "ko"
+        ],
+        "message_count": 188,
+        "default_language": "en"
+      }
+    },
+    {
+      "name": "native_dependencies",
+      "ok": true,
+      "details": {
+        "PIL": "12.3.0",
+        "numpy": "2.3.5",
+        "cv2": "4.14.0",
+        "sqlite": "3.53.1"
+      }
+    },
+    {
+      "name": "tcl_runtime",
+      "ok": true,
+      "details": {
+        "tcl_version": "8.6.15",
+        "tk_binding_version": "8.6"
+      }
+    },
+    {
+      "name": "synthetic_analysis_and_library",
+      "ok": true,
+      "details": {
+        "algorithm_version": "0.2.0",
+        "analysis_status": "ok",
+        "alignment_confidence": 0.949787,
+        "mean_luminance_delta": 0.03903955865093325,
+        "library_schema_version": 1,
+        "originals_unchanged": true,
+        "temporary_files_removed_on_return": true
+      }
+    }
+  ]
+}
