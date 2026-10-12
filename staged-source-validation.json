@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "ok": true,
+  "app_version": "0.5.3",
+  "validated_at_utc": "2026-10-12T23:35:53.328493+00:00",
+  "execution": "staged_payload_byte_comparison",
+  "source_root": "/workspace/Personal-Color-Lab",
+  "excluded": [
+    "__pycache__ directories",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "checks": [
+    {
+      "target": "windows-x64",
+      "package_root": "/workspace/Personal-Color-Lab/build/installers/windows-x64/payload/runtime/Lib/site-packages/personal_color_lab",
+      "ok": true,
+      "missing": [],
+      "extra": [],
+      "mismatched": [],
+      "errors": [],
+      "build_app_version": "0.5.3",
+      "build_manifest_sha256": "35f1e3d6c8d160bf00a578c78c413a8320ba718663b38c3861117d829f4dac88",
+      "file_count": 50,
+      "total_bytes": 3821696,
+      "inventory_sha256": "ecc81de0c0baec984ecb2f2912eb81b20325fb4f1006ca810b9f5c3b04c9d35f"
+    },
+    {
+      "target": "macos-arm64",
+      "package_root": "/workspace/Personal-Color-Lab/build/installers/macos-arm64/payload/Personal Color Lab.app/Contents/Resources/runtime/lib/python3.13/site-packages/personal_color_lab",
+      "ok": true,
+      "missing": [],
+      "extra": [],
+      "mismatched": [],
+      "errors": [],
+      "build_app_version": "0.5.3",
+      "build_manifest_sha256": "66b7ffe869216707e5d13889b95d128b7e8f5364f420ea3e1bce8fdb5f9b4ee0",
+      "file_count": 50,
+      "total_bytes": 3821696,
+      "inventory_sha256": "ecc81de0c0baec984ecb2f2912eb81b20325fb4f1006ca810b9f5c3b04c9d35f"
+    },
+    {
+      "target": "macos-x64",
+      "package_root": "/workspace/Personal-Color-Lab/build/installers/macos-x64/payload/Personal Color Lab.app/Contents/Resources/runtime/lib/python3.13/site-packages/personal_color_lab",
+      "ok": true,
+      "missing": [],
+      "extra": [],
+      "mismatched": [],
+      "errors": [],
+      "build_app_version": "0.5.3",
+      "build_manifest_sha256": "8e752b41595d331ef272ab9cd388b94773e600c3dc39fe63eba004c720c49872",
+      "file_count": 50,
+      "total_bytes": 3821696,
+      "inventory_sha256": "ecc81de0c0baec984ecb2f2912eb81b20325fb4f1006ca810b9f5c3b04c9d35f"
+    }
+  ],
+  "errors": [],
+  "limits": "Matches staged package bytes to the current source. Does not replace archive verification, native installation or execution checks.",
+  "source_app_version": "0.5.3",
+  "source_inventory": [
+    {
+      "path": "__init__.py",
+      "size": 67,
+      "sha256": "d88a09cc40b7ca37427c46dd9d1d207644c5a4a5e816c976f6890f49bfa21855"
+    },
+    {
+      "path": "assets/app-icon.icns",
+      "size": 114040,
+      "sha256": "fa2a9c0020913ffaf264eff8595e4a359cf16e6cde5c3a83ac813408f4339282"
+    },
+    {
+      "path": "assets/app-icon.ico",
+      "size": 44645,
+      "sha256": "2c1e51da9a657de9865787e1a749bea490aa0f11dd6ff399083138c7ef68dca7"
+    },
+    {
+      "path": "assets/app-icon.png",
+      "size": 10770,
+      "sha256": "7541a8d28bbe48fdf7498d7e7f92f50a117557efc0ab814c507aada9000ef0cf"
+    },
+    {
+      "path": "assets/models/NOTICE.txt",
+      "size": 485,
+      "sha256": "94cdb05c3db2326928e22be38e5163ccbaf7b7525401b9b320b5aaf62ff72f1d"
+    },
+    {
+      "path": "assets/models/humanseg-LICENSE.txt",
+      "size": 11437,
+      "sha256": "d9cf3b547fa4232fb9285f2db52e909f10f00781aaf64a6d0bb90c55149f1363"
+    },
+    {
+      "path": "assets/models/humanseg.onnx",
+      "size": 1734724,
+      "sha256": "1da023e95e3adbeef16ac2862767b53b86a743ff26a34692e0833d7e088f0231"
+    },
+    {
+      "path": "assets/models/manifest.json",
+      "size": 1763,
+      "sha256": "e826e51fbf734f0850a1705cf76b239092ccc547b33c12db625cbf048cff065e"
+    },
+    {
+      "path": "assets/models/nanodet-LICENSE.txt",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "assets/models/nanodet.onnx",
+      "size": 1123958,
+      "sha256": "8a2c877cc6f09e7dfac7a9066e33ee5ae68de530b3b994f6ee9125cff6e34d3f"
+    },
+    {
+      "path": "assets/models/yunet-LICENSE.txt",
+      "size": 1085,
+      "sha256": "c83b8120c50ccbd4c4f96edf53141bdd566ebb8f8e9227e415326aa1b1aba958"
+    },
+    {
+      "path": "assets/models/yunet.onnx",
+      "size": 232589,
+      "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4"
+    },
+    {
+      "path": "core/alignment.py",
+      "size": 16371,
+      "sha256": "81869e9b28637f598bc248a56d1b693cfdf6f547be96182d5094ae5955a41ba6"
+    },
+    {
+      "path": "core/analysis_cache.py",
+      "size": 796,
+      "sha256": "c572cac2a76ae5847a322b0b79a071d1838b3cb4fc1affe1d196c8c90b63e228"
+    },
+    {
+      "path": "core/analysis_control.py",
+      "size": 337,
+      "sha256": "ea4e089d7479cb2158893868579ffc559cd1ce05425e53c21ab81d3d3be33d29"
+    },
+    {
+      "path": "core/color_analysis.py",
+      "size": 8860,
+      "sha256": "3b4a7ea08649cee149dcdae5f9998febaa921d08813d4b2e7488a7701b7d1221"
+    },
+    {
+      "path": "core/constants.py",
+      "size": 799,
+      "sha256": "e260e92f469b80788854b0e1e3533441b8335293d9bfaa909ed756a9f25605b0"
+    },
+    {
+      "path": "core/database.py",
+      "size": 25940,
+      "sha256": "b560c792b444d08de61e28280365c7fc92f1170d778016b9f00e5c085d6e5e8b"
+    },
+    {
+      "path": "core/edit_reverse.py",
+      "size": 7600,
+      "sha256": "0168c49115a7edceeee875ad1509deb52884b4b99cd0ec9f76fc089a9a3cb9ae"
+    },
+    {
+      "path": "core/export_files.py",
+      "size": 3244,
+      "sha256": "9c6d661519f52c7b1843f185baafc1aee9db6e94dbcb8410a1eb1bf2b2f414b0"
+    },
+    {
+      "path": "core/fingerprint.py",
+      "size": 1066,
+      "sha256": "12c0a83b430187808d8cc6b21dd55af9ae11c73cd270e0ece9667c24016de8df"
+    },
+    {
+      "path": "core/i18n.py",
+      "size": 764,
+      "sha256": "5e57a319ea7ab91195ca9ad4cdef0ec9da0676bedcbdf9965eaa6b83dfb4d773"
+    },
+    {
+      "path": "core/metadata.py",
+      "size": 1000,
+      "sha256": "8563ccd6e66497b4118b8ad18150514fcf517d7ec6dfd6b5678519fcb2a2a7f9"
+    },
+    {
+      "path": "core/models.py",
+      "size": 823,
+      "sha256": "a27085ae9ddecdc24f28448d94854c4b125d8f3a200e2553b722f101be757079"
+    },
+    {
+      "path": "core/package_check.py",
+      "size": 17443,
+      "sha256": "a0487c9526825e4d9fdef492e64c888e88137d1dcd356f9b3808f40f56ac77da"
+    },
+    {
+      "path": "core/raw_decode.py",
+      "size": 8414,
+      "sha256": "a7232a849fa09a933eca309e2263851e9a7d5e1e84c68f646c3a47269fb8522f"
+    },
+    {
+      "path": "core/reference_analysis.py",
+      "size": 24115,
+      "sha256": "4c7cc9c758264fad3d93cdcb271e0503ef69875430d06e24b8b3c9124fcd1548"
+    },
+    {
+      "path": "core/scanner.py",
+      "size": 6790,
+      "sha256": "f2297189daa6f6259e4c40f31bea1c6859fa3fa9cececa79ca8d4c9474fb5c6b"
+    },
+    {
+      "path": "core/scene_analysis.py",
+      "size": 16115,
+      "sha256": "77039b1918575de8db47cc67b6dcf5aff2b88a759252c3219bef07d3c94cbaad"
+    },
+    {
+      "path": "core/schema_migrations.py",
+      "size": 5485,
+      "sha256": "a8e5190b4135ff43eb28903f128257959994034194bc51e5f1d249e8a77794f2"
+    },
+    {
+      "path": "core/semantic_models.py",
+      "size": 5352,
+      "sha256": "cf0deec0e8991d1b15ec5258c70937ace5b9703abeeab3f44fccf206d7a9b062"
+    },
+    {
+      "path": "core/settings.py",
+      "size": 804,
+      "sha256": "a65adcdb647650ad6f0db90f088b123db07d518e0f9db25e4fe04be6c966d87c"
+    },
+    {
+      "path": "core/source_workflow.py",
+      "size": 16079,
+      "sha256": "7a84fe38038a823f05478dda8d1a4466d0e2f1f2e6edd63e2c79576e0f25ecc6"
+    },
+    {
+      "path": "core/style_dna.py",
+      "size": 20611,
+      "sha256": "b8ee87d5dd3c4fac26f760e8a7f84996941ce857c2f2cd2f6e2c94c612e9cf0c"
+    },
+    {
+      "path": "core/style_regions.py",
+      "size": 10885,
+      "sha256": "496461006acb10370f930de065430e5c76785768aacb2ad3899a900460fd95db"
+    },
+    {
+      "path": "core/style_render.py",
+      "size": 31349,
+      "sha256": "d64f3aa0052ef8faaf167cb224ea2feed09eb4cd9e85edf937c87bdc1714d5b7"
+    },
+    {
+      "path": "core/synthetic_raw.py",
+      "size": 3701,
+      "sha256": "5c3a55c8cc9c4f7bf56fae669b91fc9808020b47d43348e6d89676ac4bdf7c52"
+    },
+    {
+      "path": "core/tone_analysis.py",
+      "size": 8195,
+      "sha256": "db02ccc2789a197ba83d44e3aafe56bd81224718dad31cf250d34db3c6fa20c5"
+    },
+    {
+      "path": "core/xmp_analysis.py",
+      "size": 15588,
+      "sha256": "e10d7f2983692f11233d3bc706708b74c062fceffe819dfec3ea47fd994987ed"
+    },
+    {
+      "path": "locales/en.json",
+      "size": 34437,
+      "sha256": "797f8b9678faac74f4736089328684a8288bd4c987c0b4faba4dbe8806600a15"
+    },
+    {
+      "path": "locales/ko.json",
+      "size": 38045,
+      "sha256": "dfa48e651e6cfe0382aeab872ed104c53f855c8223bf163fd877ad49bbb9ed4f"
+    },
+    {
+      "path": "main.py",
+      "size": 1929,
+      "sha256": "5b767c42cfdbba36955d10e6113c9f539cf1b86fa4e94822fd7913b74da254f3"
+    },
+    {
+      "path": "ui/app.py",
+      "size": 29419,
+      "sha256": "4eccd24e1101ccd7f395cdacc6f254db207d9f15015719fcecefc15f93a7e25a"
+    },
+    {
+      "path": "ui/display.py",
+      "size": 2912,
+      "sha256": "5d1cec97e3be25d11afee0d3d7e5c61765149db823c5c3357676f1cbf91ee9ef"
+    },
+    {
+      "path": "ui/pair_inspector.py",
+      "size": 42688,
+      "sha256": "59b6b65f0cad6fe48000bde5fa5a31fe587e33a6d7f0f3f2ce7e5f6292c7051c"
+    },
+    {
+      "path": "ui/source_workflow.py",
+      "size": 49547,
+      "sha256": "4a0974f6223480152839f4e15a85216b1a18ecb43516b5c03419847460f393d1"
+    },
+    {
+      "path": "ui/studio_controls.py",
+      "size": 15848,
+      "sha256": "fd2b1e6a0aedc66007c23e082de51acf490f4af2839044e2da2f458fd7fe4cc5"
+    },
+    {
+      "path": "ui/style_tiles.py",
+      "size": 2208,
+      "sha256": "861b834eea27f2ff4d5547dc53e2ce5d36abd92e9d84716085358cc817860754"
+    },
+    {
+      "path": "ui/style_workspace.py",
+      "size": 50025,
+      "sha256": "78c44d7a9897bb955ee2a152d4b8e8ba43ee355d21c59c016997be98cc1acdf9"
+    },
+    {
+      "path": "ui/theme.py",
+      "size": 9191,
+      "sha256": "c1c54e71bee11bb9433cce212fb33d5b87a59b84a624abdafe1574963e7d01a3"
+    }
+  ],
+  "source_inventory_sha256": "ecc81de0c0baec984ecb2f2912eb81b20325fb4f1006ca810b9f5c3b04c9d35f",
+  "source_file_count": 50,
+  "source_total_bytes": 3821696,
+  "coverage": {
+    "python_files": 37,
+    "locale_files": 2,
+    "asset_files": 11,
+    "model_assets_and_licenses": 8
+  },
+  "source_inventory_sha256_after_verification": "ecc81de0c0baec984ecb2f2912eb81b20325fb4f1006ca810b9f5c3b04c9d35f"
+}
