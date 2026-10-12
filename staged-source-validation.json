@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "ok": true,
+  "app_version": "0.5.1",
+  "validated_at_utc": "2026-10-12T11:59:56.567537+00:00",
+  "execution": "staged_payload_byte_comparison",
+  "source_root": "/workspace/Personal-Color-Lab",
+  "excluded": [
+    "__pycache__ directories",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "checks": [
+    {
+      "target": "windows-x64",
+      "package_root": "/workspace/Personal-Color-Lab/build/installers/windows-x64/payload/runtime/Lib/site-packages/personal_color_lab",
+      "ok": true,
+      "missing": [],
+      "extra": [],
+      "mismatched": [],
+      "errors": [],
+      "build_app_version": "0.5.1",
+      "build_manifest_sha256": "5ceeb872ec1017206da1d3939c3807c8b52e60bff25b6f06a7c44dbd176c3cb8",
+      "file_count": 47,
+      "total_bytes": 3761632,
+      "inventory_sha256": "ff60205a4ee600d5032f6bf9b51be05c3eb8a9a487ab9dd201573a2e1d1854af"
+    },
+    {
+      "target": "macos-arm64",
+      "package_root": "/workspace/Personal-Color-Lab/build/installers/macos-arm64/payload/Personal Color Lab.app/Contents/Resources/runtime/lib/python3.13/site-packages/personal_color_lab",
+      "ok": true,
+      "missing": [],
+      "extra": [],
+      "mismatched": [],
+      "errors": [],
+      "build_app_version": "0.5.1",
+      "build_manifest_sha256": "c04c02b930b332f73676889d8a73a4e9e7a48b6fe5de71b65c067f0a3a89392b",
+      "file_count": 47,
+      "total_bytes": 3761632,
+      "inventory_sha256": "ff60205a4ee600d5032f6bf9b51be05c3eb8a9a487ab9dd201573a2e1d1854af"
+    },
+    {
+      "target": "macos-x64",
+      "package_root": "/workspace/Personal-Color-Lab/build/installers/macos-x64/payload/Personal Color Lab.app/Contents/Resources/runtime/lib/python3.13/site-packages/personal_color_lab",
+      "ok": true,
+      "missing": [],
+      "extra": [],
+      "mismatched": [],
+      "errors": [],
+      "build_app_version": "0.5.1",
+      "build_manifest_sha256": "d20b8399a173bfe6d81ffb684d9f1c86ee042bf89170cf73844ec487ebc6a698",
+      "file_count": 47,
+      "total_bytes": 3761632,
+      "inventory_sha256": "ff60205a4ee600d5032f6bf9b51be05c3eb8a9a487ab9dd201573a2e1d1854af"
+    }
+  ],
+  "errors": [],
+  "limits": "Matches staged package bytes to the current source. Does not replace archive verification, native installation or execution checks.",
+  "source_app_version": "0.5.1",
+  "source_inventory": [
+    {
+      "path": "__init__.py",
+      "size": 67,
+      "sha256": "d88a09cc40b7ca37427c46dd9d1d207644c5a4a5e816c976f6890f49bfa21855"
+    },
+    {
+      "path": "assets/app-icon.icns",
+      "size": 114040,
+      "sha256": "fa2a9c0020913ffaf264eff8595e4a359cf16e6cde5c3a83ac813408f4339282"
+    },
+    {
+      "path": "assets/app-icon.ico",
+      "size": 44645,
+      "sha256": "2c1e51da9a657de9865787e1a749bea490aa0f11dd6ff399083138c7ef68dca7"
+    },
+    {
+      "path": "assets/app-icon.png",
+      "size": 10770,
+      "sha256": "7541a8d28bbe48fdf7498d7e7f92f50a117557efc0ab814c507aada9000ef0cf"
+    },
+    {
+      "path": "assets/models/NOTICE.txt",
+      "size": 485,
+      "sha256": "94cdb05c3db2326928e22be38e5163ccbaf7b7525401b9b320b5aaf62ff72f1d"
+    },
+    {
+      "path": "assets/models/humanseg-LICENSE.txt",
+      "size": 11437,
+      "sha256": "d9cf3b547fa4232fb9285f2db52e909f10f00781aaf64a6d0bb90c55149f1363"
+    },
+    {
+      "path": "assets/models/humanseg.onnx",
+      "size": 1734724,
+      "sha256": "1da023e95e3adbeef16ac2862767b53b86a743ff26a34692e0833d7e088f0231"
+    },
+    {
+      "path": "assets/models/manifest.json",
+      "size": 1763,
+      "sha256": "e826e51fbf734f0850a1705cf76b239092ccc547b33c12db625cbf048cff065e"
+    },
+    {
+      "path": "assets/models/nanodet-LICENSE.txt",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "assets/models/nanodet.onnx",
+      "size": 1123958,
+      "sha256": "8a2c877cc6f09e7dfac7a9066e33ee5ae68de530b3b994f6ee9125cff6e34d3f"
+    },
+    {
+      "path": "assets/models/yunet-LICENSE.txt",
+      "size": 1085,
+      "sha256": "c83b8120c50ccbd4c4f96edf53141bdd566ebb8f8e9227e415326aa1b1aba958"
+    },
+    {
+      "path": "assets/models/yunet.onnx",
+      "size": 232589,
+      "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4"
+    },
+    {
+      "path": "core/alignment.py",
+      "size": 15775,
+      "sha256": "0cb6c70f36021eb7e2f91febb3b6174be60c110c2faecf39b9a9cce16647a97f"
+    },
+    {
+      "path": "core/analysis_cache.py",
+      "size": 796,
+      "sha256": "072f7142cfa5cc8aabf7ef15532598be82134ecfb35303a309d897d7cc05a154"
+    },
+    {
+      "path": "core/color_analysis.py",
+      "size": 8084,
+      "sha256": "429f7411a7a984272f1b0cd969b969a09ccf02d8e71c5d7d9dac9cd51fc4d286"
+    },
+    {
+      "path": "core/constants.py",
+      "size": 799,
+      "sha256": "a1445c6034fdc8b4073c11682f0ab9b8a13753e969a40fa858de7ed3d1b18307"
+    },
+    {
+      "path": "core/database.py",
+      "size": 25924,
+      "sha256": "f5a25c883cfbbce4afa68534fa7975ce773cced48d5453dd0c6b323c4a8976a4"
+    },
+    {
+      "path": "core/edit_reverse.py",
+      "size": 7014,
+      "sha256": "5550dd373b64562564347dba99b338051f0453e909bce1482a258816118b1e7e"
+    },
+    {
+      "path": "core/export_files.py",
+      "size": 3244,
+      "sha256": "9c6d661519f52c7b1843f185baafc1aee9db6e94dbcb8410a1eb1bf2b2f414b0"
+    },
+    {
+      "path": "core/fingerprint.py",
+      "size": 1066,
+      "sha256": "12c0a83b430187808d8cc6b21dd55af9ae11c73cd270e0ece9667c24016de8df"
+    },
+    {
+      "path": "core/i18n.py",
+      "size": 764,
+      "sha256": "5e57a319ea7ab91195ca9ad4cdef0ec9da0676bedcbdf9965eaa6b83dfb4d773"
+    },
+    {
+      "path": "core/metadata.py",
+      "size": 1000,
+      "sha256": "8563ccd6e66497b4118b8ad18150514fcf517d7ec6dfd6b5678519fcb2a2a7f9"
+    },
+    {
+      "path": "core/models.py",
+      "size": 823,
+      "sha256": "a27085ae9ddecdc24f28448d94854c4b125d8f3a200e2553b722f101be757079"
+    },
+    {
+      "path": "core/package_check.py",
+      "size": 17392,
+      "sha256": "f60d13159bf878140243b9e94a202c735441b2d1ba1a229254e66f3130313e69"
+    },
+    {
+      "path": "core/raw_decode.py",
+      "size": 4361,
+      "sha256": "cfd7917f9379b02f4bc000248c3fd409570cbbd3e90ccd9afe8c4980ccd31a8c"
+    },
+    {
+      "path": "core/reference_analysis.py",
+      "size": 22397,
+      "sha256": "d2ae8d604a1ccdf52e023b4f3ee358ce0e582ae0ec6e63425af23fbeafd16e3b"
+    },
+    {
+      "path": "core/scanner.py",
+      "size": 6790,
+      "sha256": "f2297189daa6f6259e4c40f31bea1c6859fa3fa9cececa79ca8d4c9474fb5c6b"
+    },
+    {
+      "path": "core/scene_analysis.py",
+      "size": 15106,
+      "sha256": "e4c04034af5aa2ae4a24c689a96bbeec86514aedf71d6d86cc10c393ab30ea6a"
+    },
+    {
+      "path": "core/schema_migrations.py",
+      "size": 5485,
+      "sha256": "a8e5190b4135ff43eb28903f128257959994034194bc51e5f1d249e8a77794f2"
+    },
+    {
+      "path": "core/semantic_models.py",
+      "size": 5352,
+      "sha256": "cf0deec0e8991d1b15ec5258c70937ace5b9703abeeab3f44fccf206d7a9b062"
+    },
+    {
+      "path": "core/settings.py",
+      "size": 804,
+      "sha256": "a65adcdb647650ad6f0db90f088b123db07d518e0f9db25e4fe04be6c966d87c"
+    },
+    {
+      "path": "core/source_workflow.py",
+      "size": 15599,
+      "sha256": "30f89704ae9f96cd0461a98a8b6930ff8dafcd61cde62dcc4b4c3572af962dbc"
+    },
+    {
+      "path": "core/style_dna.py",
+      "size": 20611,
+      "sha256": "b8ee87d5dd3c4fac26f760e8a7f84996941ce857c2f2cd2f6e2c94c612e9cf0c"
+    },
+    {
+      "path": "core/style_regions.py",
+      "size": 10230,
+      "sha256": "ced5e951faaa2922354d0be23c318a16955e90f0cbc0a27c4a414ac91994f9a0"
+    },
+    {
+      "path": "core/style_render.py",
+      "size": 24048,
+      "sha256": "ed35313df4c9257c1c4f564768e68426c575222dac63bbd9a3f434b976c7bdf0"
+    },
+    {
+      "path": "core/synthetic_raw.py",
+      "size": 3701,
+      "sha256": "5c3a55c8cc9c4f7bf56fae669b91fc9808020b47d43348e6d89676ac4bdf7c52"
+    },
+    {
+      "path": "core/tone_analysis.py",
+      "size": 8195,
+      "sha256": "db02ccc2789a197ba83d44e3aafe56bd81224718dad31cf250d34db3c6fa20c5"
+    },
+    {
+      "path": "core/xmp_analysis.py",
+      "size": 15588,
+      "sha256": "f22ef37dc69e752d4e1d2033a4743724bf2588457325677002bdcf8bfaf925e4"
+    },
+    {
+      "path": "locales/en.json",
+      "size": 31828,
+      "sha256": "2265e081982ea79bab3ed8c12aa4956724fc5cecdc4b735413266a6c741b4410"
+    },
+    {
+      "path": "locales/ko.json",
+      "size": 35106,
+      "sha256": "458a55998eafc015461ef0867f97db4a8e479c83cb2cf916511f868ef2104251"
+    },
+    {
+      "path": "main.py",
+      "size": 1929,
+      "sha256": "5b767c42cfdbba36955d10e6113c9f539cf1b86fa4e94822fd7913b74da254f3"
+    },
+    {
+      "path": "ui/app.py",
+      "size": 28586,
+      "sha256": "38572d2cf5678d088376e6ae1fa485ca8fea183ba918f0979acf1dc5fb90777b"
+    },
+    {
+      "path": "ui/display.py",
+      "size": 2912,
+      "sha256": "5d1cec97e3be25d11afee0d3d7e5c61765149db823c5c3357676f1cbf91ee9ef"
+    },
+    {
+      "path": "ui/pair_inspector.py",
+      "size": 42688,
+      "sha256": "59b6b65f0cad6fe48000bde5fa5a31fe587e33a6d7f0f3f2ce7e5f6292c7051c"
+    },
+    {
+      "path": "ui/source_workflow.py",
+      "size": 43002,
+      "sha256": "d24bbdf97b9cceef30eb88b2f9ccfaa21e24d6c3570757960dcf117fb3c10bd1"
+    },
+    {
+      "path": "ui/style_workspace.py",
+      "size": 39097,
+      "sha256": "12433b9c13fbe3d1c21cbe0275e406cb898f9fb2e3c8430a67f978599e933699"
+    },
+    {
+      "path": "ui/theme.py",
+      "size": 8615,
+      "sha256": "e8a3346c3fec271f213032a978c0894947626d2b0abdd5b041f0acd73af2e485"
+    }
+  ],
+  "source_inventory_sha256": "ff60205a4ee600d5032f6bf9b51be05c3eb8a9a487ab9dd201573a2e1d1854af",
+  "source_file_count": 47,
+  "source_total_bytes": 3761632,
+  "coverage": {
+    "python_files": 34,
+    "locale_files": 2,
+    "asset_files": 11,
+    "model_assets_and_licenses": 8
+  },
+  "previous_source_inventory_sha256": "ff60205a4ee600d5032f6bf9b51be05c3eb8a9a487ab9dd201573a2e1d1854af",
+  "source_changed_since_previous_report": false,
+  "source_inventory_sha256_after_verification": "ff60205a4ee600d5032f6bf9b51be05c3eb8a9a487ab9dd201573a2e1d1854af"
+}
