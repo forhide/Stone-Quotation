@@ -1,0 +1,140 @@
+{
+  "report_schema_version": 1,
+  "app_name": "Personal Color Lab",
+  "app_version": "0.5.2",
+  "python_version": "3.13.16",
+  "platform": "win32",
+  "machine": "AMD64",
+  "frozen": false,
+  "ok": true,
+  "checks": [
+    {
+      "name": "locale_resources",
+      "ok": true,
+      "details": {
+        "languages": [
+          "en",
+          "ko"
+        ],
+        "message_count": 615,
+        "default_language": "en"
+      }
+    },
+    {
+      "name": "native_dependencies",
+      "ok": true,
+      "details": {
+        "PIL": "12.3.0",
+        "numpy": "2.3.5",
+        "cv2": "4.14.0",
+        "rawpy": "0.25.1",
+        "libraw": "0.21.4",
+        "sqlite": "3.53.1"
+      }
+    },
+    {
+      "name": "tcl_runtime",
+      "ok": true,
+      "details": {
+        "tcl_version": "8.6.15",
+        "tk_binding_version": "8.6"
+      }
+    },
+    {
+      "name": "synthetic_analysis_and_library",
+      "ok": true,
+      "details": {
+        "algorithm_version": "0.5.2",
+        "analysis_status": "ok",
+        "alignment_confidence": 0.949787,
+        "mean_luminance_delta": 0.03903955865093325,
+        "library_schema_version": 3,
+        "originals_unchanged": true,
+        "temporary_files_removed_on_return": true
+      }
+    },
+    {
+      "name": "synthetic_raw_analysis",
+      "ok": true,
+      "details": {
+        "decoder": "rawpy_libraw",
+        "rawpy_version": "0.25.1",
+        "libraw_version": "0.21.4",
+        "decoded_dimensions": [
+          480,
+          360
+        ],
+        "embedded_preview_used": false,
+        "raw_jpg_status": "ok",
+        "alignment_confidence": 0.949988,
+        "originals_unchanged": true,
+        "temporary_files_removed_on_return": true
+      }
+    },
+    {
+      "name": "synthetic_source_workflows_and_profiles",
+      "ok": true,
+      "details": {
+        "modes": {
+          "raw_jpg": {
+            "status": "ok",
+            "successful_inputs": 1,
+            "sample_count": 1,
+            "profile_saved_and_reopened": true
+          },
+          "raw_xmp": {
+            "status": "ok",
+            "successful_inputs": 1,
+            "sample_count": 1,
+            "profile_saved_and_reopened": true
+          },
+          "reference_jpg": {
+            "status": "ok",
+            "successful_inputs": 2,
+            "sample_count": 2,
+            "profile_saved_and_reopened": true
+          }
+        },
+        "originals_unchanged": true,
+        "temporary_files_removed_on_return": true
+      }
+    },
+    {
+      "name": "style_application_and_cache",
+      "ok": true,
+      "details": {
+        "builtin_profiles": 12,
+        "cache_hits": 1,
+        "exports": [
+          "jpeg",
+          "xmp",
+          "style_json"
+        ],
+        "original_preserved": true
+      }
+    },
+    {
+      "name": "embedded_object_person_face_recognition",
+      "ok": true,
+      "details": {
+        "models": [
+          "nanodet",
+          "humanseg",
+          "yunet"
+        ],
+        "verified_model_bytes": 3091271,
+        "backend": "opencv_dnn_cpu",
+        "supported_object_classes": 80,
+        "face_identity_recognition": false,
+        "downloaded_at_runtime": false,
+        "blank_objects": 0,
+        "person_output_shape": [
+          1,
+          2,
+          192,
+          192
+        ]
+      }
+    }
+  ]
+}
