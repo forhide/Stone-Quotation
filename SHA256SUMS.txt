@@ -1,0 +1,4 @@
+6f4f69bb513043698602045716002d0e00a7c35d7467062a480517986b59d768  PersonalColorLab-0.5.0-macos-arm64-download.zip
+45f106a63b4edd98095cdb971d214b3c376ea327e5269a85f8f649bf70f21b81  PersonalColorLab-0.5.0-macos-x64-download.zip
+44ee3f6866b23a88e39e96ca76f79969f058261015ca9894e5d4180d5a474e02  PersonalColorLab-0.5.0-source.zip
+047ff89229d3fa96b390d48c0de8ecf224aaee68502b182b476ef12737808b4a  PersonalColorLab-0.5.0-windows-x64-download.zip

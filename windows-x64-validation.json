@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "app_version": "0.5.0",
+  "platform": "Wine 10 on Linux (not native Windows)",
+  "checks": [
+    "silent_install",
+    "upgrade",
+    "launcher_self_test",
+    "installed_gui_manual_pair_summary_curve_cache_and_scan",
+    "folder_three_source_modes",
+    "real_raw_jpg",
+    "raw_xmp_parameters",
+    "jpg_reference_palette_tendencies",
+    "named_profiles_saved_and_reopened",
+    "embedded_real_photo_object_learning",
+    "uninstall",
+    "user_data_preserved",
+    "unrelated_file_preserved"
+  ]
+}

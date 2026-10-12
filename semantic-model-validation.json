@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "app_version": "0.5.0",
+  "execution": "source_runtime",
+  "model_bundle": "OpenCV Zoo pinned 47534e27",
+  "verified_model_bytes": 3091271,
+  "runtime_network": "denied",
+  "backend": "opencv_dnn_cpu",
+  "fixtures_redistributed": false,
+  "checks": [
+    {
+      "fixture": "messi5.jpg",
+      "fixture_sha256": "1d570e49654e84c7a943918537bd9e5e1ef82920152e147c834006e235be97c9",
+      "detected_classes": [
+        "person",
+        "sports_ball"
+      ],
+      "people": 1,
+      "faces": 1,
+      "person_fraction": 0.1443153199299953,
+      "elapsed_seconds": 0.68,
+      "source_unchanged": true
+    },
+    {
+      "fixture": "basketball1.png",
+      "fixture_sha256": "ba06f6701f7260998b430c39b6557f775497e6ce7b1a74f0b7ea6af371bf54a6",
+      "detected_classes": [
+        "person"
+      ],
+      "people": 2,
+      "faces": 1,
+      "person_fraction": 0.23436848958333334,
+      "elapsed_seconds": 0.597,
+      "source_unchanged": true
+    },
+    {
+      "check": "learned_region_application",
+      "distinct_reference_encodings": 3,
+      "reference_diversity": "same-scene controlled variants; not a diversity benchmark",
+      "person_reference_samples": 3,
+      "new_photo_region_vs_global_mean_difference": 4.1848,
+      "pair_region_transform": true,
+      "temporary_photos_removed": true
+    }
+  ],
+  "limits": "Two person/face fixtures validate real execution, not all-class accuracy, sky segmentation or Lightroom equivalence."
+}
