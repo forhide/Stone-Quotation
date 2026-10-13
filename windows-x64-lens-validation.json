@@ -1,0 +1,302 @@
+{
+  "ok": true,
+  "app_version": "0.5.4",
+  "execution": "installed_runtime",
+  "runtime_network": "denied",
+  "fixtures": "generated deterministic Bayer CFA DNGs with invented equipment EXIF",
+  "python_isolated": true,
+  "user_photos_used": false,
+  "temporary_files_removed": true,
+  "rawpy_version": "0.25.1",
+  "libraw_version": [
+    0,
+    21,
+    4
+  ],
+  "lens_database": {
+    "bundle_id": "4b7d205061f8ce6c479be25dd210a8a403878682537a8984d9ccd78857013b84",
+    "source": {
+      "url": "https://github.com/lensfun/lensfun",
+      "commit": "43f9e001ab66c4fcdd4f400463f13b72f94b2288",
+      "database_path": "data/db",
+      "license": "CC-BY-SA-3.0",
+      "license_path": "data/COPYING.CC_BY-SA_3.0",
+      "modifications": "None; official XML and license bytes retained."
+    },
+    "stats": {
+      "xml_files": 56,
+      "camera_entries": 1057,
+      "lens_entries": 1571,
+      "distortion_calibrations": 6458,
+      "asset_bytes": 5214266
+    },
+    "all_asset_hashes_verified": true,
+    "license_bytes_verified": true
+  },
+  "checks": [
+    {
+      "check": "real_metadata_exact_profile_and_valid_full_geometry",
+      "equipment": {
+        "schema_version": 1,
+        "metadata_extractor": "exifread",
+        "extractor_version": "3.5.1",
+        "camera_make": "Canon",
+        "camera_model": "Canon EOS 5D Mark II",
+        "lens_make": "Canon",
+        "lens_model": "Canon EF 17-40mm f/4L USM",
+        "focal_length_mm": 17.0,
+        "aperture": 8.0,
+        "crop_factor": null,
+        "crop_factor_source": null,
+        "orientation": 6,
+        "embedded_dng_opcodes_present": false,
+        "embedded_distortion": false,
+        "metadata_status": "ok",
+        "metadata_sources": {
+          "camera_make": "raw_exif",
+          "camera_model": "raw_exif",
+          "lens_make": "raw_exif",
+          "lens_model": "raw_exif",
+          "focal_length_mm": "raw_exif",
+          "aperture": "raw_exif",
+          "orientation": "raw_exif"
+        },
+        "warnings": []
+      },
+      "fixture_sha256": "44211e8f1d4e2535f606011bfb2e98790afc2babfa8df7d4fdcedba913204757",
+      "fixture_contains_invented_gps_ifd": true,
+      "private_metadata_excluded": true,
+      "output_dimensions": [
+        864,
+        1296
+      ],
+      "correction": {
+        "requested": true,
+        "applied": true,
+        "available": true,
+        "status": "corrected",
+        "bundle_id": "4b7d205061f8ce6c479be25dd210a8a403878682537a8984d9ccd78857013b84",
+        "selection_source": "automatic",
+        "border": "fit",
+        "profile_id": "c90ca654914c1a4a13287ae3e2606bec3971037aeba12bc1ef308c4cc9fbe966",
+        "crop_scale": 1.0,
+        "retained_linear_fraction": 1.0,
+        "edge_crop_applied": false,
+        "corrections": [
+          "distortion"
+        ],
+        "output_size": [
+          864,
+          1296
+        ],
+        "orientation_applied": true,
+        "distortion_model": "ptlens",
+        "valid_fraction": 1.0,
+        "valid_bounds": [
+          0,
+          0,
+          863,
+          1295
+        ],
+        "sampling": "bilinear_tiled_inverse_map",
+        "valid_bounds_semantics": "bounding_box_of_valid_samples",
+        "focal_length_scale": "lensfun_focal_preserving",
+        "selected_equipment": {
+          "camera_make": "Canon",
+          "camera_model": "Canon EOS 5D Mark II",
+          "lens_make": "Canon",
+          "lens_model": "Canon EF 17-40mm f/4L USM",
+          "focal_length_mm": 17.0
+        },
+        "profile": {
+          "available": true,
+          "status": "matched",
+          "applied": false,
+          "camera_make": "Canon",
+          "camera_model": "Canon EOS 5D Mark II",
+          "lens_make": "Canon",
+          "lens_model": "Canon EF 17-40mm f/4L USM",
+          "focal_length_mm": 17.0,
+          "corrections": [
+            "distortion"
+          ],
+          "orientation": 6,
+          "bundle_id": "4b7d205061f8ce6c479be25dd210a8a403878682537a8984d9ccd78857013b84",
+          "camera_mount": "Canon EF",
+          "camera_crop_factor": 1.0,
+          "camera_aspect": null,
+          "crop_factor_source": "lensfun_camera_database",
+          "profile_id": "c90ca654914c1a4a13287ae3e2606bec3971037aeba12bc1ef308c4cc9fbe966",
+          "geometry_assumption": "full_active_camera_sensor",
+          "source_file": "db/slr-canon.xml",
+          "database_source": {
+            "url": "https://github.com/lensfun/lensfun",
+            "commit": "43f9e001ab66c4fcdd4f400463f13b72f94b2288",
+            "database_path": "data/db",
+            "license": "CC-BY-SA-3.0",
+            "license_path": "data/COPYING.CC_BY-SA_3.0",
+            "modifications": "None; official XML and license bytes retained."
+          },
+          "distortion_model": "ptlens",
+          "coefficients": [
+            0.020104,
+            -0.047886,
+            0.0
+          ],
+          "calibration_crop_factor": 1.0,
+          "calibration_aspect": 1.5,
+          "real_focal_length_mm": 17.0,
+          "interpolation": "exact",
+          "calibration_focals": [
+            17.0
+          ]
+        }
+      },
+      "fit_samples_all_inside_original": true,
+      "pixels_changed_by_matched_distortion": true,
+      "source_unchanged": true
+    },
+    {
+      "check": "precise_preview_and_single_decode_full_jpeg",
+      "native_postprocess_calls": 1,
+      "full_baseline_decode": true,
+      "preview_equals_area_resize_of_corrected_full_pixels": true,
+      "neutral_style_preserves_corrected_pixels_exactly": true,
+      "jpeg_matches_independently_encoded_corrected_pixels": true,
+      "output_dimensions": [
+        864,
+        1296
+      ],
+      "source_unchanged": true,
+      "source_gps_exif_stripped": true,
+      "srgb_profile_embedded": true,
+      "xmp_contains_color_recipe_without_optics_or_crop": true
+    },
+    {
+      "check": "optical_and_manual_selection_cache_invalidation",
+      "on_off_changes_invalidate_pixels": true,
+      "same_plan_reuses_pixels": true,
+      "manual_override_camera_and_focal_changes_invalidate_pixels": true,
+      "dictionary_order_does_not_invalidate_same_selection": true,
+      "automatic_reset_restores_exact_pixels": true,
+      "two_raw_sources_never_share_cached_pixels": true,
+      "manual_selection_preserves_actual_camera_lens_and_focal_metadata": true,
+      "quality_change_redecodes_sensor": true,
+      "fast_preview_remains_explicit_approximation": true
+    },
+    {
+      "check": "corrected_rotations_and_mirrors",
+      "observations": [
+        {
+          "tiff_orientation": 1,
+          "output_dimensions": [
+            648,
+            432
+          ],
+          "corrected_pixel_transform_max_byte_error": 0,
+          "corrected_pixel_transform_mean_byte_error": 0.0,
+          "fit_sample_fraction": 1.0
+        },
+        {
+          "tiff_orientation": 2,
+          "output_dimensions": [
+            648,
+            432
+          ],
+          "corrected_pixel_transform_max_byte_error": 0,
+          "corrected_pixel_transform_mean_byte_error": 0.0,
+          "fit_sample_fraction": 1.0
+        },
+        {
+          "tiff_orientation": 3,
+          "output_dimensions": [
+            648,
+            432
+          ],
+          "corrected_pixel_transform_max_byte_error": 6,
+          "corrected_pixel_transform_mean_byte_error": 0.00013931755829903978,
+          "fit_sample_fraction": 1.0
+        },
+        {
+          "tiff_orientation": 4,
+          "output_dimensions": [
+            648,
+            432
+          ],
+          "corrected_pixel_transform_max_byte_error": 6,
+          "corrected_pixel_transform_mean_byte_error": 0.00013931755829903978,
+          "fit_sample_fraction": 1.0
+        },
+        {
+          "tiff_orientation": 5,
+          "output_dimensions": [
+            432,
+            648
+          ],
+          "corrected_pixel_transform_max_byte_error": 0,
+          "corrected_pixel_transform_mean_byte_error": 0.0,
+          "fit_sample_fraction": 1.0
+        },
+        {
+          "tiff_orientation": 6,
+          "output_dimensions": [
+            432,
+            648
+          ],
+          "corrected_pixel_transform_max_byte_error": 6,
+          "corrected_pixel_transform_mean_byte_error": 0.00013931755829903978,
+          "fit_sample_fraction": 1.0
+        },
+        {
+          "tiff_orientation": 7,
+          "output_dimensions": [
+            432,
+            648
+          ],
+          "corrected_pixel_transform_max_byte_error": 6,
+          "corrected_pixel_transform_mean_byte_error": 0.00013931755829903978,
+          "fit_sample_fraction": 1.0
+        },
+        {
+          "tiff_orientation": 8,
+          "output_dimensions": [
+            432,
+            648
+          ],
+          "corrected_pixel_transform_max_byte_error": 0,
+          "corrected_pixel_transform_mean_byte_error": 0.0,
+          "fit_sample_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "check": "unsupported_equipment_and_embedded_geometry_fallback",
+      "sony_equipment_detected": {
+        "camera_make": "SONY",
+        "camera_model": "ILCE-7CR",
+        "lens_make": "Sony",
+        "lens_model": "FE 16-35mm F2.8 GM II",
+        "focal_length_mm": 24.0,
+        "aperture": 8.0
+      },
+      "sony_camera_present_in_database": true,
+      "gm_ii_calibration_status": "lens_not_found",
+      "first_generation_gm_exists_but_is_never_substituted": true,
+      "unsupported_pixels_exactly_unchanged": true,
+      "embedded_opcode_blocks_automatic_and_manual_additional_warp": true,
+      "embedded_opcode_is_a_guard_not_claim_of_successful_development": true,
+      "sources_unchanged": true
+    },
+    {
+      "check": "cooperative_optical_cancellation",
+      "pre_cancel_skips_native_development": true,
+      "cancel_after_first_actual_remap_tile_stops_output": true,
+      "native_postprocess_calls_before_tile_cancellation": 1,
+      "remap_tiles_before_cancellation": 1,
+      "no_partial_output": true,
+      "source_unchanged": true,
+      "native_libraw_call_is_not_interruptible": true
+    }
+  ],
+  "limits": "Generated ordinary Bayer charts exercise metadata, matching and rendering, not physical camera/lens calibration. Only centered rectilinear radial distortion is supported; full active camera sensor geometry is assumed. Digital sensor crop modes and reduced active sensor areas are not validated by these charts. No vignetting, chromatic aberration, perspective correction, Adobe equivalence or native Mac installation claim. The current database has no FE 16-35mm F2.8 GM II calibration; no first-generation GM substitution is made. Optical geometry is not exported to XMP; its global color recipe remains approximate."
+}
