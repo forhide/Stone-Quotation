@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "artifact": "PersonalColorLab-0.5.6-macos-arm64.pkg",
+  "identifier": "org.personalcolorlab.desktop.macos-arm64",
+  "entry_count": 2568,
+  "checks": [
+    "embedded_component_resolution",
+    "distribution_component_identity",
+    "required_installation_data",
+    "xar_extraction_checksums",
+    "cpio_bytes",
+    "file_modes",
+    "internal_symlinks",
+    "bom_complete_paths_modes_ownership",
+    "package_info_count"
+  ],
+  "native_macos_installation": "not executed"
+}
