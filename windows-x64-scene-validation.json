@@ -1,0 +1,97 @@
+{
+  "ok": true,
+  "app_version": "0.6.0",
+  "execution": "installed_runtime",
+  "python_isolated": true,
+  "runtime_network": "denied",
+  "backend": "opencv_dnn_cpu",
+  "model_bundle_id": "dea8772f525f2c43e2e67101c5f98e11dd8ec08277e982b927be99d8446ae1a0",
+  "verified_asset_bytes": 8719943,
+  "fixtures_redistributed": false,
+  "temporary_files_removed": true,
+  "checks": [
+    {
+      "check": "actual_visual_portrait",
+      "fixture": "astronaut.png",
+      "fixture_sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+      "automatic_labels": [
+        "portrait",
+        "strong_highlights"
+      ],
+      "uncertain": true,
+      "seconds": 0.6368,
+      "source_unchanged": true,
+      "scores": "uncalibrated similarity estimates"
+    },
+    {
+      "check": "actual_visual_food",
+      "fixture": "coffee.png",
+      "fixture_sha256": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+      "automatic_labels": [
+        "food",
+        "still_life",
+        "natural_light"
+      ],
+      "uncertain": true,
+      "seconds": 0.2952,
+      "source_unchanged": true,
+      "scores": "uncalibrated similarity estimates"
+    },
+    {
+      "check": "learn_and_apply_reference_jpg",
+      "unique_originals": 6,
+      "manual_categories": [
+        "night",
+        "food"
+      ],
+      "source_model_evidence": "real bundled classifier",
+      "cache_hits": 6,
+      "saved_profile_roundtrip": true,
+      "category_json_roundtrip": true,
+      "scene_and_common_pixels_differ": true,
+      "jpeg_category_recipe_applied": true,
+      "two_samples_use_global_fallback": true,
+      "diversity": "controlled generated RAWs / similar reference encodings; not a diverse photo library"
+    },
+    {
+      "check": "learn_and_apply_raw_jpg",
+      "unique_originals": 6,
+      "manual_categories": [
+        "night",
+        "food"
+      ],
+      "source_model_evidence": "real bundled classifier",
+      "cache_hits": 6,
+      "saved_profile_roundtrip": true,
+      "category_json_roundtrip": true,
+      "scene_and_common_pixels_differ": true,
+      "jpeg_category_recipe_applied": true,
+      "two_samples_use_global_fallback": true,
+      "diversity": "controlled generated RAWs / similar reference encodings; not a diverse photo library"
+    },
+    {
+      "check": "learn_and_apply_raw_xmp",
+      "unique_originals": 6,
+      "manual_categories": [
+        "night",
+        "food"
+      ],
+      "source_model_evidence": "real bundled classifier",
+      "cache_hits": 6,
+      "saved_profile_roundtrip": true,
+      "category_json_roundtrip": true,
+      "scene_and_common_pixels_differ": true,
+      "jpeg_category_recipe_applied": true,
+      "two_samples_use_global_fallback": true,
+      "diversity": "controlled generated RAWs / similar reference encodings; not a diverse photo library"
+    },
+    {
+      "check": "legacy_privacy_and_cancellation",
+      "legacy_upgrade_nonmutating": true,
+      "original_hashes_unchanged": true,
+      "pre_cancel_raises": true,
+      "no_photos_in_report": true
+    }
+  ],
+  "limits": "Two visual development fixtures and controlled source variants verify execution and contracts; no all-category, native-camera, aesthetic quality or classification accuracy guarantee."
+}

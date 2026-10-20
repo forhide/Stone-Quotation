@@ -1,0 +1,652 @@
+{
+  "opencv_version": "4.14.0",
+  "torch_version": "2.9.1+cpu",
+  "features_labels": [
+    "day",
+    "night",
+    "landscape",
+    "portrait",
+    "food",
+    "still_life"
+  ],
+  "source_checkpoint_sha256": "3d9f86a556cd13acc1aa6cc18495a79ffd1f58b6f17a552400bdefd244c3a92c",
+  "rows": [
+    {
+      "fixture": "astronaut.png",
+      "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+      "torch_scores": {
+        "day": 0.2523581385612488,
+        "night": 0.24925263226032257,
+        "landscape": 0.19784891605377197,
+        "portrait": 0.26885583996772766,
+        "food": 0.23934274911880493,
+        "still_life": 0.26257723569869995
+      },
+      "torch_ranking": [
+        "portrait",
+        "still_life",
+        "day",
+        "night",
+        "food",
+        "landscape"
+      ],
+      "variants": {
+        "fp32": {
+          "cosine_to_torch": 1.0000001192092896,
+          "seconds": 0.6575842440070119,
+          "scores": {
+            "day": 0.2523581385612488,
+            "night": 0.24925261735916138,
+            "landscape": 0.19784888625144958,
+            "portrait": 0.2688559591770172,
+            "food": 0.23934286832809448,
+            "still_life": 0.2625773549079895
+          },
+          "ranking": [
+            "portrait",
+            "still_life",
+            "day",
+            "night",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 1.1920928955078125e-07
+        },
+        "fp16-storage": {
+          "cosine_to_torch": 1.0000001192092896,
+          "seconds": 0.6564483980182558,
+          "scores": {
+            "day": 0.25235819816589355,
+            "night": 0.24925264716148376,
+            "landscape": 0.19784893095493317,
+            "portrait": 0.2688559889793396,
+            "food": 0.23934286832809448,
+            "still_life": 0.2625774145126343
+          },
+          "ranking": [
+            "portrait",
+            "still_life",
+            "day",
+            "night",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 1.7881393432617188e-07
+        },
+        "int8-dq": {
+          "cosine_to_torch": 0.992694616317749,
+          "seconds": 0.6518148799950723,
+          "scores": {
+            "day": 0.2526877224445343,
+            "night": 0.24835960566997528,
+            "landscape": 0.19539743661880493,
+            "portrait": 0.27201950550079346,
+            "food": 0.24026285111904144,
+            "still_life": 0.264258474111557
+          },
+          "ranking": [
+            "portrait",
+            "still_life",
+            "day",
+            "night",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 0.003163665533065796
+        },
+        "int8-channel-dq": {
+          "cosine_to_torch": 0.9994561672210693,
+          "seconds": 0.6443334060022607,
+          "scores": {
+            "day": 0.2528652548789978,
+            "night": 0.2493409812450409,
+            "landscape": 0.1971898376941681,
+            "portrait": 0.2682352066040039,
+            "food": 0.23858767747879028,
+            "still_life": 0.2624400854110718
+          },
+          "ranking": [
+            "portrait",
+            "still_life",
+            "day",
+            "night",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 0.0007550716400146484
+        }
+      }
+    },
+    {
+      "fixture": "messi5.jpg",
+      "sha256": "1d570e49654e84c7a943918537bd9e5e1ef82920152e147c834006e235be97c9",
+      "torch_scores": {
+        "day": 0.2628166675567627,
+        "night": 0.25686246156692505,
+        "landscape": 0.22328507900238037,
+        "portrait": 0.24432744085788727,
+        "food": 0.22899582982063293,
+        "still_life": 0.25233209133148193
+      },
+      "torch_ranking": [
+        "day",
+        "night",
+        "still_life",
+        "portrait",
+        "food",
+        "landscape"
+      ],
+      "variants": {
+        "fp32": {
+          "cosine_to_torch": 1.0,
+          "seconds": 0.6193114309862722,
+          "scores": {
+            "day": 0.2628166675567627,
+            "night": 0.25686249136924744,
+            "landscape": 0.22328510880470276,
+            "portrait": 0.24432742595672607,
+            "food": 0.2289959043264389,
+            "still_life": 0.2523321509361267
+          },
+          "ranking": [
+            "day",
+            "night",
+            "still_life",
+            "portrait",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 7.450580596923828e-08
+        },
+        "fp16-storage": {
+          "cosine_to_torch": 1.0,
+          "seconds": 0.632991446997039,
+          "scores": {
+            "day": 0.26281654834747314,
+            "night": 0.2568624019622803,
+            "landscape": 0.2232850342988968,
+            "portrait": 0.24432730674743652,
+            "food": 0.2289958894252777,
+            "still_life": 0.2523321211338043
+          },
+          "ranking": [
+            "day",
+            "night",
+            "still_life",
+            "portrait",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 1.341104507446289e-07
+        },
+        "int8-dq": {
+          "cosine_to_torch": 0.996802806854248,
+          "seconds": 0.6180658400116954,
+          "scores": {
+            "day": 0.2653444707393646,
+            "night": 0.25852108001708984,
+            "landscape": 0.22523197531700134,
+            "portrait": 0.24764204025268555,
+            "food": 0.23326274752616882,
+            "still_life": 0.25373342633247375
+          },
+          "ranking": [
+            "day",
+            "night",
+            "still_life",
+            "portrait",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 0.004266917705535889
+        },
+        "int8-channel-dq": {
+          "cosine_to_torch": 0.9995012879371643,
+          "seconds": 0.6284831850207411,
+          "scores": {
+            "day": 0.2626495957374573,
+            "night": 0.25723278522491455,
+            "landscape": 0.2226511538028717,
+            "portrait": 0.244288370013237,
+            "food": 0.22944340109825134,
+            "still_life": 0.252672016620636
+          },
+          "ranking": [
+            "day",
+            "night",
+            "still_life",
+            "portrait",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 0.000633925199508667
+        }
+      }
+    },
+    {
+      "fixture": "basketball1.png",
+      "sha256": "ba06f6701f7260998b430c39b6557f775497e6ce7b1a74f0b7ea6af371bf54a6",
+      "torch_scores": {
+        "day": 0.32264333963394165,
+        "night": 0.2909732460975647,
+        "landscape": 0.24078871309757233,
+        "portrait": 0.3364945650100708,
+        "food": 0.27892011404037476,
+        "still_life": 0.3244529366493225
+      },
+      "torch_ranking": [
+        "portrait",
+        "still_life",
+        "day",
+        "night",
+        "food",
+        "landscape"
+      ],
+      "variants": {
+        "fp32": {
+          "cosine_to_torch": 1.0,
+          "seconds": 0.6101103120017797,
+          "scores": {
+            "day": 0.32264333963394165,
+            "night": 0.2909731864929199,
+            "landscape": 0.24078881740570068,
+            "portrait": 0.3364946246147156,
+            "food": 0.27892011404037476,
+            "still_life": 0.32445308566093445
+          },
+          "ranking": [
+            "portrait",
+            "still_life",
+            "day",
+            "night",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 1.4901161193847656e-07
+        },
+        "fp16-storage": {
+          "cosine_to_torch": 1.0,
+          "seconds": 0.6467269300192129,
+          "scores": {
+            "day": 0.32264333963394165,
+            "night": 0.2909731864929199,
+            "landscape": 0.24078881740570068,
+            "portrait": 0.3364945948123932,
+            "food": 0.27892011404037476,
+            "still_life": 0.32445311546325684
+          },
+          "ranking": [
+            "portrait",
+            "still_life",
+            "day",
+            "night",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 1.7881393432617188e-07
+        },
+        "int8-dq": {
+          "cosine_to_torch": 0.9943155646324158,
+          "seconds": 0.6415766009886283,
+          "scores": {
+            "day": 0.3282787501811981,
+            "night": 0.2999863624572754,
+            "landscape": 0.24336674809455872,
+            "portrait": 0.3438871502876282,
+            "food": 0.2875763177871704,
+            "still_life": 0.3255237936973572
+          },
+          "ranking": [
+            "portrait",
+            "day",
+            "still_life",
+            "night",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 0.009013116359710693
+        },
+        "int8-channel-dq": {
+          "cosine_to_torch": 0.9996474981307983,
+          "seconds": 0.7800701610103715,
+          "scores": {
+            "day": 0.32364654541015625,
+            "night": 0.29330873489379883,
+            "landscape": 0.24118655920028687,
+            "portrait": 0.3379674553871155,
+            "food": 0.27980291843414307,
+            "still_life": 0.3252253532409668
+          },
+          "ranking": [
+            "portrait",
+            "still_life",
+            "day",
+            "night",
+            "food",
+            "landscape"
+          ],
+          "max_score_difference": 0.002335488796234131
+        }
+      }
+    },
+    {
+      "fixture": "coffee.png",
+      "sha256": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+      "torch_scores": {
+        "day": 0.3059205412864685,
+        "night": 0.2353166937828064,
+        "landscape": 0.23791198432445526,
+        "portrait": 0.2525978684425354,
+        "food": 0.32173505425453186,
+        "still_life": 0.31416845321655273
+      },
+      "torch_ranking": [
+        "food",
+        "still_life",
+        "day",
+        "portrait",
+        "landscape",
+        "night"
+      ],
+      "variants": {
+        "fp32": {
+          "cosine_to_torch": 1.0000001192092896,
+          "seconds": 0.6490393840067554,
+          "scores": {
+            "day": 0.3059205412864685,
+            "night": 0.23531672358512878,
+            "landscape": 0.23791198432445526,
+            "portrait": 0.2525978088378906,
+            "food": 0.321735143661499,
+            "still_life": 0.31416863203048706
+          },
+          "ranking": [
+            "food",
+            "still_life",
+            "day",
+            "portrait",
+            "landscape",
+            "night"
+          ],
+          "max_score_difference": 1.7881393432617188e-07
+        },
+        "fp16-storage": {
+          "cosine_to_torch": 1.0,
+          "seconds": 0.6251605249999557,
+          "scores": {
+            "day": 0.30592042207717896,
+            "night": 0.23531654477119446,
+            "landscape": 0.2379118800163269,
+            "portrait": 0.2525976896286011,
+            "food": 0.3217350244522095,
+            "still_life": 0.31416845321655273
+          },
+          "ranking": [
+            "food",
+            "still_life",
+            "day",
+            "portrait",
+            "landscape",
+            "night"
+          ],
+          "max_score_difference": 1.7881393432617188e-07
+        },
+        "int8-dq": {
+          "cosine_to_torch": 0.9951182007789612,
+          "seconds": 0.6249980650027283,
+          "scores": {
+            "day": 0.3146820664405823,
+            "night": 0.2409975230693817,
+            "landscape": 0.24273237586021423,
+            "portrait": 0.2579842209815979,
+            "food": 0.31572800874710083,
+            "still_life": 0.31172865629196167
+          },
+          "ranking": [
+            "food",
+            "day",
+            "still_life",
+            "portrait",
+            "landscape",
+            "night"
+          ],
+          "max_score_difference": 0.00876152515411377
+        },
+        "int8-channel-dq": {
+          "cosine_to_torch": 0.9996860027313232,
+          "seconds": 0.6269207199802622,
+          "scores": {
+            "day": 0.3061612844467163,
+            "night": 0.23473209142684937,
+            "landscape": 0.23772726953029633,
+            "portrait": 0.2527279257774353,
+            "food": 0.32290399074554443,
+            "still_life": 0.3154070973396301
+          },
+          "ranking": [
+            "food",
+            "still_life",
+            "day",
+            "portrait",
+            "landscape",
+            "night"
+          ],
+          "max_score_difference": 0.0012386441230773926
+        }
+      }
+    },
+    {
+      "fixture": "rocket.jpg",
+      "sha256": "c2dd0de7c538df8d111e479619b129464d0269d0ae5fd18ca91d33a7fdfea95c",
+      "torch_scores": {
+        "day": 0.31084445118904114,
+        "night": 0.354374498128891,
+        "landscape": 0.27824077010154724,
+        "portrait": 0.22931960225105286,
+        "food": 0.24621686339378357,
+        "still_life": 0.2950260043144226
+      },
+      "torch_ranking": [
+        "night",
+        "day",
+        "still_life",
+        "landscape",
+        "food",
+        "portrait"
+      ],
+      "variants": {
+        "fp32": {
+          "cosine_to_torch": 0.9999999403953552,
+          "seconds": 0.6211759990255814,
+          "scores": {
+            "day": 0.3108445107936859,
+            "night": 0.3543745279312134,
+            "landscape": 0.278240829706192,
+            "portrait": 0.22931964695453644,
+            "food": 0.2462170422077179,
+            "still_life": 0.29502615332603455
+          },
+          "ranking": [
+            "night",
+            "day",
+            "still_life",
+            "landscape",
+            "food",
+            "portrait"
+          ],
+          "max_score_difference": 1.7881393432617188e-07
+        },
+        "fp16-storage": {
+          "cosine_to_torch": 1.0,
+          "seconds": 0.6159054589807056,
+          "scores": {
+            "day": 0.3108445405960083,
+            "night": 0.35437455773353577,
+            "landscape": 0.2782408595085144,
+            "portrait": 0.22931963205337524,
+            "food": 0.24621707201004028,
+            "still_life": 0.2950262427330017
+          },
+          "ranking": [
+            "night",
+            "day",
+            "still_life",
+            "landscape",
+            "food",
+            "portrait"
+          ],
+          "max_score_difference": 2.384185791015625e-07
+        },
+        "int8-dq": {
+          "cosine_to_torch": 0.9978291988372803,
+          "seconds": 0.6206677859881893,
+          "scores": {
+            "day": 0.3156311511993408,
+            "night": 0.35722631216049194,
+            "landscape": 0.28353267908096313,
+            "portrait": 0.23398859798908234,
+            "food": 0.24760453402996063,
+            "still_life": 0.29762470722198486
+          },
+          "ranking": [
+            "night",
+            "day",
+            "still_life",
+            "landscape",
+            "food",
+            "portrait"
+          ],
+          "max_score_difference": 0.0052919089794158936
+        },
+        "int8-channel-dq": {
+          "cosine_to_torch": 0.9995865821838379,
+          "seconds": 0.6144453219894785,
+          "scores": {
+            "day": 0.31095343828201294,
+            "night": 0.3564213812351227,
+            "landscape": 0.2774880826473236,
+            "portrait": 0.22998401522636414,
+            "food": 0.24633164703845978,
+            "still_life": 0.295162558555603
+          },
+          "ranking": [
+            "night",
+            "day",
+            "still_life",
+            "landscape",
+            "food",
+            "portrait"
+          ],
+          "max_score_difference": 0.0020468831062316895
+        }
+      }
+    },
+    {
+      "fixture": "camera.png",
+      "sha256": "b0793d2adda0fa6ae899c03989482bff9a42d3d5690fc7e3648f2795d730c23a",
+      "torch_scores": {
+        "day": 0.35930150747299194,
+        "night": 0.29166507720947266,
+        "landscape": 0.2838318645954132,
+        "portrait": 0.34547871351242065,
+        "food": 0.26641103625297546,
+        "still_life": 0.3275976777076721
+      },
+      "torch_ranking": [
+        "day",
+        "portrait",
+        "still_life",
+        "night",
+        "landscape",
+        "food"
+      ],
+      "variants": {
+        "fp32": {
+          "cosine_to_torch": 1.0,
+          "seconds": 0.6180248039891012,
+          "scores": {
+            "day": 0.35930150747299194,
+            "night": 0.2916650176048279,
+            "landscape": 0.28383195400238037,
+            "portrait": 0.3454786539077759,
+            "food": 0.2664109468460083,
+            "still_life": 0.32759761810302734
+          },
+          "ranking": [
+            "day",
+            "portrait",
+            "still_life",
+            "night",
+            "landscape",
+            "food"
+          ],
+          "max_score_difference": 8.940696716308594e-08
+        },
+        "fp16-storage": {
+          "cosine_to_torch": 1.0,
+          "seconds": 0.6242738800065126,
+          "scores": {
+            "day": 0.35930144786834717,
+            "night": 0.2916649580001831,
+            "landscape": 0.28383195400238037,
+            "portrait": 0.3454786539077759,
+            "food": 0.2664109766483307,
+            "still_life": 0.3275976777076721
+          },
+          "ranking": [
+            "day",
+            "portrait",
+            "still_life",
+            "night",
+            "landscape",
+            "food"
+          ],
+          "max_score_difference": 1.1920928955078125e-07
+        },
+        "int8-dq": {
+          "cosine_to_torch": 0.9954121112823486,
+          "seconds": 0.6528573599935044,
+          "scores": {
+            "day": 0.356892466545105,
+            "night": 0.2920989990234375,
+            "landscape": 0.2825629711151123,
+            "portrait": 0.3485090136528015,
+            "food": 0.2676681876182556,
+            "still_life": 0.3303549289703369
+          },
+          "ranking": [
+            "day",
+            "portrait",
+            "still_life",
+            "night",
+            "landscape",
+            "food"
+          ],
+          "max_score_difference": 0.0030303001403808594
+        },
+        "int8-channel-dq": {
+          "cosine_to_torch": 0.9997538328170776,
+          "seconds": 0.6130746649869252,
+          "scores": {
+            "day": 0.36027705669403076,
+            "night": 0.2927114963531494,
+            "landscape": 0.2852112054824829,
+            "portrait": 0.34658506512641907,
+            "food": 0.26766201853752136,
+            "still_life": 0.32901760935783386
+          },
+          "ranking": [
+            "day",
+            "portrait",
+            "still_life",
+            "night",
+            "landscape",
+            "food"
+          ],
+          "max_score_difference": 0.0014199316501617432
+        }
+      }
+    }
+  ],
+  "note": "Six reference images are held out inference/quantization probes, not scene classification accuracy estimates or comprehensive camera/color calibration."
+}

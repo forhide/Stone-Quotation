@@ -1,0 +1,43 @@
+{
+  "ok": true,
+  "app_version": "0.6.0",
+  "upstream_commit": "4a13c4091e78f9abd2160e7e01c02e48c1cf8fb9",
+  "offline_local_inputs": true,
+  "separate_build_directory": true,
+  "runtime_torch_required": false,
+  "assets": [
+    {
+      "asset": "encoder.onnx",
+      "sha256": "3f44bd17204d6d9fe352526744f4453d84fc137114869d0a3e3311dd0a348601",
+      "bytes": 8626306,
+      "byte_identical": true
+    },
+    {
+      "asset": "prompt-vectors.npy",
+      "sha256": "5251d16bfc6843039ff7014276caa03bb047b8daf995999470b5e1fe1886fe46",
+      "bytes": 86144,
+      "byte_identical": true
+    },
+    {
+      "asset": "prompts.json",
+      "sha256": "9c98044ca9ccc45eaa3e8fcd9659d28c35e6b489d25a38268d834e19a0f84ca2",
+      "bytes": 5724,
+      "byte_identical": true
+    },
+    {
+      "asset": "LICENSE.txt",
+      "sha256": "583acc0d9c74def18ec24e56964421bf1fac1fa2d60451e75e6681d5ae58a3f6",
+      "bytes": 1769,
+      "byte_identical": true
+    },
+    {
+      "asset": "manifest.json",
+      "sha256": "1b9889c6763063743727939978b08caf941ee7833a801273528ae92168ec7676",
+      "bytes": 1570,
+      "byte_identical": true
+    }
+  ],
+  "reproduction_build_version": "0.5.5",
+  "current_verification": "Current bundled assets compared byte-for-byte to retained independently reproduced V0.5.5 build; unchanged build inputs and model.",
+  "conversion_reexecuted_this_release": false
+}

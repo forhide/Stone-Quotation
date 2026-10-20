@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "app_version": "0.6.0",
+  "execution": "source_runtime",
+  "runtime_network": "denied",
+  "python_isolated": false,
+  "user_photos_used": false,
+  "temporary_files_removed": true,
+  "fixture": "500 generated small JPGs and separate generated JPG/Bayer DNG export inputs",
+  "limits": "No 500-RAW throughput, actual camera, native M1 or Adobe equivalence claim.",
+  "elapsed_seconds": 13.266290355008096,
+  "checks": [
+    {
+      "check": "500_small_jpg_discovery_grouping_and_persistent_cache",
+      "photo_count": 500,
+      "fixture_dimensions": [
+        160,
+        96
+      ],
+      "scan_seconds": 0.1981358570046723,
+      "cold_thumbnail_seconds": 4.829099247988779,
+      "persistent_thumbnail_seconds": 0.8462400920107029,
+      "group_seconds": 0.39867523999419063,
+      "group_count": 33,
+      "cold_decodes": 500,
+      "reopen_decodes": 0,
+      "memory_entries_maximum": 32,
+      "cache_stats": {
+        "hits": 500,
+        "disk_hits": 500,
+        "misses": 0,
+        "decodes": 0,
+        "evictions": 0,
+        "write_errors": 0,
+        "memory_entries": 32,
+        "memory_bytes": 1474560,
+        "disk_entries": 500,
+        "disk_bytes": 7624428,
+        "max_bytes": 268435456,
+        "max_dimension": 480
+      }
+    },
+    {
+      "check": "real_raw_jpg_batch_picks_pause_resume_and_immutable_receipts",
+      "completed": 2,
+      "held_or_rejected_exported": 0,
+      "completed_resume_additional_attempts": 0,
+      "saved_dna_unchanged": true,
+      "original_dimensions_preserved": true,
+      "srgb_embedded_and_exif_removed": true
+    },
+    {
+      "check": "share_copy_and_separate_photo_corrections",
+      "long_edge": 2048,
+      "saved_dna_unchanged": true
+    },
+    {
+      "check": "output_collision_and_changed_source_guard",
+      "unrelated_output_preserved": true,
+      "changed_source_not_exported": true,
+      "original_hashes_preserved": 4,
+      "no_sidecar_added": true
+    }
+  ]
+}

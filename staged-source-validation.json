@@ -1,0 +1,749 @@
+{
+  "schema_version": 1,
+  "ok": true,
+  "app_version": "0.6.0",
+  "validated_at_utc": "2026-10-20T06:07:00.151013+00:00",
+  "execution": "staged_payload_byte_comparison",
+  "source_root": "/workspace/Personal-Color-Lab",
+  "excluded": [
+    "__pycache__ directories",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "checks": [
+    {
+      "target": "windows-x64",
+      "package_root": "/workspace/Personal-Color-Lab/build/installers/windows-x64/payload/runtime/Lib/site-packages/personal_color_lab",
+      "ok": true,
+      "missing": [],
+      "extra": [],
+      "mismatched": [],
+      "errors": [],
+      "build_app_version": "0.6.0",
+      "build_manifest_sha256": "ede0d11e4c5605a23ff96ad6db1d9eef2d9a14ae9e28667c1240f79f84ab5184",
+      "file_count": 135,
+      "total_bytes": 18246164,
+      "inventory_sha256": "67f1d025f7109999fa5f60177813e26c2548aa1cbda83dc4346df31dff742ed1"
+    },
+    {
+      "target": "macos-arm64",
+      "package_root": "/workspace/Personal-Color-Lab/build/installers/macos-arm64/payload/Personal Color Lab.app/Contents/Resources/runtime/lib/python3.13/site-packages/personal_color_lab",
+      "ok": true,
+      "missing": [],
+      "extra": [],
+      "mismatched": [],
+      "errors": [],
+      "build_app_version": "0.6.0",
+      "build_manifest_sha256": "59b20ae741872d33cc1dbf8c2d25ecda6f961f809b7183b7b9f05e887cd49438",
+      "file_count": 135,
+      "total_bytes": 18246164,
+      "inventory_sha256": "67f1d025f7109999fa5f60177813e26c2548aa1cbda83dc4346df31dff742ed1"
+    },
+    {
+      "target": "macos-x64",
+      "package_root": "/workspace/Personal-Color-Lab/build/installers/macos-x64/payload/Personal Color Lab.app/Contents/Resources/runtime/lib/python3.13/site-packages/personal_color_lab",
+      "ok": true,
+      "missing": [],
+      "extra": [],
+      "mismatched": [],
+      "errors": [],
+      "build_app_version": "0.6.0",
+      "build_manifest_sha256": "889e0a08ff7801462a44dd27855d89af9d77db4f206a7f523a87a630ecb6666a",
+      "file_count": 135,
+      "total_bytes": 18246164,
+      "inventory_sha256": "67f1d025f7109999fa5f60177813e26c2548aa1cbda83dc4346df31dff742ed1"
+    }
+  ],
+  "errors": [],
+  "limits": "Matches staged package bytes to the current source. Does not replace archive verification, native installation or execution checks.",
+  "source_app_version": "0.6.0",
+  "source_inventory": [
+    {
+      "path": "__init__.py",
+      "size": 67,
+      "sha256": "d88a09cc40b7ca37427c46dd9d1d207644c5a4a5e816c976f6890f49bfa21855"
+    },
+    {
+      "path": "assets/app-icon.icns",
+      "size": 114040,
+      "sha256": "fa2a9c0020913ffaf264eff8595e4a359cf16e6cde5c3a83ac813408f4339282"
+    },
+    {
+      "path": "assets/app-icon.ico",
+      "size": 44645,
+      "sha256": "2c1e51da9a657de9865787e1a749bea490aa0f11dd6ff399083138c7ef68dca7"
+    },
+    {
+      "path": "assets/app-icon.png",
+      "size": 10770,
+      "sha256": "7541a8d28bbe48fdf7498d7e7f92f50a117557efc0ab814c507aada9000ef0cf"
+    },
+    {
+      "path": "assets/lensfun/COPYING.CC_BY-SA_3.0",
+      "size": 22240,
+      "sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    },
+    {
+      "path": "assets/lensfun/db/6x6.xml",
+      "size": 29550,
+      "sha256": "ca13c2756b32d728675372695c072517a0e38af5eff2ecd3e17599dee7fc58b3"
+    },
+    {
+      "path": "assets/lensfun/db/actioncams.xml",
+      "size": 17188,
+      "sha256": "79a5da0322574b95690464444c9d9ba1da0e1f827da44fd6bff120a0ec10e4b4"
+    },
+    {
+      "path": "assets/lensfun/db/compact-canon.xml",
+      "size": 247046,
+      "sha256": "bae47e4b3a0f8852641038ae2dcca5b28ed7965e65ca795fd676f9de857c4670"
+    },
+    {
+      "path": "assets/lensfun/db/compact-casio.xml",
+      "size": 6889,
+      "sha256": "ab35433879c4574ef8f97cd4e3d114d7ff8db4e7279da9d502fc9e911b51ee27"
+    },
+    {
+      "path": "assets/lensfun/db/compact-fujifilm.xml",
+      "size": 67954,
+      "sha256": "58af9ebef2410c428ae2c5d01003d2247330d47d918823e63522b4d897a997d1"
+    },
+    {
+      "path": "assets/lensfun/db/compact-kodak.xml",
+      "size": 2091,
+      "sha256": "377018ccd74f58e966b37a11e5a8689be4268153bebece9f1f2a0dbfa8234845"
+    },
+    {
+      "path": "assets/lensfun/db/compact-konica-minolta.xml",
+      "size": 13349,
+      "sha256": "832a7473951ab625e10c48af6cf60f89b57280016d45729e2584cf9e41ad3cc7"
+    },
+    {
+      "path": "assets/lensfun/db/compact-leica.xml",
+      "size": 9113,
+      "sha256": "8e4676679377576dc19e7900ce86fc69b0248ea1d4538aa22ee1ee09431a3be3"
+    },
+    {
+      "path": "assets/lensfun/db/compact-nikon.xml",
+      "size": 40003,
+      "sha256": "5393bdb8223e13d21b85818e96571e97c035470b49b0452dfcedc2e1ff512d3b"
+    },
+    {
+      "path": "assets/lensfun/db/compact-olympus.xml",
+      "size": 34454,
+      "sha256": "7637d469ad54a02ebce9492a9aa9424a2ff1ec07b0398158076f762fdc08389b"
+    },
+    {
+      "path": "assets/lensfun/db/compact-panasonic.xml",
+      "size": 70621,
+      "sha256": "f191fc2a5d49fb50c06f4c399ee8c1a83a05f93a0efaecd352ec5c1479b8e60b"
+    },
+    {
+      "path": "assets/lensfun/db/compact-pentax.xml",
+      "size": 6689,
+      "sha256": "596fae3edaadcf2d90ae930fc1bec42597ca0b2bd11842e686e1b915f3736390"
+    },
+    {
+      "path": "assets/lensfun/db/compact-ricoh.xml",
+      "size": 18424,
+      "sha256": "46df96ebc367d5170cb6b7dfc3742093f0ad946264518fc5488573ba052f29d7"
+    },
+    {
+      "path": "assets/lensfun/db/compact-samsung.xml",
+      "size": 13875,
+      "sha256": "36e3a778046d56385c387d48474cd32a89a5da94d99e640b5ce716ce747f898d"
+    },
+    {
+      "path": "assets/lensfun/db/compact-sigma.xml",
+      "size": 2395,
+      "sha256": "0ddc265e3e580da05dcd4664d1b9c2464838d74dd02519c826520950c8f1759e"
+    },
+    {
+      "path": "assets/lensfun/db/compact-sony.xml",
+      "size": 126229,
+      "sha256": "be146388b4f6f7bf0d73394e20386ce6ccef3559ab39f1268ba3c14aaef03207"
+    },
+    {
+      "path": "assets/lensfun/db/contax.xml",
+      "size": 1696,
+      "sha256": "5eba12e6fd4913470afb6fe25fee47a263084b6cec830297273909872f47669a"
+    },
+    {
+      "path": "assets/lensfun/db/generic.xml",
+      "size": 5416,
+      "sha256": "cd572d4110981546b2c4cd296c2ff16755b30063fa136d8b06ad2ca13ab4c59f"
+    },
+    {
+      "path": "assets/lensfun/db/mil-canon.xml",
+      "size": 247994,
+      "sha256": "2de8e9467a6af6f83cc9da834d3d3b94d1aaf54519f60c68ac6bc02780a77516"
+    },
+    {
+      "path": "assets/lensfun/db/mil-fujifilm.xml",
+      "size": 210586,
+      "sha256": "64586336153b948fe2325f6c46679149a4e3c114a70bee4bd1de88721cb4de72"
+    },
+    {
+      "path": "assets/lensfun/db/mil-hasselblad.xml",
+      "size": 1048,
+      "sha256": "13e1fa55d36c2ed7d22964c21ce6c21d887bfe4506e840e425da1ce4157c3756"
+    },
+    {
+      "path": "assets/lensfun/db/mil-leica.xml",
+      "size": 11663,
+      "sha256": "c691037e2e0743388473c2a0545e340462c412b7e3b57e451f4f9c89dde2388a"
+    },
+    {
+      "path": "assets/lensfun/db/mil-nikon.xml",
+      "size": 178941,
+      "sha256": "dcae5ec2e505411a7f00b6b8dd03825e55620403b558b156be15e9ddfbeaf159"
+    },
+    {
+      "path": "assets/lensfun/db/mil-olympus.xml",
+      "size": 147123,
+      "sha256": "989a3d88ef07a286efc2755df214792fdf71d60366932a1b369a77ad39cf2abb"
+    },
+    {
+      "path": "assets/lensfun/db/mil-panasonic.xml",
+      "size": 299264,
+      "sha256": "eb5f01f33e65721f3900786d5970c7e220dd042aaa56968be33c009a358ff3c5"
+    },
+    {
+      "path": "assets/lensfun/db/mil-pentax.xml",
+      "size": 1385,
+      "sha256": "675a94f52794868ad9f1d79e17b7128783c34b3db23e9eac346c5963812a16e5"
+    },
+    {
+      "path": "assets/lensfun/db/mil-samsung.xml",
+      "size": 13007,
+      "sha256": "10130e9e125e0882a16fd3033cfed0175e9c14cb7d35e630cdb94736f27e5dc3"
+    },
+    {
+      "path": "assets/lensfun/db/mil-samyang.xml",
+      "size": 25990,
+      "sha256": "ae3bf262f12facdc6f81b837cf6d36fdde2a930d2bfb0918d5abaa47fcfea3ab"
+    },
+    {
+      "path": "assets/lensfun/db/mil-sigma.xml",
+      "size": 126080,
+      "sha256": "5f39b232efba5c208e5a98d8afe92cb2eee879213322d47827fcc6f0dc3a06f9"
+    },
+    {
+      "path": "assets/lensfun/db/mil-sony.xml",
+      "size": 274541,
+      "sha256": "f9f7e5d7461ac58f76eb55dcc5b211f2e9a451402ddb4a9ecb12d1e4dc04f2b8"
+    },
+    {
+      "path": "assets/lensfun/db/mil-tamron.xml",
+      "size": 106950,
+      "sha256": "2f0c9c4dfb9b0419ba0fac2e618bc251c2e71e068b6e09a23d7994b0ff62db0a"
+    },
+    {
+      "path": "assets/lensfun/db/mil-tokina.xml",
+      "size": 1014,
+      "sha256": "addb27bd82b0d729644b9da1342f92401f63cc5945309ed17f38f4b7af1649e3"
+    },
+    {
+      "path": "assets/lensfun/db/mil-zeiss.xml",
+      "size": 19171,
+      "sha256": "ef8a238904fc9ea6fdb6171863dfd70cd94814af19ecd8c31ee000ca1864589d"
+    },
+    {
+      "path": "assets/lensfun/db/misc.xml",
+      "size": 176039,
+      "sha256": "2000a347d9dc37d908ea5b56c760de5b2b4ab475857959ae2e901c31339b01bb"
+    },
+    {
+      "path": "assets/lensfun/db/om-system.xml",
+      "size": 35344,
+      "sha256": "a53a627e6ba79fbabb0fa7552ce2b6e56e206425d2eaf0e8ccdb6b8c40c20755"
+    },
+    {
+      "path": "assets/lensfun/db/rf-leica.xml",
+      "size": 6712,
+      "sha256": "f93636e1980ad308d1873cc3ac078cdc77c0d529d777cd45c5c8d0e4781981e3"
+    },
+    {
+      "path": "assets/lensfun/db/slr-canon.xml",
+      "size": 780353,
+      "sha256": "5244e6df8f2522f829c57e2073313ce31a624e9ed9605310fe43613b9d588c99"
+    },
+    {
+      "path": "assets/lensfun/db/slr-hasselblad.xml",
+      "size": 642,
+      "sha256": "97602c467699904bf101179ea2fa24f05f3e1879250498a6ba306cd95a3b7a6b"
+    },
+    {
+      "path": "assets/lensfun/db/slr-konica-minolta.xml",
+      "size": 47170,
+      "sha256": "5639ca94f121f609247c2c120b65830b3ef7784db6ecfa7e8eb3d29ff5046c1b"
+    },
+    {
+      "path": "assets/lensfun/db/slr-leica.xml",
+      "size": 432,
+      "sha256": "c5e74cb511712e99ed60a066e85c842fea58f693c5039c3819485619f5293d0e"
+    },
+    {
+      "path": "assets/lensfun/db/slr-nikon.xml",
+      "size": 550157,
+      "sha256": "5e591e8b1032203cce4c822f1da3d49524a78e7d71c594ea5a4533f2e57aacdf"
+    },
+    {
+      "path": "assets/lensfun/db/slr-olympus.xml",
+      "size": 116602,
+      "sha256": "f7693b6779edd8ed10d7dc23113669255bfa4987cea7db0e843f7f5f2bbbe615"
+    },
+    {
+      "path": "assets/lensfun/db/slr-panasonic.xml",
+      "size": 419,
+      "sha256": "cd79acb49d9ce5f2a4cecc572b3e117f03da380bed2dcbfd52327192d8ce2381"
+    },
+    {
+      "path": "assets/lensfun/db/slr-pentax.xml",
+      "size": 209552,
+      "sha256": "2fba773e41a1cfb70f0c85efdab6d78944bf80ddf89bc2035ef6db39da352f29"
+    },
+    {
+      "path": "assets/lensfun/db/slr-ricoh.xml",
+      "size": 2869,
+      "sha256": "c835798136a53535fdf4f81312ac9aad0ea3de3ef732c183d8cc4d2f432011d9"
+    },
+    {
+      "path": "assets/lensfun/db/slr-samsung.xml",
+      "size": 1110,
+      "sha256": "dc0a29e424ff96e4316ddeb76126fa6f6c73a8836905a3e1f56f0c493826148f"
+    },
+    {
+      "path": "assets/lensfun/db/slr-samyang.xml",
+      "size": 16811,
+      "sha256": "fb1585bea91f5f59e1fae8811dd76c92252ee5d52e3647df2aff4695048443b5"
+    },
+    {
+      "path": "assets/lensfun/db/slr-schneider.xml",
+      "size": 5890,
+      "sha256": "de607cfe4ba6e7debc61e282ce39b72825c07601572e14af2bc9108ba67faf81"
+    },
+    {
+      "path": "assets/lensfun/db/slr-sigma.xml",
+      "size": 444640,
+      "sha256": "f55f41c144fbb72e3c51d2dfef40e918930d37db1b4150bd02bd746406c036d2"
+    },
+    {
+      "path": "assets/lensfun/db/slr-soligor.xml",
+      "size": 573,
+      "sha256": "1aba0aab19bce87ea86175b6551cb5306a512eb54be1698b89991b86008f6a04"
+    },
+    {
+      "path": "assets/lensfun/db/slr-sony.xml",
+      "size": 88865,
+      "sha256": "e5ca7f532afe23ff380bf2f9e5458f687bed603355d73a254d85c4e692942fdc"
+    },
+    {
+      "path": "assets/lensfun/db/slr-tamron.xml",
+      "size": 201992,
+      "sha256": "c62090789cebe6bbb663111c6e97beeb1111852bb735088e29cf8782df4bab45"
+    },
+    {
+      "path": "assets/lensfun/db/slr-tokina.xml",
+      "size": 91977,
+      "sha256": "b1213eda81a613bc3976340398c6b8ce8b7dc29423476fc565d5f8e5cf612ecf"
+    },
+    {
+      "path": "assets/lensfun/db/slr-ussr.xml",
+      "size": 19024,
+      "sha256": "1fd6acc8a8f40373379bea2899ffd96fc34b22d9b044d0474dabd4c89af44efb"
+    },
+    {
+      "path": "assets/lensfun/db/slr-vivitar.xml",
+      "size": 2157,
+      "sha256": "c5c67e3fe38e8fa19044acadc7730047690435f66aac563f55ffe04997a88111"
+    },
+    {
+      "path": "assets/lensfun/db/slr-zeiss.xml",
+      "size": 14957,
+      "sha256": "49aa211a41fd5fe391d26af5fa65bdf9428d60863ffff15d3916fa1c520dc101"
+    },
+    {
+      "path": "assets/lensfun/manifest.json",
+      "size": 9297,
+      "sha256": "f72147692e601307594d81cafb3afb34db2bd8500e4d13ec8416fadc6df60358"
+    },
+    {
+      "path": "assets/models/NOTICE.txt",
+      "size": 485,
+      "sha256": "94cdb05c3db2326928e22be38e5163ccbaf7b7525401b9b320b5aaf62ff72f1d"
+    },
+    {
+      "path": "assets/models/humanseg-LICENSE.txt",
+      "size": 11437,
+      "sha256": "d9cf3b547fa4232fb9285f2db52e909f10f00781aaf64a6d0bb90c55149f1363"
+    },
+    {
+      "path": "assets/models/humanseg.onnx",
+      "size": 1734724,
+      "sha256": "1da023e95e3adbeef16ac2862767b53b86a743ff26a34692e0833d7e088f0231"
+    },
+    {
+      "path": "assets/models/manifest.json",
+      "size": 1763,
+      "sha256": "e826e51fbf734f0850a1705cf76b239092ccc547b33c12db625cbf048cff065e"
+    },
+    {
+      "path": "assets/models/nanodet-LICENSE.txt",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "assets/models/nanodet.onnx",
+      "size": 1123958,
+      "sha256": "8a2c877cc6f09e7dfac7a9066e33ee5ae68de530b3b994f6ee9125cff6e34d3f"
+    },
+    {
+      "path": "assets/models/yunet-LICENSE.txt",
+      "size": 1085,
+      "sha256": "c83b8120c50ccbd4c4f96edf53141bdd566ebb8f8e9227e415326aa1b1aba958"
+    },
+    {
+      "path": "assets/models/yunet.onnx",
+      "size": 232589,
+      "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4"
+    },
+    {
+      "path": "assets/photo_scene/LICENSE.txt",
+      "size": 1769,
+      "sha256": "583acc0d9c74def18ec24e56964421bf1fac1fa2d60451e75e6681d5ae58a3f6"
+    },
+    {
+      "path": "assets/photo_scene/README.md",
+      "size": 2629,
+      "sha256": "14914ee46e2f5baad3101952b7c57efe5bc60a309ace0159bd3bac4275fdb841"
+    },
+    {
+      "path": "assets/photo_scene/encoder.onnx",
+      "size": 8626306,
+      "sha256": "3f44bd17204d6d9fe352526744f4453d84fc137114869d0a3e3311dd0a348601"
+    },
+    {
+      "path": "assets/photo_scene/manifest.json",
+      "size": 1570,
+      "sha256": "1b9889c6763063743727939978b08caf941ee7833a801273528ae92168ec7676"
+    },
+    {
+      "path": "assets/photo_scene/prompt-vectors.npy",
+      "size": 86144,
+      "sha256": "5251d16bfc6843039ff7014276caa03bb047b8daf995999470b5e1fe1886fe46"
+    },
+    {
+      "path": "assets/photo_scene/prompts.json",
+      "size": 5724,
+      "sha256": "9c98044ca9ccc45eaa3e8fcd9659d28c35e6b489d25a38268d834e19a0f84ca2"
+    },
+    {
+      "path": "core/alignment.py",
+      "size": 16663,
+      "sha256": "32077851ee42a2bb908ccb497b5915aa1b18b880132ba7a01271758ba70562d7"
+    },
+    {
+      "path": "core/analysis_cache.py",
+      "size": 796,
+      "sha256": "ed15e212685aabe46049e29260e25efbb06968f98ab406bbd2ff87e93a52db41"
+    },
+    {
+      "path": "core/analysis_control.py",
+      "size": 337,
+      "sha256": "ea4e089d7479cb2158893868579ffc559cd1ce05425e53c21ab81d3d3be33d29"
+    },
+    {
+      "path": "core/color_analysis.py",
+      "size": 14512,
+      "sha256": "cb0432e4b68a451b09f9de3520fb722b8b2091e067c45bf52c0a5cb0ee7f2be8"
+    },
+    {
+      "path": "core/constants.py",
+      "size": 799,
+      "sha256": "bb3e770857e63e90422fdbf85144e94cb3d9f5c1a6b22e93c0968bc5ad3b924a"
+    },
+    {
+      "path": "core/database.py",
+      "size": 34208,
+      "sha256": "a77bcf86008c40788e323659820cacfb1482663954b8e819026c6f70bf1a102d"
+    },
+    {
+      "path": "core/detail_analysis.py",
+      "size": 24647,
+      "sha256": "5dfe6f2cdf51754a6d3c0676ba8f73341b14b7755f15d576b9f1d67933b2ab0f"
+    },
+    {
+      "path": "core/detail_recipe.py",
+      "size": 10990,
+      "sha256": "86468b0220cc2b5eb188cfc3bb4e15c648b727bd056d3fb163a344988bc17103"
+    },
+    {
+      "path": "core/edit_reverse.py",
+      "size": 10839,
+      "sha256": "b85ecbf93ab9647ac6a0459d1ab15b57c920b51cfaff3973c8e4ec39e86e4246"
+    },
+    {
+      "path": "core/export_files.py",
+      "size": 3244,
+      "sha256": "9c6d661519f52c7b1843f185baafc1aee9db6e94dbcb8410a1eb1bf2b2f414b0"
+    },
+    {
+      "path": "core/fingerprint.py",
+      "size": 1066,
+      "sha256": "12c0a83b430187808d8cc6b21dd55af9ae11c73cd270e0ece9667c24016de8df"
+    },
+    {
+      "path": "core/i18n.py",
+      "size": 764,
+      "sha256": "5e57a319ea7ab91195ca9ad4cdef0ec9da0676bedcbdf9965eaa6b83dfb4d773"
+    },
+    {
+      "path": "core/lens_correction.py",
+      "size": 11944,
+      "sha256": "a812fc49e82d00cdef09bd7a46184640b3f8ff4921c1c5fea94413ef79f5221c"
+    },
+    {
+      "path": "core/lens_metadata.py",
+      "size": 20725,
+      "sha256": "b5291835c4486a653917c443691f7fe071b508f5b92d91469da0ab0a1eb04f0e"
+    },
+    {
+      "path": "core/lens_profiles.py",
+      "size": 25007,
+      "sha256": "54090b8121cfafa65bc0a47cb1566a5f0db5bf69476c8baf49d7e6fd4170574e"
+    },
+    {
+      "path": "core/metadata.py",
+      "size": 1000,
+      "sha256": "8563ccd6e66497b4118b8ad18150514fcf517d7ec6dfd6b5678519fcb2a2a7f9"
+    },
+    {
+      "path": "core/models.py",
+      "size": 823,
+      "sha256": "a27085ae9ddecdc24f28448d94854c4b125d8f3a200e2553b722f101be757079"
+    },
+    {
+      "path": "core/package_check.py",
+      "size": 20825,
+      "sha256": "2e75d1c7a0b0a61906a96b5cf42a42857c5208b595da91fc0b59cdecf790052b"
+    },
+    {
+      "path": "core/parameter_decomposition.py",
+      "size": 11343,
+      "sha256": "85ca800bcccad0b2ea35cac09ce5299f47229ade954c20352a4f11eb2aa03cdf"
+    },
+    {
+      "path": "core/photo_scene.py",
+      "size": 12507,
+      "sha256": "a3f4dc32420bd4a8b0c698ec66bc63cc2a43f16e220a82632830e339518c85cb"
+    },
+    {
+      "path": "core/photo_scene_models.py",
+      "size": 6290,
+      "sha256": "6931c1540e2f907f331ab3f368e374ab8e4d47ebd9034e62554a5d2c3316155e"
+    },
+    {
+      "path": "core/raw_decode.py",
+      "size": 10621,
+      "sha256": "dd8a61457fa7c0465172ca442b84e32e7df0aea8d8fec06e03feeffcec5cfffd"
+    },
+    {
+      "path": "core/reference_analysis.py",
+      "size": 27805,
+      "sha256": "e874c68874de6a5198a734a255362ed0d236478999d990182292c3e5372c0851"
+    },
+    {
+      "path": "core/render_evidence.py",
+      "size": 4497,
+      "sha256": "6480b4e84a688203112954940fd980565069545550ec24f84f26ece0c4d2c7f1"
+    },
+    {
+      "path": "core/scanner.py",
+      "size": 6790,
+      "sha256": "f2297189daa6f6259e4c40f31bea1c6859fa3fa9cececa79ca8d4c9474fb5c6b"
+    },
+    {
+      "path": "core/scene_analysis.py",
+      "size": 16115,
+      "sha256": "77039b1918575de8db47cc67b6dcf5aff2b88a759252c3219bef07d3c94cbaad"
+    },
+    {
+      "path": "core/scene_styles.py",
+      "size": 21288,
+      "sha256": "efdfdb13ce47d61ca47c7be28c1ac49e2a8684d70258d7304ca1fed8258649a3"
+    },
+    {
+      "path": "core/schema_migrations.py",
+      "size": 7871,
+      "sha256": "890bb3a55e986fdd71b93dae4a0a4d64093712db0987431371647819b90a7f1c"
+    },
+    {
+      "path": "core/semantic_models.py",
+      "size": 5352,
+      "sha256": "cf0deec0e8991d1b15ec5258c70937ace5b9703abeeab3f44fccf206d7a9b062"
+    },
+    {
+      "path": "core/settings.py",
+      "size": 804,
+      "sha256": "a65adcdb647650ad6f0db90f088b123db07d518e0f9db25e4fe04be6c966d87c"
+    },
+    {
+      "path": "core/source_workflow.py",
+      "size": 30517,
+      "sha256": "5fdcc4f9e9af5054c6ea5431307e20ac1b10ea7b5fe982506a76c6d94385eb9a"
+    },
+    {
+      "path": "core/spatial_render.py",
+      "size": 10234,
+      "sha256": "eb4bb364a698265277f46a4f1012fb18afcd170994fccfd7e41308a5ee238e97"
+    },
+    {
+      "path": "core/style_dna.py",
+      "size": 24259,
+      "sha256": "9ec4cd2d67f5d1abc8a5cee415513cd39f19594b2510bbcb41a4119c6926b2df"
+    },
+    {
+      "path": "core/style_regions.py",
+      "size": 10885,
+      "sha256": "496461006acb10370f930de065430e5c76785768aacb2ad3899a900460fd95db"
+    },
+    {
+      "path": "core/style_render.py",
+      "size": 44413,
+      "sha256": "746fae2bb51fed8c116251bb46a7e0dbae2dd65f820bc6b70b4eaeb609535572"
+    },
+    {
+      "path": "core/synthetic_raw.py",
+      "size": 6166,
+      "sha256": "1fe234778bba7167e0b4669dcc85144d31460bcf6b7da1b51985515cea0c33b4"
+    },
+    {
+      "path": "core/tone_analysis.py",
+      "size": 9975,
+      "sha256": "ec2a4ecba2212c069b7ce255696279658ebd308b9b87a7adec59270d6f39e7df"
+    },
+    {
+      "path": "core/travel_adjustments.py",
+      "size": 3677,
+      "sha256": "1577b4801fe62aec6b56947c30d88bde323ec7b1e108b8c5b28106bc5f6c068c"
+    },
+    {
+      "path": "core/travel_analysis.py",
+      "size": 25195,
+      "sha256": "1d9d8107de9e964c3c41e2d79fb6aca4ca74cb1a209dca592ac56cd2b62cd278"
+    },
+    {
+      "path": "core/travel_jobs.py",
+      "size": 26937,
+      "sha256": "96680668acfb439eeeab563b7bbd94594a524c544e96044909e662420b6afa8f"
+    },
+    {
+      "path": "core/travel_previews.py",
+      "size": 20744,
+      "sha256": "89c3c5fd69d487ceabbe6e114e57091fc080587246ee9cfe11199ecf85073f37"
+    },
+    {
+      "path": "core/travel_store.py",
+      "size": 16004,
+      "sha256": "60737a432cd053b98de6702c1e9206bed7fb6e92759402492ea8e965b740df5e"
+    },
+    {
+      "path": "core/xmp_analysis.py",
+      "size": 17559,
+      "sha256": "c123a57d1ed9cd5fb7bae980523103cf368770f6e80a7401d06a40d0ac8b6492"
+    },
+    {
+      "path": "locales/en.json",
+      "size": 50954,
+      "sha256": "7978aee019f78ca9af4945961967973b77c6456d0dc23abda9946502f3841459"
+    },
+    {
+      "path": "locales/ko.json",
+      "size": 56628,
+      "sha256": "3d6c6cd1a11c98192ea2081235a39f97755236bb0ad3e93d6a2cf95036ff78e8"
+    },
+    {
+      "path": "main.py",
+      "size": 1929,
+      "sha256": "5b767c42cfdbba36955d10e6113c9f539cf1b86fa4e94822fd7913b74da254f3"
+    },
+    {
+      "path": "ui/app.py",
+      "size": 30399,
+      "sha256": "a96cd59bf05a40b3bd2f5772ad9664587c94cdbdea3d0234796255fde1d0f6be"
+    },
+    {
+      "path": "ui/display.py",
+      "size": 2912,
+      "sha256": "5d1cec97e3be25d11afee0d3d7e5c61765149db823c5c3357676f1cbf91ee9ef"
+    },
+    {
+      "path": "ui/lens_dialog.py",
+      "size": 8662,
+      "sha256": "262192ac3f695c1694675f6e2edaffd08292f2c58c8dfec129021ea3ee73bfb7"
+    },
+    {
+      "path": "ui/pair_inspector.py",
+      "size": 46309,
+      "sha256": "ad60285c076e940944ee577810d8d7bb30c7a3305b67491165d0df1a74ff4788"
+    },
+    {
+      "path": "ui/parameter_evidence.py",
+      "size": 21953,
+      "sha256": "f691c2b0ac8d8541260fa087510d2fc816388c140b8d13b5b092bd064817f3f5"
+    },
+    {
+      "path": "ui/scene_editor.py",
+      "size": 13877,
+      "sha256": "3c4879c2b6f0d30dfead0cd157a882e54b30f7bcd2f0dedfc40d6ce72982c405"
+    },
+    {
+      "path": "ui/source_workflow.py",
+      "size": 59835,
+      "sha256": "1231be1f1bf4800ac2f9132cb19a4d08e41bd44b8957d7202491ae949b0467c1"
+    },
+    {
+      "path": "ui/studio_controls.py",
+      "size": 15848,
+      "sha256": "fd2b1e6a0aedc66007c23e082de51acf490f4af2839044e2da2f458fd7fe4cc5"
+    },
+    {
+      "path": "ui/style_tiles.py",
+      "size": 2732,
+      "sha256": "eb2d5aabd85e2b01ea6f15d7e1dad39c8a35a21a4673c693ec61a7f11026c634"
+    },
+    {
+      "path": "ui/style_workspace.py",
+      "size": 61985,
+      "sha256": "09a6f63b3cdc36d29b6f5c5673b26fedef9362e611ee1cb4f611ea469125a2f0"
+    },
+    {
+      "path": "ui/theme.py",
+      "size": 9191,
+      "sha256": "c1c54e71bee11bb9433cce212fb33d5b87a59b84a624abdafe1574963e7d01a3"
+    },
+    {
+      "path": "ui/travel_grid.py",
+      "size": 9948,
+      "sha256": "e5be4fdc368d90a1265188cdb98d584d23e71fe89df9ccfacbcabbbecea521ed"
+    },
+    {
+      "path": "ui/travel_workspace.py",
+      "size": 41339,
+      "sha256": "629fb8d71eff8f100e83a326d01f0013a46cf009c5afbb6e20d01f1a1267a372"
+    }
+  ],
+  "source_inventory_sha256": "67f1d025f7109999fa5f60177813e26c2548aa1cbda83dc4346df31dff742ed1",
+  "source_file_count": 135,
+  "source_total_bytes": 18246164,
+  "coverage": {
+    "python_files": 58,
+    "locale_files": 2,
+    "asset_files": 75,
+    "model_assets_and_licenses": 8
+  },
+  "previous_source_inventory_sha256": "58716268cac47979b3749db6d6f100e433ae244ca2ecc44eb707352e3100bb62",
+  "source_changed_since_previous_report": true,
+  "source_inventory_sha256_after_verification": "67f1d025f7109999fa5f60177813e26c2548aa1cbda83dc4346df31dff742ed1"
+}

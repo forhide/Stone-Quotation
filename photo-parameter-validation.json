@@ -1,0 +1,372 @@
+{
+  "ok": true,
+  "app_version": "0.6.0",
+  "runtime_network": "denied",
+  "backend": "numpy_opencv_cpu",
+  "dna_schema_version": 4,
+  "scene_profile_schema_version": 2,
+  "fixture_source": "locally_generated_synthetic_raw_and_rgb",
+  "fixtures_redistributed": false,
+  "temporary_files_removed": true,
+  "seconds": 71.7488,
+  "checks": [
+    {
+      "check": "recorded_clarity_changes_pixels",
+      "mean_absolute_rgb_change": 1.91449,
+      "support": {
+        "sample_count": 1,
+        "confidence": 1.0,
+        "basis": "recorded"
+      },
+      "adobe_pixel_equivalence": false
+    },
+    {
+      "check": "recorded_texture_changes_pixels",
+      "mean_absolute_rgb_change": 0.87788,
+      "support": {
+        "sample_count": 1,
+        "confidence": 1.0,
+        "basis": "recorded"
+      },
+      "adobe_pixel_equivalence": false
+    },
+    {
+      "check": "recorded_sharpening_changes_pixels",
+      "mean_absolute_rgb_change": 0.7365,
+      "support": {
+        "sample_count": 1,
+        "confidence": 1.0,
+        "basis": "recorded"
+      },
+      "adobe_pixel_equivalence": false
+    },
+    {
+      "check": "recorded_luminance_noise_reduction_changes_pixels",
+      "mean_absolute_rgb_change": 1.2311,
+      "support": {
+        "sample_count": 1,
+        "confidence": 1.0,
+        "basis": "recorded"
+      },
+      "adobe_pixel_equivalence": false
+    },
+    {
+      "check": "recorded_color_noise_reduction_changes_pixels",
+      "mean_absolute_rgb_change": 0.31312,
+      "support": {
+        "sample_count": 1,
+        "confidence": 1.0,
+        "basis": "recorded"
+      },
+      "adobe_pixel_equivalence": false
+    },
+    {
+      "check": "recorded_contrast_changes_pixels",
+      "mean_absolute_rgb_change": 4.27584
+    },
+    {
+      "check": "recorded_saturation_changes_pixels",
+      "mean_absolute_rgb_change": 3.85784
+    },
+    {
+      "check": "recorded_vibrance_changes_pixels",
+      "mean_absolute_rgb_change": 3.99837
+    },
+    {
+      "check": "supported_pixels_and_recorded_xmp_only_are_explicit",
+      "pixel_applied": [
+        "Clarity2012",
+        "ColorNoiseReduction",
+        "Contrast2012",
+        "LuminanceSmoothing",
+        "Saturation",
+        "SharpenEdgeMasking",
+        "SharpenRadius",
+        "Sharpness",
+        "Texture",
+        "Vibrance"
+      ],
+      "xmp_only": [
+        "Dehaze",
+        "ParametricDarks"
+      ],
+      "detail_and_recorded_only_sidecar_values_retained": true,
+      "approximate_renderer": true
+    },
+    {
+      "check": "preview_jpeg_and_portable_style_agree",
+      "jpeg_pixels_match_preview_after_same_encoding": true,
+      "profile_roundtrip": true,
+      "source_exif_exported": false
+    },
+    {
+      "check": "zero_strength_is_pixel_identity",
+      "xmp_effect_amounts_zero": true
+    },
+    {
+      "check": "hybrid_mixes_detail_recipe_once",
+      "clarity": 0.1625,
+      "texture": 0.48750000000000004,
+      "component_absolute_xmp_settings_not_reused": true
+    },
+    {
+      "check": "raw_jpg_learns_observed_local_contrast_and_texture",
+      "controls": {
+        "clarity": {
+          "estimate": 0.6518815563246007,
+          "confidence": 0.9927100768831227,
+          "direction": "higher"
+        },
+        "texture": {
+          "estimate": 0.6480572906961536,
+          "confidence": 0.9887832187690246,
+          "direction": "higher"
+        },
+        "sharpening": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        },
+        "denoise_luma": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        }
+      },
+      "actual_folder_workflow": true,
+      "raw_decodes_during_analysis": 1,
+      "rgb_error_before": 2.22177,
+      "rgb_error_after": 1.26266,
+      "isolated_spatial_component_error": 0.5022,
+      "isolated_color_component_error": 2.0519,
+      "global_tone_transfer_separately_recorded": true,
+      "joint_tone_spatial_fit": {
+        "schema_version": 1,
+        "iterations": 2,
+        "confidence": 0.9848257192541005,
+        "method": "iterative_luma_band_subtraction"
+      },
+      "fixture_detail_color_behavior": "additive_equal_rgb_luma_change_also_changes_chroma",
+      "full_recipe_pixel_match_guaranteed": false,
+      "fine_detail_unavailable_when_not_proven": true,
+      "exact_adobe_sliders_recovered": false
+    },
+    {
+      "check": "raw_jpg_hue_preserving_spatial_recipe_improves_controlled_match",
+      "actual_folder_workflow": true,
+      "raw_decodes_during_analysis": 1,
+      "controls": {
+        "clarity": {
+          "estimate": 0.6489967893335374,
+          "confidence": 0.991275478524911,
+          "direction": "higher"
+        },
+        "texture": {
+          "estimate": 0.6465123617549955,
+          "confidence": 0.9918929227695809,
+          "direction": "higher"
+        },
+        "sharpening": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        },
+        "denoise_luma": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        }
+      },
+      "rgb_error_before": 2.35032,
+      "rgb_error_after": 1.01222,
+      "isolated_color_component_error": 2.24851,
+      "global_tone_transfer_separately_recorded": true,
+      "joint_tone_spatial_fit": {
+        "schema_version": 1,
+        "iterations": 2,
+        "confidence": 0.9906778809788216,
+        "method": "iterative_luma_band_subtraction"
+      },
+      "isolated_spatial_component_error": 0.00466,
+      "fixture_detail_color_behavior": "independent_hue_preserving_luma_ratio",
+      "adobe_pixel_equivalence": false
+    },
+    {
+      "check": "raw_jpg_separates_contrast_saturation_vibrance_and_local_contrast",
+      "actual_folder_workflow": true,
+      "raw_decodes_during_analysis": 1,
+      "observed_contrast_delta": 0.0645592549019609,
+      "saturation_model": {
+        "schema_version": 1,
+        "status": "ok",
+        "gain": 0.7988318145176669,
+        "vibrance": 0.1381021135648169,
+        "confidence": 0.7766634001080441,
+        "vibrance_confidence": 0.7766634001080441,
+        "sample_count": 92051,
+        "limitations": [
+          "saturation_model_rendered_hsv_approximation",
+          "saturation_model_global_color_confounders"
+        ]
+      },
+      "spatial_controls": {
+        "clarity": {
+          "estimate": 0.556280278859046,
+          "confidence": 0.8505540241812818,
+          "direction": "higher"
+        },
+        "texture": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        },
+        "sharpening": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        },
+        "denoise_luma": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        }
+      },
+      "unsupported_fine_or_confounded_detail_is_withheld": true
+    },
+    {
+      "check": "raw_jpg_global_contrast_is_retained_without_false_spatial_edit",
+      "actual_folder_workflow": true,
+      "raw_decodes_during_analysis": 1,
+      "truth_generation": "independent_hue_preserving_contrast_1_32",
+      "spatial_controls": {
+        "clarity": {
+          "estimate": 0.0,
+          "confidence": 0.996652454924704,
+          "direction": "neutral"
+        },
+        "texture": {
+          "estimate": 0.0,
+          "confidence": 0.9929823493204442,
+          "direction": "neutral"
+        },
+        "sharpening": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        },
+        "denoise_luma": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        }
+      },
+      "tone_curve_max_identity_deviation": 0.108663,
+      "rgb_error_before": 10.21329,
+      "rgb_error_after": 0.22744,
+      "isolated_color_component_error": 0.22744,
+      "isolated_global_truth_error": 0.22744,
+      "global_tone_transfer_separately_recorded": false,
+      "joint_tone_spatial_fit": null,
+      "exact_adobe_sliders_recovered": false
+    },
+    {
+      "check": "raw_jpg_nonlinear_global_tone_is_retained_without_false_spatial_edit",
+      "actual_folder_workflow": true,
+      "raw_decodes_during_analysis": 1,
+      "truth_generation": "independent_hue_preserving_monotone_sine_curve",
+      "spatial_controls": {
+        "clarity": {
+          "estimate": 0.0,
+          "confidence": 0.9972061255805554,
+          "direction": "neutral"
+        },
+        "texture": {
+          "estimate": 0.0,
+          "confidence": 0.9945583542275677,
+          "direction": "neutral"
+        },
+        "sharpening": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        },
+        "denoise_luma": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        }
+      },
+      "tone_curve_max_identity_deviation": 0.099605,
+      "rgb_error_before": 16.11004,
+      "rgb_error_after": 0.31412,
+      "isolated_color_component_error": 0.31412,
+      "isolated_global_truth_error": 0.31412,
+      "global_tone_transfer_separately_recorded": false,
+      "joint_tone_spatial_fit": null,
+      "exact_adobe_sliders_recovered": false
+    },
+    {
+      "check": "raw_jpg_strong_monotone_tone_and_spatial_recipe_improves_combined_match",
+      "actual_folder_workflow": true,
+      "raw_decodes_during_analysis": 1,
+      "truth_generation": "independent_monotone_sine_curve_then_multiscale_hue_preserving_luma",
+      "spatial_controls": {
+        "clarity": {
+          "estimate": 0.6498865286038862,
+          "confidence": 0.9944702474996919,
+          "direction": "higher"
+        },
+        "texture": {
+          "estimate": 0.6492314439027471,
+          "confidence": 0.9883632758925389,
+          "direction": "higher"
+        },
+        "sharpening": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        },
+        "denoise_luma": {
+          "estimate": null,
+          "confidence": 0.0,
+          "direction": "uncertain"
+        }
+      },
+      "tone_curve_max_identity_deviation": 0.09966,
+      "rgb_error_before": 18.8047,
+      "rgb_error_after": 1.52107,
+      "isolated_color_component_error": 3.45706,
+      "isolated_global_truth_error": 1.37659,
+      "global_tone_transfer_separately_recorded": true,
+      "joint_tone_spatial_fit": {
+        "schema_version": 1,
+        "iterations": 3,
+        "confidence": 0.9696038715168931,
+        "method": "iterative_luma_band_subtraction"
+      },
+      "exact_adobe_sliders_recovered": false
+    },
+    {
+      "check": "jpg_only_learns_final_detail_appearance",
+      "unique_reference_inputs": 3,
+      "target": {
+        "local_contrast": 0.02976556308567524,
+        "texture_energy": 0.02101992443203926
+      },
+      "native_sharpening_or_noise_history_claimed": false,
+      "support_confidence": 0.25
+    },
+    {
+      "check": "regional_path_does_not_double_apply_details",
+      "global_and_region_paths_pixel_identical_without_region_recipe": true
+    },
+    {
+      "check": "cancelled_export_and_immutable_originals",
+      "hashes_unchanged": 26,
+      "cancelled_destination_created": false
+    }
+  ],
+  "limits": "Controlled fixtures verify offline learning, parameter wiring, copies and sidecars. Spatial filtering and portable presets approximate the observed controls; they do not reproduce Adobe pixels, establish broad photographic quality, or recover native sharpening/noise history from a final JPEG. Dehaze and other xmp_only controls are retained for sidecars and do not alter this application's rendered pixels. Supported spatial bands are separated from the observed global tone curve to avoid applying the same contrast twice. Equal-RGB additive detail also changes chroma; full/color/spatial errors against independent synthetic edits are reported without promising a full pixel match on other photographic scenes.",
+  "execution": "source_runtime",
+  "python_isolated": false
+}

@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "app_version": "0.6.0",
+  "execution": "source_and_installed_windows_wine_generated_fixture_comparison",
+  "native_windows_execution": false,
+  "wine_dll_overrides": "ucrtbase=n,b;vcomp140=n,b",
+  "runtime_changed_in_product": false,
+  "external_dll_downloaded": false,
+  "checks": [
+    {
+      "check": "same_generated_sensor_and_decoded_rgb",
+      "fixture_sha256": "c81ca611265d7642e82051d3244ad70b929111fe5a48ed728f583832af5d4763",
+      "rgb_sha256": "237d4efe4d45b5ce3d3f30c2e5965209f1f6df510b0b4b523639a52a755f535f",
+      "rgb_dimensions": [
+        640,
+        480
+      ],
+      "rgb_dtype": "uint8",
+      "byte_identical": true,
+      "rgb_mean_absolute_byte_difference": 0,
+      "rgb_max_byte_difference": 0
+    },
+    {
+      "check": "use_shipped_native_openmp",
+      "staged_and_installed_dll_byte_identical": true,
+      "dll": "rawpy/vcomp140.dll",
+      "sha256": "55aba23cdcd6484fbb06f4155b8ca75adfce7a881f10afd0c49457165e677164",
+      "bytes": 193152
+    }
+  ],
+  "limits": "Wine builtin VCOMP140 left RAW rows unprocessed; OMP_NUM_THREADS=1 alone did not repair it. Tests explicitly prefer the native DLL already shipped in the pinned rawpy wheel. This verifies one generated fixture under Wine, not native Windows hardware or all camera formats."
+}
