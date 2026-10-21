@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "app_version": "0.6.1",
+  "platform": "Wine 10 on Linux (not native Windows)",
+  "checks": [
+    "silent_install",
+    "upgrade",
+    "launcher_self_test",
+    "installed_gui_manual_pair_summary_curve_cache_and_scan",
+    "folder_three_source_modes",
+    "real_raw_jpg",
+    "raw_xmp_parameters",
+    "jpg_reference_palette_tendencies",
+    "named_profiles_saved_and_reopened",
+    "embedded_real_photo_object_learning",
+    "installed_precision_and_fast_raw_pipeline",
+    "installed_lens_profiles_manual_equipment_correction",
+    "installed_photo_scene_and_category_learning",
+    "installed_multi_parameter_inference_and_spatial_rendering",
+    "installed_travel_browsing_and_durable_queue",
+    "uninstall",
+    "user_data_preserved",
+    "unrelated_file_preserved"
+  ],
+  "wine_dll_overrides": "ucrtbase=n,b;vcomp140=n,b",
+  "openmp": "Use native VCOMP140 already bundled in pinned rawpy wheel; Wine builtin is not used.",
+  "product_runtime_changed_for_wine": false
+}

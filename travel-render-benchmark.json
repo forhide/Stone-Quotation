@@ -1,0 +1,887 @@
+{
+  "scope": "Generated fixtures, real local CPU models, warm process; no native M1 or 500-photo claim.",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "dimensions": [
+    1600,
+    1064
+  ],
+  "runs": 3,
+  "baseline": {
+    "archive_sha256": "ba3cf904f7c06e2248bcb16f159b559bcf1ae3da2d827bf0f627a93a1308d96f",
+    "renderer_sha256": "ffdd3f5e02b6b8193e89f7788eeb3e69fce56e49eb27f5c061e9a818819d92f1"
+  },
+  "cases": {
+    "jpg-revisit-global": {
+      "baseline_median_seconds": 5.015761861024657,
+      "optimized_median_seconds": 2.3261375639995094,
+      "speedup": 2.156261924767969,
+      "pixel_exact": true,
+      "measurements": {
+        "baseline": [
+          {
+            "seconds": 4.958364912017714,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 0,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 5.015761861024657,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 0,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 5.037928047997411,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 0,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ],
+        "optimized": [
+          {
+            "seconds": 2.3466751470114104,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.3261375639995094,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.301551816985011,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ]
+      }
+    },
+    "jpg-revisit-objects": {
+      "baseline_median_seconds": 5.52720163797494,
+      "optimized_median_seconds": 2.5441276270139497,
+      "speedup": 2.172533161971215,
+      "pixel_exact": true,
+      "measurements": {
+        "baseline": [
+          {
+            "seconds": 5.563654220022727,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 6,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 5.52720163797494,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 6,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 5.4947930249909405,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 6,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ],
+        "optimized": [
+          {
+            "seconds": 2.52329648801242,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.5441276270139497,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.555253083992284,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ]
+      }
+    },
+    "jpg-preview-export-global": {
+      "baseline_median_seconds": 3.5337162039941177,
+      "optimized_median_seconds": 2.3461589770158753,
+      "speedup": 1.5061708258528668,
+      "pixel_exact": true,
+      "measurements": {
+        "baseline": [
+          {
+            "seconds": 3.5337162039941177,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 0,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 3.726379878993612,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 0,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 3.5201603830209933,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 0,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ],
+        "optimized": [
+          {
+            "seconds": 2.2442910200043116,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.348962792981183,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.3461589770158753,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ]
+      }
+    },
+    "jpg-preview-export-objects": {
+      "baseline_median_seconds": 4.053609606984537,
+      "optimized_median_seconds": 2.412506922002649,
+      "speedup": 1.680247865825641,
+      "pixel_exact": true,
+      "measurements": {
+        "baseline": [
+          {
+            "seconds": 4.053609606984537,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 4,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 4.310445272014476,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 4,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 4.00000845399336,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 4,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ],
+        "optimized": [
+          {
+            "seconds": 2.369758246000856,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.412506922002649,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.8514863019809127,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ]
+      }
+    },
+    "raw-revisit-global": {
+      "baseline_median_seconds": 5.182133977999911,
+      "optimized_median_seconds": 2.5803808649943676,
+      "speedup": 2.0082825943646974,
+      "pixel_exact": true,
+      "measurements": {
+        "baseline": [
+          {
+            "seconds": 5.960308248992078,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 0,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 5.182133977999911,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 0,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 5.0596484529960435,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 0,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ],
+        "optimized": [
+          {
+            "seconds": 2.5803808649943676,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.609795900993049,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.5522675389947835,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ]
+      }
+    },
+    "raw-revisit-objects": {
+      "baseline_median_seconds": 5.754368628986413,
+      "optimized_median_seconds": 2.7641252720204648,
+      "speedup": 2.081804572041049,
+      "pixel_exact": true,
+      "measurements": {
+        "baseline": [
+          {
+            "seconds": 5.789232257986441,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 6,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 5.7143924300035,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 6,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 5.754368628986413,
+            "calls": {
+              "_measure": 6,
+              "_recognition_scene": 6,
+              "_classification_scene": 6
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ],
+        "optimized": [
+          {
+            "seconds": 2.78173393002362,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.7641252720204648,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.760699301987188,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 4,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ]
+      }
+    },
+    "raw-preview-export-global": {
+      "baseline_median_seconds": 3.5854114439862315,
+      "optimized_median_seconds": 2.3280927109881304,
+      "speedup": 1.5400638587388762,
+      "pixel_exact": true,
+      "measurements": {
+        "baseline": [
+          {
+            "seconds": 3.5841759800096042,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 0,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 3.5854114439862315,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 0,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 3.600071208027657,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 0,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ],
+        "optimized": [
+          {
+            "seconds": 2.281993852026062,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.6865992190141696,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.3280927109881304,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 0,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 4278,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ]
+      }
+    },
+    "raw-preview-export-objects": {
+      "baseline_median_seconds": 3.961121294996701,
+      "optimized_median_seconds": 2.5510649569914676,
+      "speedup": 1.5527324320538458,
+      "pixel_exact": true,
+      "measurements": {
+        "baseline": [
+          {
+            "seconds": 4.08066135799163,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 4,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 3.961121294996701,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 4,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 3.9431475599994883,
+            "calls": {
+              "_measure": 4,
+              "_recognition_scene": 4,
+              "_classification_scene": 4
+            },
+            "cache": {
+              "entries": 0,
+              "bytes": 0,
+              "hits": 0,
+              "misses": 0,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ],
+        "optimized": [
+          {
+            "seconds": 2.5510649569914676,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.5730824490019586,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          },
+          {
+            "seconds": 2.5048008199955802,
+            "calls": {
+              "_measure": 2,
+              "_recognition_scene": 2,
+              "_classification_scene": 2
+            },
+            "cache": {
+              "entries": 2,
+              "bytes": 15273478,
+              "hits": 2,
+              "misses": 2,
+              "max_entries": 2,
+              "max_bytes": 33554432
+            }
+          }
+        ]
+      }
+    }
+  },
+  "source_sha256": {
+    "photo-0.jpg": "5d1ebd118aaca875ef3b12b47bb2ceb3dd2131f005cf1ada5de01c62bef804b3",
+    "photo-1.jpg": "3f7592950cfe4aa4c619e206f3e1572d74d8fa1cf84b4975e43114fb5f3d9016",
+    "photo-0.dng": "c57e4a35c5d4ce8c92725f103ca971cd9d440841ebbaee2b8904cdd2f88ea34c",
+    "photo-1.dng": "e6ad3aa20447a99542759bbbea8b13632b098d7411a236b42f0f36d547aa05c3"
+  },
+  "source_unchanged": true
+}

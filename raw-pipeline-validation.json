@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "app_version": "0.6.1",
+  "execution": "source_runtime",
+  "runtime_network": "denied",
+  "fixture": "generated deterministic Bayer CFA DNG",
+  "user_photos_used": false,
+  "temporary_files_removed": true,
+  "rawpy_version": "0.25.1",
+  "libraw_version": [
+    0,
+    21,
+    4
+  ],
+  "checks": [
+    {
+      "check": "orientation_and_resolution_fallback",
+      "observations": [
+        {
+          "tiff_orientation": 1,
+          "oriented_full_dimensions": [
+            960,
+            640
+          ],
+          "strict_pixel_transform_exact": true,
+          "interactive_pixel_transform_max_error": 0,
+          "unavailable_half_size_resolution_falls_back": true
+        },
+        {
+          "tiff_orientation": 3,
+          "oriented_full_dimensions": [
+            960,
+            640
+          ],
+          "strict_pixel_transform_exact": true,
+          "interactive_pixel_transform_max_error": 1,
+          "unavailable_half_size_resolution_falls_back": true
+        },
+        {
+          "tiff_orientation": 5,
+          "oriented_full_dimensions": [
+            640,
+            960
+          ],
+          "strict_pixel_transform_exact": true,
+          "interactive_pixel_transform_max_error": 1,
+          "unavailable_half_size_resolution_falls_back": true
+        },
+        {
+          "tiff_orientation": 6,
+          "oriented_full_dimensions": [
+            640,
+            960
+          ],
+          "strict_pixel_transform_exact": true,
+          "interactive_pixel_transform_max_error": 1,
+          "unavailable_half_size_resolution_falls_back": true
+        },
+        {
+          "tiff_orientation": 8,
+          "oriented_full_dimensions": [
+            640,
+            960
+          ],
+          "strict_pixel_transform_exact": true,
+          "interactive_pixel_transform_max_error": 1,
+          "unavailable_half_size_resolution_falls_back": true
+        }
+      ]
+    },
+    {
+      "check": "generated_sensor_strict_vs_interactive",
+      "fixture_sha256": "fe612545ea743367a744b5079907db5befcda2b99e1881cda4fec4ded926ff97",
+      "sensor_dimensions": [
+        3200,
+        2400
+      ],
+      "oriented_full_dimensions": [
+        2400,
+        3200
+      ],
+      "comparison_dimensions": [
+        900,
+        1200
+      ],
+      "quality": {
+        "rgb_mean_absolute_byte_error": 0.318181,
+        "rgb_p95_byte_error": 1.0,
+        "rgb_max_byte_error": 68.0,
+        "delta_e76_median": 0.403858,
+        "delta_e76_p95": 0.941829,
+        "delta_e76_max": 44.255737,
+        "psnr_db": 49.405542
+      },
+      "median_seconds": {
+        "baseline": 0.671577,
+        "interactive": 0.133511
+      },
+      "baseline_to_interactive_speed_ratio": 5.03,
+      "repetitions": 3,
+      "timing": "same process; warm native paths and file cache; alternating order"
+    },
+    {
+      "check": "neutral_preview_and_base_reuse",
+      "neutral_pixels_exact": true,
+      "quality_changes_invalidate_decoded_base": true,
+      "same_quality_style_change_reuses_decoded_base": true
+    },
+    {
+      "check": "full_resolution_neutral_export",
+      "dimensions": [
+        2400,
+        3200
+      ],
+      "native_postprocess_calls": 1,
+      "baseline_full_sensor_decode": true,
+      "gps_exif_removed": true,
+      "srgb_profile_embedded": true,
+      "source_unchanged": true
+    },
+    {
+      "check": "full_resolution_monochrome_export",
+      "dimensions": [
+        2400,
+        3200
+      ],
+      "native_postprocess_calls": 1,
+      "baseline_full_sensor_decode": true,
+      "gps_exif_removed": true,
+      "srgb_profile_embedded": true,
+      "source_unchanged": true
+    },
+    {
+      "check": "cancellation_and_source_preservation",
+      "pre_cancel_skips_native_decode": true,
+      "cancel_after_native_decode_stops_export": true,
+      "no_partial_output": true,
+      "source_unchanged": true,
+      "native_libraw_call_is_not_interruptible": true
+    }
+  ],
+  "limits": "Synthetic ordinary Bayer sensor only; not camera/X-Trans/Foveon calibration, Lightroom equivalence, native Mac installation or a whole-app speed claim."
+}

@@ -1,0 +1,936 @@
+{
+  "ok": true,
+  "app_version": "0.6.1",
+  "measurement_app_version": "0.6.0",
+  "measurement_reexecuted_this_release": false,
+  "measurement_baseline_app_version": "0.5.6",
+  "retained_report_sha256": "662421f8e03718348a0bb36abe9e873dbcedbfce7cd03571f121090c53a6e038",
+  "verified_prior_source_archive_sha256": "aa8b03662e8997a6897176030140cd6169fcc603fd853487b7a1f6069f4fe74e",
+  "current_core_unchanged": true,
+  "core_file_count": 43,
+  "model_and_lens_asset_file_count": 72,
+  "permitted_difference": "APP_VERSION literal only; constants AST is otherwise identical.",
+  "files": [
+    {
+      "path": "personal_color_lab/assets/lensfun/COPYING.CC_BY-SA_3.0",
+      "prior_sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f",
+      "current_sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/6x6.xml",
+      "prior_sha256": "ca13c2756b32d728675372695c072517a0e38af5eff2ecd3e17599dee7fc58b3",
+      "current_sha256": "ca13c2756b32d728675372695c072517a0e38af5eff2ecd3e17599dee7fc58b3",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/actioncams.xml",
+      "prior_sha256": "79a5da0322574b95690464444c9d9ba1da0e1f827da44fd6bff120a0ec10e4b4",
+      "current_sha256": "79a5da0322574b95690464444c9d9ba1da0e1f827da44fd6bff120a0ec10e4b4",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-canon.xml",
+      "prior_sha256": "bae47e4b3a0f8852641038ae2dcca5b28ed7965e65ca795fd676f9de857c4670",
+      "current_sha256": "bae47e4b3a0f8852641038ae2dcca5b28ed7965e65ca795fd676f9de857c4670",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-casio.xml",
+      "prior_sha256": "ab35433879c4574ef8f97cd4e3d114d7ff8db4e7279da9d502fc9e911b51ee27",
+      "current_sha256": "ab35433879c4574ef8f97cd4e3d114d7ff8db4e7279da9d502fc9e911b51ee27",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-fujifilm.xml",
+      "prior_sha256": "58af9ebef2410c428ae2c5d01003d2247330d47d918823e63522b4d897a997d1",
+      "current_sha256": "58af9ebef2410c428ae2c5d01003d2247330d47d918823e63522b4d897a997d1",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-kodak.xml",
+      "prior_sha256": "377018ccd74f58e966b37a11e5a8689be4268153bebece9f1f2a0dbfa8234845",
+      "current_sha256": "377018ccd74f58e966b37a11e5a8689be4268153bebece9f1f2a0dbfa8234845",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-konica-minolta.xml",
+      "prior_sha256": "832a7473951ab625e10c48af6cf60f89b57280016d45729e2584cf9e41ad3cc7",
+      "current_sha256": "832a7473951ab625e10c48af6cf60f89b57280016d45729e2584cf9e41ad3cc7",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-leica.xml",
+      "prior_sha256": "8e4676679377576dc19e7900ce86fc69b0248ea1d4538aa22ee1ee09431a3be3",
+      "current_sha256": "8e4676679377576dc19e7900ce86fc69b0248ea1d4538aa22ee1ee09431a3be3",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-nikon.xml",
+      "prior_sha256": "5393bdb8223e13d21b85818e96571e97c035470b49b0452dfcedc2e1ff512d3b",
+      "current_sha256": "5393bdb8223e13d21b85818e96571e97c035470b49b0452dfcedc2e1ff512d3b",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-olympus.xml",
+      "prior_sha256": "7637d469ad54a02ebce9492a9aa9424a2ff1ec07b0398158076f762fdc08389b",
+      "current_sha256": "7637d469ad54a02ebce9492a9aa9424a2ff1ec07b0398158076f762fdc08389b",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-panasonic.xml",
+      "prior_sha256": "f191fc2a5d49fb50c06f4c399ee8c1a83a05f93a0efaecd352ec5c1479b8e60b",
+      "current_sha256": "f191fc2a5d49fb50c06f4c399ee8c1a83a05f93a0efaecd352ec5c1479b8e60b",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-pentax.xml",
+      "prior_sha256": "596fae3edaadcf2d90ae930fc1bec42597ca0b2bd11842e686e1b915f3736390",
+      "current_sha256": "596fae3edaadcf2d90ae930fc1bec42597ca0b2bd11842e686e1b915f3736390",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-ricoh.xml",
+      "prior_sha256": "46df96ebc367d5170cb6b7dfc3742093f0ad946264518fc5488573ba052f29d7",
+      "current_sha256": "46df96ebc367d5170cb6b7dfc3742093f0ad946264518fc5488573ba052f29d7",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-samsung.xml",
+      "prior_sha256": "36e3a778046d56385c387d48474cd32a89a5da94d99e640b5ce716ce747f898d",
+      "current_sha256": "36e3a778046d56385c387d48474cd32a89a5da94d99e640b5ce716ce747f898d",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-sigma.xml",
+      "prior_sha256": "0ddc265e3e580da05dcd4664d1b9c2464838d74dd02519c826520950c8f1759e",
+      "current_sha256": "0ddc265e3e580da05dcd4664d1b9c2464838d74dd02519c826520950c8f1759e",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/compact-sony.xml",
+      "prior_sha256": "be146388b4f6f7bf0d73394e20386ce6ccef3559ab39f1268ba3c14aaef03207",
+      "current_sha256": "be146388b4f6f7bf0d73394e20386ce6ccef3559ab39f1268ba3c14aaef03207",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/contax.xml",
+      "prior_sha256": "5eba12e6fd4913470afb6fe25fee47a263084b6cec830297273909872f47669a",
+      "current_sha256": "5eba12e6fd4913470afb6fe25fee47a263084b6cec830297273909872f47669a",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/generic.xml",
+      "prior_sha256": "cd572d4110981546b2c4cd296c2ff16755b30063fa136d8b06ad2ca13ab4c59f",
+      "current_sha256": "cd572d4110981546b2c4cd296c2ff16755b30063fa136d8b06ad2ca13ab4c59f",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-canon.xml",
+      "prior_sha256": "2de8e9467a6af6f83cc9da834d3d3b94d1aaf54519f60c68ac6bc02780a77516",
+      "current_sha256": "2de8e9467a6af6f83cc9da834d3d3b94d1aaf54519f60c68ac6bc02780a77516",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-fujifilm.xml",
+      "prior_sha256": "64586336153b948fe2325f6c46679149a4e3c114a70bee4bd1de88721cb4de72",
+      "current_sha256": "64586336153b948fe2325f6c46679149a4e3c114a70bee4bd1de88721cb4de72",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-hasselblad.xml",
+      "prior_sha256": "13e1fa55d36c2ed7d22964c21ce6c21d887bfe4506e840e425da1ce4157c3756",
+      "current_sha256": "13e1fa55d36c2ed7d22964c21ce6c21d887bfe4506e840e425da1ce4157c3756",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-leica.xml",
+      "prior_sha256": "c691037e2e0743388473c2a0545e340462c412b7e3b57e451f4f9c89dde2388a",
+      "current_sha256": "c691037e2e0743388473c2a0545e340462c412b7e3b57e451f4f9c89dde2388a",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-nikon.xml",
+      "prior_sha256": "dcae5ec2e505411a7f00b6b8dd03825e55620403b558b156be15e9ddfbeaf159",
+      "current_sha256": "dcae5ec2e505411a7f00b6b8dd03825e55620403b558b156be15e9ddfbeaf159",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-olympus.xml",
+      "prior_sha256": "989a3d88ef07a286efc2755df214792fdf71d60366932a1b369a77ad39cf2abb",
+      "current_sha256": "989a3d88ef07a286efc2755df214792fdf71d60366932a1b369a77ad39cf2abb",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-panasonic.xml",
+      "prior_sha256": "eb5f01f33e65721f3900786d5970c7e220dd042aaa56968be33c009a358ff3c5",
+      "current_sha256": "eb5f01f33e65721f3900786d5970c7e220dd042aaa56968be33c009a358ff3c5",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-pentax.xml",
+      "prior_sha256": "675a94f52794868ad9f1d79e17b7128783c34b3db23e9eac346c5963812a16e5",
+      "current_sha256": "675a94f52794868ad9f1d79e17b7128783c34b3db23e9eac346c5963812a16e5",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-samsung.xml",
+      "prior_sha256": "10130e9e125e0882a16fd3033cfed0175e9c14cb7d35e630cdb94736f27e5dc3",
+      "current_sha256": "10130e9e125e0882a16fd3033cfed0175e9c14cb7d35e630cdb94736f27e5dc3",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-samyang.xml",
+      "prior_sha256": "ae3bf262f12facdc6f81b837cf6d36fdde2a930d2bfb0918d5abaa47fcfea3ab",
+      "current_sha256": "ae3bf262f12facdc6f81b837cf6d36fdde2a930d2bfb0918d5abaa47fcfea3ab",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-sigma.xml",
+      "prior_sha256": "5f39b232efba5c208e5a98d8afe92cb2eee879213322d47827fcc6f0dc3a06f9",
+      "current_sha256": "5f39b232efba5c208e5a98d8afe92cb2eee879213322d47827fcc6f0dc3a06f9",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-sony.xml",
+      "prior_sha256": "f9f7e5d7461ac58f76eb55dcc5b211f2e9a451402ddb4a9ecb12d1e4dc04f2b8",
+      "current_sha256": "f9f7e5d7461ac58f76eb55dcc5b211f2e9a451402ddb4a9ecb12d1e4dc04f2b8",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-tamron.xml",
+      "prior_sha256": "2f0c9c4dfb9b0419ba0fac2e618bc251c2e71e068b6e09a23d7994b0ff62db0a",
+      "current_sha256": "2f0c9c4dfb9b0419ba0fac2e618bc251c2e71e068b6e09a23d7994b0ff62db0a",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-tokina.xml",
+      "prior_sha256": "addb27bd82b0d729644b9da1342f92401f63cc5945309ed17f38f4b7af1649e3",
+      "current_sha256": "addb27bd82b0d729644b9da1342f92401f63cc5945309ed17f38f4b7af1649e3",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/mil-zeiss.xml",
+      "prior_sha256": "ef8a238904fc9ea6fdb6171863dfd70cd94814af19ecd8c31ee000ca1864589d",
+      "current_sha256": "ef8a238904fc9ea6fdb6171863dfd70cd94814af19ecd8c31ee000ca1864589d",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/misc.xml",
+      "prior_sha256": "2000a347d9dc37d908ea5b56c760de5b2b4ab475857959ae2e901c31339b01bb",
+      "current_sha256": "2000a347d9dc37d908ea5b56c760de5b2b4ab475857959ae2e901c31339b01bb",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/om-system.xml",
+      "prior_sha256": "a53a627e6ba79fbabb0fa7552ce2b6e56e206425d2eaf0e8ccdb6b8c40c20755",
+      "current_sha256": "a53a627e6ba79fbabb0fa7552ce2b6e56e206425d2eaf0e8ccdb6b8c40c20755",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/rf-leica.xml",
+      "prior_sha256": "f93636e1980ad308d1873cc3ac078cdc77c0d529d777cd45c5c8d0e4781981e3",
+      "current_sha256": "f93636e1980ad308d1873cc3ac078cdc77c0d529d777cd45c5c8d0e4781981e3",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-canon.xml",
+      "prior_sha256": "5244e6df8f2522f829c57e2073313ce31a624e9ed9605310fe43613b9d588c99",
+      "current_sha256": "5244e6df8f2522f829c57e2073313ce31a624e9ed9605310fe43613b9d588c99",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-hasselblad.xml",
+      "prior_sha256": "97602c467699904bf101179ea2fa24f05f3e1879250498a6ba306cd95a3b7a6b",
+      "current_sha256": "97602c467699904bf101179ea2fa24f05f3e1879250498a6ba306cd95a3b7a6b",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-konica-minolta.xml",
+      "prior_sha256": "5639ca94f121f609247c2c120b65830b3ef7784db6ecfa7e8eb3d29ff5046c1b",
+      "current_sha256": "5639ca94f121f609247c2c120b65830b3ef7784db6ecfa7e8eb3d29ff5046c1b",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-leica.xml",
+      "prior_sha256": "c5e74cb511712e99ed60a066e85c842fea58f693c5039c3819485619f5293d0e",
+      "current_sha256": "c5e74cb511712e99ed60a066e85c842fea58f693c5039c3819485619f5293d0e",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-nikon.xml",
+      "prior_sha256": "5e591e8b1032203cce4c822f1da3d49524a78e7d71c594ea5a4533f2e57aacdf",
+      "current_sha256": "5e591e8b1032203cce4c822f1da3d49524a78e7d71c594ea5a4533f2e57aacdf",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-olympus.xml",
+      "prior_sha256": "f7693b6779edd8ed10d7dc23113669255bfa4987cea7db0e843f7f5f2bbbe615",
+      "current_sha256": "f7693b6779edd8ed10d7dc23113669255bfa4987cea7db0e843f7f5f2bbbe615",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-panasonic.xml",
+      "prior_sha256": "cd79acb49d9ce5f2a4cecc572b3e117f03da380bed2dcbfd52327192d8ce2381",
+      "current_sha256": "cd79acb49d9ce5f2a4cecc572b3e117f03da380bed2dcbfd52327192d8ce2381",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-pentax.xml",
+      "prior_sha256": "2fba773e41a1cfb70f0c85efdab6d78944bf80ddf89bc2035ef6db39da352f29",
+      "current_sha256": "2fba773e41a1cfb70f0c85efdab6d78944bf80ddf89bc2035ef6db39da352f29",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-ricoh.xml",
+      "prior_sha256": "c835798136a53535fdf4f81312ac9aad0ea3de3ef732c183d8cc4d2f432011d9",
+      "current_sha256": "c835798136a53535fdf4f81312ac9aad0ea3de3ef732c183d8cc4d2f432011d9",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-samsung.xml",
+      "prior_sha256": "dc0a29e424ff96e4316ddeb76126fa6f6c73a8836905a3e1f56f0c493826148f",
+      "current_sha256": "dc0a29e424ff96e4316ddeb76126fa6f6c73a8836905a3e1f56f0c493826148f",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-samyang.xml",
+      "prior_sha256": "fb1585bea91f5f59e1fae8811dd76c92252ee5d52e3647df2aff4695048443b5",
+      "current_sha256": "fb1585bea91f5f59e1fae8811dd76c92252ee5d52e3647df2aff4695048443b5",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-schneider.xml",
+      "prior_sha256": "de607cfe4ba6e7debc61e282ce39b72825c07601572e14af2bc9108ba67faf81",
+      "current_sha256": "de607cfe4ba6e7debc61e282ce39b72825c07601572e14af2bc9108ba67faf81",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-sigma.xml",
+      "prior_sha256": "f55f41c144fbb72e3c51d2dfef40e918930d37db1b4150bd02bd746406c036d2",
+      "current_sha256": "f55f41c144fbb72e3c51d2dfef40e918930d37db1b4150bd02bd746406c036d2",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-soligor.xml",
+      "prior_sha256": "1aba0aab19bce87ea86175b6551cb5306a512eb54be1698b89991b86008f6a04",
+      "current_sha256": "1aba0aab19bce87ea86175b6551cb5306a512eb54be1698b89991b86008f6a04",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-sony.xml",
+      "prior_sha256": "e5ca7f532afe23ff380bf2f9e5458f687bed603355d73a254d85c4e692942fdc",
+      "current_sha256": "e5ca7f532afe23ff380bf2f9e5458f687bed603355d73a254d85c4e692942fdc",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-tamron.xml",
+      "prior_sha256": "c62090789cebe6bbb663111c6e97beeb1111852bb735088e29cf8782df4bab45",
+      "current_sha256": "c62090789cebe6bbb663111c6e97beeb1111852bb735088e29cf8782df4bab45",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-tokina.xml",
+      "prior_sha256": "b1213eda81a613bc3976340398c6b8ce8b7dc29423476fc565d5f8e5cf612ecf",
+      "current_sha256": "b1213eda81a613bc3976340398c6b8ce8b7dc29423476fc565d5f8e5cf612ecf",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-ussr.xml",
+      "prior_sha256": "1fd6acc8a8f40373379bea2899ffd96fc34b22d9b044d0474dabd4c89af44efb",
+      "current_sha256": "1fd6acc8a8f40373379bea2899ffd96fc34b22d9b044d0474dabd4c89af44efb",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-vivitar.xml",
+      "prior_sha256": "c5c67e3fe38e8fa19044acadc7730047690435f66aac563f55ffe04997a88111",
+      "current_sha256": "c5c67e3fe38e8fa19044acadc7730047690435f66aac563f55ffe04997a88111",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/db/slr-zeiss.xml",
+      "prior_sha256": "49aa211a41fd5fe391d26af5fa65bdf9428d60863ffff15d3916fa1c520dc101",
+      "current_sha256": "49aa211a41fd5fe391d26af5fa65bdf9428d60863ffff15d3916fa1c520dc101",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/lensfun/manifest.json",
+      "prior_sha256": "f72147692e601307594d81cafb3afb34db2bd8500e4d13ec8416fadc6df60358",
+      "current_sha256": "f72147692e601307594d81cafb3afb34db2bd8500e4d13ec8416fadc6df60358",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/models/NOTICE.txt",
+      "prior_sha256": "94cdb05c3db2326928e22be38e5163ccbaf7b7525401b9b320b5aaf62ff72f1d",
+      "current_sha256": "94cdb05c3db2326928e22be38e5163ccbaf7b7525401b9b320b5aaf62ff72f1d",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/models/humanseg-LICENSE.txt",
+      "prior_sha256": "d9cf3b547fa4232fb9285f2db52e909f10f00781aaf64a6d0bb90c55149f1363",
+      "current_sha256": "d9cf3b547fa4232fb9285f2db52e909f10f00781aaf64a6d0bb90c55149f1363",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/models/humanseg.onnx",
+      "prior_sha256": "1da023e95e3adbeef16ac2862767b53b86a743ff26a34692e0833d7e088f0231",
+      "current_sha256": "1da023e95e3adbeef16ac2862767b53b86a743ff26a34692e0833d7e088f0231",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/models/manifest.json",
+      "prior_sha256": "e826e51fbf734f0850a1705cf76b239092ccc547b33c12db625cbf048cff065e",
+      "current_sha256": "e826e51fbf734f0850a1705cf76b239092ccc547b33c12db625cbf048cff065e",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/models/nanodet-LICENSE.txt",
+      "prior_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "current_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/models/nanodet.onnx",
+      "prior_sha256": "8a2c877cc6f09e7dfac7a9066e33ee5ae68de530b3b994f6ee9125cff6e34d3f",
+      "current_sha256": "8a2c877cc6f09e7dfac7a9066e33ee5ae68de530b3b994f6ee9125cff6e34d3f",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/models/yunet-LICENSE.txt",
+      "prior_sha256": "c83b8120c50ccbd4c4f96edf53141bdd566ebb8f8e9227e415326aa1b1aba958",
+      "current_sha256": "c83b8120c50ccbd4c4f96edf53141bdd566ebb8f8e9227e415326aa1b1aba958",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/models/yunet.onnx",
+      "prior_sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+      "current_sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/photo_scene/LICENSE.txt",
+      "prior_sha256": "583acc0d9c74def18ec24e56964421bf1fac1fa2d60451e75e6681d5ae58a3f6",
+      "current_sha256": "583acc0d9c74def18ec24e56964421bf1fac1fa2d60451e75e6681d5ae58a3f6",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/photo_scene/README.md",
+      "prior_sha256": "14914ee46e2f5baad3101952b7c57efe5bc60a309ace0159bd3bac4275fdb841",
+      "current_sha256": "14914ee46e2f5baad3101952b7c57efe5bc60a309ace0159bd3bac4275fdb841",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/photo_scene/encoder.onnx",
+      "prior_sha256": "3f44bd17204d6d9fe352526744f4453d84fc137114869d0a3e3311dd0a348601",
+      "current_sha256": "3f44bd17204d6d9fe352526744f4453d84fc137114869d0a3e3311dd0a348601",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/photo_scene/manifest.json",
+      "prior_sha256": "1b9889c6763063743727939978b08caf941ee7833a801273528ae92168ec7676",
+      "current_sha256": "1b9889c6763063743727939978b08caf941ee7833a801273528ae92168ec7676",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/photo_scene/prompt-vectors.npy",
+      "prior_sha256": "5251d16bfc6843039ff7014276caa03bb047b8daf995999470b5e1fe1886fe46",
+      "current_sha256": "5251d16bfc6843039ff7014276caa03bb047b8daf995999470b5e1fe1886fe46",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/assets/photo_scene/prompts.json",
+      "prior_sha256": "9c98044ca9ccc45eaa3e8fcd9659d28c35e6b489d25a38268d834e19a0f84ca2",
+      "current_sha256": "9c98044ca9ccc45eaa3e8fcd9659d28c35e6b489d25a38268d834e19a0f84ca2",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/alignment.py",
+      "prior_sha256": "32077851ee42a2bb908ccb497b5915aa1b18b880132ba7a01271758ba70562d7",
+      "current_sha256": "32077851ee42a2bb908ccb497b5915aa1b18b880132ba7a01271758ba70562d7",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/analysis_cache.py",
+      "prior_sha256": "ed15e212685aabe46049e29260e25efbb06968f98ab406bbd2ff87e93a52db41",
+      "current_sha256": "ed15e212685aabe46049e29260e25efbb06968f98ab406bbd2ff87e93a52db41",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/analysis_control.py",
+      "prior_sha256": "ea4e089d7479cb2158893868579ffc559cd1ce05425e53c21ab81d3d3be33d29",
+      "current_sha256": "ea4e089d7479cb2158893868579ffc559cd1ce05425e53c21ab81d3d3be33d29",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/color_analysis.py",
+      "prior_sha256": "cb0432e4b68a451b09f9de3520fb722b8b2091e067c45bf52c0a5cb0ee7f2be8",
+      "current_sha256": "cb0432e4b68a451b09f9de3520fb722b8b2091e067c45bf52c0a5cb0ee7f2be8",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/constants.py",
+      "prior_sha256": "bb3e770857e63e90422fdbf85144e94cb3d9f5c1a6b22e93c0968bc5ad3b924a",
+      "current_sha256": "1ef772d09d1fc3c7a314c8946707998a11df3d559cea65ebd05663a4ccf46d5f",
+      "byte_identical": false,
+      "app_version_only_ast_change": true,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/database.py",
+      "prior_sha256": "a77bcf86008c40788e323659820cacfb1482663954b8e819026c6f70bf1a102d",
+      "current_sha256": "a77bcf86008c40788e323659820cacfb1482663954b8e819026c6f70bf1a102d",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/detail_analysis.py",
+      "prior_sha256": "5dfe6f2cdf51754a6d3c0676ba8f73341b14b7755f15d576b9f1d67933b2ab0f",
+      "current_sha256": "5dfe6f2cdf51754a6d3c0676ba8f73341b14b7755f15d576b9f1d67933b2ab0f",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/detail_recipe.py",
+      "prior_sha256": "86468b0220cc2b5eb188cfc3bb4e15c648b727bd056d3fb163a344988bc17103",
+      "current_sha256": "86468b0220cc2b5eb188cfc3bb4e15c648b727bd056d3fb163a344988bc17103",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/edit_reverse.py",
+      "prior_sha256": "b85ecbf93ab9647ac6a0459d1ab15b57c920b51cfaff3973c8e4ec39e86e4246",
+      "current_sha256": "b85ecbf93ab9647ac6a0459d1ab15b57c920b51cfaff3973c8e4ec39e86e4246",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/export_files.py",
+      "prior_sha256": "9c6d661519f52c7b1843f185baafc1aee9db6e94dbcb8410a1eb1bf2b2f414b0",
+      "current_sha256": "9c6d661519f52c7b1843f185baafc1aee9db6e94dbcb8410a1eb1bf2b2f414b0",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/fingerprint.py",
+      "prior_sha256": "12c0a83b430187808d8cc6b21dd55af9ae11c73cd270e0ece9667c24016de8df",
+      "current_sha256": "12c0a83b430187808d8cc6b21dd55af9ae11c73cd270e0ece9667c24016de8df",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/i18n.py",
+      "prior_sha256": "5e57a319ea7ab91195ca9ad4cdef0ec9da0676bedcbdf9965eaa6b83dfb4d773",
+      "current_sha256": "5e57a319ea7ab91195ca9ad4cdef0ec9da0676bedcbdf9965eaa6b83dfb4d773",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/lens_correction.py",
+      "prior_sha256": "a812fc49e82d00cdef09bd7a46184640b3f8ff4921c1c5fea94413ef79f5221c",
+      "current_sha256": "a812fc49e82d00cdef09bd7a46184640b3f8ff4921c1c5fea94413ef79f5221c",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/lens_metadata.py",
+      "prior_sha256": "b5291835c4486a653917c443691f7fe071b508f5b92d91469da0ab0a1eb04f0e",
+      "current_sha256": "b5291835c4486a653917c443691f7fe071b508f5b92d91469da0ab0a1eb04f0e",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/lens_profiles.py",
+      "prior_sha256": "54090b8121cfafa65bc0a47cb1566a5f0db5bf69476c8baf49d7e6fd4170574e",
+      "current_sha256": "54090b8121cfafa65bc0a47cb1566a5f0db5bf69476c8baf49d7e6fd4170574e",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/metadata.py",
+      "prior_sha256": "8563ccd6e66497b4118b8ad18150514fcf517d7ec6dfd6b5678519fcb2a2a7f9",
+      "current_sha256": "8563ccd6e66497b4118b8ad18150514fcf517d7ec6dfd6b5678519fcb2a2a7f9",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/models.py",
+      "prior_sha256": "a27085ae9ddecdc24f28448d94854c4b125d8f3a200e2553b722f101be757079",
+      "current_sha256": "a27085ae9ddecdc24f28448d94854c4b125d8f3a200e2553b722f101be757079",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/package_check.py",
+      "prior_sha256": "2e75d1c7a0b0a61906a96b5cf42a42857c5208b595da91fc0b59cdecf790052b",
+      "current_sha256": "2e75d1c7a0b0a61906a96b5cf42a42857c5208b595da91fc0b59cdecf790052b",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/parameter_decomposition.py",
+      "prior_sha256": "85ca800bcccad0b2ea35cac09ce5299f47229ade954c20352a4f11eb2aa03cdf",
+      "current_sha256": "85ca800bcccad0b2ea35cac09ce5299f47229ade954c20352a4f11eb2aa03cdf",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/photo_scene.py",
+      "prior_sha256": "a3f4dc32420bd4a8b0c698ec66bc63cc2a43f16e220a82632830e339518c85cb",
+      "current_sha256": "a3f4dc32420bd4a8b0c698ec66bc63cc2a43f16e220a82632830e339518c85cb",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/photo_scene_models.py",
+      "prior_sha256": "6931c1540e2f907f331ab3f368e374ab8e4d47ebd9034e62554a5d2c3316155e",
+      "current_sha256": "6931c1540e2f907f331ab3f368e374ab8e4d47ebd9034e62554a5d2c3316155e",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/raw_decode.py",
+      "prior_sha256": "dd8a61457fa7c0465172ca442b84e32e7df0aea8d8fec06e03feeffcec5cfffd",
+      "current_sha256": "dd8a61457fa7c0465172ca442b84e32e7df0aea8d8fec06e03feeffcec5cfffd",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/reference_analysis.py",
+      "prior_sha256": "e874c68874de6a5198a734a255362ed0d236478999d990182292c3e5372c0851",
+      "current_sha256": "e874c68874de6a5198a734a255362ed0d236478999d990182292c3e5372c0851",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/render_evidence.py",
+      "prior_sha256": "6480b4e84a688203112954940fd980565069545550ec24f84f26ece0c4d2c7f1",
+      "current_sha256": "6480b4e84a688203112954940fd980565069545550ec24f84f26ece0c4d2c7f1",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/scanner.py",
+      "prior_sha256": "f2297189daa6f6259e4c40f31bea1c6859fa3fa9cececa79ca8d4c9474fb5c6b",
+      "current_sha256": "f2297189daa6f6259e4c40f31bea1c6859fa3fa9cececa79ca8d4c9474fb5c6b",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/scene_analysis.py",
+      "prior_sha256": "77039b1918575de8db47cc67b6dcf5aff2b88a759252c3219bef07d3c94cbaad",
+      "current_sha256": "77039b1918575de8db47cc67b6dcf5aff2b88a759252c3219bef07d3c94cbaad",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/scene_styles.py",
+      "prior_sha256": "efdfdb13ce47d61ca47c7be28c1ac49e2a8684d70258d7304ca1fed8258649a3",
+      "current_sha256": "efdfdb13ce47d61ca47c7be28c1ac49e2a8684d70258d7304ca1fed8258649a3",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/schema_migrations.py",
+      "prior_sha256": "890bb3a55e986fdd71b93dae4a0a4d64093712db0987431371647819b90a7f1c",
+      "current_sha256": "890bb3a55e986fdd71b93dae4a0a4d64093712db0987431371647819b90a7f1c",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/semantic_models.py",
+      "prior_sha256": "cf0deec0e8991d1b15ec5258c70937ace5b9703abeeab3f44fccf206d7a9b062",
+      "current_sha256": "cf0deec0e8991d1b15ec5258c70937ace5b9703abeeab3f44fccf206d7a9b062",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/settings.py",
+      "prior_sha256": "a65adcdb647650ad6f0db90f088b123db07d518e0f9db25e4fe04be6c966d87c",
+      "current_sha256": "a65adcdb647650ad6f0db90f088b123db07d518e0f9db25e4fe04be6c966d87c",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/source_workflow.py",
+      "prior_sha256": "5fdcc4f9e9af5054c6ea5431307e20ac1b10ea7b5fe982506a76c6d94385eb9a",
+      "current_sha256": "5fdcc4f9e9af5054c6ea5431307e20ac1b10ea7b5fe982506a76c6d94385eb9a",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/spatial_render.py",
+      "prior_sha256": "eb4bb364a698265277f46a4f1012fb18afcd170994fccfd7e41308a5ee238e97",
+      "current_sha256": "eb4bb364a698265277f46a4f1012fb18afcd170994fccfd7e41308a5ee238e97",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/style_dna.py",
+      "prior_sha256": "9ec4cd2d67f5d1abc8a5cee415513cd39f19594b2510bbcb41a4119c6926b2df",
+      "current_sha256": "9ec4cd2d67f5d1abc8a5cee415513cd39f19594b2510bbcb41a4119c6926b2df",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/style_regions.py",
+      "prior_sha256": "496461006acb10370f930de065430e5c76785768aacb2ad3899a900460fd95db",
+      "current_sha256": "496461006acb10370f930de065430e5c76785768aacb2ad3899a900460fd95db",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/style_render.py",
+      "prior_sha256": "746fae2bb51fed8c116251bb46a7e0dbae2dd65f820bc6b70b4eaeb609535572",
+      "current_sha256": "746fae2bb51fed8c116251bb46a7e0dbae2dd65f820bc6b70b4eaeb609535572",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/synthetic_raw.py",
+      "prior_sha256": "1fe234778bba7167e0b4669dcc85144d31460bcf6b7da1b51985515cea0c33b4",
+      "current_sha256": "1fe234778bba7167e0b4669dcc85144d31460bcf6b7da1b51985515cea0c33b4",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/tone_analysis.py",
+      "prior_sha256": "ec2a4ecba2212c069b7ce255696279658ebd308b9b87a7adec59270d6f39e7df",
+      "current_sha256": "ec2a4ecba2212c069b7ce255696279658ebd308b9b87a7adec59270d6f39e7df",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/travel_adjustments.py",
+      "prior_sha256": "1577b4801fe62aec6b56947c30d88bde323ec7b1e108b8c5b28106bc5f6c068c",
+      "current_sha256": "1577b4801fe62aec6b56947c30d88bde323ec7b1e108b8c5b28106bc5f6c068c",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/travel_analysis.py",
+      "prior_sha256": "1d9d8107de9e964c3c41e2d79fb6aca4ca74cb1a209dca592ac56cd2b62cd278",
+      "current_sha256": "1d9d8107de9e964c3c41e2d79fb6aca4ca74cb1a209dca592ac56cd2b62cd278",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/travel_jobs.py",
+      "prior_sha256": "96680668acfb439eeeab563b7bbd94594a524c544e96044909e662420b6afa8f",
+      "current_sha256": "96680668acfb439eeeab563b7bbd94594a524c544e96044909e662420b6afa8f",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/travel_previews.py",
+      "prior_sha256": "89c3c5fd69d487ceabbe6e114e57091fc080587246ee9cfe11199ecf85073f37",
+      "current_sha256": "89c3c5fd69d487ceabbe6e114e57091fc080587246ee9cfe11199ecf85073f37",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/travel_store.py",
+      "prior_sha256": "60737a432cd053b98de6702c1e9206bed7fb6e92759402492ea8e965b740df5e",
+      "current_sha256": "60737a432cd053b98de6702c1e9206bed7fb6e92759402492ea8e965b740df5e",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    },
+    {
+      "path": "personal_color_lab/core/xmp_analysis.py",
+      "prior_sha256": "c123a57d1ed9cd5fb7bae980523103cf368770f6e80a7401d06a40d0ac8b6492",
+      "current_sha256": "c123a57d1ed9cd5fb7bae980523103cf368770f6e80a7401d06a40d0ac8b6492",
+      "byte_identical": true,
+      "app_version_only_ast_change": false,
+      "rendering_semantics_unchanged": true
+    }
+  ],
+  "limits": "Retained V0.6.0 generated JPG/Bayer DNG warm-process measurements only. This UI release has no newly measured speedup, native M1/Windows hardware throughput, 500-RAW processing or photographic-quality claim."
+}
