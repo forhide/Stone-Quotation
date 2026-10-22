@@ -1,0 +1,5 @@
+c36b879ac9b313a6503dc7ac88b4338de82e605d8a18d22fdea8cb7587ae517f  Meowgnificent-v0.2.2-windows.zip
+58290d7b736925419ccaf74a38a7ba725915dc77097db2bfc9a7d607a92e9bbd  Meowgnificent-v0.2.2-linux.zip
+21622eb0036d36abc300514cde7769749bb5ac70a7d38bf90ee12896d754cb46  Meowgnificent-v0.2.2-web.zip
+181d15f0971266ce68a73d9f064738cb8a61e91b06b48c1e3626876e9fba35a0  Meowgnificent-v0.2.2-macos.zip
+9008be87e7047202446b411c5c2679450e70bb3f7a0e1ae47c5a11ecb26944cd  Meowgnificent-v0.2.2-source.zip
