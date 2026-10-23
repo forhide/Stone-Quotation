@@ -1,0 +1,421 @@
+Export templates verified; reusing Godot 4.6.3 templates.
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] _update_scan_actions | Started Scanning actions... (10 steps)
+[   0% ] _update_scan_actions | v050-area-01.png
+[   9% ] _update_scan_actions | v050-area-02.png
+[  18% ] _update_scan_actions | v050-area-03.png
+[  27% ] _update_scan_actions | v050-area-04.png
+[  36% ] _update_scan_actions | v050-area-05.png
+[  45% ] _update_scan_actions | v050-area-06.png
+[  54% ] _update_scan_actions | v050-area-07.png
+[  63% ] _update_scan_actions | v050-area-08.png
+[  72% ] _update_scan_actions | v050-effects.png
+[  81% ] _update_scan_actions | v050-miscast.png
+[ DONE ] _update_scan_actions
+
+[   0% ] reimport | Started (Re)Importing Assets (10 steps)
+[   0% ] reimport | Preparing files to reimport...
+[   9% ] reimport | Preparing files to reimport...
+[  18% ] reimport | Preparing files to reimport...
+[  27% ] reimport | Preparing files to reimport...
+[  36% ] reimport | Preparing files to reimport...
+[  45% ] reimport | Preparing files to reimport...
+[  54% ] reimport | Preparing files to reimport...
+[  63% ] reimport | Preparing files to reimport...
+[  72% ] reimport | Preparing files to reimport...
+[  81% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Executing pre-reimport operations...
+[   0% ] reimport | v050-area-01.png
+[   9% ] reimport | v050-area-02.png
+[  18% ] reimport | v050-area-03.png
+[  27% ] reimport | v050-area-04.png
+[  36% ] reimport | v050-area-05.png
+[  45% ] reimport | v050-area-06.png
+[  54% ] reimport | v050-area-07.png
+[  63% ] reimport | v050-area-08.png
+[  72% ] reimport | v050-effects.png
+[  81% ] reimport | v050-miscast.png
+[  90% ] reimport | Finalizing Asset Import...
+[ DONE ] reimport
+
+[   0% ] reimport | Started (Re)Importing Assets (10 steps)
+[   0% ] reimport | Executing post-reimport operations...
+[ DONE ] reimport
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: intro blocks combat
+PASS: five enemies spawned
+PASS: start overlay visible
+PASS: four expression atlas cells cover sheet
+PASS: idle uses deadpan portrait
+PASS: miscast uses annoyed portrait
+PASS: overreaction uses startled portrait
+PASS: damage reaction takes precedence over successful cast
+PASS: pause uses sleepy portrait over combat reactions
+PASS: defeat uses resting portrait
+PASS: expired reaction returns to deadpan
+PASS: seeded 10,000-cast distribution follows 70/20/10
+PASS: debug override is consumed once
+PASS: start activates room
+PASS: movement input accelerates cat
+PASS: room boundary contains cat
+PASS: enemy chases player
+PASS: normal fireball emitted
+PASS: cooldown prevents immediate recast
+PASS: projectile collision deals 20 damage
+PASS: forced miscast executes
+PASS: miscast produces projectile or area effect
+PASS: giant fireball applies explosion to multiple enemies
+PASS: enemy telegraph gives time to react before damage
+PASS: telegraphed attack deals configured damage
+PASS: invulnerability blocks repeated damage
+PASS: pause freezes combat
+PASS: death ends study and displays retry
+PASS: last tutorial enemy opens the passage and leaves loot collectible
+RESULT: 29 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Enter starts real current scene
+PASS: Esc pauses through real input dispatch
+PASS: pause preserves invulnerability time
+PASS: pause preserves casting pose time
+PASS: pause preserves enemy attack cooldown
+PASS: pause preserves outcome feedback time
+PASS: pause preserves spell cooldown
+PASS: pause freezes projectile position and lifetime
+PASS: Esc resumes through real input dispatch
+PASS: timers resume with combat
+PASS: restart 1 resets room, enemies and HP
+PASS: restart 2 resets room, enemies and HP
+PASS: restart 3 resets room, enemies and HP
+PASS: restart 4 resets room, enemies and HP
+PASS: restart 5 resets room, enemies and HP
+PASS: five restarts do not accumulate input bindings
+PASS: debug key selects success
+PASS: forced success is consumed once
+PASS: debug key selects miscast
+PASS: forced miscast is consumed once
+PASS: debug key selects overreaction
+PASS: forced overreaction is consumed once
+PASS: death presents resting portrait and retry
+PASS: Enter retries after defeat
+PASS: all tutorial enemies defeated unlocks the passage
+PASS: Enter advances to the next expedition area
+PASS: failed spell creates visible WHOOPS burst
+PASS: pause freezes miscast smoke and failure marker
+PASS: miscast marker cleans up after feedback
+PASS: misfired projectile expires after a limited tactical window
+REGRESSION RESULT: 30 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: four interactive bookshelves populate the room
+PASS: candle, broom and bat have distinct roles
+PASS: nearby enemy telegraphs without contact damage
+PASS: attack locks direction so stepping aside is meaningful
+PASS: sidestepping avoids the telegraphed attack
+PASS: a hit interrupts an enemy windup
+PASS: manual roll starts
+PASS: roll cannot be stacked while rolling
+PASS: roll evades incoming damage
+PASS: rolling belly hits once for 30 damage
+PASS: one roll does not repeatedly damage the same enemy
+PASS: roll recovery prevents continuous invulnerability
+PASS: ignition warns before shelf deals damage
+PASS: pause freezes shelf ignition countdown
+PASS: burning shelf falls and defeats an enemy in its footprint
+PASS: burning shelf leaves a temporary fire hazard
+PASS: fire hazard expires rather than filling the arena permanently
+PASS: body roll topples a shelf without magic
+PASS: feet miscast starts a panic roll and ignites the floor
+PASS: panic accident explains itself in the room
+PASS: panic roll actually displaces the cat
+PASS: initial panic roll protects the cat from its own new fire
+PASS: a real fireball collision ignites an interactive bookshelf
+PASS: wall bump stops a roll inside room bounds
+PASS: wall collision has visible comic feedback
+PASS: cast anticipation precedes the projectile
+PASS: pause preserves a prepared spell without releasing it
+PASS: resuming releases the spell with its full-body casting pose
+PASS: damage changes the full-body pose to hurt
+PASS: rolling uses a tucked-body pose
+PASS: rolling cancels preparation instead of firing from inside the roll
+ACCIDENT RESULT: 31 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: catalog has nine distinct equipment pieces
+PASS: new expedition begins with empty bag, slots and wallet
+PASS: empty slots preserve base combat stats
+PASS: every catalog item has a valid slot, price and description
+PASS: UI item descriptions cannot mutate catalog stats
+PASS: unknown items are rejected without granting stats
+PASS: gold drops count income and ignore negative additions
+PASS: shop offers three equipment slots and one heal
+PASS: gear purchase charges once and transfers one item
+PASS: purchased gear waits in the bag until equipped
+PASS: sold stock cannot be bought twice
+PASS: insufficient funds preserve wallet and shop stock
+PASS: invalid free or underpriced offers do not grant gear
+PASS: invalid catalog references never charge gold
+PASS: equipping a wand applies its spell damage bonus
+PASS: duplicate copies and repeated equip do not stack a slot
+PASS: swapping wands replaces bonuses and preserves owned gear
+PASS: slower recharge tradeoff is represented as a multiplier
+PASS: three slots combine health, speed and pickup reach
+PASS: cooldown modifiers multiply without changing spell outcome weights
+PASS: unequipping removes bonuses without deleting the item
+PASS: invalid and empty slot removals are harmless
+PASS: healing purchase returns health amount and consumes one stock
+PASS: each shop tier stocks all three valid slots at catalog prices
+PASS: drop pools unlock equipment tiers as the expedition deepens
+PASS: full bag rejects drops and purchases atomically
+PASS: healing remains purchasable with a full equipment bag
+PASS: a new run does not inherit previous currency, progression or gear
+ECONOMY RESULT: 28 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: missing profile starts safely with no permanent unlocks
+PASS: beginning a run commits a new attempt and active run id
+PASS: first sector immediately persists starlight and one-based progress
+PASS: one sector cannot award twice during the same run
+PASS: reload preserves both earned currency and the duplicate-award guard
+PASS: a failed run is committed without removing earned starlight
+PASS: finishing one run twice cannot fabricate a win
+PASS: permanent currency survives a failed run and reload
+PASS: a retry resets sector awards while retaining permanent currency and best progress
+PASS: winning increments the lifetime win count exactly once
+PASS: buying an upgrade commits its exact cost and future-run bonus
+PASS: purchased permanent upgrades survive reload
+PASS: insufficient funds and unknown upgrades never spend currency
+PASS: vitality caps at four ranks and cannot charge beyond the cap
+PASS: all four permanent unlocks yield the specified bounded bonuses
+PASS: starter wand unlock is a one-time purchase
+PASS: upgrade UI sees current level, cap and sold-out cost
+PASS: new expeditions preserve the bank and purchased bonuses
+PASS: zero-reward shop sectors still advance progress and cannot later pay twice
+PASS: invalid sectors and negative rewards are rejected
+PASS: corrupt primary falls back to the previous valid committed backup
+PASS: recovered progress can be committed again without erasing its bank
+PASS: corruption without a usable backup recovers to a safe writable profile
+PASS: malformed counters and active state are validated and clamped
+PASS: malformed upgrade levels cannot exceed caps or grant invalid ranks
+PASS: unsupported future profile blocks mutating operations
+PASS: unsupported future-version bytes remain unchanged without a replacement backup
+PASS: failed atomic commit rolls back upgrade cost and level
+PASS: failed reward commit rolls back currency and sector progress
+PASS: failed finish commit does not record a phantom win
+PASS: failed begin commit rolls back attempt and active run identifiers
+PASS: save failures leave the previous primary profile valid on reload
+PASS: saving recovers normally when the filesystem obstruction is removed
+PASS: failed atomic saves leave no temporary files
+META RESULT: 34 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: new expedition opens at the tutorial
+PASS: new profile starts without run gold or equipment
+PASS: starting a run records one persistent attempt
+PASS: uncleared combat locks the next sector
+PASS: enemy death updates the run kill count once
+PASS: defeated enemy drops collectible gold at its location
+PASS: first tutorial defeat guarantees a usable starter wand
+PASS: a pickup can credit its gold only once
+PASS: gear pickup enters the satchel
+PASS: found gear is not silently equipped
+PASS: inventory opens and pauses the expedition
+PASS: inventory cannot advance the stage while paused
+PASS: owned wand can be equipped through the room action
+PASS: equipped wand changes the actual spell configuration
+PASS: a real fireball applies the equipped wand damage
+PASS: max-HP gear expands capacity without free healing
+PASS: repeated collar swaps cannot heal the player
+PASS: charm movement bonus reaches the player controller
+PASS: charm changes the actual roll recovery time
+PASS: later defeats continue dropping loot
+PASS: inventory pauses loot animation and attraction
+PASS: inventory also preserves spell cooldown
+PASS: closing a panel while holding cast does not fire a new spell
+PASS: casting resumes after the held input is released
+PASS: sector 1 clear opens the route and leaves loot explorable
+PASS: sector 1 does not show the final victory screen
+PASS: sector 1 keeps ground loot bounded
+PASS: sector 1 cannot award permanent currency twice
+PASS: route advances from sector 1 to 2
+PASS: gold and equipped wand carry into sector 2
+PASS: sector 2 frees the previous room's ground loot
+PASS: sector 2 clear opens the route and leaves loot explorable
+PASS: sector 2 does not show the final victory screen
+PASS: sector 2 keeps ground loot bounded
+PASS: sector 2 cannot award permanent currency twice
+PASS: route advances from sector 2 to 3
+PASS: gold and equipped wand carry into sector 3
+PASS: sector 3 frees the previous room's ground loot
+PASS: sector 3 clear opens the route and leaves loot explorable
+PASS: sector 3 does not show the final victory screen
+PASS: sector 3 keeps ground loot bounded
+PASS: sector 3 cannot award permanent currency twice
+PASS: route advances from sector 3 to 4
+PASS: gold and equipped wand carry into sector 4
+PASS: sector 4 frees the previous room's ground loot
+PASS: shop 1 is a safe sector with an open onward route
+PASS: shop 1 requires interacting with its merchant before buying
+PASS: merchant interaction opens shop 1 and pauses movement
+PASS: shop 1 carries three gear slots and one provision
+PASS: shop 1 cannot transition while its panel is open
+PASS: collected enemy drops can afford a first-shop equipment purchase
+PASS: shop 1 exchanges the exact gear price for an owned item
+PASS: shop 1 marks stock sold without silently equipping the purchase
+PASS: shop 1 cannot charge for sold stock twice
+PASS: shop 1 rejects full-health food without charging or selling it
+PASS: shop 1 provision restores actual vitality for its exact price
+PASS: reopening shop 1 preserves its sold stock
+PASS: shop 1 equipment can be deliberately equipped for the next fights
+PASS: route advances from sector 4 to 5
+PASS: gold and equipped wand carry into sector 5
+PASS: sector 5 frees the previous room's ground loot
+PASS: sector 5 clear opens the route and leaves loot explorable
+PASS: sector 5 does not show the final victory screen
+PASS: sector 5 keeps ground loot bounded
+PASS: sector 5 cannot award permanent currency twice
+PASS: route advances from sector 5 to 6
+PASS: gold and equipped wand carry into sector 6
+PASS: sector 6 frees the previous room's ground loot
+PASS: sector 6 clear opens the route and leaves loot explorable
+PASS: sector 6 does not show the final victory screen
+PASS: sector 6 keeps ground loot bounded
+PASS: sector 6 cannot award permanent currency twice
+PASS: route advances from sector 6 to 7
+PASS: gold and equipped wand carry into sector 7
+PASS: sector 7 frees the previous room's ground loot
+PASS: shop 2 is a safe sector with an open onward route
+PASS: shop 2 requires interacting with its merchant before buying
+PASS: merchant interaction opens shop 2 and pauses movement
+PASS: shop 2 carries three gear slots and one provision
+PASS: shop 2 cannot transition while its panel is open
+PASS: shop 2 exchanges the exact gear price for an owned item
+PASS: shop 2 marks stock sold without silently equipping the purchase
+PASS: shop 2 cannot charge for sold stock twice
+PASS: shop 2 rejects full-health food without charging or selling it
+PASS: shop 2 provision restores actual vitality for its exact price
+PASS: reopening shop 2 preserves its sold stock
+PASS: shop 2 equipment can be deliberately equipped for the next fights
+PASS: route advances from sector 7 to 8
+PASS: gold and equipped wand carry into sector 8
+PASS: sector 8 frees the previous room's ground loot
+PASS: route contains two shops before the eighth sector
+PASS: final examination starts as a locked combat encounter
+PASS: final encounter has a bounded group of enemies
+PASS: final encounter includes a stronger examiner
+PASS: victory waits for the last final-sector defender
+PASS: only the completed eighth sector displays final victory
+PASS: final victory persists the clear and permanent reward
+PASS: run summary counts defeated enemies across every combat sector
+PASS: new expedition resets transient gold and gear
+PASS: profile clear and furthest progress survive scene reload
+PASS: legacy studies open from the start screen
+PASS: earned starlight buys permanent vitality and a starting wand
+PASS: next expedition applies purchased permanent vitality
+PASS: unlocked starting wand is inherited and equipped next run
+PASS: retry starts fresh run gold and records the next attempt
+PASS: death ends the expedition without adding a win
+PASS: permanent currency and upgrades survive defeat
+PASS: defeat discards the previous run's gold and temporary finds
+PASS: another attempt still inherits permanent upgrades and unlocks
+EXPEDITION RESULT: 109 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: route contains eight areas, including its tutorial and shops
+PASS: start menu does not display a stale arrival card
+PASS: beginning the expedition visibly announces the tutorial arrival
+PASS: pause hides the arrival card and preserves its display time
+PASS: resuming restores the same arrival without advancing the route
+PASS: equipment panel hides the arrival card so menu controls remain readable
+PASS: area 01 selects the corresponding background
+PASS: area 01 announces arrival with the correct position in the route
+PASS: area 01 arrival spells out its number and destination name
+PASS: area 01 is highlighted on the eight-stop route
+PASS: area 01 has exactly one current route marker
+PASS: area 01 cannot advance before its defenders are defeated
+PASS: area 01 clear has a different announcement from arrival
+PASS: area 01 clear names the next destination
+PASS: area 01 exits into the next distinct area
+PASS: area 02 selects the corresponding background
+PASS: area 02 announces arrival with the correct position in the route
+PASS: area 02 arrival spells out its number and destination name
+PASS: area 02 is highlighted on the eight-stop route
+PASS: area 02 has exactly one current route marker
+PASS: area 02 cannot advance before its defenders are defeated
+PASS: area 02 clear has a different announcement from arrival
+PASS: area 02 clear names the next destination
+PASS: area 02 exits into the next distinct area
+PASS: area 03 selects the corresponding background
+PASS: area 03 announces arrival with the correct position in the route
+PASS: area 03 arrival spells out its number and destination name
+PASS: area 03 is highlighted on the eight-stop route
+PASS: area 03 has exactly one current route marker
+PASS: area 03 cannot advance before its defenders are defeated
+PASS: area 03 clear has a different announcement from arrival
+PASS: area 03 clear names the next destination
+PASS: area 03 exits into the next distinct area
+PASS: area 04 selects the corresponding background
+PASS: area 04 announces arrival with the correct position in the route
+PASS: area 04 arrival spells out its number and destination name
+PASS: area 04 is highlighted on the eight-stop route
+PASS: area 04 has exactly one current route marker
+PASS: area 04 is clearly marked as a safe shop stop
+PASS: area 04 arrival gives a shopping objective
+PASS: area 04 merchant panel suppresses the arrival card
+PASS: area 04 exits into the next distinct area
+PASS: area 05 selects the corresponding background
+PASS: area 05 announces arrival with the correct position in the route
+PASS: area 05 arrival spells out its number and destination name
+PASS: area 05 is highlighted on the eight-stop route
+PASS: area 05 has exactly one current route marker
+PASS: area 05 cannot advance before its defenders are defeated
+PASS: area 05 clear has a different announcement from arrival
+PASS: area 05 clear names the next destination
+PASS: area 05 exits into the next distinct area
+PASS: area 06 selects the corresponding background
+PASS: area 06 announces arrival with the correct position in the route
+PASS: area 06 arrival spells out its number and destination name
+PASS: area 06 is highlighted on the eight-stop route
+PASS: area 06 has exactly one current route marker
+PASS: area 06 cannot advance before its defenders are defeated
+PASS: area 06 clear has a different announcement from arrival
+PASS: area 06 clear names the next destination
+PASS: area 06 exits into the next distinct area
+PASS: area 07 selects the corresponding background
+PASS: area 07 announces arrival with the correct position in the route
+PASS: area 07 arrival spells out its number and destination name
+PASS: area 07 is highlighted on the eight-stop route
+PASS: area 07 has exactly one current route marker
+PASS: area 07 is clearly marked as a safe shop stop
+PASS: area 07 arrival gives a shopping objective
+PASS: area 07 merchant panel suppresses the arrival card
+PASS: area 07 exits into the next distinct area
+PASS: area 08 selects the corresponding background
+PASS: area 08 announces arrival with the correct position in the route
+PASS: area 08 arrival spells out its number and destination name
+PASS: area 08 is highlighted on the eight-stop route
+PASS: area 08 has exactly one current route marker
+PASS: area 08 cannot advance before its defenders are defeated
+PASS: last area shows final victory rather than another route transition
+PASS: all eight route stops have distinct visual themes
+PASS: eight-area route consists of six fights and two shops
+PASS: retry resets the route and clears the previous run's transition card
+PASS: retry restores tutorial artwork instead of retaining the final area
+PRESENTATION RESULT: 80 checks, 0 failures

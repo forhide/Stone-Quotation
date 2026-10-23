@@ -1,0 +1,17 @@
+PASS: exported web page has the game title
+PASS: WASM canvas renders the expedition start screen
+PASS: a fresh browser context starts with zero recorded expeditions
+PASS: Escape closes legacy studies and returns to the start screen
+PASS: starting the expedition prominently announces entry into area 01
+PASS: Enter starts the expedition and I opens the real equipment panel
+PASS: Escape closes equipment and the game can cast, move and pause
+PASS: play screenshot shows the active expedition rather than a menu
+PASS: R ends the current expedition and restores the start screen
+PASS: legacy studies record the completed attempt before a browser reload
+PASS: a full page reload starts a new WASM engine at the start screen
+PASS: the saved expedition count survives a full browser reload through IDBFS
+PASS: both original and reloaded exported Godot engines started
+PASS: all web assets load without HTTP failures
+PASS: browser and exported engine have no JavaScript/console errors: []
+WEB RESULT: 15 checks, 0 failures
+Scope: real canvas/OCR start, inventory, movement/cast inputs, pause, legacy study and persistent attempt count after a full page reload; no web campaign-clear or permanent-upgrade purchase claim.

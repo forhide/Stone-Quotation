@@ -1,0 +1,12 @@
+{
+  "draw_calls_max": 136.0,
+  "draw_calls_mean": 134.922222222222,
+  "frame_ms_mean": 24.1336277777778,
+  "frame_ms_p50": 21.627,
+  "frame_ms_p95": 48.342,
+  "frame_ms_p99": 61.445,
+  "frames": 180,
+  "frames_over_33ms": 15,
+  "physics_ms_mean": 5.58692222222224,
+  "process_ms_mean": 43.8803111111111
+}

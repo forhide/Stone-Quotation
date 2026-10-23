@@ -1,0 +1,19 @@
+{
+  "godot": "4.6.3.stable.official.7d41c59c4",
+  "display": ":77",
+  "renderer": "Compatibility OpenGL Mesa llvmpipe software renderer",
+  "resolution": [
+    1280,
+    800
+  ],
+  "LP_NUM_THREADS": 4,
+  "OMP_THREAD_LIMIT": 1,
+  "native_windows": false,
+  "native_macos": false,
+  "baseline": "v0.4.0 source ZIP extracted in isolated /tmp directory",
+  "current": "v0.5.0 final painted assets",
+  "warmup_frames": 30,
+  "sample_frames": 180,
+  "arrival_banner": "expired before sustained-combat samples; route remains visible",
+  "audio_driver": "Dummy"
+}
