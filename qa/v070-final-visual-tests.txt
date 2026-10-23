@@ -1,0 +1,142 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: intro blocks combat
+PASS: five enemies spawned
+PASS: start overlay visible
+PASS: four distinct expression crops stay inside the shared hero sheet
+PASS: idle uses deadpan portrait
+PASS: miscast uses annoyed portrait
+PASS: overreaction uses startled portrait
+PASS: damage reaction takes precedence over successful cast
+PASS: pause uses sleepy portrait over combat reactions
+PASS: defeat uses resting portrait
+PASS: expired reaction returns to deadpan
+PASS: seeded 10,000-cast distribution follows 70/20/10
+PASS: debug override is consumed once
+PASS: start activates room
+PASS: movement input accelerates cat
+PASS: room boundary contains cat
+PASS: enemy chases player
+PASS: normal fireball emitted
+PASS: cooldown prevents immediate recast
+PASS: projectile collision deals 20 damage
+PASS: forced miscast executes
+PASS: miscast produces projectile or area effect
+PASS: giant fireball applies explosion to multiple enemies
+PASS: enemy telegraph gives time to react before damage
+PASS: telegraphed attack deals configured damage
+PASS: invulnerability blocks repeated damage
+PASS: pause freezes combat
+PASS: death ends study and displays retry
+PASS: last tutorial enemy opens the passage and leaves loot collectible
+RESULT: 29 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: narrative suite explicitly enables the real user story path
+PASS: runtime story identifies Meowmalade and Arcana Academy
+PASS: all eight expedition areas have authored runtime story pages
+PASS: user start opens the actual animated opening before combat
+PASS: opening leaves combat inactive and does not begin the run early
+PASS: opening renders the academy dialogue window
+PASS: cutscene uses the actual smooth full-body storybook hero artwork
+PASS: opening advances timed illustrated beats automatically
+PASS: Enter advances one story page without starting gameplay behind it
+PASS: Space advances narration without firing a spell
+PASS: story input capture prevents opening inventory underneath dialogue
+PASS: Escape skips opening into exactly one real expedition
+PASS: returning from story does not leak a held cast input
+PASS: route area 01 can be completed before its next story chapter
+PASS: actual route advance opens story for area 02
+PASS: area 02 selects its matching authored chapter
+PASS: chapter 02 pauses combat and rejects an accidental second route advance
+PASS: finishing chapter 02 resumes the same area
+PASS: route area 02 can be completed before its next story chapter
+PASS: actual route advance opens story for area 03
+PASS: area 03 selects its matching authored chapter
+PASS: chapter 03 pauses combat and rejects an accidental second route advance
+PASS: finishing chapter 03 resumes the same area
+PASS: route area 03 can be completed before its next story chapter
+PASS: actual route advance opens story for area 04
+PASS: area 04 selects its matching authored chapter
+PASS: chapter 04 pauses combat and rejects an accidental second route advance
+PASS: skipping Pip’s chapter resumes its shop rather than advancing again
+PASS: route area 04 can be completed before its next story chapter
+PASS: actual route advance opens story for area 05
+PASS: area 05 selects its matching authored chapter
+PASS: chapter 05 pauses combat and rejects an accidental second route advance
+PASS: finishing chapter 05 resumes the same area
+PASS: route area 05 can be completed before its next story chapter
+PASS: actual route advance opens story for area 06
+PASS: area 06 selects its matching authored chapter
+PASS: chapter 06 pauses combat and rejects an accidental second route advance
+PASS: finishing chapter 06 resumes the same area
+PASS: route area 06 can be completed before its next story chapter
+PASS: actual route advance opens story for area 07
+PASS: area 07 selects its matching authored chapter
+PASS: chapter 07 pauses combat and rejects an accidental second route advance
+PASS: finishing chapter 07 resumes the same area
+PASS: route area 07 can be completed before its next story chapter
+PASS: actual route advance opens story for area 08
+PASS: area 08 selects its matching authored chapter
+PASS: chapter 08 pauses combat and rejects an accidental second route advance
+PASS: finishing chapter 08 resumes the same area
+PASS: the playable route actually presents Pip, Moss and Bloop dialogue
+PASS: the Grimoire’s control-and-prediction conflict is present in route dialogue
+PASS: final victory opens the authored ending before the result overlay
+PASS: victory is saved while the ending remains paused
+PASS: ending displays the actual World Saving A+ report card
+PASS: ending reaches the report, deadpan reaction, final BOOM and end page
+PASS: ending completion restores the real victory result screen
+PASS: skip and repeated advance complete a sequence callback exactly once
+PASS: close cancels narration without invoking its completion callback
+PASS: a later expedition skips the already-seen opening in the same application
+STORY RESULT: 58 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: a fresh settings file defaults to Korean
+PASS: unknown locale is rejected without changing the selected language
+PASS: menus and spell state use Korean copy
+PASS: all localized UI messages preserve their interpolation types and order
+PASS: every story page has revised Korean and complete English copy
+PASS: all nine equipment names and descriptions have Korean translations
+PASS: all eight destination names have Korean translations
+PASS: settings pause an active story without dismissing it
+PASS: changing language updates the current story page without advancing or rewinding it
+PASS: English preference is persisted independently of progress
+PASS: settings close guards the triggering Escape from the story and room input handlers
+PASS: closing settings returns to the same narrative page
+PASS: story completion still returns control to the expedition after language switching
+PASS: an unequipped cat starts without any extra attachment
+PASS: real equip action accepts crooked_ash_wand
+PASS: equipping crooked_ash_wand shows its shared unique artwork on the cat
+PASS: real equip action accepts cinderfork_wand
+PASS: equipping cinderfork_wand shows its shared unique artwork on the cat
+PASS: real equip action accepts apprentice_thesis
+PASS: equipping apprentice_thesis shows its shared unique artwork on the cat
+PASS: real equip action accepts brass_bell_collar
+PASS: equipping brass_bell_collar shows its shared unique artwork on the cat
+PASS: real equip action accepts velvet_bell_collar
+PASS: equipping velvet_bell_collar shows its shared unique artwork on the cat
+PASS: real equip action accepts nine_lives_collar
+PASS: equipping nine_lives_collar shows its shared unique artwork on the cat
+PASS: real equip action accepts loose_feather
+PASS: equipping loose_feather shows its shared unique artwork on the cat
+PASS: real equip action accepts warm_sardine_charm
+PASS: equipping warm_sardine_charm shows its shared unique artwork on the cat
+PASS: real equip action accepts moonlit_yarn
+PASS: equipping moonlit_yarn shows its shared unique artwork on the cat
+PASS: swapping all nine items reuses exactly three accessory nodes
+PASS: reapplying unchanged equipment does not rebuild its visual resources
+PASS: casting attachments follow the left-facing action pose
+PASS: tucked rolls hide loose accessories while retaining their equipped identities
+PASS: all attachments return after a roll
+PASS: combat options consume their Escape close event before gameplay resumes
+PASS: Korean can be restored and persisted while combat resumes correctly
+PASS: closing settings preserves individual enemy activity instead of waking frozen actors
+PASS: language options preserve an already-open equipment panel and combat pause
+PASS: unequipping wand immediately removes the worn image
+PASS: unequipping collar immediately removes the worn image
+PASS: unequipping charm immediately removes the worn image
+PASS: removing visual equipment also removes the real combat bonuses
+PASS: a new expedition does not retain previous equipment visuals
+LOCALIZATION APPEARANCE RESULT: 46 checks, 0 failures

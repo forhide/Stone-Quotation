@@ -1,0 +1,49 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: a fresh settings file defaults to Korean
+PASS: unknown locale is rejected without changing the selected language
+PASS: menus and spell state use Korean copy
+PASS: all localized UI messages preserve their interpolation types and order
+PASS: every story page has revised Korean and complete English copy
+PASS: all nine equipment names and descriptions have Korean translations
+PASS: all eight destination names have Korean translations
+PASS: settings pause an active story without dismissing it
+PASS: changing language updates the current story page without advancing or rewinding it
+PASS: English preference is persisted independently of progress
+PASS: settings close guards the triggering Escape from the story and room input handlers
+PASS: closing settings returns to the same narrative page
+PASS: story completion still returns control to the expedition after language switching
+PASS: an unequipped cat starts without any extra attachment
+PASS: real equip action accepts crooked_ash_wand
+PASS: equipping crooked_ash_wand shows its shared unique artwork on the cat
+PASS: real equip action accepts cinderfork_wand
+PASS: equipping cinderfork_wand shows its shared unique artwork on the cat
+PASS: real equip action accepts apprentice_thesis
+PASS: equipping apprentice_thesis shows its shared unique artwork on the cat
+PASS: real equip action accepts brass_bell_collar
+PASS: equipping brass_bell_collar shows its shared unique artwork on the cat
+PASS: real equip action accepts velvet_bell_collar
+PASS: equipping velvet_bell_collar shows its shared unique artwork on the cat
+PASS: real equip action accepts nine_lives_collar
+PASS: equipping nine_lives_collar shows its shared unique artwork on the cat
+PASS: real equip action accepts loose_feather
+PASS: equipping loose_feather shows its shared unique artwork on the cat
+PASS: real equip action accepts warm_sardine_charm
+PASS: equipping warm_sardine_charm shows its shared unique artwork on the cat
+PASS: real equip action accepts moonlit_yarn
+PASS: equipping moonlit_yarn shows its shared unique artwork on the cat
+PASS: swapping all nine items reuses exactly three accessory nodes
+PASS: reapplying unchanged equipment does not rebuild its visual resources
+PASS: casting attachments follow the left-facing action pose
+PASS: tucked rolls hide loose accessories while retaining their equipped identities
+PASS: all attachments return after a roll
+PASS: combat options consume their Escape close event before gameplay resumes
+PASS: Korean can be restored and persisted while combat resumes correctly
+PASS: closing settings preserves individual enemy activity instead of waking frozen actors
+PASS: language options preserve an already-open equipment panel and combat pause
+PASS: unequipping wand immediately removes the worn image
+PASS: unequipping collar immediately removes the worn image
+PASS: unequipping charm immediately removes the worn image
+PASS: removing visual equipment also removes the real combat bonuses
+PASS: a new expedition does not retain previous equipment visuals
+LOCALIZATION APPEARANCE RESULT: 46 checks, 0 failures
