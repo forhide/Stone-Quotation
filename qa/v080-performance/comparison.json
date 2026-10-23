@@ -1,0 +1,62 @@
+[
+  {
+    "version": "v070",
+    "fixture": "wardrobe",
+    "raw": "v070-wardrobe.json",
+    "draw_calls_max": 153.0,
+    "draw_calls_mean": 150.577777777778,
+    "frame_ms_mean": 22.7866722222222,
+    "frame_ms_p50": 21.679,
+    "frame_ms_p95": 30.592,
+    "frame_ms_p99": 40.613,
+    "frames": 180,
+    "frames_over_33ms": 3,
+    "physics_ms_mean": 4.04919999999999,
+    "process_ms_mean": 42.8659388888888
+  },
+  {
+    "version": "v070",
+    "fixture": "walk-warnings",
+    "raw": "v070-control-walk-warnings.json",
+    "draw_calls_max": 192.0,
+    "draw_calls_mean": 187.722222222222,
+    "frame_ms_mean": 53.8284388888889,
+    "frame_ms_p50": 28.331,
+    "frame_ms_p95": 188.504,
+    "frame_ms_p99": 630.478,
+    "frames": 180,
+    "frames_over_33ms": 52,
+    "physics_ms_mean": 19.8969777777778,
+    "process_ms_mean": 162.894261111111
+  },
+  {
+    "version": "v080",
+    "fixture": "wardrobe",
+    "raw": "v080-before-batch-wardrobe.json",
+    "draw_calls_max": 153.0,
+    "draw_calls_mean": 150.533333333333,
+    "frame_ms_mean": 24.9970222222222,
+    "frame_ms_p50": 23.706,
+    "frame_ms_p95": 39.084,
+    "frame_ms_p99": 44.235,
+    "frames": 180,
+    "frames_over_33ms": 17,
+    "physics_ms_mean": 7.54572222222225,
+    "process_ms_mean": 33.0948277777777
+  },
+  {
+    "version": "v080",
+    "fixture": "walk-warnings",
+    "raw": "v080-walk-warnings.json",
+    "draw_calls_max": 162.0,
+    "draw_calls_mean": 159.133333333333,
+    "frame_ms_mean": 29.2929944444444,
+    "frame_ms_p50": 27.015,
+    "frame_ms_p95": 45.316,
+    "frame_ms_p99": 62.47,
+    "frames": 180,
+    "frames_over_33ms": 35,
+    "physics_ms_mean": 6.06964444444444,
+    "process_ms_mean": 45.2054333333335
+  }
+]

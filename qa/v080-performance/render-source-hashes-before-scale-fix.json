@@ -1,0 +1,14 @@
+{
+  "scripts/player/player.gd": "7c4aba54f2cb988a627f67894d2028081556ea38982a5f8ec879cce630ac524a",
+  "scripts/player/cat_visual.gd": "f7972ade58a96343133cb058660ad8e61a302657be05e5aaf2c36a3326427635",
+  "scripts/player/cat_motion.gdshader": "d81a77dd070f7e93f19657594c6d5a5e85d5f6c3588b73cbc7a489fe9b75affc",
+  "scripts/player/grounded_gait.gd": "e658fda523d73b5a05b45776879650cbe99855642fc9dbc7f55b07d610afe7fe",
+  "scripts/player/cat_equipment_visual.gd": "6acdaa46e3518c68446eab984c3921a06a98d52714aedd0c9d5408c62fbc766c",
+  "scripts/effects/attack_telegraph.gd": "29039d55f52b49cee532c56d423fc915d5b53f7e62c210241ee801aa844694be",
+  "scripts/effects/attack_telegraph.gdshader": "ab438b0e70f39c95aed0a204caa67a32a1dc6a8f3db09a6f7c132f06d8f1c231",
+  "scripts/ai/candle_slime.gd": "753ff8952dff2ca2c82266bf64b9e8c00563ddd7dacf1edb0f041811ea5f991c",
+  "scripts/ai/perfect_examiner.gd": "9398f9d58eee388962ff17ecf701eaec4ef74517e1c821988227111d0b42733f",
+  "tests/performance_expedition.gd": "7c9e068b7cf5b9d17dcfee17c1aab62f671689c2fe44527c6bd6aaf581f3044b",
+  "tests/performance_wardrobe.gd": "03bfdfbab45cf60986df8e37e8b3dd665cf71a518ffadca6477369e3b32f45c7",
+  "common-walk-warnings.gd": "b4743aa81adce7d34886ff32c87ddc09621978c98f246078a15facfbf32545a9"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "label": "v070-control-walk-warnings",
+    "before": {
+      "at": "2026-10-23T22:16:04.729490+00:00",
+      "loadavg": [
+        0.1591796875,
+        1.34912109375,
+        2.07373046875
+      ],
+      "cpu.max": "400000 100000\n",
+      "cpu.stat": "usage_usec 84752424034\nuser_usec 76367651271\nsystem_usec 8384772762\nnice_usec 227427\nnr_periods 903222\nnr_throttled 41978\nthrottled_usec 3320214836\nnr_bursts 0\nburst_usec 0\n",
+      "active_game_or_browser_jobs_observed": false
+    },
+    "after": {
+      "at": "2026-10-23T22:16:27.024881+00:00",
+      "loadavg": [
+        0.88916015625,
+        1.4267578125,
+        2.08349609375
+      ],
+      "cpu.max": "400000 100000\n",
+      "cpu.stat": "usage_usec 84784606407\nuser_usec 76396454499\nsystem_usec 8388151907\nnice_usec 227427\nnr_periods 903437\nnr_throttled 41996\nthrottled_usec 3321882063\nnr_bursts 0\nburst_usec 0\n",
+      "active_game_or_browser_jobs_observed": false
+    }
+  },
+  {
+    "label": "v080-walk-warnings",
+    "before": {
+      "at": "2026-10-23T22:16:27.078704+00:00",
+      "loadavg": [
+        0.88916015625,
+        1.4267578125,
+        2.08349609375
+      ],
+      "cpu.max": "400000 100000\n",
+      "cpu.stat": "usage_usec 84784696393\nuser_usec 76396470137\nsystem_usec 8388226255\nnice_usec 227427\nnr_periods 903438\nnr_throttled 41996\nthrottled_usec 3321882063\nnr_bursts 0\nburst_usec 0\n",
+      "active_game_or_browser_jobs_observed": false
+    },
+    "after": {
+      "at": "2026-10-23T22:16:47.695388+00:00",
+      "loadavg": [
+        0.79638671875,
+        1.3671875,
+        2.04931640625
+      ],
+      "cpu.max": "400000 100000\n",
+      "cpu.stat": "usage_usec 84807745150\nuser_usec 76417469515\nsystem_usec 8390275635\nnice_usec 227427\nnr_periods 903637\nnr_throttled 41996\nthrottled_usec 3321882063\nnr_bursts 0\nburst_usec 0\n",
+      "active_game_or_browser_jobs_observed": false
+    }
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "source_archive": "/workspace/Meowgnificent-v0.7.0-source.zip",
+  "source_sha256": "482c131d1c37a1b20e8439b0e88fd302a843d5a849bae7ee4b0f0d8a79af6f3b",
+  "isolated_project": "/tmp/meow-v070-perf-source",
+  "extracted_files": 322,
+  "gui_or_import_executed": false
+}

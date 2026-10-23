@@ -1,0 +1,8 @@
+{
+  "file": "scripts/player/player.gd",
+  "measured_sha256": "7c4aba54f2cb988a627f67894d2028081556ea38982a5f8ec879cce630ac524a",
+  "later_sha256": "5c5c87aa26ed50cc1a478981abdddc1eedb957933a87ab1fd686f64af63f9e3d",
+  "change": "Capture the rolling flag before decrementing the last partial roll tick, so that displacement is not incorrectly counted as a walking step.",
+  "fixture_effect": "Neither measured fixture starts a roll; the changed branch is not exercised. No extra performance rerun required for this fix.",
+  "scope": "Earlier no-warning wardrobe observation. The final warning controls include this roll flag fix, although neither fixture triggers a roll."
+}
