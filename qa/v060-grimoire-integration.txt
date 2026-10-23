@@ -1,0 +1,28 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: real room enters the final area with story safely skipped for combat integration
+PASS: final-area elite spawns exactly one PerfectExaminer rather than a reskinned broom
+PASS: spawn passes the final elite HP and identity into the new encounter
+PASS: final passage stays locked while the shielded boss and its defenders remain
+PASS: a real controlled projectile reaches the boss and is consumed by collision
+PASS: projectile dispatch preserves success prediction instead of bypassing the barrier through generic damage
+PASS: the blocked projectile cleans up after its real impact signal
+PASS: a real miscast projectile applies exactly its configured damage
+PASS: miscast collision forwards its outcome and opens the accident opportunity
+PASS: a following controlled projectile deals damage during the same opening
+PASS: giant-projectile impact dispatches its AoE exactly once without an extra direct hit
+PASS: the production explosion signal reaches the boss as an uncontrolled overreaction
+PASS: miscast area impact applies the configured damage through the real signal binding
+PASS: miscast AoE uses apply_miscast_blast rather than the default overreaction outcome
+PASS: explicit controlled AoE also respects the barrier through room dispatch
+PASS: room's feet-miscast AoE path opens the correct opportunity
+PASS: controlled AoE can exploit an opening made by an accident
+PASS: lethal spell collision reaches the room's normal defeat accounting once
+PASS: boss defeat removes only the boss and leaves surviving defenders gating completion
+PASS: the real boss defeat produces its elite Crowns and guaranteed equipment drop
+PASS: defeated final boss is freed after the room processes its loot signal
+PASS: defeating the remaining defenders completes the real final area
+PASS: normal victory presentation replaces combat after final-room completion
+PASS: final completion collects loot and saves permanent win and route progress
+PASS: boss encounter completion persists through the normal isolated profile writer
+GRIMOIRE INTEGRATION RESULT: 25 checks, 0 failures
