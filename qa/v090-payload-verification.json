@@ -1,0 +1,20 @@
+[
+  {
+    "platform": "windows",
+    "tested_executable_matches": true,
+    "sha256": "b22f806384912ef5cca1cc14b17cb595e63fd965d76eeb54cd5742c406e63d09"
+  },
+  {
+    "platform": "linux",
+    "tested_executable_matches": true,
+    "sha256": "4e9f29cc8145431e0aba68b1c30860062186262f35cc7d21bdf526a3ca982a4a"
+  },
+  {
+    "platform": "web",
+    "tested_export_files_match": true
+  },
+  {
+    "platform": "macos",
+    "validated_export_and_permissions_match": true
+  }
+]
