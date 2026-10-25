@@ -1,0 +1,12 @@
+PASS: default-player URL has no narrative bypass flag
+PASS: default exported build renders the start screen
+PASS: Enter opens the Academy story instead of entering combat immediately
+PASS: Space advances to the professor’s request on the next story page
+PASS: Escape skips the opening into the playable Detention tutorial
+PASS: the tutorial accepts equipment input after the narrative callback
+PASS: Escape closes equipment without reopening or advancing the story
+PASS: normal pause input works after the story has released control
+PASS: default narrative assets load without HTTP failures
+PASS: default narrative path has no browser or engine console errors: []
+STORY WEB RESULT: 10 checks, 0 failures
+Scope: default exported narrative start, one page advance, Escape skip into Detention, equipment and pause control; no browser full-opening autoplay, campaign-clear or ending claim.
