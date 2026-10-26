@@ -1,0 +1,151 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: preview cannot equip, purchase, heal or reset cooldown: crooked_ash_wand
+PASS: preview replaces only the candidate equipment slot: crooked_ash_wand
+PASS: preview equals equipped gameplay values: crooked_ash_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: cinderfork_wand
+PASS: preview replaces only the candidate equipment slot: cinderfork_wand
+PASS: preview equals equipped gameplay values: cinderfork_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: apprentice_thesis
+PASS: preview replaces only the candidate equipment slot: apprentice_thesis
+PASS: preview equals equipped gameplay values: apprentice_thesis
+PASS: preview cannot equip, purchase, heal or reset cooldown: brass_bell_collar
+PASS: preview replaces only the candidate equipment slot: brass_bell_collar
+PASS: preview equals equipped gameplay values: brass_bell_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: velvet_bell_collar
+PASS: preview replaces only the candidate equipment slot: velvet_bell_collar
+PASS: preview equals equipped gameplay values: velvet_bell_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: nine_lives_collar
+PASS: preview replaces only the candidate equipment slot: nine_lives_collar
+PASS: preview equals equipped gameplay values: nine_lives_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: loose_feather
+PASS: preview replaces only the candidate equipment slot: loose_feather
+PASS: preview equals equipped gameplay values: loose_feather
+PASS: preview cannot equip, purchase, heal or reset cooldown: warm_sardine_charm
+PASS: preview replaces only the candidate equipment slot: warm_sardine_charm
+PASS: preview equals equipped gameplay values: warm_sardine_charm
+PASS: preview cannot equip, purchase, heal or reset cooldown: moonlit_yarn
+PASS: preview replaces only the candidate equipment slot: moonlit_yarn
+PASS: preview equals equipped gameplay values: moonlit_yarn
+PASS: preview cannot equip, purchase, heal or reset cooldown: practice_wand
+PASS: preview replaces only the candidate equipment slot: practice_wand
+PASS: preview equals equipped gameplay values: practice_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: frost_whisker_wand
+PASS: preview replaces only the candidate equipment slot: frost_whisker_wand
+PASS: preview equals equipped gameplay values: frost_whisker_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: hopscotch_wand
+PASS: preview replaces only the candidate equipment slot: hopscotch_wand
+PASS: preview equals equipped gameplay values: hopscotch_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: pip_feather_staff
+PASS: preview replaces only the candidate equipment slot: pip_feather_staff
+PASS: preview equals equipped gameplay values: pip_feather_staff
+PASS: preview cannot equip, purchase, heal or reset cooldown: moss_bud_staff
+PASS: preview replaces only the candidate equipment slot: moss_bud_staff
+PASS: preview equals equipped gameplay values: moss_bud_staff
+PASS: preview cannot equip, purchase, heal or reset cooldown: bloop_bottle_wand
+PASS: preview replaces only the candidate equipment slot: bloop_bottle_wand
+PASS: preview equals equipped gameplay values: bloop_bottle_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: thunder_spoon
+PASS: preview replaces only the candidate equipment slot: thunder_spoon
+PASS: preview equals equipped gameplay values: thunder_spoon
+PASS: preview cannot equip, purchase, heal or reset cooldown: bubble_teapot
+PASS: preview replaces only the candidate equipment slot: bubble_teapot
+PASS: preview equals equipped gameplay values: bubble_teapot
+PASS: preview cannot equip, purchase, heal or reset cooldown: comet_crayon
+PASS: preview replaces only the candidate equipment slot: comet_crayon
+PASS: preview equals equipped gameplay values: comet_crayon
+PASS: preview cannot equip, purchase, heal or reset cooldown: linen_star_collar
+PASS: preview replaces only the candidate equipment slot: linen_star_collar
+PASS: preview equals equipped gameplay values: linen_star_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: acorn_bell_collar
+PASS: preview replaces only the candidate equipment slot: acorn_bell_collar
+PASS: preview equals equipped gameplay values: acorn_bell_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: button_bow_collar
+PASS: preview replaces only the candidate equipment slot: button_bow_collar
+PASS: preview equals equipped gameplay values: button_bow_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: frost_drop_collar
+PASS: preview replaces only the candidate equipment slot: frost_drop_collar
+PASS: preview equals equipped gameplay values: frost_drop_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: moss_heart_collar
+PASS: preview replaces only the candidate equipment slot: moss_heart_collar
+PASS: preview equals equipped gameplay values: moss_heart_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: bloop_locket_collar
+PASS: preview replaces only the candidate equipment slot: bloop_locket_collar
+PASS: preview equals equipped gameplay values: bloop_locket_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: thunder_key_collar
+PASS: preview replaces only the candidate equipment slot: thunder_key_collar
+PASS: preview equals equipped gameplay values: thunder_key_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: bubble_pearl_collar
+PASS: preview replaces only the candidate equipment slot: bubble_pearl_collar
+PASS: preview equals equipped gameplay values: bubble_pearl_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: comet_medal_collar
+PASS: preview replaces only the candidate equipment slot: comet_medal_collar
+PASS: preview equals equipped gameplay values: comet_medal_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: paper_pinwheel
+PASS: preview replaces only the candidate equipment slot: paper_pinwheel
+PASS: preview equals equipped gameplay values: paper_pinwheel
+PASS: preview cannot equip, purchase, heal or reset cooldown: clover_leaf
+PASS: preview replaces only the candidate equipment slot: clover_leaf
+PASS: preview equals equipped gameplay values: clover_leaf
+PASS: preview cannot equip, purchase, heal or reset cooldown: sleepy_acorn
+PASS: preview replaces only the candidate equipment slot: sleepy_acorn
+PASS: preview equals equipped gameplay values: sleepy_acorn
+PASS: preview cannot equip, purchase, heal or reset cooldown: frost_button
+PASS: preview replaces only the candidate equipment slot: frost_button
+PASS: preview equals equipped gameplay values: frost_button
+PASS: preview cannot equip, purchase, heal or reset cooldown: pip_egg
+PASS: preview replaces only the candidate equipment slot: pip_egg
+PASS: preview equals equipped gameplay values: pip_egg
+PASS: preview cannot equip, purchase, heal or reset cooldown: moss_seed_pouch
+PASS: preview replaces only the candidate equipment slot: moss_seed_pouch
+PASS: preview equals equipped gameplay values: moss_seed_pouch
+PASS: preview cannot equip, purchase, heal or reset cooldown: bloop_cork
+PASS: preview replaces only the candidate equipment slot: bloop_cork
+PASS: preview equals equipped gameplay values: bloop_cork
+PASS: preview cannot equip, purchase, heal or reset cooldown: thunder_marble
+PASS: preview replaces only the candidate equipment slot: thunder_marble
+PASS: preview equals equipped gameplay values: thunder_marble
+PASS: preview cannot equip, purchase, heal or reset cooldown: comet_stamp
+PASS: preview replaces only the candidate equipment slot: comet_stamp
+PASS: preview equals equipped gameplay values: comet_stamp
+PASS: swapping maximum-vitality gear never heals the player
+PASS: shorter recovery is better even though the numerical delta is negative
+PASS: higher damage is a positive improvement
+PASS: unknown preview identifiers cannot manufacture equipment or stats
+PASS: the real inventory exposes all ten stats and a selected comparison
+PASS: comparison leaves combat paused
+PASS: stage title and identity remain within the combat header: ko0
+PASS: full translated stage name fits the title cell: ko0
+PASS: stage title and identity remain within the combat header: ko1
+PASS: full translated stage name fits the title cell: ko1
+PASS: stage title and identity remain within the combat header: ko2
+PASS: full translated stage name fits the title cell: ko2
+PASS: stage title and identity remain within the combat header: ko3
+PASS: full translated stage name fits the title cell: ko3
+PASS: stage title and identity remain within the combat header: ko4
+PASS: full translated stage name fits the title cell: ko4
+PASS: stage title and identity remain within the combat header: ko5
+PASS: full translated stage name fits the title cell: ko5
+PASS: stage title and identity remain within the combat header: ko6
+PASS: full translated stage name fits the title cell: ko6
+PASS: stage title and identity remain within the combat header: ko7
+PASS: full translated stage name fits the title cell: ko7
+PASS: all ten stats and the return button fit the viewport: ko
+PASS: stage title and identity remain within the combat header: en0
+PASS: full translated stage name fits the title cell: en0
+PASS: stage title and identity remain within the combat header: en1
+PASS: full translated stage name fits the title cell: en1
+PASS: stage title and identity remain within the combat header: en2
+PASS: full translated stage name fits the title cell: en2
+PASS: stage title and identity remain within the combat header: en3
+PASS: full translated stage name fits the title cell: en3
+PASS: stage title and identity remain within the combat header: en4
+PASS: full translated stage name fits the title cell: en4
+PASS: stage title and identity remain within the combat header: en5
+PASS: full translated stage name fits the title cell: en5
+PASS: stage title and identity remain within the combat header: en6
+PASS: full translated stage name fits the title cell: en6
+PASS: stage title and identity remain within the combat header: en7
+PASS: full translated stage name fits the title cell: en7
+PASS: all ten stats and the return button fit the viewport: en
+CHARACTER STATS RESULT: 148 checks, 0 failures

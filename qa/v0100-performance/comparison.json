@@ -1,0 +1,54 @@
+[
+  {
+    "fixture": "v0100-pages",
+    "draw_calls_max": 184.0,
+    "draw_calls_mean": 180.8,
+    "frame_ms_mean": 33.7267222222222,
+    "frame_ms_p50": 29.263,
+    "frame_ms_p95": 57.11,
+    "frame_ms_p99": 70.556,
+    "frames": 180,
+    "frames_over_33ms": 60,
+    "physics_ms_mean": 5.78428888888889,
+    "process_ms_mean": 52.784588888889
+  },
+  {
+    "fixture": "v0100-shards",
+    "draw_calls_max": 163.0,
+    "draw_calls_mean": 158.722222222222,
+    "frame_ms_mean": 37.9791111111111,
+    "frame_ms_p50": 33.981,
+    "frame_ms_p95": 59.321,
+    "frame_ms_p99": 135.723,
+    "frames": 180,
+    "frames_over_33ms": 94,
+    "physics_ms_mean": 5.52665000000001,
+    "process_ms_mean": 100.492372222222
+  },
+  {
+    "fixture": "v0100-warning",
+    "draw_calls_max": 163.0,
+    "draw_calls_mean": 159.1,
+    "frame_ms_mean": 48.4744777777778,
+    "frame_ms_p50": 40.027,
+    "frame_ms_p95": 106.392,
+    "frame_ms_p99": 159.379,
+    "frames": 180,
+    "frames_over_33ms": 103,
+    "physics_ms_mean": 10.7853888888889,
+    "process_ms_mean": 80.4129555555556
+  },
+  {
+    "fixture": "v090-warning",
+    "draw_calls_max": 162.0,
+    "draw_calls_mean": 158.866666666667,
+    "frame_ms_mean": 49.6774166666667,
+    "frame_ms_p50": 46.505,
+    "frame_ms_p95": 87.002,
+    "frame_ms_p99": 134.425,
+    "frames": 180,
+    "frames_over_33ms": 128,
+    "physics_ms_mean": 8.23861666666666,
+    "process_ms_mean": 72.1378666666665
+  }
+]
