@@ -10,7 +10,7 @@
 | Native icons |3개 통과| 실제 Windows PE의6크기 아이콘이 제작ICO와 일치하며 기본 엔진 아이콘이 없음. Mac 번들의ICNS와 설정도 일치 |
 | Visual review |소스 장면과 실행 캡처 검토| 연결된 전신6걸음, 꼬리 숨김, 같은 인간 핍, 한/영 장비 비교창,36아이콘/착용, 둥근 화염구, 새 보스와 파괴/재생 |
 | Performance |4조건 순차 측정| 같은 경고 장면158.87→159.10평균drawcalls. p95/p99프레임 시간은 증가해 전반적인 속도 향상을 단정하지 않음. 추가 페이지/파편 장면도 기록 |
-| Delivery |packaging| ZIP/실행payload/권한 일치를 검사하고, 게시 후 다섯 ZIP·체크섬의 새 다운로드 결과를 공개 QA에 추가 |
+| Delivery | pass | 다섯 ZIP과 체크섬을 공식 GitHub 직링크에서 새 다운로드. 크기·SHA-256·ZIP 무결성 및 실행 검증한 payload/권한 일치 확인 |
 
 빌드 때17suite957검사가 통과했고, 이후 능력치 검사114개를148개로 확장해 다시 통과했습니다. 중복114개를 제외한 최종 검사 수는991개입니다. 확장분은8구역의 한글/영문 제목 실제 글자 폭·헤더 경계와 장비 패널의 화면 경계를 확인합니다. 게임/이야기 변경은 최종 빌드에 포함되며 이후 수정은 검사와 문서에 한정됩니다.
 
@@ -21,3 +21,5 @@
 장비창 개편으로 GUI 검사기의 예전 영역/문구와OCR 단어 분리가 맞지 않았습니다. 실제 버튼을 재확인하고, 같은 줄의 Eq+uip 단어를 합쳐 위치를 읽도록 검사기를 수정했습니다. 좌표를 고정해 착용 성공을 가정하지 않으며 실제 착용 피드백을 확인합니다. 웹 검사는 새 장착칸·능력치·초기 지팡이 문구를 읽습니다.
 
 시각 증거: [걷기](qa/v0100-walk-03.png), [능력치 한글](qa/v0100-inventory-compare-ko.png), [능력치 영어](qa/v0100-inventory-compare-en.png), [필드 핍](qa/v0100-pip-world.png), [상점 핍](qa/v0100-pip-shop-ko.png), [귀여운 장비](qa/v0100-cute-equipment.png), [화염구](qa/v0100-fireball-headings.png), [장벽](qa/v0100-boss-shield.png), [파괴](qa/v0100-boss-break.png), [빈틈](qa/v0100-boss-exposed.png), [재생](qa/v0100-boss-reforming.png).
+
+전달 검증: [새 다운로드 결과](qa/v0100-download-verification.json), [실행 파일·Web·Mac payload 일치](qa/v0100-payload-verification.json).
