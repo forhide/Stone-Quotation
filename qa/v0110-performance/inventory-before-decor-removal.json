@@ -1,0 +1,9 @@
+{
+  "fixture": "v0110-inventory",
+  "draw_calls_max": 228.0,
+  "draw_calls_mean": 216.055555555556,
+  "frame_ms_mean": 42.1888,
+  "frame_ms_p50": 39.85,
+  "frame_ms_p95": 56.647,
+  "frames": 180
+}

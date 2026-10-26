@@ -1,0 +1,489 @@
+{
+  "method": "9 connected components ranked into 3 rows of3; each row sorted by x",
+  "changed_ids": [
+    "moss_bud_staff",
+    "bloop_bottle_wand",
+    "thunder_spoon",
+    "bubble_teapot",
+    "comet_crayon",
+    "frost_drop_collar",
+    "moss_heart_collar",
+    "bloop_locket_collar",
+    "thunder_key_collar",
+    "bubble_pearl_collar",
+    "pip_egg",
+    "moss_seed_pouch",
+    "bloop_cork",
+    "thunder_marble"
+  ],
+  "items": [
+    {
+      "id": "crooked_ash_wand",
+      "sheet": "cute_equipment",
+      "row": 0,
+      "column": 0,
+      "rect": [
+        60,
+        29,
+        343,
+        463
+      ],
+      "changed": false
+    },
+    {
+      "id": "cinderfork_wand",
+      "sheet": "cute_equipment",
+      "row": 0,
+      "column": 1,
+      "rect": [
+        481,
+        15,
+        343,
+        484
+      ],
+      "changed": false
+    },
+    {
+      "id": "apprentice_thesis",
+      "sheet": "cute_equipment",
+      "row": 0,
+      "column": 2,
+      "rect": [
+        865,
+        71,
+        375,
+        413
+      ],
+      "changed": false
+    },
+    {
+      "id": "brass_bell_collar",
+      "sheet": "cute_equipment",
+      "row": 1,
+      "column": 0,
+      "rect": [
+        26,
+        525,
+        380,
+        326
+      ],
+      "changed": false
+    },
+    {
+      "id": "velvet_bell_collar",
+      "sheet": "cute_equipment",
+      "row": 1,
+      "column": 1,
+      "rect": [
+        442,
+        527,
+        373,
+        324
+      ],
+      "changed": false
+    },
+    {
+      "id": "nine_lives_collar",
+      "sheet": "cute_equipment",
+      "row": 1,
+      "column": 2,
+      "rect": [
+        845,
+        525,
+        388,
+        335
+      ],
+      "changed": false
+    },
+    {
+      "id": "loose_feather",
+      "sheet": "cute_equipment",
+      "row": 2,
+      "column": 0,
+      "rect": [
+        31,
+        863,
+        379,
+        376
+      ],
+      "changed": false
+    },
+    {
+      "id": "warm_sardine_charm",
+      "sheet": "cute_equipment",
+      "row": 2,
+      "column": 1,
+      "rect": [
+        437,
+        932,
+        369,
+        286
+      ],
+      "changed": false
+    },
+    {
+      "id": "moonlit_yarn",
+      "sheet": "cute_equipment",
+      "row": 2,
+      "column": 2,
+      "rect": [
+        862,
+        899,
+        374,
+        350
+      ],
+      "changed": false
+    },
+    {
+      "id": "practice_wand",
+      "sheet": "cute_weapons",
+      "row": 0,
+      "column": 0,
+      "rect": [
+        95,
+        40,
+        295,
+        424
+      ],
+      "changed": false
+    },
+    {
+      "id": "frost_whisker_wand",
+      "sheet": "cute_weapons",
+      "row": 0,
+      "column": 1,
+      "rect": [
+        497,
+        26,
+        333,
+        437
+      ],
+      "changed": false
+    },
+    {
+      "id": "hopscotch_wand",
+      "sheet": "cute_weapons",
+      "row": 0,
+      "column": 2,
+      "rect": [
+        896,
+        46,
+        340,
+        418
+      ],
+      "changed": false
+    },
+    {
+      "id": "pip_feather_staff",
+      "sheet": "cute_weapons",
+      "row": 1,
+      "column": 0,
+      "rect": [
+        76,
+        450,
+        327,
+        424
+      ],
+      "changed": false
+    },
+    {
+      "id": "moss_bud_staff",
+      "sheet": "cute_weapons",
+      "row": 1,
+      "column": 1,
+      "rect": [
+        493,
+        449,
+        355,
+        436
+      ],
+      "changed": true
+    },
+    {
+      "id": "bloop_bottle_wand",
+      "sheet": "cute_weapons",
+      "row": 1,
+      "column": 2,
+      "rect": [
+        885,
+        504,
+        359,
+        348
+      ],
+      "changed": true
+    },
+    {
+      "id": "thunder_spoon",
+      "sheet": "cute_weapons",
+      "row": 2,
+      "column": 0,
+      "rect": [
+        66,
+        867,
+        327,
+        363
+      ],
+      "changed": true
+    },
+    {
+      "id": "bubble_teapot",
+      "sheet": "cute_weapons",
+      "row": 2,
+      "column": 1,
+      "rect": [
+        452,
+        846,
+        413,
+        390
+      ],
+      "changed": true
+    },
+    {
+      "id": "comet_crayon",
+      "sheet": "cute_weapons",
+      "row": 2,
+      "column": 2,
+      "rect": [
+        929,
+        847,
+        310,
+        384
+      ],
+      "changed": true
+    },
+    {
+      "id": "linen_star_collar",
+      "sheet": "cute_pendants",
+      "row": 0,
+      "column": 0,
+      "rect": [
+        62,
+        56,
+        324,
+        352
+      ],
+      "changed": false
+    },
+    {
+      "id": "acorn_bell_collar",
+      "sheet": "cute_pendants",
+      "row": 0,
+      "column": 1,
+      "rect": [
+        484,
+        57,
+        324,
+        361
+      ],
+      "changed": false
+    },
+    {
+      "id": "button_bow_collar",
+      "sheet": "cute_pendants",
+      "row": 0,
+      "column": 2,
+      "rect": [
+        852,
+        87,
+        374,
+        336
+      ],
+      "changed": false
+    },
+    {
+      "id": "frost_drop_collar",
+      "sheet": "cute_pendants",
+      "row": 1,
+      "column": 0,
+      "rect": [
+        100,
+        453,
+        250,
+        381
+      ],
+      "changed": true
+    },
+    {
+      "id": "moss_heart_collar",
+      "sheet": "cute_pendants",
+      "row": 1,
+      "column": 1,
+      "rect": [
+        485,
+        475,
+        299,
+        356
+      ],
+      "changed": true
+    },
+    {
+      "id": "bloop_locket_collar",
+      "sheet": "cute_pendants",
+      "row": 1,
+      "column": 2,
+      "rect": [
+        914,
+        454,
+        270,
+        384
+      ],
+      "changed": true
+    },
+    {
+      "id": "thunder_key_collar",
+      "sheet": "cute_pendants",
+      "row": 2,
+      "column": 0,
+      "rect": [
+        94,
+        850,
+        249,
+        371
+      ],
+      "changed": true
+    },
+    {
+      "id": "bubble_pearl_collar",
+      "sheet": "cute_pendants",
+      "row": 2,
+      "column": 1,
+      "rect": [
+        473,
+        856,
+        329,
+        366
+      ],
+      "changed": true
+    },
+    {
+      "id": "comet_medal_collar",
+      "sheet": "cute_pendants",
+      "row": 2,
+      "column": 2,
+      "rect": [
+        902,
+        874,
+        315,
+        343
+      ],
+      "changed": false
+    },
+    {
+      "id": "paper_pinwheel",
+      "sheet": "cute_charms",
+      "row": 0,
+      "column": 0,
+      "rect": [
+        68,
+        31,
+        355,
+        419
+      ],
+      "changed": false
+    },
+    {
+      "id": "clover_leaf",
+      "sheet": "cute_charms",
+      "row": 0,
+      "column": 1,
+      "rect": [
+        472,
+        58,
+        341,
+        388
+      ],
+      "changed": false
+    },
+    {
+      "id": "sleepy_acorn",
+      "sheet": "cute_charms",
+      "row": 0,
+      "column": 2,
+      "rect": [
+        904,
+        52,
+        315,
+        390
+      ],
+      "changed": false
+    },
+    {
+      "id": "frost_button",
+      "sheet": "cute_charms",
+      "row": 1,
+      "column": 0,
+      "rect": [
+        71,
+        465,
+        304,
+        367
+      ],
+      "changed": false
+    },
+    {
+      "id": "pip_egg",
+      "sheet": "cute_charms",
+      "row": 1,
+      "column": 1,
+      "rect": [
+        502,
+        466,
+        287,
+        365
+      ],
+      "changed": true
+    },
+    {
+      "id": "moss_seed_pouch",
+      "sheet": "cute_charms",
+      "row": 1,
+      "column": 2,
+      "rect": [
+        895,
+        462,
+        323,
+        377
+      ],
+      "changed": true
+    },
+    {
+      "id": "bloop_cork",
+      "sheet": "cute_charms",
+      "row": 2,
+      "column": 0,
+      "rect": [
+        74,
+        838,
+        301,
+        376
+      ],
+      "changed": true
+    },
+    {
+      "id": "thunder_marble",
+      "sheet": "cute_charms",
+      "row": 2,
+      "column": 1,
+      "rect": [
+        482,
+        852,
+        289,
+        354
+      ],
+      "changed": true
+    },
+    {
+      "id": "comet_stamp",
+      "sheet": "cute_charms",
+      "row": 2,
+      "column": 2,
+      "rect": [
+        892,
+        857,
+        336,
+        377
+      ],
+      "changed": false
+    }
+  ]
+}

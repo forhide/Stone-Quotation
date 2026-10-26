@@ -1,0 +1,104 @@
+{
+  "source": "/workspace/generated_images/exec-4ac96e0c-cec6-4254-babe-3c53b7c0d85a.png",
+  "asset": "/workspace/Meowgnificent/art/equipment/cute_weapons_spaced.png",
+  "canvas": [
+    1254,
+    1254
+  ],
+  "main_objects": 9,
+  "significant_components": 11,
+  "bounding_regions_disjoint": true,
+  "decorations_owned_once": true,
+  "items": [
+    {
+      "id": "practice_wand",
+      "rect": [
+        93,
+        54,
+        285,
+        401
+      ],
+      "border_alpha_max": 1
+    },
+    {
+      "id": "frost_whisker_wand",
+      "rect": [
+        505,
+        51,
+        311,
+        406
+      ],
+      "border_alpha_max": 1
+    },
+    {
+      "id": "hopscotch_wand",
+      "rect": [
+        872,
+        68,
+        315,
+        391
+      ],
+      "border_alpha_max": 0
+    },
+    {
+      "id": "pip_feather_staff",
+      "rect": [
+        79,
+        469,
+        301,
+        381
+      ],
+      "border_alpha_max": 1
+    },
+    {
+      "id": "moss_bud_staff",
+      "rect": [
+        484,
+        471,
+        307,
+        384
+      ],
+      "border_alpha_max": 1
+    },
+    {
+      "id": "bloop_bottle_wand",
+      "rect": [
+        893,
+        499,
+        323,
+        320
+      ],
+      "border_alpha_max": 0
+    },
+    {
+      "id": "thunder_spoon",
+      "rect": [
+        79,
+        870,
+        305,
+        330
+      ],
+      "border_alpha_max": 1
+    },
+    {
+      "id": "bubble_teapot",
+      "rect": [
+        459,
+        872,
+        360,
+        328
+      ],
+      "border_alpha_max": 1
+    },
+    {
+      "id": "comet_crayon",
+      "rect": [
+        905,
+        866,
+        280,
+        338
+      ],
+      "border_alpha_max": 1
+    }
+  ]
+}

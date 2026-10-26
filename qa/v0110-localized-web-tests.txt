@@ -1,0 +1,16 @@
+PASS: ordinary player URL has no forced language
+PASS: fresh player sees Korean menu by default
+PASS: F10 opens Korean settings and language choice
+PASS: real language dropdown immediately changes the options screen to English
+PASS: closing settings returns to the English start menu
+PASS: English preference survives a complete WASM page reload with no language flag
+PASS: default opening uses English dialogue after the saved language choice
+PASS: settings can open over an active story
+PASS: switching back to Korean keeps the same opening page and translates its dialogue
+PASS: Korean professor dialogue advances normally after leaving language options
+PASS: skipping the story enters Korean gameplay
+PASS: equipment UI is Korean during the same expedition
+PASS: Korean preference also survives a complete reload
+PASS: all localized assets load successfully
+PASS: localized dropdown, story and reload flow have no JavaScript or engine errors: []
+LOCALIZED WEB RESULT: 15 checks, 0 failures
