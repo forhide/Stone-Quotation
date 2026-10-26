@@ -10,7 +10,7 @@
 | Native icons |3개 통과| Windows PE의6크기 게임 아이콘, Mac 번들ICNS와 설정 일치 |
 | Visual review |한/영 장비창·이야기·두 상점 확인| 캐릭터와3장착칸,18아이콘 격자, 변경 항목만 그림 화살표, 다섯 동물 인물, 중앙 매대·손님, 흰여우 보스 |
 | Performance |4조건 순차 측정| 같은 전투 경고 장면 평균156.80→159.76drawcalls. 새 상점78.64,18아이템 비교창168.06. 실제 하드웨어 FPS 개선을 단정하지 않음 |
-| Delivery |packaging| 게시 후 다섯 ZIP·체크섬을 다시 다운로드하고 크기·SHA-256·압축 무결성·실행payload/권한 일치를 공개 QA에 추가 |
+| Delivery | pass | 다섯 ZIP과 체크섬을 공식 GitHub 직링크에서 새 다운로드. 크기·SHA-256·ZIP 무결성 및 실행 검증한 payload/권한 일치 확인 |
 
 장비 비교는 실제 적용 수치로 계산하면서 보여주는 정보만 간소화했습니다. 변경 없는 항목은 숨기고, 회복 시간이 짧아질 때 향상 화살표를 표시합니다. 서로 다른 특수기는 피해·범위를 단순한 수치로 우열 비교하지 않습니다.43개 UI 검사는 소유 검증, 읽기 전용 hover/focus, 선택 유지, 명시적인 장착·해제, 실제 착용 아이콘/캐릭터 반영,18장비와 한/영 화면 경계까지 확인합니다.
 
@@ -25,3 +25,5 @@
 [소스 로그](qa/v0110-source-tests.txt), [Windows](qa/v0110-windows-tests.txt), [Linux](qa/v0110-linux-tests.txt), [웹](qa/v0110-web-tests.txt), [오프닝](qa/v0110-story-web-tests.txt), [언어](qa/v0110-localized-web-tests.txt), [Q/우클릭](qa/v0110-item-skills-web-tests.txt), [Mac](qa/v0110-macos-package.txt), [아이콘](qa/v0110-platform-icons.txt), [측정 방법](qa/v0110-performance/METHOD.md).
 
 화면 증거: [한글 장비창](qa/v0110-inventory-ko.png), [영문 장비창](qa/v0110-inventory-en.png), [피크닉 상점](qa/v0110-shop-03-world.png), [마지막 쉼터](qa/v0110-shop-06-world.png), [상점 장비 비교](qa/v0110-shop-03-panel.png), [친구들](qa/v0110-story-friends.png), [교수](qa/v0110-story-professor.png), [핍 대화](qa/v0110-story-pip.png), [흰여우](qa/v0110-story-fox.png), [보스](qa/v0110-fox-boss.png).
+
+전달 검증: [새 다운로드 결과](qa/v0110-download-verification.json), [실행 파일·Web·Mac payload 일치](qa/v0110-payload-verification.json).
