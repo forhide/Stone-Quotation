@@ -1,0 +1,13 @@
+{
+  "font": "Pretendard-Medium.otf",
+  "sources": [
+    "data/locales/ko.json",
+    "data/story.json",
+    "data/items.json",
+    "data/skills.json"
+  ],
+  "additional_characters": "↑↓→∞",
+  "unique_characters": 636,
+  "missing_characters": [],
+  "method": "fontTools cmap against recursive strings and keys; whitespace excluded from missing-glyph check"
+}

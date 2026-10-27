@@ -1,0 +1,17 @@
+{
+  "baseline": "v0.12.0 public source ZIP",
+  "archive": "Meowgnificent-v0.12.0-source.zip",
+  "archive_sha256": "7430cdb4cf3576004ac884a8dc7334a50799e6e98bc4723824a7214008ee605d",
+  "verified_source_and_art_files": 113,
+  "fixture_sha256": "1e76f20c3095bba7b2114b73dbba6b893d452f4d1275cdc5953add7356096155",
+  "trials": 1,
+  "cases": [
+    "combat"
+  ],
+  "resolution": "3840x2160",
+  "display": ":77",
+  "software_renderer_threads": 4,
+  "renderer": "GL Compatibility on Xorg/llvmpipe; actual graphical frames",
+  "method": "identical fixture and inputs, two seconds warmup plus eight seconds measurement, sequential uncapped runs, alternating version order across trials",
+  "limitations": "Software Linux presentation benchmark. Native Windows GPU frame pacing and actual Mac execution are not measured. Warmup excludes startup/shader compilation; this does not quantify cold-driver first-cast stalls."
+}

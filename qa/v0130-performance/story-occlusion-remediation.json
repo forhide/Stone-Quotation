@@ -1,0 +1,73 @@
+{
+  "before": {
+    "case": "story",
+    "resolution": "1280x800",
+    "v0120": {
+      "frame_ms_mean": 55.049169606020754,
+      "frame_ms_p50": 49.0655,
+      "frame_ms_p95": 78.51599999999999,
+      "frame_ms_p99": 163.2265,
+      "process_ms_mean": 94.02408244548215,
+      "physics_ms_mean": 9.453755950491896,
+      "draw_calls_mean": 135.0,
+      "primitives_mean": 12491.91195538835,
+      "trials": 2,
+      "labels": [
+        "v0120-story-1280-r1",
+        "v0120-story-1280-r2"
+      ]
+    },
+    "v0130": {
+      "frame_ms_mean": 67.3590136778116,
+      "frame_ms_p50": 57.289500000000004,
+      "frame_ms_p95": 132.3615,
+      "frame_ms_p99": 271.8785,
+      "process_ms_mean": 171.01993140830814,
+      "physics_ms_mean": 6.181618844984805,
+      "draw_calls_mean": 133.1138804457955,
+      "primitives_mean": 12146.230597770998,
+      "trials": 2,
+      "labels": [
+        "v0130-story-1280-r1",
+        "v0130-story-1280-r2"
+      ]
+    },
+    "p95_change_percent": 68.57901574201439
+  },
+  "after": {
+    "case": "story",
+    "resolution": "1280x800",
+    "v0120": {
+      "frame_ms_mean": 55.049169606020754,
+      "frame_ms_p50": 49.0655,
+      "frame_ms_p95": 78.51599999999999,
+      "frame_ms_p99": 163.2265,
+      "process_ms_mean": 94.02408244548215,
+      "physics_ms_mean": 9.453755950491896,
+      "draw_calls_mean": 135.0,
+      "primitives_mean": 12491.91195538835,
+      "trials": 2,
+      "labels": [
+        "v0120-story-1280-r1",
+        "v0120-story-1280-r2"
+      ]
+    },
+    "v0130": {
+      "frame_ms_mean": 35.37222354494785,
+      "frame_ms_p50": 33.301,
+      "frame_ms_p95": 51.68,
+      "frame_ms_p99": 70.054,
+      "process_ms_mean": 58.309316314838895,
+      "physics_ms_mean": 3.8666191909579952,
+      "draw_calls_mean": 57.116763443574854,
+      "primitives_mean": 4852.191307556364,
+      "trials": 2,
+      "labels": [
+        "v0130-story-1280-r1",
+        "v0130-story-1280-r2"
+      ]
+    },
+    "p95_change_percent": -34.179020836517395
+  },
+  "reason": "Opaque story overlay previously still rendered covered game world; preserve and restore each local visibility flag on story start/close."
+}

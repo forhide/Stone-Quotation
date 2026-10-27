@@ -1,0 +1,35 @@
+{
+  "version": "v0.13.0",
+  "status": "source_and_visual_review_complete_runtime_pending",
+  "visual_review_verified": true,
+  "performance_measured": true,
+  "previews": {
+    "v0130-hd-combat.png": "preview-combat.png",
+    "v0130-hd-story-book.png": "preview-story.png"
+  },
+  "reviewed": [
+    "v0130-hd-combat.png",
+    "v0130-hd-pocket-spark.png",
+    "v0130-hd-story-book.png",
+    "v0130-hd-settings.png",
+    "v0130-exit-revealed.png",
+    "v0130-loot-attraction.png",
+    "v0130-story-book-before.png",
+    "v0130-story-book-blend.png"
+  ],
+  "window_pixels": [
+    3840,
+    2160
+  ],
+  "game_content_pixels": [
+    3456,
+    2160
+  ],
+  "letterbox_reason": "original16:10composition retained within16:9window",
+  "performance": "docs/qa/v0130-performance/comparison-1280.json",
+  "limitations": [
+    "software Linux render comparison; not native Windows GPU FPS",
+    "Mac actual launch not available",
+    "4K rendering not a60FPS guarantee"
+  ]
+}

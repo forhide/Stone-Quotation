@@ -1,0 +1,20 @@
+[
+  {
+    "case": "combat",
+    "resolution": "3840x2160",
+    "v0130": {
+      "frame_ms_mean": 274.802866666667,
+      "frame_ms_p50": 251.182,
+      "frame_ms_p95": 455.908,
+      "frame_ms_p99": 458.089,
+      "process_ms_mean": 311.120833333334,
+      "physics_ms_mean": 8.58376666666667,
+      "draw_calls_mean": 256.333333333333,
+      "primitives_mean": 11761.9,
+      "trials": 1,
+      "labels": [
+        "v0130-combat-4k-r1"
+      ]
+    }
+  }
+]

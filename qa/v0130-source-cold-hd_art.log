@@ -1,0 +1,39 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: painted room keeps its3840px source: hd_basement_storeroom.res
+PASS: HD room retains its original crop coordinate space: hd_basement_storeroom.res
+PASS: painted room keeps its3840px source: hd_academy_library.res
+PASS: HD room retains its original crop coordinate space: hd_academy_library.res
+PASS: painted room keeps its3840px source: hd_forbidden_garden.res
+PASS: HD room retains its original crop coordinate space: hd_forbidden_garden.res
+PASS: painted room keeps its3840px source: hd_grand_archive.res
+PASS: HD room retains its original crop coordinate space: hd_grand_archive.res
+PASS: HD character atlas doubles detail while keeping logical region dimensions: pastel_meme_actions.res
+PASS: scaled character atlas contains real mip levels: pastel_meme_actions.res
+PASS: HD character atlas doubles detail while keeping logical region dimensions: animal_cast.res
+PASS: scaled character atlas contains real mip levels: animal_cast.res
+PASS: HD character atlas doubles detail while keeping logical region dimensions: perfect_grimoire.res
+PASS: scaled character atlas contains real mip levels: perfect_grimoire.res
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: animal portrait retains its original identity and crop: professor
+PASS: animal portrait retains its original identity and crop: pip
+PASS: animal portrait retains its original identity and crop: moss
+PASS: animal portrait retains its original identity and crop: bloop
+PASS: animal portrait retains its original identity and crop: examiner
+PASS: animal portrait retains its original identity and crop: examiner_hurt
+PASS: sentient book retains its original expression crop: calm
+PASS: sentient book retains its original expression crop: angry
+PASS: sentient book retains its original expression crop: shocked
+PASS: sentient book retains its original expression crop: damaged
+PASS: non-Portable walk frames keep their native coordinate space
+PASS: existing painted walk frames generate real mip levels too
+PASS: procedural shelf detail is cached at3x once per room
+PASS: standing shelf retains its previous world footprint
+PASS: fallen shelf retains its previous world footprint
+PASS: render-clock shelf shaking avoids a second local interpolation path
+HD ART RESULT: 36 checks, 0 failures

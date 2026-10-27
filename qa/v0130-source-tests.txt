@@ -1,0 +1,1901 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (4 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | StoryDirector[39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (4 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | v0130-hd-combat.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | v0130-hd-pocket-spark.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | v0130-hd-settings.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | v0130-hd-story-book.png[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (4 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mreimport[22m | v0130-hd-combat.png[39m[0m
+[   0% ] [90m[1mreimport[22m | v0130-hd-combat.png[39m[0m
+[   0% ] [90m[1mreimport[22m | v0130-hd-combat.png[39m[0m
+[  20% ] [90m[1mreimport[22m | v0130-hd-pocket-spark.png[39m[0m
+[  40% ] [90m[1mreimport[22m | v0130-hd-settings.png[39m[0m
+[  60% ] [90m[1mreimport[22m | v0130-hd-story-book.png[39m[0m
+[  60% ] [90m[1mreimport[22m | v0130-hd-story-book.png[39m[0m
+[  80% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (4 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: intro blocks combat
+PASS: five enemies spawned
+PASS: start overlay visible
+PASS: four distinct expression crops stay inside the shared hero sheet
+PASS: idle uses deadpan portrait
+PASS: miscast uses annoyed portrait
+PASS: overreaction uses startled portrait
+PASS: damage reaction takes precedence over successful cast
+PASS: pause uses sleepy portrait over combat reactions
+PASS: defeat uses resting portrait
+PASS: expired reaction returns to deadpan
+PASS: seeded 10,000-cast distribution follows 70/20/10
+PASS: debug override is consumed once
+PASS: start activates room
+PASS: movement input accelerates cat
+PASS: room boundary contains cat
+PASS: enemy chases player
+PASS: normal fireball emitted
+PASS: cooldown prevents immediate recast
+PASS: projectile collision deals 20 damage
+PASS: forced miscast executes
+PASS: miscast produces projectile or area effect
+PASS: giant fireball applies explosion to multiple enemies
+PASS: enemy telegraph gives time to react before damage
+PASS: telegraphed attack deals configured damage
+PASS: invulnerability blocks repeated damage
+PASS: pause freezes combat
+PASS: death ends study and displays retry
+PASS: last tutorial enemy opens the passage and leaves loot collectible
+RESULT: 29 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Enter starts real current scene
+PASS: Esc pauses through real input dispatch
+PASS: pause preserves invulnerability time
+PASS: pause preserves casting pose time
+PASS: pause preserves enemy attack cooldown
+PASS: pause preserves outcome feedback time
+PASS: pause preserves spell cooldown
+PASS: pause freezes projectile position and lifetime
+PASS: Esc resumes through real input dispatch
+PASS: timers resume with combat
+PASS: restart 1 resets room, enemies and HP
+PASS: restart 2 resets room, enemies and HP
+PASS: restart 3 resets room, enemies and HP
+PASS: restart 4 resets room, enemies and HP
+PASS: restart 5 resets room, enemies and HP
+PASS: five restarts do not accumulate input bindings
+PASS: debug key selects success
+PASS: forced success is consumed once
+PASS: debug key selects miscast
+PASS: forced miscast is consumed once
+PASS: debug key selects overreaction
+PASS: forced overreaction is consumed once
+PASS: death presents resting portrait and retry
+PASS: Enter retries after defeat
+PASS: all tutorial enemies defeated unlocks the passage
+PASS: Enter advances to the next expedition area
+PASS: failed spell creates visible WHOOPS burst
+PASS: pause freezes miscast smoke and failure marker
+PASS: miscast marker cleans up after feedback
+PASS: misfired projectile expires after a limited tactical window
+REGRESSION RESULT: 30 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: the storeroom has one old storage case; library cases stay in library stages
+PASS: candle, broom and bat have distinct roles
+PASS: nearby enemy telegraphs without contact damage
+PASS: attack locks direction so stepping aside is meaningful
+PASS: sidestepping avoids the telegraphed attack
+PASS: a hit interrupts an enemy windup
+PASS: manual roll starts
+PASS: roll cannot be stacked while rolling
+PASS: roll evades incoming damage
+PASS: rolling belly hits once for 30 damage
+PASS: one roll does not repeatedly damage the same enemy
+PASS: roll recovery prevents continuous invulnerability
+PASS: ignition warns before shelf deals damage
+PASS: pause freezes shelf ignition countdown
+PASS: burning shelf falls and defeats an enemy in its footprint
+PASS: burning shelf leaves a temporary fire hazard
+PASS: fire hazard expires rather than filling the arena permanently
+PASS: body roll topples a shelf without magic
+PASS: feet miscast starts a panic roll and ignites the floor
+PASS: panic accident explains itself in the room
+PASS: panic roll actually displaces the cat
+PASS: initial panic roll protects the cat from its own new fire
+PASS: a real fireball collision ignites an interactive bookshelf
+PASS: wall bump stops a roll inside room bounds
+PASS: wall collision has visible comic feedback
+PASS: cast anticipation precedes the projectile
+PASS: pause preserves a prepared spell without releasing it
+PASS: resuming releases the spell with its full-body casting pose
+PASS: damage changes the full-body pose to hurt
+PASS: rolling uses a tucked-body pose
+PASS: rolling cancels preparation instead of firing from inside the roll
+ACCIDENT RESULT: 31 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: catalog has thirty-six distinct equipment pieces
+PASS: new expedition begins with empty bag, slots and wallet
+PASS: empty slots preserve base combat stats
+PASS: every catalog item has a valid slot, price and description
+PASS: UI item descriptions cannot mutate catalog stats
+PASS: unknown items are rejected without granting stats
+PASS: gold drops count income and ignore negative additions
+PASS: shop offers three equipment slots and one heal
+PASS: gear purchase charges once and transfers one item
+PASS: purchased gear waits in the bag until equipped
+PASS: sold stock cannot be bought twice
+PASS: insufficient funds preserve wallet and shop stock
+PASS: invalid free or underpriced offers do not grant gear
+PASS: invalid catalog references never charge gold
+PASS: equipping a wand applies its spell damage bonus
+PASS: duplicate copies and repeated equip do not stack a slot
+PASS: swapping wands replaces bonuses and preserves owned gear
+PASS: slower recharge tradeoff is represented as a multiplier
+PASS: three slots combine health, speed and pickup reach
+PASS: cooldown modifiers multiply without changing spell outcome weights
+PASS: unequipping removes bonuses without deleting the item
+PASS: invalid and empty slot removals are harmless
+PASS: healing purchase returns health amount and consumes one stock
+PASS: each shop tier stocks all three valid slots at catalog prices
+PASS: drop pools unlock twelve items per equipment tier as the expedition deepens
+PASS: full bag rejects drops and purchases atomically
+PASS: healing remains purchasable with a full equipment bag
+PASS: a new run does not inherit previous currency, progression or gear
+ECONOMY RESULT: 28 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: missing profile starts safely with no permanent unlocks
+PASS: beginning a run commits a new attempt and active run id
+PASS: first sector immediately persists starlight and one-based progress
+PASS: one sector cannot award twice during the same run
+PASS: reload preserves both earned currency and the duplicate-award guard
+PASS: a failed run is committed without removing earned starlight
+PASS: finishing one run twice cannot fabricate a win
+PASS: permanent currency survives a failed run and reload
+PASS: a retry resets sector awards while retaining permanent currency and best progress
+PASS: winning increments the lifetime win count exactly once
+PASS: buying an upgrade commits its exact cost and future-run bonus
+PASS: purchased permanent upgrades survive reload
+PASS: insufficient funds and unknown upgrades never spend currency
+PASS: vitality caps at four ranks and cannot charge beyond the cap
+PASS: all four permanent unlocks yield the specified bounded bonuses
+PASS: starter wand unlock is a one-time purchase
+PASS: upgrade UI sees current level, cap and sold-out cost
+PASS: new expeditions preserve the bank and purchased bonuses
+PASS: zero-reward shop sectors still advance progress and cannot later pay twice
+PASS: invalid sectors and negative rewards are rejected
+PASS: corrupt primary falls back to the previous valid committed backup
+PASS: recovered progress can be committed again without erasing its bank
+PASS: corruption without a usable backup recovers to a safe writable profile
+PASS: malformed counters and active state are validated and clamped
+PASS: malformed upgrade levels cannot exceed caps or grant invalid ranks
+PASS: unsupported future profile blocks mutating operations
+PASS: unsupported future-version bytes remain unchanged without a replacement backup
+PASS: failed atomic commit rolls back upgrade cost and level
+PASS: failed reward commit rolls back currency and sector progress
+PASS: failed finish commit does not record a phantom win
+PASS: failed begin commit rolls back attempt and active run identifiers
+PASS: save failures leave the previous primary profile valid on reload
+PASS: saving recovers normally when the filesystem obstruction is removed
+PASS: failed atomic saves leave no temporary files
+META RESULT: 34 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: new expedition opens at the tutorial
+PASS: new profile starts without run gold or equipment
+PASS: starting a run records one persistent attempt
+PASS: uncleared combat locks the next sector
+PASS: enemy death updates the run kill count once
+PASS: defeated enemy drops collectible gold at its location
+PASS: first tutorial defeat guarantees a usable starter wand
+PASS: a pickup can credit its gold only once
+PASS: gear pickup enters the satchel
+PASS: found gear does not replace the equipped zero-stat practice wand
+PASS: inventory opens and pauses the expedition
+PASS: inventory cannot advance the stage while paused
+PASS: owned wand can be equipped through the room action
+PASS: equipped wand changes the actual spell configuration
+PASS: a real fireball applies the equipped wand damage
+PASS: max-HP gear expands capacity without free healing
+PASS: repeated collar swaps cannot heal the player
+PASS: charm movement bonus reaches the player controller
+PASS: charm changes the actual roll recovery time
+PASS: later defeats continue dropping loot
+PASS: inventory pauses loot animation and attraction
+PASS: inventory also preserves spell cooldown
+PASS: closing a panel while holding cast does not fire a new spell
+PASS: casting resumes after the held input is released
+PASS: sector 1 clear opens the route and leaves loot explorable
+PASS: sector 1 does not show the final victory screen
+PASS: sector 1 keeps ground loot bounded
+PASS: sector 1 cannot award permanent currency twice
+PASS: route advances from sector 1 to 2
+PASS: gold and equipped wand carry into sector 2
+PASS: sector 2 frees the previous room's ground loot
+PASS: sector 2 clear opens the route and leaves loot explorable
+PASS: sector 2 does not show the final victory screen
+PASS: sector 2 keeps ground loot bounded
+PASS: sector 2 cannot award permanent currency twice
+PASS: route advances from sector 2 to 3
+PASS: gold and equipped wand carry into sector 3
+PASS: sector 3 frees the previous room's ground loot
+PASS: sector 3 clear opens the route and leaves loot explorable
+PASS: sector 3 does not show the final victory screen
+PASS: sector 3 keeps ground loot bounded
+PASS: sector 3 cannot award permanent currency twice
+PASS: route advances from sector 3 to 4
+PASS: gold and equipped wand carry into sector 4
+PASS: sector 4 frees the previous room's ground loot
+PASS: shop 1 is a safe sector with an open onward route
+PASS: shop 1 requires interacting with its merchant before buying
+PASS: merchant interaction opens shop 1 and pauses movement
+PASS: shop 1 carries three gear slots and one provision
+PASS: shop 1 cannot transition while its panel is open
+PASS: collected enemy drops can afford a first-shop equipment purchase
+PASS: shop 1 exchanges the exact gear price for an owned item
+PASS: shop 1 marks stock sold without silently equipping the purchase
+PASS: shop 1 cannot charge for sold stock twice
+PASS: shop 1 rejects full-health food without charging or selling it
+PASS: shop 1 provision restores actual vitality for its exact price
+PASS: reopening shop 1 preserves its sold stock
+PASS: shop 1 equipment can be deliberately equipped for the next fights
+PASS: route advances from sector 4 to 5
+PASS: gold and equipped wand carry into sector 5
+PASS: sector 5 frees the previous room's ground loot
+PASS: sector 5 clear opens the route and leaves loot explorable
+PASS: sector 5 does not show the final victory screen
+PASS: sector 5 keeps ground loot bounded
+PASS: sector 5 cannot award permanent currency twice
+PASS: route advances from sector 5 to 6
+PASS: gold and equipped wand carry into sector 6
+PASS: sector 6 frees the previous room's ground loot
+PASS: sector 6 clear opens the route and leaves loot explorable
+PASS: sector 6 does not show the final victory screen
+PASS: sector 6 keeps ground loot bounded
+PASS: sector 6 cannot award permanent currency twice
+PASS: route advances from sector 6 to 7
+PASS: gold and equipped wand carry into sector 7
+PASS: sector 7 frees the previous room's ground loot
+PASS: shop 2 is a safe sector with an open onward route
+PASS: shop 2 requires interacting with its merchant before buying
+PASS: merchant interaction opens shop 2 and pauses movement
+PASS: shop 2 carries three gear slots and one provision
+PASS: shop 2 cannot transition while its panel is open
+PASS: shop 2 exchanges the exact gear price for an owned item
+PASS: shop 2 marks stock sold without silently equipping the purchase
+PASS: shop 2 cannot charge for sold stock twice
+PASS: shop 2 rejects full-health food without charging or selling it
+PASS: shop 2 provision restores actual vitality for its exact price
+PASS: reopening shop 2 preserves its sold stock
+PASS: shop 2 equipment can be deliberately equipped for the next fights
+PASS: route advances from sector 7 to 8
+PASS: gold and equipped wand carry into sector 8
+PASS: sector 8 frees the previous room's ground loot
+PASS: route contains two shops before the eighth sector
+PASS: final examination starts as a locked combat encounter
+PASS: final encounter has a bounded group of enemies
+PASS: final encounter includes a stronger examiner
+PASS: victory waits for the last final-sector defender
+PASS: only the completed eighth sector displays final victory
+PASS: final victory persists the clear and permanent reward
+PASS: run summary counts defeated enemies across every combat sector
+PASS: new expedition resets transient gold and gear
+PASS: profile clear and furthest progress survive scene reload
+PASS: legacy studies open from the start screen
+PASS: earned starlight buys permanent vitality and a starting wand
+PASS: next expedition applies purchased permanent vitality
+PASS: unlocked starting wand is inherited and equipped next run
+PASS: retry starts fresh run gold and records the next attempt
+PASS: death ends the expedition without adding a win
+PASS: permanent currency and upgrades survive defeat
+PASS: defeat discards the previous run's gold and temporary finds
+PASS: another attempt still inherits permanent upgrades and unlocks
+EXPEDITION RESULT: 109 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: route contains eight areas, including its tutorial and shops
+PASS: start menu does not display a stale arrival card
+PASS: beginning the expedition visibly announces the tutorial arrival
+PASS: pause hides the arrival card and preserves its display time
+PASS: resuming restores the same arrival without advancing the route
+PASS: equipment panel hides the arrival card so menu controls remain readable
+PASS: area 01 selects the corresponding background
+PASS: area 01 announces arrival with the correct position in the route
+PASS: area 01 arrival spells out its number and destination name
+PASS: area 01 is highlighted on the eight-stop route
+PASS: area 01 has exactly one current route marker
+PASS: area 01 cannot advance before its defenders are defeated
+PASS: area 01 clear has a different announcement from arrival
+PASS: area 01 clear names the next destination
+PASS: area 01 exits into the next distinct area
+PASS: area 02 selects the corresponding background
+PASS: area 02 announces arrival with the correct position in the route
+PASS: area 02 arrival spells out its number and destination name
+PASS: area 02 is highlighted on the eight-stop route
+PASS: area 02 has exactly one current route marker
+PASS: area 02 cannot advance before its defenders are defeated
+PASS: area 02 clear has a different announcement from arrival
+PASS: area 02 clear names the next destination
+PASS: area 02 exits into the next distinct area
+PASS: area 03 selects the corresponding background
+PASS: area 03 announces arrival with the correct position in the route
+PASS: area 03 arrival spells out its number and destination name
+PASS: area 03 is highlighted on the eight-stop route
+PASS: area 03 has exactly one current route marker
+PASS: area 03 cannot advance before its defenders are defeated
+PASS: area 03 clear has a different announcement from arrival
+PASS: area 03 clear names the next destination
+PASS: area 03 exits into the next distinct area
+PASS: area 04 selects the corresponding background
+PASS: area 04 announces arrival with the correct position in the route
+PASS: area 04 arrival spells out its number and destination name
+PASS: area 04 is highlighted on the eight-stop route
+PASS: area 04 has exactly one current route marker
+PASS: area 04 is clearly marked as a safe shop stop
+PASS: area 04 arrival gives a shopping objective
+PASS: area 04 merchant panel suppresses the arrival card
+PASS: area 04 exits into the next distinct area
+PASS: area 05 selects the corresponding background
+PASS: area 05 announces arrival with the correct position in the route
+PASS: area 05 arrival spells out its number and destination name
+PASS: area 05 is highlighted on the eight-stop route
+PASS: area 05 has exactly one current route marker
+PASS: area 05 cannot advance before its defenders are defeated
+PASS: area 05 clear has a different announcement from arrival
+PASS: area 05 clear names the next destination
+PASS: area 05 exits into the next distinct area
+PASS: area 06 selects the corresponding background
+PASS: area 06 announces arrival with the correct position in the route
+PASS: area 06 arrival spells out its number and destination name
+PASS: area 06 is highlighted on the eight-stop route
+PASS: area 06 has exactly one current route marker
+PASS: area 06 cannot advance before its defenders are defeated
+PASS: area 06 clear has a different announcement from arrival
+PASS: area 06 clear names the next destination
+PASS: area 06 exits into the next distinct area
+PASS: area 07 selects the corresponding background
+PASS: area 07 announces arrival with the correct position in the route
+PASS: area 07 arrival spells out its number and destination name
+PASS: area 07 is highlighted on the eight-stop route
+PASS: area 07 has exactly one current route marker
+PASS: area 07 is clearly marked as a safe shop stop
+PASS: area 07 arrival gives a shopping objective
+PASS: area 07 merchant panel suppresses the arrival card
+PASS: area 07 exits into the next distinct area
+PASS: area 08 selects the corresponding background
+PASS: area 08 announces arrival with the correct position in the route
+PASS: area 08 arrival spells out its number and destination name
+PASS: area 08 is highlighted on the eight-stop route
+PASS: area 08 has exactly one current route marker
+PASS: area 08 cannot advance before its defenders are defeated
+PASS: last area shows final victory rather than another route transition
+PASS: all eight route stops have distinct visual themes
+PASS: eight-area route consists of six fights and two shops
+PASS: retry resets the route and clears the previous run's transition card
+PASS: retry restores tutorial artwork instead of retaining the final area
+PRESENTATION RESULT: 80 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: final examiner preserves enemy integration and identifies its distinct archetype
+PASS: examiner begins with configured HP and its prediction barrier
+PASS: the sentient grimoire starts with its cached illustrated composed pose
+PASS: controlled fireball is visibly predicted without damaging the barrier
+PASS: miscast damages the examiner and opens a four-second opportunity
+PASS: controlled spell works during the opportunity without extending its duration
+PASS: accident opening counts down during active combat
+PASS: pausing the enemy preserves vulnerability and visual feedback timers
+PASS: inactive player freezes the examiner during panels and transitions
+PASS: the prediction barrier returns when the accident window expires
+PASS: a later controlled spell is predicted again after the window closes
+PASS: uncontrolled oversized magic also breaks the prediction pattern
+PASS: a belly-roll or environmental hit creates an accident opening
+PASS: an environmental accident can be followed by a normal fireball
+PASS: miscast interrupts an announced attack and rewards the player with an opening
+PASS: boss announces its beam for at least 0.85 seconds before any damage
+PASS: beam direction remains locked while the player sidesteps
+PASS: sidestepping the announced lane avoids the attack
+PASS: every completed attack grants a guaranteed recovery opening without random miscasts
+PASS: ordinary attack recovery grants an opening without pretending the shield was shattered
+PASS: normal fireball can exploit the guaranteed recovery window
+PASS: recovery ends and the boss resumes its readable combat loop
+PASS: transition from warning to beam does not inflict a surprise instant hit
+PASS: remaining in the beam lane takes the configured damage
+PASS: one beam damages the player only once even if invulnerability is cleared
+PASS: zero and negative damage cannot fabricate an accident window
+PASS: examiner knockback remains inside the room bounds
+PASS: a predicted controlled spell does not manufacture a shield-break cinematic
+PASS: a real closed-to-open accident emits one localized barrier-break event at the actual boss
+PASS: shield-break crack and stagger begin at impact without changing the four-second gameplay window
+PASS: the first broken shield immediately changes the wizard to its surprised illustrated pose
+PASS: further accidents extend the opening without replaying or restarting its burst
+PASS: pause freezes shield fragments, stagger and reform presentation clocks together
+PASS: barrier expiry triggers exactly one visible reconstruction when protection actually returns
+PASS: the examiner regains its composed illustration when protection returns
+PASS: the reconstruction animation advances without repeatedly emitting its completion transition
+PASS: a later fresh shield can be dramatically broken again by a physical/environmental accident
+PASS: defeating the examiner emits the normal enemy completion signal exactly once
+PASS: defeated examiner cleans up its body and health display
+GRIMOIRE RESULT: 39 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: real room enters the final area with story safely skipped for combat integration
+PASS: final-area elite spawns exactly one PerfectExaminer rather than a reskinned broom
+PASS: spawn passes the final elite HP and identity into the new encounter
+PASS: final passage stays locked while the shielded boss and its defenders remain
+PASS: a real controlled projectile reaches the boss and is consumed by collision
+PASS: projectile dispatch preserves success prediction instead of bypassing the barrier through generic damage
+PASS: the blocked projectile cleans up after its real impact signal
+PASS: a real miscast projectile applies exactly its configured damage
+PASS: real projectile collision starts the shield-fracture presentation once at impact
+PASS: real barrier collision triggers camera emphasis and replaces the arrival card with the attack opportunity
+PASS: miscast collision forwards its outcome and opens the accident opportunity
+PASS: a following controlled projectile deals damage during the same opening
+PASS: a follow-up projectile during the exposed window does not replay shield shattering
+PASS: giant-projectile impact dispatches its AoE exactly once without an extra direct hit
+PASS: the production explosion signal reaches the boss as an uncontrolled overreaction
+PASS: miscast area impact applies the configured damage through the real signal binding
+PASS: miscast AoE uses apply_miscast_blast rather than the default overreaction outcome
+PASS: explicit controlled AoE also respects the barrier through room dispatch
+PASS: room's feet-miscast AoE path opens the correct opportunity
+PASS: controlled AoE can exploit an opening made by an accident
+PASS: lethal spell collision reaches the room's normal defeat accounting once
+PASS: boss defeat removes only the boss and leaves surviving defenders gating completion
+PASS: the real boss defeat produces its elite Crowns and guaranteed equipment drop
+PASS: defeated final boss is freed after the room processes its loot signal
+PASS: defeating the remaining defenders completes the real final area
+PASS: normal victory presentation replaces combat after final-room completion
+PASS: final completion collects loot and saves permanent win and route progress
+PASS: boss encounter completion persists through the normal isolated profile writer
+GRIMOIRE INTEGRATION RESULT: 28 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: narrative suite explicitly enables the real user story path
+PASS: runtime story identifies Meowmalade and Arcana Academy
+PASS: all eight expedition areas have authored runtime story pages
+PASS: original underground detention is restored in both story languages
+PASS: detention and the last basement rest use the authored cellar artwork instead of sunny windows
+PASS: the cat follows the source of the disturbance from detention to the library
+PASS: original floating books and unnatural mushroom pattern remain actual story events
+PASS: Bloop's explosions remain unpredictable rather than contradicting the core premise
+PASS: the discovered city-accident record explains why the Grimoire removes choice
+PASS: each chapter's concrete story landmarks are rendered by its actual stage painter
+PASS: library book formation visibly shares height and exact spacing
+PASS: garden mushrooms are painted in the original regular grid rather than ordinary flowerpot rows
+PASS: user start opens the actual animated opening before combat
+PASS: opening leaves combat inactive and does not begin the run early
+PASS: opening renders the academy dialogue window
+PASS: cutscene uses the actual smooth full-body storybook hero artwork
+PASS: shared room illustration stays behind the story report cards, analysis panel and spell effects
+PASS: opening advances timed illustrated beats automatically
+PASS: Enter advances one story page without starting gameplay behind it
+PASS: Space advances narration without firing a spell
+PASS: story input capture prevents opening inventory underneath dialogue
+PASS: opening detention pages preview the actual basement storeroom instead of the examination hall
+PASS: Escape skips opening into exactly one real expedition
+PASS: returning from story does not leak a held cast input
+PASS: route area 01 can be completed before its next story chapter
+PASS: actual route advance opens story for area 02
+PASS: area 02 selects its matching authored chapter
+PASS: chapter 02 pauses combat and rejects an accidental second route advance
+PASS: every dialogue pose in chapter 02 retains the playable room artwork and floor decorations
+PASS: finishing chapter 02 resumes the same area
+PASS: route area 02 can be completed before its next story chapter
+PASS: actual route advance opens story for area 03
+PASS: area 03 selects its matching authored chapter
+PASS: chapter 03 pauses combat and rejects an accidental second route advance
+PASS: every dialogue pose in chapter 03 retains the playable room artwork and floor decorations
+PASS: finishing chapter 03 resumes the same area
+PASS: route area 03 can be completed before its next story chapter
+PASS: actual route advance opens story for area 04
+PASS: area 04 selects its matching authored chapter
+PASS: chapter 04 pauses combat and rejects an accidental second route advance
+PASS: every dialogue pose in chapter 04 retains the playable room artwork and floor decorations
+PASS: skipping Pip’s chapter resumes its shop rather than advancing again
+PASS: route area 04 can be completed before its next story chapter
+PASS: actual route advance opens story for area 05
+PASS: area 05 selects its matching authored chapter
+PASS: chapter 05 pauses combat and rejects an accidental second route advance
+PASS: every dialogue pose in chapter 05 retains the playable room artwork and floor decorations
+PASS: finishing chapter 05 resumes the same area
+PASS: route area 05 can be completed before its next story chapter
+PASS: actual route advance opens story for area 06
+PASS: area 06 selects its matching authored chapter
+PASS: chapter 06 pauses combat and rejects an accidental second route advance
+PASS: every dialogue pose in chapter 06 retains the playable room artwork and floor decorations
+PASS: finishing chapter 06 resumes the same area
+PASS: route area 06 can be completed before its next story chapter
+PASS: actual route advance opens story for area 07
+PASS: area 07 selects its matching authored chapter
+PASS: chapter 07 pauses combat and rejects an accidental second route advance
+PASS: every dialogue pose in chapter 07 retains the playable room artwork and floor decorations
+PASS: finishing chapter 07 resumes the same area
+PASS: route area 07 can be completed before its next story chapter
+PASS: actual route advance opens story for area 08
+PASS: area 08 selects its matching authored chapter
+PASS: chapter 08 pauses combat and rejects an accidental second route advance
+PASS: every dialogue pose in chapter 08 retains the playable room artwork and floor decorations
+PASS: finishing chapter 08 resumes the same area
+PASS: the playable route actually presents Pip, Moss and Bloop dialogue
+PASS: the Grimoire’s control-and-prediction conflict is present in route dialogue
+PASS: final victory opens the authored ending before the result overlay
+PASS: victory is saved while the ending remains paused
+PASS: ending displays the actual World Saving A+ report card
+PASS: ending reaches the report, deadpan reaction, final BOOM and end page
+PASS: ending stays in the actual Grand Archive until the explicit return to the academy
+PASS: ending completion restores the real victory result screen
+PASS: skip and repeated advance complete a sequence callback exactly once
+PASS: close cancels narration without invoking its completion callback
+PASS: a later expedition skips the already-seen opening in the same application
+STORY RESULT: 77 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: a fresh settings file defaults to Korean
+PASS: unknown locale is rejected without changing the selected language
+PASS: menus and spell state use Korean copy
+PASS: all localized UI messages preserve their interpolation types and order
+PASS: all53story pages, including the restored examination replay, have Korean and complete English copy
+PASS: all rendered Korean syllables exist in the bundled story font: res://data/locales/ko.json[]
+PASS: all rendered Korean syllables exist in the bundled story font: res://data/story.json[]
+PASS: all rendered Korean syllables exist in the bundled story font: res://data/shop_dialogue.json[]
+PASS: all thirty-six equipment names and descriptions have Korean translations
+PASS: all eight destination names have Korean translations
+PASS: settings pause an active story without dismissing it
+PASS: changing language updates the current story page without advancing or rewinding it
+PASS: English preference is persisted independently of progress
+PASS: settings close guards the triggering Escape from the story and room input handlers
+PASS: closing settings returns to the same narrative page
+PASS: story completion still returns control to the expedition after language switching
+PASS: the tutorial equips only its zero-stat practice wand, leaving collar and charm empty
+PASS: a real owned-item equip action accepts crooked_ash_wand
+PASS: equipping crooked_ash_wand shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts cinderfork_wand
+PASS: equipping cinderfork_wand shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts apprentice_thesis
+PASS: equipping apprentice_thesis shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts brass_bell_collar
+PASS: equipping brass_bell_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts velvet_bell_collar
+PASS: equipping velvet_bell_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts nine_lives_collar
+PASS: equipping nine_lives_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts loose_feather
+PASS: equipping loose_feather shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts warm_sardine_charm
+PASS: equipping warm_sardine_charm shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts moonlit_yarn
+PASS: equipping moonlit_yarn shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts practice_wand
+PASS: equipping practice_wand shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts frost_whisker_wand
+PASS: equipping frost_whisker_wand shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts hopscotch_wand
+PASS: equipping hopscotch_wand shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts pip_feather_staff
+PASS: equipping pip_feather_staff shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts moss_bud_staff
+PASS: equipping moss_bud_staff shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts bloop_bottle_wand
+PASS: equipping bloop_bottle_wand shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts thunder_spoon
+PASS: equipping thunder_spoon shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts bubble_teapot
+PASS: equipping bubble_teapot shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts comet_crayon
+PASS: equipping comet_crayon shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts linen_star_collar
+PASS: equipping linen_star_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts acorn_bell_collar
+PASS: equipping acorn_bell_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts button_bow_collar
+PASS: equipping button_bow_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts frost_drop_collar
+PASS: equipping frost_drop_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts moss_heart_collar
+PASS: equipping moss_heart_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts bloop_locket_collar
+PASS: equipping bloop_locket_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts thunder_key_collar
+PASS: equipping thunder_key_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts bubble_pearl_collar
+PASS: equipping bubble_pearl_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts comet_medal_collar
+PASS: equipping comet_medal_collar shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts paper_pinwheel
+PASS: equipping paper_pinwheel shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts clover_leaf
+PASS: equipping clover_leaf shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts sleepy_acorn
+PASS: equipping sleepy_acorn shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts frost_button
+PASS: equipping frost_button shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts pip_egg
+PASS: equipping pip_egg shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts moss_seed_pouch
+PASS: equipping moss_seed_pouch shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts bloop_cork
+PASS: equipping bloop_cork shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts thunder_marble
+PASS: equipping thunder_marble shows its shared unique artwork on the cat
+PASS: a real owned-item equip action accepts comet_stamp
+PASS: equipping comet_stamp shows its shared unique artwork on the cat
+PASS: swapping all thirty-six items reuses three accessory nodes and respects the bag limit
+PASS: reapplying unchanged equipment does not rebuild its visual resources
+PASS: casting attachments follow the left-facing action pose
+PASS: tucked rolls hide loose accessories while retaining their equipped identities
+PASS: all attachments return after a roll
+PASS: combat options consume their Escape close event before gameplay resumes
+PASS: Korean can be restored and persisted while combat resumes correctly
+PASS: closing settings preserves individual enemy activity instead of waking frozen actors
+PASS: language options preserve an already-open equipment panel and combat pause
+PASS: unequipping wand immediately removes the worn image
+PASS: unequipping collar immediately removes the worn image
+PASS: unequipping charm immediately removes the worn image
+PASS: removing visual equipment also removes the real combat bonuses
+PASS: a new expedition does not retain previous equipment visuals
+LOCALIZATION APPEARANCE RESULT: 103 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: distance selects a valid connected full-body pose
+PASS: gait loops after one travelled stride
+PASS: distance selects a valid connected full-body pose
+PASS: gait loops after one travelled stride
+PASS: distance selects a valid connected full-body pose
+PASS: gait loops after one travelled stride
+PASS: distance selects a valid connected full-body pose
+PASS: gait loops after one travelled stride
+PASS: distance selects a valid connected full-body pose
+PASS: gait loops after one travelled stride
+PASS: distance selects a valid connected full-body pose
+PASS: gait loops after one travelled stride
+PASS: the stride uses all six authored contact and passing drawings
+PASS: normal walking avoids a rapid pattering cadence
+PASS: walk crop stays inside the authored sheet
+PASS: walk crop stays inside the authored sheet
+PASS: walk crop stays inside the authored sheet
+PASS: walk crop stays inside the authored sheet
+PASS: walk crop stays inside the authored sheet
+PASS: walk crop stays inside the authored sheet
+PASS: walking renders the complete new painted figure
+PASS: real travel advances the full-body contact sequence
+PASS: changing walk frames does not rebuild geometry
+PASS: real movement advances the foot cycle using displacement
+PASS: the visual uses one connected figure and gear without detached paw or belly nodes
+PASS: walking does not rock or lift the entire character off the floor
+PASS: pushing a room wall does not moonwalk in place
+PASS: rolling uses its tucked pose without advancing walking feet
+PASS: the final partial roll tick does not become a walking stride
+PASS: pause freezes gait, body and feet together
+PASS: walking, wall contact, rolling and pause reuse the same mesh resource
+PASS: stopping returns to the approved intact idle art
+GROUNDED GAIT RESULT: 32 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: candle: approaching foe does not imply an active danger lane
+PASS: candle: complete footprint appears before any damage, with a fresh countdown
+PASS: candle: warning includes the player's collider and actual dash travel
+PASS: candle: danger ink stays on the floor below actors
+PASS: candle: countdown advances without tracking a sidestepping player or changing the promised range
+PASS: candle: pause freezes the countdown
+PASS: candle: striking lane stays anchored to its floor endpoint instead of sliding ahead of the enemy
+PASS: candle: sidestepping is safe and the lane clears after the attack
+PASS: candle: interrupted windup immediately withdraws its warning
+PASS: candle: just inside the visible side edge takes actual contact damage
+PASS: candle: just outside the visible side edge is safe
+PASS: candle: fractional 0.0167s ticks finish exactly at the announced endpoint
+PASS: candle: fractional 0.0370s ticks finish exactly at the announced endpoint
+PASS: candle: fractional 0.1100s ticks finish exactly at the announced endpoint
+PASS: broom: approaching foe does not imply an active danger lane
+PASS: broom: complete footprint appears before any damage, with a fresh countdown
+PASS: broom: warning includes the player's collider and actual dash travel
+PASS: broom: danger ink stays on the floor below actors
+PASS: broom: countdown advances without tracking a sidestepping player or changing the promised range
+PASS: broom: pause freezes the countdown
+PASS: broom: striking lane stays anchored to its floor endpoint instead of sliding ahead of the enemy
+PASS: broom: sidestepping is safe and the lane clears after the attack
+PASS: broom: interrupted windup immediately withdraws its warning
+PASS: broom: just inside the visible side edge takes actual contact damage
+PASS: broom: just outside the visible side edge is safe
+PASS: broom: fractional 0.0167s ticks finish exactly at the announced endpoint
+PASS: broom: fractional 0.0370s ticks finish exactly at the announced endpoint
+PASS: broom: fractional 0.1100s ticks finish exactly at the announced endpoint
+PASS: bat: approaching foe does not imply an active danger lane
+PASS: bat: complete footprint appears before any damage, with a fresh countdown
+PASS: bat: warning includes the player's collider and actual dash travel
+PASS: bat: danger ink stays on the floor below actors
+PASS: bat: countdown advances without tracking a sidestepping player or changing the promised range
+PASS: bat: pause freezes the countdown
+PASS: bat: striking lane stays anchored to its floor endpoint instead of sliding ahead of the enemy
+PASS: bat: sidestepping is safe and the lane clears after the attack
+PASS: bat: interrupted windup immediately withdraws its warning
+PASS: bat: just inside the visible side edge takes actual contact damage
+PASS: bat: just outside the visible side edge is safe
+PASS: bat: fractional 0.0167s ticks finish exactly at the announced endpoint
+PASS: bat: fractional 0.0370s ticks finish exactly at the announced endpoint
+PASS: bat: fractional 0.1100s ticks finish exactly at the announced endpoint
+PASS: scaled elite warning keeps an unscaled world-space render transform
+PASS: scaled broom's rendered endpoint remains190 collision pixels, not237.5 art-scaled pixels
+PASS: scaled elite's rendered side boundary remains the actual41-pixel contact radius
+PASS: diagonal wall approach includes the same corner slide as per-axis movement clamping
+PASS: wall-clipped warning never projects a centre path outside the playable arena
+PASS: countdown fill traverses distance evenly
+PASS: scaled examiner warning retains a unit world-space render transform
+PASS: scaled examiner's rendered beam endpoint matches310-pixel collision length
+PASS: scaled examiner's rendered side boundary matches the actual35.05-pixel collision width
+PASS: examiner warning includes the actual player-radius collision allowance
+PASS: both beam side edges match the visible rectangle exactly
+PASS: beam start and endpoint agree with its real hit test
+TELEGRAPHS RESULT: 54 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: the reward catalog contains36 equipment choices
+PASS: the run model itself remains empty until the room grants its starting gear
+PASS: existing equipment identifiers remain valid for permanent unlocks and rewards
+PASS: every reward has a legal slot, tier, name, description and positive price
+PASS: weapon, collar and charm categories each offer12 choices
+PASS: each rarity tier contains four choices for each of the three slots
+PASS: each weapon unlocks one distinct special skill while passive slots add no extra active buttons
+PASS: all24 passive items have distinct stat combinations
+PASS: all36 items can be bought at their real price, equipped in their slot, and removed without consuming ownership
+PASS: all36 purchased items wait in the bag without granting unearned equipped bonuses
+PASS: new equipment can actually alter special-skill damage, cooldown and reach
+PASS: drop eligibility expands12→24→36 without leaking later-tier rewards into the tutorial
+PASS: randomized shop stock always includes the three slots at the visited tier and their catalog prices plus one provision
+PASS: seeded repeated expeditions can find every item in shop stock instead of only the first entry of each slot
+PASS: the seeded shop sequence is reproducible for encounter and economy verification
+PASS: retained room stock keeps its purchased state when another selection is generated
+PASS: a randomized sold offer cannot charge twice or duplicate its reward
+PASS: a larger reward pool preserves the18-item bag limit and atomic full-bag rejection
+PASS: a full equipment bag still allows a restorative provision
+PASS: new rare items reject forged prices without charging or marking stock sold
+PASS: unowned or wrong-slot equipment references never grant expanded skill bonuses
+PASS: all36 inventory, drop and worn images reuse cached textures
+PASS: all36 distinct icon regions stay inside four shared imported atlases
+PASS: all36 worn items fit their proper paw, neck or hat attachment bounds
+PASS: equipment keeps its authored proportions when fitted to the character
+PASS: old collars use small pendant crops and new pendants fit safely below the cat's muzzle
+PASS: unknown item identifiers cannot create a fallback icon or wearable
+PASS: new weapon, pendant and charm IDs are accepted without refreshing unchanged equipment
+PASS: wearable validation rejects real items placed in the wrong attachment slot
+CATALOG EXPANSION RESULT: 29 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: practice_wand: catalog links to its actual special-skill definition
+PASS: practice_wand: skill has player-facing identity and a positive recovery time
+PASS: crooked_ash_wand: catalog links to its actual special-skill definition
+PASS: crooked_ash_wand: skill has player-facing identity and a positive recovery time
+PASS: cinderfork_wand: catalog links to its actual special-skill definition
+PASS: cinderfork_wand: skill has player-facing identity and a positive recovery time
+PASS: apprentice_thesis: catalog links to its actual special-skill definition
+PASS: apprentice_thesis: skill has player-facing identity and a positive recovery time
+PASS: frost_whisker_wand: catalog links to its actual special-skill definition
+PASS: frost_whisker_wand: skill has player-facing identity and a positive recovery time
+PASS: hopscotch_wand: catalog links to its actual special-skill definition
+PASS: hopscotch_wand: skill has player-facing identity and a positive recovery time
+PASS: pip_feather_staff: catalog links to its actual special-skill definition
+PASS: pip_feather_staff: skill has player-facing identity and a positive recovery time
+PASS: moss_bud_staff: catalog links to its actual special-skill definition
+PASS: moss_bud_staff: skill has player-facing identity and a positive recovery time
+PASS: bloop_bottle_wand: catalog links to its actual special-skill definition
+PASS: bloop_bottle_wand: skill has player-facing identity and a positive recovery time
+PASS: thunder_spoon: catalog links to its actual special-skill definition
+PASS: thunder_spoon: skill has player-facing identity and a positive recovery time
+PASS: bubble_teapot: catalog links to its actual special-skill definition
+PASS: bubble_teapot: skill has player-facing identity and a positive recovery time
+PASS: comet_crayon: catalog links to its actual special-skill definition
+PASS: comet_crayon: skill has player-facing identity and a positive recovery time
+PASS: twelve weapon choices provide twelve distinct skill definitions
+PASS: a fresh unequipped run cannot invoke an item it does not own
+PASS: spoofing the equipment ID without an owned copy does not unlock its skill
+PASS: only the equipped owned weapon selects the one active skill
+PASS: a deliberate skill activation emits once and starts the shared cooldown
+PASS: swapping weapons changes the selected skill but cannot bypass its shared cooldown
+PASS: stage/transient cleanup preserves the shared cooldown
+PASS: unequipping the weapon immediately removes its special action
+PASS: intro: menus/story/inactive run freeze recovery and reject skill casts
+PASS: paused: menus/story/inactive run freeze recovery and reject skill casts
+PASS: inventory: menus/story/inactive run freeze recovery and reject skill casts
+PASS: shop: menus/story/inactive run freeze recovery and reject skill casts
+PASS: settings: menus/story/inactive run freeze recovery and reject skill casts
+PASS: story: menus/story/inactive run freeze recovery and reject skill casts
+PASS: transition: menus/story/inactive run freeze recovery and reject skill casts
+PASS: defeated: menus/story/inactive run freeze recovery and reject skill casts
+PASS: cleared: menus/story/inactive run freeze recovery and reject skill casts
+PASS: inactive player cannot activate a skill even when room state is playing
+PASS: rolling rejects a conflicting item-skill action
+PASS: an already-preparing normal spell does not get overwritten by a skill
+PASS: cleared-area input cannot queue a delayed attack for the next stage
+PASS: practice_wand: real activation damages a target, moves the cat or provides an actual guard
+PASS: practice_wand: bounded skill actors expire rather than accumulating in the room
+PASS: crooked_ash_wand: real activation damages a target, moves the cat or provides an actual guard
+PASS: crooked_ash_wand: bounded skill actors expire rather than accumulating in the room
+PASS: cinderfork_wand: real activation damages a target, moves the cat or provides an actual guard
+PASS: cinderfork_wand: bounded skill actors expire rather than accumulating in the room
+PASS: apprentice_thesis: real activation damages a target, moves the cat or provides an actual guard
+PASS: apprentice_thesis: bounded skill actors expire rather than accumulating in the room
+PASS: frost_whisker_wand: real activation damages a target, moves the cat or provides an actual guard
+PASS: frost_whisker_wand: bounded skill actors expire rather than accumulating in the room
+PASS: hopscotch_wand: real activation damages a target, moves the cat or provides an actual guard
+PASS: hopscotch_wand: bounded skill actors expire rather than accumulating in the room
+PASS: pip_feather_staff: real activation damages a target, moves the cat or provides an actual guard
+PASS: pip_feather_staff: bounded skill actors expire rather than accumulating in the room
+PASS: moss_bud_staff: real activation damages a target, moves the cat or provides an actual guard
+PASS: moss_bud_staff: bounded skill actors expire rather than accumulating in the room
+PASS: bloop_bottle_wand: real activation damages a target, moves the cat or provides an actual guard
+PASS: bloop_bottle_wand: bounded skill actors expire rather than accumulating in the room
+PASS: thunder_spoon: real activation damages a target, moves the cat or provides an actual guard
+PASS: thunder_spoon: bounded skill actors expire rather than accumulating in the room
+PASS: bubble_teapot: real activation damages a target, moves the cat or provides an actual guard
+PASS: bubble_teapot: bounded skill actors expire rather than accumulating in the room
+PASS: comet_crayon: real activation damages a target, moves the cat or provides an actual guard
+PASS: comet_crayon: bounded skill actors expire rather than accumulating in the room
+PASS: Pocket Spark damages the aimed point immediately with its configured24 damage
+PASS: miscast spark actually flies to the wrong side and produces recoil rather than doing nothing
+PASS: Hearth Circle damages and pushes only foes inside its radial footprint
+PASS: overreaction increases both the ring reach and real damage
+PASS: Cinder Fan launches five separate fireballs across a real angular spread
+PASS: fan projectile substeps hit the centre and both sides even at coarse physics intervals
+PASS: orbiting pages hit a nearby foe but do not damage it every frame
+PASS: pages repeat bounded contact damage while excluding distant foes
+PASS: page orbit follows the moving cat instead of remaining at its original cast location
+PASS: frost uses an aimed cone instead of a generic omnidirectional blast
+PASS: frost slows an actual living enemy without disabling all of its behavior
+PASS: slowed enemy's real approach movement uses the reduced speed
+PASS: pausing freezes both the frost duration and skill recovery
+PASS: frost expiration restores the original enemy speed exactly
+PASS: blink moves to a new position, damages at arrival and briefly protects the landing
+PASS: blink clamps its landing to the actual player-radius room boundary
+PASS: the charging chicken crosses and hits two foes once each without tunnelling
+PASS: vine patch immediately roots a foe and applies its first damage
+PASS: vine field deals repeated damage while holding its target
+PASS: paused vine field does not keep damaging enemies or consuming its recovery
+PASS: vine expiration releases the foe and restores its prior movement settings
+PASS: potion damage waits for its thrown arc to reach the landing
+PASS: potion explodes exactly once after landing rather than ticking continuous blast damage
+PASS: thunder telegraphs its strikes before dealing damage
+PASS: first thunder strike hits only its first marked point
+PASS: second thunder strike arrives later along the aim direction
+PASS: third thunder strike completes the timed line
+PASS: bubble guard blocks real incoming player damage
+PASS: opening a menu pauses bubble protection instead of spending it offscreen
+PASS: bubble expires and ordinary incoming damage resumes
+PASS: comet shower provides a landing warning before its first impact
+PASS: comets begin with one impact instead of applying all four at once
+PASS: four independently timed comets damage a central target four times
+PASS: a controlled item skill obeys the Perfect Wizard's prediction barrier
+PASS: an accidental item skill breaks the prediction pattern and opens the real boss barrier
+PASS: an area clear cancels pending potion damage and removes delayed actors
+PASS: cleared-room recovery remains shared while delayed attacks are discarded
+PASS: explicit transient cleanup restores rooted enemies and removes owned effect actors
+PASS: status and actor cleanup cannot refresh the shared cooldown
+PASS: real room transition retains item recovery while old status references are discarded
+PASS: collar and charm skill-damage bonuses add to the actual equipped weapon's damage
+PASS: collar and charm recovery modifiers multiply into the shared skill cooldown
+PASS: area bonuses extend the real aimed burst without damaging foes beyond its new boundary
+PASS: status ticking discards a freed foe reference without dereferencing it
+PASS: stage cleanup safely removes a lease whose enemy has already been freed
+PASS: root expiration preserves an enemy that was already inactive before the cast
+PASS: resuming a menu reapplies a root before the foe gets even one attack physics tick
+PASS: clearing a guard preserves the remainder of pre-existing hit protection
+PASS: one new special-action press casts exactly once
+PASS: holding the special-action key does not auto-cast again when recovery ends
+PASS: a second deliberate press after release can activate the ready skill
+PASS: recasting after expired effects are freed retains only valid actor references
+ITEM SKILLS RESULT: 121 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: merchant uses the shared squirrel Pip sprite from the animal cast
+PASS: the identity source and cached icon are shared by story and field
+PASS: full-body and shop portrait crops stay inside the same identity sheet
+PASS: the central market retains two grounded animal roots and three bounded tea-steam lines alongside its interaction UI
+PASS: area01 shows Pip only when its real shop is present
+PASS: area02 shows Pip only when its real shop is present
+PASS: area03 shows Pip only when its real shop is present
+PASS: area04 shows Pip only when its real shop is present
+PASS: area04 story and actual merchant agree on squirrel Pip
+PASS: area04 retains its existing shop interaction point
+PASS: area04 idle breath and larger talk reaction keep the contact point on the floor within their separate pose bounds
+PASS: area04 trading pauses merchant idle and reaction motion
+PASS: area04 near-shop feedback reuses the same Pip artwork
+PASS: area05 shows Pip only when its real shop is present
+PASS: area06 shows Pip only when its real shop is present
+PASS: area07 shows Pip only when its real shop is present
+PASS: area07 story and actual merchant agree on squirrel Pip
+PASS: area07 retains its existing shop interaction point
+PASS: area07 idle breath and larger talk reaction keep the contact point on the floor within their separate pose bounds
+PASS: area07 trading pauses merchant idle and reaction motion
+PASS: area07 near-shop feedback reuses the same Pip artwork
+PASS: area08 shows Pip only when its real shop is present
+PIP IDENTITY RESULT: 22 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: preview cannot equip, purchase, heal or reset cooldown: crooked_ash_wand
+PASS: preview replaces only the candidate equipment slot: crooked_ash_wand
+PASS: preview equals equipped gameplay values: crooked_ash_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: cinderfork_wand
+PASS: preview replaces only the candidate equipment slot: cinderfork_wand
+PASS: preview equals equipped gameplay values: cinderfork_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: apprentice_thesis
+PASS: preview replaces only the candidate equipment slot: apprentice_thesis
+PASS: preview equals equipped gameplay values: apprentice_thesis
+PASS: preview cannot equip, purchase, heal or reset cooldown: brass_bell_collar
+PASS: preview replaces only the candidate equipment slot: brass_bell_collar
+PASS: preview equals equipped gameplay values: brass_bell_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: velvet_bell_collar
+PASS: preview replaces only the candidate equipment slot: velvet_bell_collar
+PASS: preview equals equipped gameplay values: velvet_bell_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: nine_lives_collar
+PASS: preview replaces only the candidate equipment slot: nine_lives_collar
+PASS: preview equals equipped gameplay values: nine_lives_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: loose_feather
+PASS: preview replaces only the candidate equipment slot: loose_feather
+PASS: preview equals equipped gameplay values: loose_feather
+PASS: preview cannot equip, purchase, heal or reset cooldown: warm_sardine_charm
+PASS: preview replaces only the candidate equipment slot: warm_sardine_charm
+PASS: preview equals equipped gameplay values: warm_sardine_charm
+PASS: preview cannot equip, purchase, heal or reset cooldown: moonlit_yarn
+PASS: preview replaces only the candidate equipment slot: moonlit_yarn
+PASS: preview equals equipped gameplay values: moonlit_yarn
+PASS: preview cannot equip, purchase, heal or reset cooldown: practice_wand
+PASS: preview replaces only the candidate equipment slot: practice_wand
+PASS: preview equals equipped gameplay values: practice_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: frost_whisker_wand
+PASS: preview replaces only the candidate equipment slot: frost_whisker_wand
+PASS: preview equals equipped gameplay values: frost_whisker_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: hopscotch_wand
+PASS: preview replaces only the candidate equipment slot: hopscotch_wand
+PASS: preview equals equipped gameplay values: hopscotch_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: pip_feather_staff
+PASS: preview replaces only the candidate equipment slot: pip_feather_staff
+PASS: preview equals equipped gameplay values: pip_feather_staff
+PASS: preview cannot equip, purchase, heal or reset cooldown: moss_bud_staff
+PASS: preview replaces only the candidate equipment slot: moss_bud_staff
+PASS: preview equals equipped gameplay values: moss_bud_staff
+PASS: preview cannot equip, purchase, heal or reset cooldown: bloop_bottle_wand
+PASS: preview replaces only the candidate equipment slot: bloop_bottle_wand
+PASS: preview equals equipped gameplay values: bloop_bottle_wand
+PASS: preview cannot equip, purchase, heal or reset cooldown: thunder_spoon
+PASS: preview replaces only the candidate equipment slot: thunder_spoon
+PASS: preview equals equipped gameplay values: thunder_spoon
+PASS: preview cannot equip, purchase, heal or reset cooldown: bubble_teapot
+PASS: preview replaces only the candidate equipment slot: bubble_teapot
+PASS: preview equals equipped gameplay values: bubble_teapot
+PASS: preview cannot equip, purchase, heal or reset cooldown: comet_crayon
+PASS: preview replaces only the candidate equipment slot: comet_crayon
+PASS: preview equals equipped gameplay values: comet_crayon
+PASS: preview cannot equip, purchase, heal or reset cooldown: linen_star_collar
+PASS: preview replaces only the candidate equipment slot: linen_star_collar
+PASS: preview equals equipped gameplay values: linen_star_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: acorn_bell_collar
+PASS: preview replaces only the candidate equipment slot: acorn_bell_collar
+PASS: preview equals equipped gameplay values: acorn_bell_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: button_bow_collar
+PASS: preview replaces only the candidate equipment slot: button_bow_collar
+PASS: preview equals equipped gameplay values: button_bow_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: frost_drop_collar
+PASS: preview replaces only the candidate equipment slot: frost_drop_collar
+PASS: preview equals equipped gameplay values: frost_drop_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: moss_heart_collar
+PASS: preview replaces only the candidate equipment slot: moss_heart_collar
+PASS: preview equals equipped gameplay values: moss_heart_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: bloop_locket_collar
+PASS: preview replaces only the candidate equipment slot: bloop_locket_collar
+PASS: preview equals equipped gameplay values: bloop_locket_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: thunder_key_collar
+PASS: preview replaces only the candidate equipment slot: thunder_key_collar
+PASS: preview equals equipped gameplay values: thunder_key_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: bubble_pearl_collar
+PASS: preview replaces only the candidate equipment slot: bubble_pearl_collar
+PASS: preview equals equipped gameplay values: bubble_pearl_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: comet_medal_collar
+PASS: preview replaces only the candidate equipment slot: comet_medal_collar
+PASS: preview equals equipped gameplay values: comet_medal_collar
+PASS: preview cannot equip, purchase, heal or reset cooldown: paper_pinwheel
+PASS: preview replaces only the candidate equipment slot: paper_pinwheel
+PASS: preview equals equipped gameplay values: paper_pinwheel
+PASS: preview cannot equip, purchase, heal or reset cooldown: clover_leaf
+PASS: preview replaces only the candidate equipment slot: clover_leaf
+PASS: preview equals equipped gameplay values: clover_leaf
+PASS: preview cannot equip, purchase, heal or reset cooldown: sleepy_acorn
+PASS: preview replaces only the candidate equipment slot: sleepy_acorn
+PASS: preview equals equipped gameplay values: sleepy_acorn
+PASS: preview cannot equip, purchase, heal or reset cooldown: frost_button
+PASS: preview replaces only the candidate equipment slot: frost_button
+PASS: preview equals equipped gameplay values: frost_button
+PASS: preview cannot equip, purchase, heal or reset cooldown: pip_egg
+PASS: preview replaces only the candidate equipment slot: pip_egg
+PASS: preview equals equipped gameplay values: pip_egg
+PASS: preview cannot equip, purchase, heal or reset cooldown: moss_seed_pouch
+PASS: preview replaces only the candidate equipment slot: moss_seed_pouch
+PASS: preview equals equipped gameplay values: moss_seed_pouch
+PASS: preview cannot equip, purchase, heal or reset cooldown: bloop_cork
+PASS: preview replaces only the candidate equipment slot: bloop_cork
+PASS: preview equals equipped gameplay values: bloop_cork
+PASS: preview cannot equip, purchase, heal or reset cooldown: thunder_marble
+PASS: preview replaces only the candidate equipment slot: thunder_marble
+PASS: preview equals equipped gameplay values: thunder_marble
+PASS: preview cannot equip, purchase, heal or reset cooldown: comet_stamp
+PASS: preview replaces only the candidate equipment slot: comet_stamp
+PASS: preview equals equipped gameplay values: comet_stamp
+PASS: swapping maximum-vitality gear never heals the player
+PASS: shorter recovery is better even though the numerical delta is negative
+PASS: higher damage is a positive improvement
+PASS: unknown preview identifiers cannot manufacture equipment or stats
+PASS: the real inventory exposes compact changes for the owned hovered item
+PASS: comparison leaves combat paused
+PASS: stage title and identity remain within the combat header: ko0
+PASS: full translated stage name fits the title cell: ko0
+PASS: stage title and identity remain within the combat header: ko1
+PASS: full translated stage name fits the title cell: ko1
+PASS: stage title and identity remain within the combat header: ko2
+PASS: full translated stage name fits the title cell: ko2
+PASS: stage title and identity remain within the combat header: ko3
+PASS: full translated stage name fits the title cell: ko3
+PASS: stage title and identity remain within the combat header: ko4
+PASS: full translated stage name fits the title cell: ko4
+PASS: stage title and identity remain within the combat header: ko5
+PASS: full translated stage name fits the title cell: ko5
+PASS: stage title and identity remain within the combat header: ko6
+PASS: full translated stage name fits the title cell: ko6
+PASS: stage title and identity remain within the combat header: ko7
+PASS: full translated stage name fits the title cell: ko7
+PASS: compact comparison and the return button fit the viewport: ko
+PASS: stage title and identity remain within the combat header: en0
+PASS: full translated stage name fits the title cell: en0
+PASS: stage title and identity remain within the combat header: en1
+PASS: full translated stage name fits the title cell: en1
+PASS: stage title and identity remain within the combat header: en2
+PASS: full translated stage name fits the title cell: en2
+PASS: stage title and identity remain within the combat header: en3
+PASS: full translated stage name fits the title cell: en3
+PASS: stage title and identity remain within the combat header: en4
+PASS: full translated stage name fits the title cell: en4
+PASS: stage title and identity remain within the combat header: en5
+PASS: full translated stage name fits the title cell: en5
+PASS: stage title and identity remain within the combat header: en6
+PASS: full translated stage name fits the title cell: en6
+PASS: stage title and identity remain within the combat header: en7
+PASS: full translated stage name fits the title cell: en7
+PASS: compact comparison and the return button fit the viewport: en
+CHARACTER STATS RESULT: 148 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: identical equipment does not fill the panel with unchanged statistics
+PASS: shorter spell and roll recovery use improvement arrows
+PASS: longer recovery is shown as a downgrade rather than a numerical increase
+PASS: the same special skill can compare its meaningful power, recovery and reach
+PASS: different special skills are not given a misleading numeric damage/reach rating
+PASS: qualitative comparison never mutates its input snapshots
+PASS: owned items become grid buttons and exactly three equipment slots remain
+PASS: the paperdoll initially shows the actual equipped items
+PASS: comparison and slot names use the panel directly without a redundant native tooltip window
+PASS: opening the grid selects the currently owned primary tool
+PASS: hover previews an owned item without silently selecting it
+PASS: hover cannot equip, charge currency, heal, reset cooldown or change the worn preview
+PASS: the real hovered wand shows only its damage upgrade and slower-recovery downgrade
+PASS: the visible comparison contains no base/current/after numeric table
+PASS: clicking a grid item selects its comparison without equipping it
+PASS: temporary hover preserves the selected item and cannot activate an unrelated equipment action
+PASS: leaving a hovered item restores the selected comparison
+PASS: unknown or unowned icons cannot select or preview equipment
+PASS: keyboard focus provides the same comparison as pointer hover
+PASS: keyboard comparison remains read-only while combat is paused
+PASS: a selected owned item exposes an explicit equipment action: cinderfork_wand
+PASS: explicit equip updates the actual slot and its miniature artwork: cinderfork_wand
+PASS: explicit equip refreshes the current worn paperdoll: cinderfork_wand
+PASS: a selected owned item exposes an explicit equipment action: brass_bell_collar
+PASS: explicit equip updates the actual slot and its miniature artwork: brass_bell_collar
+PASS: explicit equip refreshes the current worn paperdoll: brass_bell_collar
+PASS: a selected owned item exposes an explicit equipment action: loose_feather
+PASS: explicit equip updates the actual slot and its miniature artwork: loose_feather
+PASS: explicit equip refreshes the current worn paperdoll: loose_feather
+PASS: equipping from the casual screen preserves health and both active cooldowns
+PASS: the equipped-item action puts it away while keeping ownership: loose_feather
+PASS: the equipped-item action puts it away while keeping ownership: brass_bell_collar
+PASS: the equipped-item action puts it away while keeping ownership: cinderfork_wand
+PASS: removing the last slot also clears the final worn item from the paperdoll
+PASS: the full eighteen-item bag remains reachable in the icon grid: ko
+PASS: owned icons stay to the right of the character and inside the clipped viewport: ko
+PASS: the character and all three positioned equipment slots remain visible: ko
+PASS: compact hints and return controls fit both translations: ko
+PASS: the full eighteen-item bag remains reachable in the icon grid: en
+PASS: owned icons stay to the right of the character and inside the clipped viewport: en
+PASS: the character and all three positioned equipment slots remain visible: en
+PASS: compact hints and return controls fit both translations: en
+PASS: closing the redesigned inventory returns control to the current expedition
+CASUAL INVENTORY RESULT: 43 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: item picture matches its authored identity row and column: crooked_ash_wand
+PASS: item picture matches its authored identity row and column: cinderfork_wand
+PASS: item picture matches its authored identity row and column: apprentice_thesis
+PASS: item picture matches its authored identity row and column: brass_bell_collar
+PASS: item picture matches its authored identity row and column: velvet_bell_collar
+PASS: item picture matches its authored identity row and column: nine_lives_collar
+PASS: item picture matches its authored identity row and column: loose_feather
+PASS: item picture matches its authored identity row and column: warm_sardine_charm
+PASS: item picture matches its authored identity row and column: moonlit_yarn
+PASS: all nine identity crops are distinct and remain inside their shared sheet
+PASS: item picture matches its authored identity row and column: practice_wand
+PASS: item picture matches its authored identity row and column: frost_whisker_wand
+PASS: item picture matches its authored identity row and column: hopscotch_wand
+PASS: item picture matches its authored identity row and column: pip_feather_staff
+PASS: item picture matches its authored identity row and column: moss_bud_staff
+PASS: item picture matches its authored identity row and column: bloop_bottle_wand
+PASS: item picture matches its authored identity row and column: thunder_spoon
+PASS: item picture matches its authored identity row and column: bubble_teapot
+PASS: item picture matches its authored identity row and column: comet_crayon
+PASS: all nine identity crops are distinct and remain inside their shared sheet
+PASS: item picture matches its authored identity row and column: linen_star_collar
+PASS: item picture matches its authored identity row and column: acorn_bell_collar
+PASS: item picture matches its authored identity row and column: button_bow_collar
+PASS: item picture matches its authored identity row and column: frost_drop_collar
+PASS: item picture matches its authored identity row and column: moss_heart_collar
+PASS: item picture matches its authored identity row and column: bloop_locket_collar
+PASS: item picture matches its authored identity row and column: thunder_key_collar
+PASS: item picture matches its authored identity row and column: bubble_pearl_collar
+PASS: item picture matches its authored identity row and column: comet_medal_collar
+PASS: all nine identity crops are distinct and remain inside their shared sheet
+PASS: item picture matches its authored identity row and column: paper_pinwheel
+PASS: item picture matches its authored identity row and column: clover_leaf
+PASS: item picture matches its authored identity row and column: sleepy_acorn
+PASS: item picture matches its authored identity row and column: frost_button
+PASS: item picture matches its authored identity row and column: pip_egg
+PASS: item picture matches its authored identity row and column: moss_seed_pouch
+PASS: item picture matches its authored identity row and column: bloop_cork
+PASS: item picture matches its authored identity row and column: thunder_marble
+PASS: item picture matches its authored identity row and column: comet_stamp
+PASS: all nine identity crops are distinct and remain inside their shared sheet
+PASS: worn pendant preserves left/right/bottom outline with transparent margin: brass_bell_collar
+PASS: worn pendant preserves left/right/bottom outline with transparent margin: velvet_bell_collar
+PASS: worn pendant preserves left/right/bottom outline with transparent margin: nine_lives_collar
+ART MAPPING RESULT: 43 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: market crop stays inside the transparent authored illustration
+PASS: central market fits between the playfield and route display
+PASS: the gathering renders behind the player and creates no obstacle
+PASS: tea guests use the same hedgehog and otter identities as story portraits
+PASS: the gathering and animal merchant appear only in shop area01
+PASS: the centre table offers shop interaction only in shop area01
+PASS: the gathering and animal merchant appear only in shop area02
+PASS: the centre table offers shop interaction only in shop area02
+PASS: the gathering and animal merchant appear only in shop area03
+PASS: the centre table offers shop interaction only in shop area03
+PASS: the gathering and animal merchant appear only in shop area04
+PASS: the centre table offers shop interaction only in shop area04
+PASS: the original merchant interaction remains reachable
+PASS: spawn and east exit do not become accidental shop triggers
+PASS: warm tea steam advances during the active rest stop
+PASS: trading pauses tea steam without hidden world animation
+PASS: the gathering and animal merchant appear only in shop area05
+PASS: the centre table offers shop interaction only in shop area05
+PASS: the gathering and animal merchant appear only in shop area06
+PASS: the centre table offers shop interaction only in shop area06
+PASS: the gathering and animal merchant appear only in shop area07
+PASS: the centre table offers shop interaction only in shop area07
+PASS: the original merchant interaction remains reachable
+PASS: spawn and east exit do not become accidental shop triggers
+PASS: warm tea steam advances during the active rest stop
+PASS: trading pauses tea steam without hidden world animation
+PASS: the gathering and animal merchant appear only in shop area08
+PASS: the centre table offers shop interaction only in shop area08
+PASS: real area04 table interaction opens the trading panel
+PASS: real shop modal freezes the tea gathering
+PASS: real player can cross the free route below the central island
+PASS: east exit still advances the real expedition instead of reopening the shop
+PASS: real area07 table interaction opens the trading panel
+PASS: real shop modal freezes the tea gathering
+PASS: real player can cross the free route below the central island
+PASS: east exit still advances the real expedition instead of reopening the shop
+SHOP GATHERING RESULT: 36 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: canonical supporting cast has the intended animal species: professor
+PASS: story/world/boss reuse the exact cached animal image: professor
+PASS: animal frame has bounded independently measured atlas coordinates: professor
+PASS: canonical supporting cast has the intended animal species: pip
+PASS: story/world/boss reuse the exact cached animal image: pip
+PASS: animal frame has bounded independently measured atlas coordinates: pip
+PASS: canonical supporting cast has the intended animal species: moss
+PASS: story/world/boss reuse the exact cached animal image: moss
+PASS: animal frame has bounded independently measured atlas coordinates: moss
+PASS: canonical supporting cast has the intended animal species: bloop
+PASS: story/world/boss reuse the exact cached animal image: bloop
+PASS: animal frame has bounded independently measured atlas coordinates: bloop
+PASS: the antagonist is the actual sentient book, a deliberate exception to the animal supporting cast
+PASS: unknown cast IDs cannot silently display a different atlas cell
+PASS: story metadata and the visible supporting cast agree: professor
+PASS: story metadata and the visible supporting cast agree: pip
+PASS: story metadata and the visible supporting cast agree: moss
+PASS: story metadata and the visible supporting cast agree: bloop
+PASS: narrator and final encounter identify the Grimoire and its battle form as the same book character
+PASS: all50original visual beats remain in order, with a clearly marked3shot examination replay after the first area
+PASS: active story scenery reuses person-free HD environments instead of baked human illustrations
+PASS: real illustrated story page shows canonical animals or the sentient book: 01
+PASS: real illustrated story page shows canonical animals or the sentient book: 02
+PASS: real illustrated story page shows canonical animals or the sentient book: 03
+PASS: real illustrated story page shows canonical animals or the sentient book: 04
+PASS: real illustrated story page shows canonical animals or the sentient book: 05
+PASS: real illustrated story page shows canonical animals or the sentient book: 06
+PASS: real illustrated story page shows canonical animals or the sentient book: 07
+PASS: real illustrated story page shows canonical animals or the sentient book: 08
+PASS: real illustrated story page shows canonical animals or the sentient book: 09
+PASS: real illustrated story page shows canonical animals or the sentient book: 10
+PASS: real illustrated story page shows canonical animals or the sentient book: 11
+PASS: real illustrated story page shows canonical animals or the sentient book: 12
+PASS: real illustrated story page shows canonical animals or the sentient book: 13
+PASS: real illustrated story page shows canonical animals or the sentient book: 14
+PASS: real illustrated story page shows canonical animals or the sentient book: 15
+PASS: real illustrated story page shows canonical animals or the sentient book: 16
+PASS: real illustrated story page shows canonical animals or the sentient book: 17
+PASS: real illustrated story page shows canonical animals or the sentient book: 18
+PASS: real illustrated story page shows canonical animals or the sentient book: 19
+PASS: real illustrated story page shows canonical animals or the sentient book: 20
+PASS: real illustrated story page shows canonical animals or the sentient book: 21
+PASS: real illustrated story page shows canonical animals or the sentient book: 22
+PASS: real illustrated story page shows canonical animals or the sentient book: 23
+PASS: real illustrated story page shows canonical animals or the sentient book: 24
+PASS: real illustrated story page shows canonical animals or the sentient book: 25
+PASS: real illustrated story page shows canonical animals or the sentient book: 26
+PASS: real illustrated story page shows canonical animals or the sentient book: 27
+PASS: real illustrated story page shows canonical animals or the sentient book: 28
+PASS: real illustrated story page shows canonical animals or the sentient book: 29
+PASS: real illustrated story page shows canonical animals or the sentient book: 30
+PASS: real illustrated story page shows canonical animals or the sentient book: 31
+PASS: real illustrated story page shows canonical animals or the sentient book: 32
+PASS: real illustrated story page shows canonical animals or the sentient book: 33
+PASS: real illustrated story page shows canonical animals or the sentient book: 34
+PASS: real illustrated story page shows canonical animals or the sentient book: 35
+PASS: real illustrated story page shows canonical animals or the sentient book: 36
+PASS: real illustrated story page shows canonical animals or the sentient book: 37
+PASS: real illustrated story page shows canonical animals or the sentient book: 38
+PASS: real illustrated story page shows canonical animals or the sentient book: 39
+PASS: real illustrated story page shows canonical animals or the sentient book: 40
+PASS: real illustrated story page shows canonical animals or the sentient book: 41
+PASS: real illustrated story page shows canonical animals or the sentient book: 42
+PASS: real illustrated story page shows canonical animals or the sentient book: 43
+PASS: real illustrated story page shows canonical animals or the sentient book: 44
+PASS: real illustrated story page shows canonical animals or the sentient book: 45
+PASS: real illustrated story page shows canonical animals or the sentient book: 46
+PASS: real illustrated story page shows canonical animals or the sentient book: 47
+PASS: real illustrated story page shows canonical animals or the sentient book: 48
+PASS: real illustrated story page shows canonical animals or the sentient book: 49
+PASS: real illustrated story page shows canonical animals or the sentient book: 50
+PASS: real illustrated story page shows canonical animals or the sentient book: 51
+PASS: real illustrated story page shows canonical animals or the sentient book: 52
+PASS: real illustrated story page shows canonical animals or the sentient book: 53
+PASS: all four animal friends and the actual sentient Grimoire appear in the authored story
+PASS: the friends vignette composes three separate animal images rather than cropping across atlas cells
+PASS: the real final-room encounter uses the same sentient book atlas while preserving its180HP
+PASS: calm and shocked book poses retain the established164px calm artwork height
+PASS: a genuine miscast changes the book to its shocked cover/page pose and preserves the4second opportunity
+ANIMAL CAST RESULT: 79 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: no friend can be addressed outside a rest stop
+PASS: the middle table keeps its trading interaction instead of becoming NPC talk
+PASS: the exit never becomes a friend interaction
+PASS: Pip can be spoken to at both the old merchant anchor and his visible feet
+PASS: Pip's old E-to-shop interaction remains separate from the T-to-talk shortcut
+PASS: close range exposes the correct animal's talk cue: moss
+PASS: the animal responds to the first deliberate interaction: moss
+PASS: an immediate repeated call cannot skip over dialogue: moss
+PASS: talk starts a visible one-shot gesture: moss
+PASS: motion pivots at grounded feet instead of levitating the animal: moss
+PASS: modal pauses cannot advance gestures or consume the speech card timer: moss
+PASS: a released and repeated interaction advances that animal's conversation: moss
+PASS: close range exposes the correct animal's talk cue: bloop
+PASS: the animal responds to the first deliberate interaction: bloop
+PASS: an immediate repeated call cannot skip over dialogue: bloop
+PASS: talk starts a visible one-shot gesture: bloop
+PASS: motion pivots at grounded feet instead of levitating the animal: bloop
+PASS: modal pauses cannot advance gestures or consume the speech card timer: bloop
+PASS: a released and repeated interaction advances that animal's conversation: bloop
+PASS: Pip advertises his dedicated talk key while E remains browse
+PASS: Pip responds with the same squirrel identity as his merchant portrait
+PASS: a live Korean language change updates the active conversation
+PASS: a live English language change preserves the same beat
+PASS: speech and prompts remain non-modal and cannot consume movement or clicks
+PASS: walking away gently dismisses the speech card
+PASS: far-away NPC prompts stay hidden
+PASS: the final rest stop has different context for moss
+PASS: all three final-stop lines have Korean, English and a matching gesture: moss
+PASS: the final rest stop has different context for bloop
+PASS: all three final-stop lines have Korean, English and a matching gesture: bloop
+PASS: the final rest stop has different context for pip
+PASS: all three final-stop lines have Korean, English and a matching gesture: pip
+PASS: long-running idle and one-shot reactions never drift either animal's feet
+PASS: a completed exchange expires instead of leaving an overlay on the playfield
+PASS: a resting party occasionally reacts on its own without opening a dialogue or spawning combat effects
+PASS: leaving the shop removes dialogue, cue and reactions together
+PASS: hidden and unknown actors cannot start stale conversations
+PASS: stage changes clear the old reaction drawing and pose before a new shop appears
+PASS: every Korean dialogue syllable exists in the bundled story font: []
+PASS: all 36 localized speech layouts fit inside their card without cutting off the last line
+PASS: real rest stop 3 gives E to the nearby friend: moss
+PASS: talk cannot spend, equip, heal or reset skill recovery: moss
+PASS: real rest stop 3 gives E to the nearby friend: bloop
+PASS: talk cannot spend, equip, heal or reset skill recovery: bloop
+PASS: real T shortcut speaks with Pip without opening the shop
+PASS: holding the real talk key cannot advance past Pip's dialogue
+PASS: the real inventory modal pauses active NPC dialogue and gestures
+PASS: the real centre table still opens gear trading after a conversation
+PASS: real rest stop 6 gives E to the nearby friend: moss
+PASS: talk cannot spend, equip, heal or reset skill recovery: moss
+PASS: real rest stop 6 gives E to the nearby friend: bloop
+PASS: talk cannot spend, equip, heal or reset skill recovery: bloop
+PASS: real T shortcut speaks with Pip without opening the shop
+PASS: holding the real talk key cannot advance past Pip's dialogue
+PASS: the real inventory modal pauses active NPC dialogue and gestures
+PASS: the real centre table still opens gear trading after a conversation
+SHOP REACTIONS RESULT: 56 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: bare paws retain the opening story's small fireball
+PASS: unowned spoofed equipment cannot grant ice magic
+PASS: practice_wand: equipped icon and owned tool select the intended basic element
+PASS: practice_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: crooked_ash_wand: equipped icon and owned tool select the intended basic element
+PASS: crooked_ash_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: cinderfork_wand: equipped icon and owned tool select the intended basic element
+PASS: cinderfork_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: apprentice_thesis: equipped icon and owned tool select the intended basic element
+PASS: apprentice_thesis: emitted basic projectile uses the actual equipped element and stat damage
+PASS: frost_whisker_wand: equipped icon and owned tool select the intended basic element
+PASS: frost_whisker_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: hopscotch_wand: equipped icon and owned tool select the intended basic element
+PASS: hopscotch_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: pip_feather_staff: equipped icon and owned tool select the intended basic element
+PASS: pip_feather_staff: emitted basic projectile uses the actual equipped element and stat damage
+PASS: moss_bud_staff: equipped icon and owned tool select the intended basic element
+PASS: moss_bud_staff: emitted basic projectile uses the actual equipped element and stat damage
+PASS: bloop_bottle_wand: equipped icon and owned tool select the intended basic element
+PASS: bloop_bottle_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: thunder_spoon: equipped icon and owned tool select the intended basic element
+PASS: thunder_spoon: emitted basic projectile uses the actual equipped element and stat damage
+PASS: bubble_teapot: equipped icon and owned tool select the intended basic element
+PASS: bubble_teapot: emitted basic projectile uses the actual equipped element and stat damage
+PASS: comet_crayon: equipped icon and owned tool select the intended basic element
+PASS: comet_crayon: emitted basic projectile uses the actual equipped element and stat damage
+PASS: the twelve tools cover seven visually distinct basic magic families
+PASS: changing equipment during paw anticipation cannot transform a prepared spell
+PASS: changing the element cannot bypass the shared primary cooldown
+PASS: water hits its target and splashes only nearby foes
+PASS: water leaves no misleading floor fire
+PASS: ice damage briefly slows the struck enemy
+PASS: ice slow restores the enemy's true speed after its short duration
+PASS: wind passes through exactly two foes without repeatedly hitting the first
+PASS: wind's breeze adds a visible extra shove
+PASS: stone visibly travels slower with a larger pebble silhouette
+PASS: stone's collision lands with a heavier push
+PASS: leaf magic curves gently toward a nearby foe rather than snapping onto it
+PASS: the lightning spoon sends a faster small spark
+PASS: fire/success: shield still predicts controlled magic and opens only to a real accident
+PASS: fire/success: projectile path never invents floor flames
+PASS: fire/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: fire/miscast: projectile path never invents floor flames
+PASS: fire/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: fire/overreaction: projectile path never invents floor flames
+PASS: water/success: shield still predicts controlled magic and opens only to a real accident
+PASS: water/success: projectile path never invents floor flames
+PASS: water/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: water/miscast: projectile path never invents floor flames
+PASS: water/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: water/overreaction: projectile path never invents floor flames
+PASS: ice/success: shield still predicts controlled magic and opens only to a real accident
+PASS: ice/success: projectile path never invents floor flames
+PASS: ice/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: ice/miscast: projectile path never invents floor flames
+PASS: ice/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: ice/overreaction: projectile path never invents floor flames
+PASS: wind/success: shield still predicts controlled magic and opens only to a real accident
+PASS: wind/success: projectile path never invents floor flames
+PASS: wind/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: wind/miscast: projectile path never invents floor flames
+PASS: wind/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: wind/overreaction: projectile path never invents floor flames
+PASS: stone/success: shield still predicts controlled magic and opens only to a real accident
+PASS: stone/success: projectile path never invents floor flames
+PASS: stone/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: stone/miscast: projectile path never invents floor flames
+PASS: stone/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: stone/overreaction: projectile path never invents floor flames
+PASS: leaf/success: shield still predicts controlled magic and opens only to a real accident
+PASS: leaf/success: projectile path never invents floor flames
+PASS: leaf/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: leaf/miscast: projectile path never invents floor flames
+PASS: leaf/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: leaf/overreaction: projectile path never invents floor flames
+PASS: lightning/success: shield still predicts controlled magic and opens only to a real accident
+PASS: lightning/success: projectile path never invents floor flames
+PASS: lightning/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: lightning/miscast: projectile path never invents floor flames
+PASS: lightning/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: lightning/overreaction: projectile path never invents floor flames
+PASS: fire: feet mishap creates the element's own accident, with flames only for fire
+PASS: water: feet mishap creates the element's own accident, with flames only for fire
+PASS: ice: feet mishap creates the element's own accident, with flames only for fire
+PASS: wind: feet mishap creates the element's own accident, with flames only for fire
+PASS: stone: feet mishap creates the element's own accident, with flames only for fire
+PASS: leaf: feet mishap creates the element's own accident, with flames only for fire
+PASS: lightning: feet mishap creates the element's own accident, with flames only for fire
+ELEMENTAL MAGIC RESULT: 88 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: detention keeps one old storage case, rather than four arbitrary library cases
+PASS: the library's evenly spaced floating-book row is the actual six enemies
+PASS: one of the real library cases conceals a maintenance nook
+PASS: a book opens its page-cutting warning before causing damage
+PASS: book warning promises its actual 239.2-pixel swoop
+PASS: book locks the swoop direction instead of tracking a sidestep
+PASS: stepping out of the book's lane avoids actual swoop damage
+PASS: remaining in the book's promised lane takes one real hit
+PASS: hitting a book breaks its imposed order and interrupts the attack
+PASS: a standing case cannot hand out the hidden supplies
+PASS: water tips the controlled case without an unrelated fire effect
+PASS: pause also freezes the newly exposed story-prop action
+PASS: falling exposes the former blocked footprint and a visible service hatch
+PASS: the newly visible nook still requires walking close enough
+PASS: E at the revealed hatch finds actual Crowns and a snack
+PASS: the optional accident find contains exactly its authored supplies
+PASS: a maintenance find cannot be claimed twice
+PASS: finding the nook neither skips the fight nor removes its enemies
+PASS: fire retains the original failed-fireball-to-burning-shelf chain
+PASS: ordinary cases remain combat props without duplicating the special find
+PASS: the forbidden garden's aligned reagent beds are the six live mushroom enemies
+PASS: the mushroom farm has no unexplained falling library case
+PASS: a distant controlled reagent crop stays rooted in its bed
+PASS: approaching the crop wakes it and its short feet really move
+PASS: mushroom warns a circular spore sneeze, including the player's actual radius
+PASS: spore boundary: just outside the floor circle is safe
+PASS: spore boundary: just inside the floor circle takes damage
+PASS: a spell wakes a mushroom and breaks its control seal without a hidden delayed hit
+PASS: rest stop3 contains friends and stalls, not arbitrary falling cases
+PASS: rest stop6 contains friends and stalls, not arbitrary falling cases
+PASS: the old reading room continues the book patrol rather than recycling an unrelated slime wave
+PASS: the ordered garden path carries the awakened crop convoy onward, without library furniture
+PASS: archive story enemies preserve the final white-fox boss and barrier rules
+LIVING STAGES RESULT: 33 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: authored opening includes the actual academy shot
+PASS: authored opening includes the actual fire shot
+PASS: authored opening includes the actual reverse shot
+PASS: authored opening includes the actual boom shot
+PASS: authored opening includes the actual grades shot
+PASS: authored opening includes the actual detention shot
+PASS: the examination has a real painted target and grounded owl instructor
+PASS: the small forward flame visibly travels from the raised paw toward the bullseye
+PASS: preparation changes into the actual casting pose as the forward spell leaves
+PASS: reverse shot starts at the forward shot's last flame position without teleporting
+PASS: the U-turn curls upward then passes behind the cat instead of merely swapping a still image
+PASS: the returning spell points backward and the original target remains intact
+PASS: breathing and recoil pivot around planted feet rather than floating the whole actor
+PASS: the rear impact has a timed light burst that settles into smoke
+PASS: the joke leaves the target standing and the cat singed without spawning combat hazards
+PASS: post-area1 replay is explicitly a memory of the exam, while route location stays library: 0
+PASS: post-area1 replay is explicitly a memory of the exam, while route location stays library: 1
+PASS: post-area1 replay is explicitly a memory of the exam, while route location stays library: 2
+PASS: after the replay, the camera returns to the actual library and removes the exam props
+PASS: the library tableau shows the same six living-book actors and cached artwork as combat
+PASS: library books change pose together at the same height, acting out the Grimoire's control
+PASS: garden's evenly spaced crop grid is made of the actual living reagent mushrooms
+PASS: the friends act together in the environment without generic portrait cards
+PASS: the finale retains the actual Grand Archive instead of reusing the exam set
+PASS: the Grimoire speaks as the actual expressive book, with no animal proxy
+PASS: failed prediction changes the cover and pages into the shared shocked-book pose
+PASS: the perfect-wizard combat form is the same book becoming angry
+PASS: the book remains in every final exchange and ends visibly damaged, rather than disappearing during the cat's spell
+PASS: the finale's failed spark explodes behind the Grimoire, and its visible damage belongs to the book
+PASS: closing a cinematic stops its animation and input flow
+STORY CINEMATICS RESULT: 30 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: the real final expedition room spawns the book antagonist
+PASS: runtime identity names the book itself rather than a fox stand-in
+PASS: final battle uses the shared sentient-book atlas, not the supporting animal cast
+PASS: four authored expressions are imported for the book cover and pages
+PASS: a protected idle grimoire wears its composed cover expression
+PASS: calm art retains the reviewed164px footprint before elite scaling
+PASS: the book retains the same collision-origin and visual-foot anchor
+PASS: new appearance preserves180HP and the initial prediction barrier
+PASS: the book visibly predicts a controlled spell without losing health
+PASS: beam anticipation opens angry pages before the attack
+PASS: an actual accident still damages the book and opens exactly four seconds
+PASS: a shield break immediately fans out the shocked book pages
+PASS: paused gameplay freezes the book's reaction and shield presentation together
+PASS: low-health exposed book uses its scuffed, exhausted cover expression
+PASS: reformed protection closes and composes the book again
+PASS: story portraits share the exact filtered book pose used by combat: calm
+PASS: repeated book portraits reuse one cached atlas texture: calm
+PASS: the complete page silhouette stays inside its authored atlas region: calm
+PASS: story portraits share the exact filtered book pose used by combat: angry
+PASS: repeated book portraits reuse one cached atlas texture: angry
+PASS: the complete page silhouette stays inside its authored atlas region: angry
+PASS: story portraits share the exact filtered book pose used by combat: shocked
+PASS: repeated book portraits reuse one cached atlas texture: shocked
+PASS: the complete page silhouette stays inside its authored atlas region: shocked
+PASS: story portraits share the exact filtered book pose used by combat: damaged
+PASS: repeated book portraits reuse one cached atlas texture: damaged
+PASS: the complete page silhouette stays inside its authored atlas region: damaged
+PASS: dialogue alert and unknown-pose fallbacks resolve to safe book expressions
+GRIMOIRE CHARACTER RESULT: 28 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: hovering a new magic trait leaves wardrobe and return control stationary
+PASS: hover identifies the candidate's actual basic spell
+PASS: previewing water cannot silently change the live fire spell
+PASS: explicit Equip updates the live primary spell
+PASS: combat HUD names the equipped water spell
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:practice_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:frost_whisker_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:hopscotch_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:pip_feather_staff
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:moss_bud_staff
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:bloop_bottle_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:thunder_spoon
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:practice_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:frost_whisker_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:hopscotch_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:pip_feather_staff
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:moss_bud_staff
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:bloop_bottle_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:thunder_spoon
+PASS: real E dispatch addresses Moss while movement remains available
+PASS: arrival card makes room for an active NPC conversation
+PASS: a friendly reaction neither buys stock nor grants hidden healing
+PASS: held E key repeat cannot skip the NPC's lines
+PASS: room pause freezes both NPC acting and speech duration
+PASS: T starts squirrel Pip's own conversation without opening trade
+PASS: Pip's existing E-to-browse control still opens his real stock
+PASS: the central picnic table remains a second entry to the same shop
+PASS: changing to the final rest stop clears the previous conversation
+PASS: the first-area exit restores the clearly marked target-exam replay
+PASS: explicit replay is a memory while route identity remains the library
+PASS: leaving the replay resumes the live-book stage instead of restarting the exam
+FEATURE INTEGRATION RESULT: 31 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Q begins its own body flourish and caster signature: spark_burst:success
+PASS: Q names the special and never borrows the basic failure puff: spark_burst:success
+PASS: the skill has its own bounded, recognizable world effect: spark_burst:success
+PASS: Q begins its own body flourish and caster signature: spark_burst:miscast
+PASS: Q names the special and never borrows the basic failure puff: spark_burst:miscast
+PASS: the skill has its own bounded, recognizable world effect: spark_burst:miscast
+PASS: Q begins its own body flourish and caster signature: spark_burst:overreaction
+PASS: Q names the special and never borrows the basic failure puff: spark_burst:overreaction
+PASS: the skill has its own bounded, recognizable world effect: spark_burst:overreaction
+PASS: Q begins its own body flourish and caster signature: ember_ring:success
+PASS: Q names the special and never borrows the basic failure puff: ember_ring:success
+PASS: the skill has its own bounded, recognizable world effect: ember_ring:success
+PASS: Q begins its own body flourish and caster signature: ember_ring:miscast
+PASS: Q names the special and never borrows the basic failure puff: ember_ring:miscast
+PASS: the skill has its own bounded, recognizable world effect: ember_ring:miscast
+PASS: Q begins its own body flourish and caster signature: ember_ring:overreaction
+PASS: Q names the special and never borrows the basic failure puff: ember_ring:overreaction
+PASS: the skill has its own bounded, recognizable world effect: ember_ring:overreaction
+PASS: Q begins its own body flourish and caster signature: cinder_fan:success
+PASS: Q names the special and never borrows the basic failure puff: cinder_fan:success
+PASS: the skill has its own bounded, recognizable world effect: cinder_fan:success
+PASS: Q begins its own body flourish and caster signature: cinder_fan:miscast
+PASS: Q names the special and never borrows the basic failure puff: cinder_fan:miscast
+PASS: the skill has its own bounded, recognizable world effect: cinder_fan:miscast
+PASS: Q begins its own body flourish and caster signature: cinder_fan:overreaction
+PASS: Q names the special and never borrows the basic failure puff: cinder_fan:overreaction
+PASS: the skill has its own bounded, recognizable world effect: cinder_fan:overreaction
+PASS: Q begins its own body flourish and caster signature: margin_burst:success
+PASS: Q names the special and never borrows the basic failure puff: margin_burst:success
+PASS: the skill has its own bounded, recognizable world effect: margin_burst:success
+PASS: Q begins its own body flourish and caster signature: margin_burst:miscast
+PASS: Q names the special and never borrows the basic failure puff: margin_burst:miscast
+PASS: the skill has its own bounded, recognizable world effect: margin_burst:miscast
+PASS: Q begins its own body flourish and caster signature: margin_burst:overreaction
+PASS: Q names the special and never borrows the basic failure puff: margin_burst:overreaction
+PASS: the skill has its own bounded, recognizable world effect: margin_burst:overreaction
+PASS: Q begins its own body flourish and caster signature: frost_wave:success
+PASS: Q names the special and never borrows the basic failure puff: frost_wave:success
+PASS: the skill has its own bounded, recognizable world effect: frost_wave:success
+PASS: Q begins its own body flourish and caster signature: frost_wave:miscast
+PASS: Q names the special and never borrows the basic failure puff: frost_wave:miscast
+PASS: the skill has its own bounded, recognizable world effect: frost_wave:miscast
+PASS: Q begins its own body flourish and caster signature: frost_wave:overreaction
+PASS: Q names the special and never borrows the basic failure puff: frost_wave:overreaction
+PASS: the skill has its own bounded, recognizable world effect: frost_wave:overreaction
+PASS: Q begins its own body flourish and caster signature: blink_burst:success
+PASS: Q names the special and never borrows the basic failure puff: blink_burst:success
+PASS: the skill has its own bounded, recognizable world effect: blink_burst:success
+PASS: Q begins its own body flourish and caster signature: blink_burst:miscast
+PASS: Q names the special and never borrows the basic failure puff: blink_burst:miscast
+PASS: the skill has its own bounded, recognizable world effect: blink_burst:miscast
+PASS: Q begins its own body flourish and caster signature: blink_burst:overreaction
+PASS: Q names the special and never borrows the basic failure puff: blink_burst:overreaction
+PASS: the skill has its own bounded, recognizable world effect: blink_burst:overreaction
+PASS: Q begins its own body flourish and caster signature: chicken_dash:success
+PASS: Q names the special and never borrows the basic failure puff: chicken_dash:success
+PASS: the skill has its own bounded, recognizable world effect: chicken_dash:success
+PASS: Q begins its own body flourish and caster signature: chicken_dash:miscast
+PASS: Q names the special and never borrows the basic failure puff: chicken_dash:miscast
+PASS: the skill has its own bounded, recognizable world effect: chicken_dash:miscast
+PASS: Q begins its own body flourish and caster signature: chicken_dash:overreaction
+PASS: Q names the special and never borrows the basic failure puff: chicken_dash:overreaction
+PASS: the skill has its own bounded, recognizable world effect: chicken_dash:overreaction
+PASS: Q begins its own body flourish and caster signature: vine_snare:success
+PASS: Q names the special and never borrows the basic failure puff: vine_snare:success
+PASS: the skill has its own bounded, recognizable world effect: vine_snare:success
+PASS: Q begins its own body flourish and caster signature: vine_snare:miscast
+PASS: Q names the special and never borrows the basic failure puff: vine_snare:miscast
+PASS: the skill has its own bounded, recognizable world effect: vine_snare:miscast
+PASS: Q begins its own body flourish and caster signature: vine_snare:overreaction
+PASS: Q names the special and never borrows the basic failure puff: vine_snare:overreaction
+PASS: the skill has its own bounded, recognizable world effect: vine_snare:overreaction
+PASS: Q begins its own body flourish and caster signature: potion_bomb:success
+PASS: Q names the special and never borrows the basic failure puff: potion_bomb:success
+PASS: the skill has its own bounded, recognizable world effect: potion_bomb:success
+PASS: Q begins its own body flourish and caster signature: potion_bomb:miscast
+PASS: Q names the special and never borrows the basic failure puff: potion_bomb:miscast
+PASS: the skill has its own bounded, recognizable world effect: potion_bomb:miscast
+PASS: Q begins its own body flourish and caster signature: potion_bomb:overreaction
+PASS: Q names the special and never borrows the basic failure puff: potion_bomb:overreaction
+PASS: the skill has its own bounded, recognizable world effect: potion_bomb:overreaction
+PASS: Q begins its own body flourish and caster signature: thunder_stamp:success
+PASS: Q names the special and never borrows the basic failure puff: thunder_stamp:success
+PASS: the skill has its own bounded, recognizable world effect: thunder_stamp:success
+PASS: Q begins its own body flourish and caster signature: thunder_stamp:miscast
+PASS: Q names the special and never borrows the basic failure puff: thunder_stamp:miscast
+PASS: the skill has its own bounded, recognizable world effect: thunder_stamp:miscast
+PASS: Q begins its own body flourish and caster signature: thunder_stamp:overreaction
+PASS: Q names the special and never borrows the basic failure puff: thunder_stamp:overreaction
+PASS: the skill has its own bounded, recognizable world effect: thunder_stamp:overreaction
+PASS: Q begins its own body flourish and caster signature: bubble_guard:success
+PASS: Q names the special and never borrows the basic failure puff: bubble_guard:success
+PASS: the skill has its own bounded, recognizable world effect: bubble_guard:success
+PASS: Q begins its own body flourish and caster signature: bubble_guard:miscast
+PASS: Q names the special and never borrows the basic failure puff: bubble_guard:miscast
+PASS: the skill has its own bounded, recognizable world effect: bubble_guard:miscast
+PASS: Q begins its own body flourish and caster signature: bubble_guard:overreaction
+PASS: Q names the special and never borrows the basic failure puff: bubble_guard:overreaction
+PASS: the skill has its own bounded, recognizable world effect: bubble_guard:overreaction
+PASS: Q begins its own body flourish and caster signature: comet_shower:success
+PASS: Q names the special and never borrows the basic failure puff: comet_shower:success
+PASS: the skill has its own bounded, recognizable world effect: comet_shower:success
+PASS: Q begins its own body flourish and caster signature: comet_shower:miscast
+PASS: Q names the special and never borrows the basic failure puff: comet_shower:miscast
+PASS: the skill has its own bounded, recognizable world effect: comet_shower:miscast
+PASS: Q begins its own body flourish and caster signature: comet_shower:overreaction
+PASS: Q names the special and never borrows the basic failure puff: comet_shower:overreaction
+PASS: the skill has its own bounded, recognizable world effect: comet_shower:overreaction
+PASS: all twelve equipped skills have authored identities instead of a fallback impact
+PASS: many skill activations reuse the existing whole-body mesh and expression blend
+PASS: holding basic fire cannot overwrite the main part of a Q flourish
+PASS: inventory pauses both the special gesture cue and its HUD confirmation
+PASS: a paused Q cue continues from its current phase when play resumes
+PASS: stage changes clear the previous skill's pose, cue and status together
+PASS: a final-hit Pocket Spark remains visibly confirmed after damaging actors are cleared
+PASS: ordinary failed basic magic retains its separate unmistakable failure cloud
+SKILL PRESENTATION RESULT: 116 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: a dialogue advance gives the next line its own full reading duration
+PASS: academy narration changes without restarting ambience or the shot
+PASS: the same cat pose stays opaque and at the same position across the page seam
+PASS: page changes reuse the five allocated actor/expression pairs
+PASS: the repeated Grimoire opening line never re-enters or fades its book actor
+PASS: a repeated scene does not rebuild the backdrop or reset the camera clock
+PASS: Pip's two shop-story lines keep one grounded squirrel on the screen
+PASS: identical texture/pose dialogue changes do not create a redundant crossfade
+PASS: garden-to-Moss dialogue keeps the same semantic shot despite a different visual key
+PASS: the six reagent mushrooms continue their existing animation phase across dialogue
+PASS: Moss's grounded foot anchor stays planted on the garden page seam
+PASS: the current speaker gives a soft body nod around the same feet
+PASS: returning to garden narration retains its actor without another entrance
+PASS: the failed analysis still selects the book's meaningful shocked expression
+PASS: the previous book drawing remains visible when the new expression begins
+PASS: an expression change does not restart the set or actor entrance
+PASS: different expressions blend smoothly through a visible midpoint
+PASS: the blend settles to one clean actor instead of leaving a doubled portrait
+PASS: the book stays opposite Meowmalade when the dialogue becomes a deadpan reaction
+PASS: changing language updates the dialogue without replacing or restarting the scene
+PASS: the two final candle lines share one uninterrupted failed-spark action
+PASS: many repeated page changes allocate no extra scene actors or expression nodes
+PASS: a true action change resets only the action clock and preserves the fire-to-reverse trajectory
+PASS: an opaque story shot stops submitting the fully covered combat world and HUD
+PASS: opening actual options freezes ambience, expression and action clocks together
+PASS: closing story options keeps the obscured world hidden while narration continues
+PASS: closing options resumes the same continuous scene
+PASS: skipping a continuous chapter resumes gameplay without leaking a cast
+PASS: skipping the story restores the original visible game world and HUD
+PASS: closing a new story preserves a world node that was already intentionally hidden
+STORY CONTINUITY RESULT: 30 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: the live gate reports the same reveal state used by its presentation
+PASS: the start screen has no premature exit gate
+PASS: an uncleared tutorial starts without an exit gate or exit prompt
+PASS: E and Enter cannot use the absent exit before the fight is cleared
+PASS: the exit still waits while one actual foe remains
+PASS: the last real defeat reveals the usable onward gate
+PASS: a newly revealed gate begins its short arrival instead of appearing as a stale open prop
+PASS: the gate reveal advances smoothly while play continues
+PASS: pausing freezes the exit's reveal rather than consuming it behind a menu
+PASS: the complete gate stays fully visible after its short reveal
+PASS: E at the new gate enters the next fight and removes the previous exit
+PASS: a peaceful shop has its already-available exit without waiting for nonexistent enemies
+PASS: the actual base attraction and its equipment preview both use the wider 128-pixel reach
+PASS: collection no longer requires matching the old 30-pixel centre
+PASS: walking nearby attracts the real gold drop smoothly instead of requiring exact contact
+PASS: the attracted gold is collected by its normal economy/health action
+PASS: the collected gold cannot be credited twice
+PASS: walking nearby attracts the real gear drop smoothly instead of requiring exact contact
+PASS: the attracted gear is collected by its normal economy/health action
+PASS: the collected gear cannot be credited twice
+PASS: walking nearby attracts the real food drop smoothly instead of requiring exact contact
+PASS: the attracted food is collected by its normal economy/health action
+PASS: the collected food cannot be credited twice
+PASS: a 55-pixel gear drop begins outside the generous collection edge
+PASS: a tiny step of attraction collects nearby gear without pixel-perfect steering
+PASS: the 52-pixel collection edge is inclusive for gold
+PASS: the 52-pixel collection edge is inclusive for gear
+PASS: the 52-pixel collection edge is inclusive for food
+PASS: the wider attraction still has a real outer boundary for gold
+PASS: the wider attraction still has a real outer boundary for gear
+PASS: the wider attraction still has a real outer boundary for food
+PASS: permanent magnet ranks still extend actual attraction beyond the new base
+PASS: gear and permanent reach bonuses combine for actual equipment drops as well as gold
+PASS: inventory pause freezes the animation and attraction of all three drop types
+PASS: resuming lets each nearby drop continue its normal smooth approach
+PASS: unneeded food stays on the floor without drifting or being wasted at full health
+PASS: the same saved food becomes attractable when healing is needed
+PASS: a full bag leaves distant equipment in place instead of pulling an uncollectible drop under the cat
+PASS: a nearby full-bag drop stays recoverable and explains the rejection
+PASS: remaining near a rejected item does not repeat its bag-full notice every frame
+PASS: full equipment capacity never prevents collecting nearby Crowns
+PASS: making one bag slot free makes the preserved drop collectable again
+PASS: the normal completed-stage action still accepts an onward transition
+PASS: leaving a completed stage preserves the existing automatic sweep of distant usable loot
+PASS: the next uncleared fight does not inherit the shop's visible gate
+PASS: the final fight also begins without an onward exit
+PASS: final victory presents its ending/result instead of a gate to a nonexistent ninth area
+EXIT LOOT RESULT: 47 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: the running scene tree actually enables physics interpolation
+PASS: VSync can follow the display without a competing60FPS application cap
+PASS: the moving cat inherits interpolation through its real actor parent
+PASS: the camera keeps one render-time smoothing path instead of double interpolation
+PASS: render-driven body and worn-equipment rigs retain their smooth parent while avoiding local interpolation delay
+PASS: render-time shop gestures and exit reveals are not quantized to physics updates
+PASS: a 2x window repaints the cached backdrop at physical resolution with unchanged logical layout
+PASS: a resized cached backdrop still covers the original world coordinates
+PASS: background cache allocation stays bounded at 3x on displays larger than4K
+PASS: returning to the normal window restores a sharp1x cache without compounded scaling
+PASS: UI definition copies cannot mutate the cached projectile color
+PASS: loading the next room resets actual interpolation history at the new entrance
+PASS: the real blink moves the cat and resets its old transform instead of drawing a trail across the room
+PASS: real basic projectiles share the interpolated world-motion path
+PASS: a short non-damaging impact animates on render time
+PASS: the actual projectile-root pause freezes the render-time impact
+PASS: a cosmetic impact resumes or finishes naturally after the menu closes
+RENDER SMOOTHING RESULT: 17 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: painted room keeps its3840px source: hd_basement_storeroom.res
+PASS: HD room retains its original crop coordinate space: hd_basement_storeroom.res
+PASS: painted room keeps its3840px source: hd_academy_library.res
+PASS: HD room retains its original crop coordinate space: hd_academy_library.res
+PASS: painted room keeps its3840px source: hd_forbidden_garden.res
+PASS: HD room retains its original crop coordinate space: hd_forbidden_garden.res
+PASS: painted room keeps its3840px source: hd_grand_archive.res
+PASS: HD room retains its original crop coordinate space: hd_grand_archive.res
+PASS: HD character atlas doubles detail while keeping logical region dimensions: pastel_meme_actions.res
+PASS: scaled character atlas contains real mip levels: pastel_meme_actions.res
+PASS: HD character atlas doubles detail while keeping logical region dimensions: animal_cast.res
+PASS: scaled character atlas contains real mip levels: animal_cast.res
+PASS: HD character atlas doubles detail while keeping logical region dimensions: perfect_grimoire.res
+PASS: scaled character atlas contains real mip levels: perfect_grimoire.res
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: each full-body cat pose remains within the original atlas bounds
+PASS: animal portrait retains its original identity and crop: professor
+PASS: animal portrait retains its original identity and crop: pip
+PASS: animal portrait retains its original identity and crop: moss
+PASS: animal portrait retains its original identity and crop: bloop
+PASS: animal portrait retains its original identity and crop: examiner
+PASS: animal portrait retains its original identity and crop: examiner_hurt
+PASS: sentient book retains its original expression crop: calm
+PASS: sentient book retains its original expression crop: angry
+PASS: sentient book retains its original expression crop: shocked
+PASS: sentient book retains its original expression crop: damaged
+PASS: non-Portable walk frames keep their native coordinate space
+PASS: existing painted walk frames generate real mip levels too
+PASS: procedural shelf detail is cached at3x once per room
+PASS: standing shelf retains its previous world footprint
+PASS: fallen shelf retains its previous world footprint
+PASS: render-clock shelf shaking avoids a second local interpolation path
+HD ART RESULT: 36 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: fresh display preferences match the monitor in a window
+PASS: language and display use the same selected preferences file
+PASS: unknown display modes and arbitrary caps are rejected
+PASS: invalid choices do not alter the active display preferences
+PASS: English can be written before display preferences
+PASS: a selected60FPS limit applies immediately and saves
+PASS: saving display preserves the existing language section
+PASS: Korean can be saved after display preferences
+PASS: saving language preserves display mode and frame cap
+PASS: both saved display choices are restored together
+PASS: malformed display values fall back to safe defaults
+PASS: explicit resolution, position, cap and VSync flags are recognized
+PASS: explicit fullscreen and windowed startup modes are recognized
+PASS: startup application preserves an explicit engine frame limit
+PASS: choosing match-monitor deliberately restores uncapped VSync behavior
+PASS: ko settings card stays within the logical game canvas
+PASS: ko language, display, frame, feedback and close controls all fit the card
+PASS: ko settings rows remain separate without overlapping
+PASS: ko display choices update with the selected language
+DISPLAY BOUNDS ko: { "card": [P: (370.0, 128.0), S: (540.0, 544.0)], "language": [P: (400.0, 233.0), S: (480.0, 46.0)], "display": [P: (400.0, 325.0), S: (480.0, 40.0)], "frame": [P: (400.0, 411.0), S: (480.0, 40.0)], "close": [P: (400.0, 519.0), S: (480.0, 44.0)] }
+PASS: en settings card stays within the logical game canvas
+PASS: en language, display, frame, feedback and close controls all fit the card
+PASS: en settings rows remain separate without overlapping
+PASS: en display choices update with the selected language
+DISPLAY BOUNDS en: { "card": [P: (370.0, 128.0), S: (540.0, 544.0)], "language": [P: (400.0, 233.0), S: (480.0, 46.0)], "display": [P: (400.0, 325.0), S: (480.0, 40.0)], "frame": [P: (400.0, 411.0), S: (480.0, 40.0)], "close": [P: (400.0, 519.0), S: (480.0, 44.0)] }
+PASS: closing expanded settings restores the previous game state
+DISPLAY SETTINGS RESULT: 24 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: 120 unchanged frames reuse the skill definition, icon and description
+PASS: equipping a water wand updates both primary spell and special skill
+PASS: the cooldown fill moves continuously between text's tenth-second changes
+PASS: a moving cooldown does not reread the unchanged skill description
+PASS: damage updates both the vitality text and bar
+PASS: wallet changes still appear immediately
+PASS: roll recovery updates without waiting for another HUD change
+PASS: the roll caption returns to ready on its first available frame
+PASS: a special cast keeps its named outcome, card and animated icon
+PASS: changing language refreshes the active special confirmation
+PASS: cached primary and destination labels refresh in Korean
+PASS: opening equipment pauses the cast animation and disables the HUD button
+PASS: special confirmation expires into the live cooldown on the same frame
+PASS: unequipping clears the obsolete description and disables the skill bar
+PASS: an empty wand slot restores the ordinary primary spell
+PASS: a newly opened exit updates both localized passage captions
+HUD REFRESH RESULT: 16 checks, 0 failures

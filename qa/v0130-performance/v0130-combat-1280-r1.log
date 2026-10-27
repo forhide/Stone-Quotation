@@ -1,0 +1,6 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PERF_RESULT {"adapter":"llvmpipe (LLVM 19.1.7, 256 bits)","case":"combat","dialogue_changes":0,"display_server":"X11","draw_calls_max":280.0,"draw_calls_mean":226.942528735632,"enemy_count":8,"engine_max_fps":0,"fixture":"v013_shared_render_v1","frame_ms_mean":46.2852471264368,"frame_ms_p50":41.348,"frame_ms_p95":75.797,"frame_ms_p99":103.437,"frames":174,"frames_over_16_67ms":174,"frames_over_33_33ms":144,"logical_canvas":"(1280.0, 800.0)","loot_count":12,"note":"Uncapped software-rendered presentation workload; not native Windows hardware FPS.","physics_ms_mean":7.3306724137931,"primitives_mean":10976.7068965517,"process_ms_mean":73.4485574712645,"project_version":"0.13.0","rendered_frames":174,"rendered_objects_mean":963.166666666667,"renderer":"gl_compatibility","rolls":6,"sample_seconds":8.0,"shop_interactions":0,"skill_casts":6,"stretch_mode":"canvas_items","vsync_mode":0,"warmup_seconds":2.0,"window_pixels":"(1280, 800)"}

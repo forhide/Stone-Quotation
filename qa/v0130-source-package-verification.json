@@ -1,0 +1,11 @@
+{
+  "version": "v0.13.0",
+  "production_files_matching_export": 119,
+  "independent_source_checks": 119,
+  "archive_sha256_at_test": "d39513b5d4ad61f3c3efafa2e6d12124777beb727f62a5c6991a56e445121b42",
+  "prepared_import_clean": true,
+  "first_import_bootstrap_messages": true,
+  "method": "Fresh isolated source ZIP extraction, two editor imports for cold font/theme bootstrap, then actual scene/HD/story/options checks; active code/art bytes match the runtime export fingerprint. Documentation-only evidence may be added before final source packaging.",
+  "final_archive_sha256": "245cb914c8ab988ee0d293a482f674fa2b652cf808dd43ed2dc68b578fed26fd",
+  "final_production_files_matching_export": 119
+}
