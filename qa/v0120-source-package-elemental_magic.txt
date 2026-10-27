@@ -1,0 +1,91 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: bare paws retain the opening story's small fireball
+PASS: unowned spoofed equipment cannot grant ice magic
+PASS: practice_wand: equipped icon and owned tool select the intended basic element
+PASS: practice_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: crooked_ash_wand: equipped icon and owned tool select the intended basic element
+PASS: crooked_ash_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: cinderfork_wand: equipped icon and owned tool select the intended basic element
+PASS: cinderfork_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: apprentice_thesis: equipped icon and owned tool select the intended basic element
+PASS: apprentice_thesis: emitted basic projectile uses the actual equipped element and stat damage
+PASS: frost_whisker_wand: equipped icon and owned tool select the intended basic element
+PASS: frost_whisker_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: hopscotch_wand: equipped icon and owned tool select the intended basic element
+PASS: hopscotch_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: pip_feather_staff: equipped icon and owned tool select the intended basic element
+PASS: pip_feather_staff: emitted basic projectile uses the actual equipped element and stat damage
+PASS: moss_bud_staff: equipped icon and owned tool select the intended basic element
+PASS: moss_bud_staff: emitted basic projectile uses the actual equipped element and stat damage
+PASS: bloop_bottle_wand: equipped icon and owned tool select the intended basic element
+PASS: bloop_bottle_wand: emitted basic projectile uses the actual equipped element and stat damage
+PASS: thunder_spoon: equipped icon and owned tool select the intended basic element
+PASS: thunder_spoon: emitted basic projectile uses the actual equipped element and stat damage
+PASS: bubble_teapot: equipped icon and owned tool select the intended basic element
+PASS: bubble_teapot: emitted basic projectile uses the actual equipped element and stat damage
+PASS: comet_crayon: equipped icon and owned tool select the intended basic element
+PASS: comet_crayon: emitted basic projectile uses the actual equipped element and stat damage
+PASS: the twelve tools cover seven visually distinct basic magic families
+PASS: changing equipment during paw anticipation cannot transform a prepared spell
+PASS: changing the element cannot bypass the shared primary cooldown
+PASS: water hits its target and splashes only nearby foes
+PASS: water leaves no misleading floor fire
+PASS: ice damage briefly slows the struck enemy
+PASS: ice slow restores the enemy's true speed after its short duration
+PASS: wind passes through exactly two foes without repeatedly hitting the first
+PASS: wind's breeze adds a visible extra shove
+PASS: stone visibly travels slower with a larger pebble silhouette
+PASS: stone's collision lands with a heavier push
+PASS: leaf magic curves gently toward a nearby foe rather than snapping onto it
+PASS: the lightning spoon sends a faster small spark
+PASS: fire/success: shield still predicts controlled magic and opens only to a real accident
+PASS: fire/success: projectile path never invents floor flames
+PASS: fire/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: fire/miscast: projectile path never invents floor flames
+PASS: fire/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: fire/overreaction: projectile path never invents floor flames
+PASS: water/success: shield still predicts controlled magic and opens only to a real accident
+PASS: water/success: projectile path never invents floor flames
+PASS: water/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: water/miscast: projectile path never invents floor flames
+PASS: water/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: water/overreaction: projectile path never invents floor flames
+PASS: ice/success: shield still predicts controlled magic and opens only to a real accident
+PASS: ice/success: projectile path never invents floor flames
+PASS: ice/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: ice/miscast: projectile path never invents floor flames
+PASS: ice/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: ice/overreaction: projectile path never invents floor flames
+PASS: wind/success: shield still predicts controlled magic and opens only to a real accident
+PASS: wind/success: projectile path never invents floor flames
+PASS: wind/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: wind/miscast: projectile path never invents floor flames
+PASS: wind/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: wind/overreaction: projectile path never invents floor flames
+PASS: stone/success: shield still predicts controlled magic and opens only to a real accident
+PASS: stone/success: projectile path never invents floor flames
+PASS: stone/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: stone/miscast: projectile path never invents floor flames
+PASS: stone/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: stone/overreaction: projectile path never invents floor flames
+PASS: leaf/success: shield still predicts controlled magic and opens only to a real accident
+PASS: leaf/success: projectile path never invents floor flames
+PASS: leaf/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: leaf/miscast: projectile path never invents floor flames
+PASS: leaf/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: leaf/overreaction: projectile path never invents floor flames
+PASS: lightning/success: shield still predicts controlled magic and opens only to a real accident
+PASS: lightning/success: projectile path never invents floor flames
+PASS: lightning/miscast: shield still predicts controlled magic and opens only to a real accident
+PASS: lightning/miscast: projectile path never invents floor flames
+PASS: lightning/overreaction: shield still predicts controlled magic and opens only to a real accident
+PASS: lightning/overreaction: projectile path never invents floor flames
+PASS: fire: feet mishap creates the element's own accident, with flames only for fire
+PASS: water: feet mishap creates the element's own accident, with flames only for fire
+PASS: ice: feet mishap creates the element's own accident, with flames only for fire
+PASS: wind: feet mishap creates the element's own accident, with flames only for fire
+PASS: stone: feet mishap creates the element's own accident, with flames only for fire
+PASS: leaf: feet mishap creates the element's own accident, with flames only for fire
+PASS: lightning: feet mishap creates the element's own accident, with flames only for fire
+ELEMENTAL MAGIC RESULT: 88 checks, 0 failures

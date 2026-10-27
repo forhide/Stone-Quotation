@@ -1,0 +1,39 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: market crop stays inside the transparent authored illustration
+PASS: central market fits between the playfield and route display
+PASS: the gathering renders behind the player and creates no obstacle
+PASS: tea guests use the same hedgehog and otter identities as story portraits
+PASS: the gathering and animal merchant appear only in shop area01
+PASS: the centre table offers shop interaction only in shop area01
+PASS: the gathering and animal merchant appear only in shop area02
+PASS: the centre table offers shop interaction only in shop area02
+PASS: the gathering and animal merchant appear only in shop area03
+PASS: the centre table offers shop interaction only in shop area03
+PASS: the gathering and animal merchant appear only in shop area04
+PASS: the centre table offers shop interaction only in shop area04
+PASS: the original merchant interaction remains reachable
+PASS: spawn and east exit do not become accidental shop triggers
+PASS: warm tea steam advances during the active rest stop
+PASS: trading pauses tea steam without hidden world animation
+PASS: the gathering and animal merchant appear only in shop area05
+PASS: the centre table offers shop interaction only in shop area05
+PASS: the gathering and animal merchant appear only in shop area06
+PASS: the centre table offers shop interaction only in shop area06
+PASS: the gathering and animal merchant appear only in shop area07
+PASS: the centre table offers shop interaction only in shop area07
+PASS: the original merchant interaction remains reachable
+PASS: spawn and east exit do not become accidental shop triggers
+PASS: warm tea steam advances during the active rest stop
+PASS: trading pauses tea steam without hidden world animation
+PASS: the gathering and animal merchant appear only in shop area08
+PASS: the centre table offers shop interaction only in shop area08
+PASS: real area04 table interaction opens the trading panel
+PASS: real shop modal freezes the tea gathering
+PASS: real player can cross the free route below the central island
+PASS: east exit still advances the real expedition instead of reopening the shop
+PASS: real area07 table interaction opens the trading panel
+PASS: real shop modal freezes the tea gathering
+PASS: real player can cross the free route below the central island
+PASS: east exit still advances the real expedition instead of reopening the shop
+SHOP GATHERING RESULT: 36 checks, 0 failures

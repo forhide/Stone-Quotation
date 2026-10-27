@@ -1,0 +1,34 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: hovering a new magic trait leaves wardrobe and return control stationary
+PASS: hover identifies the candidate's actual basic spell
+PASS: previewing water cannot silently change the live fire spell
+PASS: explicit Equip updates the live primary spell
+PASS: combat HUD names the equipped water spell
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:practice_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:frost_whisker_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:hopscotch_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:pip_feather_staff
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:moss_bud_staff
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:bloop_bottle_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: ko:thunder_spoon
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:practice_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:frost_whisker_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:hopscotch_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:pip_feather_staff
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:moss_bud_staff
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:bloop_bottle_wand
+PASS: basic traits and arrows fit without shifting wardrobe or controls: en:thunder_spoon
+PASS: real E dispatch addresses Moss while movement remains available
+PASS: arrival card makes room for an active NPC conversation
+PASS: a friendly reaction neither buys stock nor grants hidden healing
+PASS: held E key repeat cannot skip the NPC's lines
+PASS: room pause freezes both NPC acting and speech duration
+PASS: T starts squirrel Pip's own conversation without opening trade
+PASS: Pip's existing E-to-browse control still opens his real stock
+PASS: the central picnic table remains a second entry to the same shop
+PASS: changing to the final rest stop clears the previous conversation
+PASS: the first-area exit restores the clearly marked target-exam replay
+PASS: explicit replay is a memory while route identity remains the library
+PASS: leaving the replay resumes the live-book stage instead of restarting the exam
+FEATURE INTEGRATION RESULT: 31 checks, 0 failures

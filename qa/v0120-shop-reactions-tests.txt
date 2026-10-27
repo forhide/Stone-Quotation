@@ -1,0 +1,59 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: no friend can be addressed outside a rest stop
+PASS: the middle table keeps its trading interaction instead of becoming NPC talk
+PASS: the exit never becomes a friend interaction
+PASS: Pip can be spoken to at both the old merchant anchor and his visible feet
+PASS: Pip's old E-to-shop interaction remains separate from the T-to-talk shortcut
+PASS: close range exposes the correct animal's talk cue: moss
+PASS: the animal responds to the first deliberate interaction: moss
+PASS: an immediate repeated call cannot skip over dialogue: moss
+PASS: talk starts a visible one-shot gesture: moss
+PASS: motion pivots at grounded feet instead of levitating the animal: moss
+PASS: modal pauses cannot advance gestures or consume the speech card timer: moss
+PASS: a released and repeated interaction advances that animal's conversation: moss
+PASS: close range exposes the correct animal's talk cue: bloop
+PASS: the animal responds to the first deliberate interaction: bloop
+PASS: an immediate repeated call cannot skip over dialogue: bloop
+PASS: talk starts a visible one-shot gesture: bloop
+PASS: motion pivots at grounded feet instead of levitating the animal: bloop
+PASS: modal pauses cannot advance gestures or consume the speech card timer: bloop
+PASS: a released and repeated interaction advances that animal's conversation: bloop
+PASS: Pip advertises his dedicated talk key while E remains browse
+PASS: Pip responds with the same squirrel identity as his merchant portrait
+PASS: a live Korean language change updates the active conversation
+PASS: a live English language change preserves the same beat
+PASS: speech and prompts remain non-modal and cannot consume movement or clicks
+PASS: walking away gently dismisses the speech card
+PASS: far-away NPC prompts stay hidden
+PASS: the final rest stop has different context for moss
+PASS: all three final-stop lines have Korean, English and a matching gesture: moss
+PASS: the final rest stop has different context for bloop
+PASS: all three final-stop lines have Korean, English and a matching gesture: bloop
+PASS: the final rest stop has different context for pip
+PASS: all three final-stop lines have Korean, English and a matching gesture: pip
+PASS: long-running idle and one-shot reactions never drift either animal's feet
+PASS: a completed exchange expires instead of leaving an overlay on the playfield
+PASS: a resting party occasionally reacts on its own without opening a dialogue or spawning combat effects
+PASS: leaving the shop removes dialogue, cue and reactions together
+PASS: hidden and unknown actors cannot start stale conversations
+PASS: stage changes clear the old reaction drawing and pose before a new shop appears
+PASS: every Korean dialogue syllable exists in the bundled story font: []
+PASS: all 36 localized speech layouts fit inside their card without cutting off the last line
+PASS: real rest stop 3 gives E to the nearby friend: moss
+PASS: talk cannot spend, equip, heal or reset skill recovery: moss
+PASS: real rest stop 3 gives E to the nearby friend: bloop
+PASS: talk cannot spend, equip, heal or reset skill recovery: bloop
+PASS: real T shortcut speaks with Pip without opening the shop
+PASS: holding the real talk key cannot advance past Pip's dialogue
+PASS: the real inventory modal pauses active NPC dialogue and gestures
+PASS: the real centre table still opens gear trading after a conversation
+PASS: real rest stop 6 gives E to the nearby friend: moss
+PASS: talk cannot spend, equip, heal or reset skill recovery: moss
+PASS: real rest stop 6 gives E to the nearby friend: bloop
+PASS: talk cannot spend, equip, heal or reset skill recovery: bloop
+PASS: real T shortcut speaks with Pip without opening the shop
+PASS: holding the real talk key cannot advance past Pip's dialogue
+PASS: the real inventory modal pauses active NPC dialogue and gestures
+PASS: the real centre table still opens gear trading after a conversation
+SHOP REACTIONS RESULT: 56 checks, 0 failures

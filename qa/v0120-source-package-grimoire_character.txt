@@ -1,0 +1,31 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: the real final expedition room spawns the book antagonist
+PASS: runtime identity names the book itself rather than a fox stand-in
+PASS: final battle uses the shared sentient-book atlas, not the supporting animal cast
+PASS: four authored expressions are imported for the book cover and pages
+PASS: a protected idle grimoire wears its composed cover expression
+PASS: calm art retains the reviewed164px footprint before elite scaling
+PASS: the book retains the same collision-origin and visual-foot anchor
+PASS: new appearance preserves180HP and the initial prediction barrier
+PASS: the book visibly predicts a controlled spell without losing health
+PASS: beam anticipation opens angry pages before the attack
+PASS: an actual accident still damages the book and opens exactly four seconds
+PASS: a shield break immediately fans out the shocked book pages
+PASS: paused gameplay freezes the book's reaction and shield presentation together
+PASS: low-health exposed book uses its scuffed, exhausted cover expression
+PASS: reformed protection closes and composes the book again
+PASS: story portraits share the exact filtered book pose used by combat: calm
+PASS: repeated book portraits reuse one cached atlas texture: calm
+PASS: the complete page silhouette stays inside its authored atlas region: calm
+PASS: story portraits share the exact filtered book pose used by combat: angry
+PASS: repeated book portraits reuse one cached atlas texture: angry
+PASS: the complete page silhouette stays inside its authored atlas region: angry
+PASS: story portraits share the exact filtered book pose used by combat: shocked
+PASS: repeated book portraits reuse one cached atlas texture: shocked
+PASS: the complete page silhouette stays inside its authored atlas region: shocked
+PASS: story portraits share the exact filtered book pose used by combat: damaged
+PASS: repeated book portraits reuse one cached atlas texture: damaged
+PASS: the complete page silhouette stays inside its authored atlas region: damaged
+PASS: dialogue alert and unknown-pose fallbacks resolve to safe book expressions
+GRIMOIRE CHARACTER RESULT: 28 checks, 0 failures

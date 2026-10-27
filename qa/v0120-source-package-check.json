@@ -1,0 +1,27 @@
+{
+  "unpacked_source_works": true,
+  "prepared_import_passed": true,
+  "checks": [
+    {
+      "suite": "smoke",
+      "passed": true,
+      "log": "/tmp/meow-v0120-source-package-smoke.log"
+    },
+    {
+      "suite": "elemental_magic",
+      "passed": true,
+      "log": "/tmp/meow-v0120-source-package-elemental_magic.log"
+    },
+    {
+      "suite": "grimoire_character",
+      "passed": true,
+      "log": "/tmp/meow-v0120-source-package-grimoire_character.log"
+    },
+    {
+      "suite": "feature_integration",
+      "passed": true,
+      "log": "/tmp/meow-v0120-source-package-feature_integration.log"
+    }
+  ],
+  "scope": "clean extracted source package; Godot font-cache bootstrap import followed by clean prepared import; smoke and new elemental/book suites"
+}

@@ -1,0 +1,107 @@
+{
+  "platform": "windows",
+  "scope": "tutorial combat, area02 transition, loot/equipment UI, defeat, permanent-profile reload; not full 8-area clear",
+  "profile": "/workspace/Meowgnificent/.local/qa/v0120-windows/profiles/progress-1793064642302831934.json",
+  "checks": [
+    {
+      "check": "extracted release renders expedition start menu",
+      "passed": true
+    },
+    {
+      "check": "Shift plus movement performs a roll with recovery",
+      "passed": true
+    },
+    {
+      "check": "Enter starts and Escape pauses executable",
+      "passed": true
+    },
+    {
+      "check": "I opens equipment and satchel panel",
+      "passed": true
+    },
+    {
+      "check": "Escape closes inventory and returns to combat",
+      "passed": true
+    },
+    {
+      "check": "R restores clean start menu",
+      "passed": true
+    },
+    {
+      "check": "aimed debug-overreaction combat opens tutorial passage",
+      "passed": true
+    },
+    {
+      "check": "tutorial completion writes permanent Starlight to isolated profile",
+      "passed": true
+    },
+    {
+      "check": "area 02 visibly announces arrival with its name and position in the eight-area route",
+      "passed": true
+    },
+    {
+      "check": "Enter advances into area 02 without restarting expedition",
+      "passed": true
+    },
+    {
+      "check": "room transition collects enemy Crowns and preserves them in inventory UI",
+      "passed": true
+    },
+    {
+      "check": "hovering the real drop tile shows its improvement hint without changing the worn icon",
+      "passed": true
+    },
+    {
+      "check": "leaving the hover restores the currently worn selection",
+      "passed": true
+    },
+    {
+      "check": "selecting the dropped gear exposes the explicit shared Equip action",
+      "passed": true
+    },
+    {
+      "check": "clicking dropped gear equips it in the release UI",
+      "passed": true
+    },
+    {
+      "check": "next-area enemies defeat idle player",
+      "passed": true
+    },
+    {
+      "check": "M opens permanent legacy studies from defeat screen",
+      "passed": true
+    },
+    {
+      "check": "R after defeat restores expedition start menu",
+      "passed": true
+    },
+    {
+      "check": "legacy UI retains earned Starlight after room reload",
+      "passed": true
+    },
+    {
+      "check": "first window close exits normally",
+      "passed": true
+    },
+    {
+      "check": "a fresh executable process reopens the saved profile",
+      "passed": true
+    },
+    {
+      "check": "fresh process displays retained Starlight in legacy studies",
+      "passed": true
+    },
+    {
+      "check": "opening the saved profile preserves currency, upgrades and run history",
+      "passed": true
+    },
+    {
+      "check": "reopened window close exits normally",
+      "passed": true
+    },
+    {
+      "check": "both sessions have no engine/script errors",
+      "passed": true
+    }
+  ]
+}

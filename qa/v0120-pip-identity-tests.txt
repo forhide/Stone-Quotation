@@ -1,0 +1,25 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: merchant uses the shared squirrel Pip sprite from the animal cast
+PASS: the identity source and cached icon are shared by story and field
+PASS: full-body and shop portrait crops stay inside the same identity sheet
+PASS: the central market retains two grounded animal roots and three bounded tea-steam lines alongside its interaction UI
+PASS: area01 shows Pip only when its real shop is present
+PASS: area02 shows Pip only when its real shop is present
+PASS: area03 shows Pip only when its real shop is present
+PASS: area04 shows Pip only when its real shop is present
+PASS: area04 story and actual merchant agree on squirrel Pip
+PASS: area04 retains its existing shop interaction point
+PASS: area04 idle breath and larger talk reaction keep the contact point on the floor within their separate pose bounds
+PASS: area04 trading pauses merchant idle and reaction motion
+PASS: area04 near-shop feedback reuses the same Pip artwork
+PASS: area05 shows Pip only when its real shop is present
+PASS: area06 shows Pip only when its real shop is present
+PASS: area07 shows Pip only when its real shop is present
+PASS: area07 story and actual merchant agree on squirrel Pip
+PASS: area07 retains its existing shop interaction point
+PASS: area07 idle breath and larger talk reaction keep the contact point on the floor within their separate pose bounds
+PASS: area07 trading pauses merchant idle and reaction motion
+PASS: area07 near-shop feedback reuses the same Pip artwork
+PASS: area08 shows Pip only when its real shop is present
+PIP IDENTITY RESULT: 22 checks, 0 failures
