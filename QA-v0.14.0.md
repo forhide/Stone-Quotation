@@ -12,7 +12,7 @@
 | Visual review | 확인 | 과녁 방향, 망가진 교실, 두 배우의 그을림, 책/버섯의 단계별 각성 |
 | Performance | 측정 완료 | v0.13과 새 세 이야기 장면의 실제 순차 렌더링. 소프트웨어 렌더러 단일 회차이며 GPU 성능 보장 범위가 아님 |
 | Source package | 독립 실행149개 통과 | 독립 소스 압축 해제·코드/아트 일치·실행 |
-| Delivery | 대기 | GitHub 직링크 새 다운로드·크기·SHA-256·ZIP 무결성·검사한 실행 파일 일치 |
+| Delivery | pass | 다섯 ZIP과 체크섬을 공식 GitHub 직링크에서 새 다운로드. 크기·SHA-256·ZIP 무결성 및 실행 검증한 payload/권한 일치 확인 |
 
 실제 Windows 하드웨어 FPS, Mac 실기 실행과 Apple 공증은 확인되지 않았습니다.
 
@@ -21,3 +21,5 @@
 성능은1280×800 GL Compatibility/llvmpipe에서 같은 세 시퀀스를 순차 렌더링한 단일 회차입니다. 큰 비용 회귀가 없는지 확인하는 점검이며 캐시·가상화 변동을 포함하므로 향상률이나 실제 Windows GPU FPS를 보장하지 않습니다. 모든 잔해와 문양은 한정된 그림 명령을 재사용하고 전투 위험 요소를 생성하지 않습니다.
 
 소스를 독립 폴더에 풀어 활성 코드·아트가 내보내기 원본과 일치하는지 확인하고 게임·HD 그림·대화 연속성·설정·새 사건 연출149개를 재실행했습니다. 비어 있는 Godot 글꼴/테마 캐시의 최초 import에는 부트스트랩 메시지가 있어 다시 가져왔으며 두 번째 import와 실행은 정상입니다. 완성된 실행 파일에는 이 과정이 필요하지 않습니다. [독립 소스 결과](qa/v0140-source-package-verification.json).
+
+전달 검증: [새 다운로드 결과](qa/v0140-download-verification.json), [실행 파일·Web·Mac payload 일치](qa/v0140-payload-verification.json).

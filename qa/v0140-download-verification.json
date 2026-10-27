@@ -1,0 +1,56 @@
+[
+  {
+    "file": "Meowgnificent-v0.14.0-windows.zip",
+    "bytes": 60297119,
+    "sha256": "470949bf13ed981ae5e0250197b061da1173b098f5c96f4e51de1e999a72d41d",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.14.0/Meowgnificent-v0.14.0-windows.zip",
+    "verified": true,
+    "content_type": "application/zip",
+    "final_host": "raw.githubusercontent.com"
+  },
+  {
+    "file": "Meowgnificent-v0.14.0-linux.zip",
+    "bytes": 51326955,
+    "sha256": "d128ff4205a3ccfeba49120b1c4d8ac990530db8ba921e1fa624521d44ac9c31",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.14.0/Meowgnificent-v0.14.0-linux.zip",
+    "verified": true,
+    "content_type": "application/zip",
+    "final_host": "raw.githubusercontent.com"
+  },
+  {
+    "file": "Meowgnificent-v0.14.0-macos.zip",
+    "bytes": 89364731,
+    "sha256": "05ae81093aa3ad4c304db0d2c02c9e21091d61db78d9be504cdb125db56e0509",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.14.0/Meowgnificent-v0.14.0-macos.zip",
+    "verified": true,
+    "content_type": "application/zip",
+    "final_host": "raw.githubusercontent.com"
+  },
+  {
+    "file": "Meowgnificent-v0.14.0-web.zip",
+    "bytes": 35749267,
+    "sha256": "f935c4b627048f6612b3213f24e94899a6aef990ac3e669b6f4b8a7835e4bedb",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.14.0/Meowgnificent-v0.14.0-web.zip",
+    "verified": true,
+    "content_type": "application/zip",
+    "final_host": "raw.githubusercontent.com"
+  },
+  {
+    "file": "Meowgnificent-v0.14.0-source.zip",
+    "bytes": 47576749,
+    "sha256": "2466c9cede1b00d805d9ef9583c955c81f67c490e513cb08dea1bebd782dbcda",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.14.0/Meowgnificent-v0.14.0-source.zip",
+    "verified": true,
+    "content_type": "application/zip",
+    "final_host": "raw.githubusercontent.com"
+  },
+  {
+    "file": "Meowgnificent-v0.14.0-SHA256SUMS.txt",
+    "bytes": 491,
+    "sha256": "614ab81fa7ccfccdecf88de86709dc0c0d3402bb39ccca404122533d51f92238",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.14.0/Meowgnificent-v0.14.0-SHA256SUMS.txt",
+    "verified": true,
+    "content_type": "text/plain; charset=utf-8",
+    "final_host": "raw.githubusercontent.com"
+  }
+]
