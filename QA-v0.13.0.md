@@ -13,7 +13,7 @@
 | Visual review |확인| 3840×2160 실제 창4장면과1280 화면. HD 그림의 잘림/크기, UI/글자, 특수기 구분, 이어지는 대화, 출구 등장·전리품 끌어오기 |
 | Performance |측정 완료| 1280×800 전투·상점·이야기 각 버전2회 순차 측정. p95 평균 각각15.8%·9.8%·34.2% 감소. 별도4K 화질/부하 확인1회. 클라우드 소프트웨어 렌더링 한정 |
 | Source package |독립 실행119개 통과| 독립 폴더에 압축 해제한 소스의 필수 리소스·글꼴/라이선스·검사 도구 보존과 실제 재실행 |
-| Delivery |대기| 다섯 ZIP과 체크섬을 공식 GitHub 직링크에서 새 다운로드하여 크기·SHA-256·ZIP 무결성·검증한 payload 일치 확인 |
+| Delivery | pass | 다섯 ZIP과 체크섬을 공식 GitHub 직링크에서 새 다운로드. 크기·SHA-256·ZIP 무결성 및 실행 검증한 payload/권한 일치 확인 |
 
 새 소스 검사 수는 최종 test.sh에서 실행한 suite의 실제 RESULT 행을 합산합니다. 실행 도중 SCRIPT ERROR 또는 ERROR가 있으면 실패로 처리합니다. 웹 검사는 같은 내보내기 파일의 해시를 전후 비교하며, 데스크톱은 검사한 실행 파일과 최종 ZIP 안의 실행 파일이 같은지 비교합니다. Mac은 내보낸 앱과 ZIP 내부의 파일 및 권한도 일치해야 합니다.
 
@@ -44,3 +44,5 @@
 실제 기록: [소스 1,747개](qa/v0130-source-tests.txt), [Windows 25개](qa/v0130-windows-results.json), [Linux 25개](qa/v0130-linux-results.json), [Web 기본](qa/v0130-web-tests.txt), [Web 대화](qa/v0130-story-web-tests.txt), [Web 한영 전환·저장](qa/v0130-localized-web-tests.txt), [Web Q·오른쪽 클릭](qa/v0130-item-skills-web-tests.txt), [Mac 패키지](qa/v0130-macos-package.txt), [플랫폼 아이콘](qa/v0130-platform-icons.txt), [글꼴 636문자](qa/v0130-font-coverage.json), [배포 소스의 코드·아트 해시](qa/v0130-active-source-sha256.json).
 
 소스 ZIP을 별도 폴더에 풀어 활성 코드·아트가 내보내기 원본과 같은지 확인하고, 실제 게임·HD 그림·대화 연속성·설정119개를 재실행했습니다. 비어 있는 Godot 글꼴/테마 캐시의 최초 import에는 부트스트랩 메시지가 있어 다시 import했으며 두 번째 import와 실행 로그는 깨끗했습니다. 이 과정은 완성된 실행 파일에는 필요하지 않습니다. [독립 소스 기록](qa/v0130-source-package-verification.json).
+
+전달 검증: [새 다운로드 결과](qa/v0130-download-verification.json), [실행 파일·Web·Mac payload 일치](qa/v0130-payload-verification.json).
