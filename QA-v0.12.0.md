@@ -11,7 +11,7 @@
 | Visual review |확인| 일곱 기본 마법/무기, 전진→역발사→후방 폭발/회상, 살아 있는 책/버섯, 상점 대화, 관리 통로, 책 마도서 정상/장벽 파괴 |
 | Performance |6조건 순차 측정| 전투 경고·상점의v0.11/v0.12 비교와 동일한 새 빌드의 일곱 불/일곱 혼합 속성 비교. 클라우드 소프트웨어 렌더링 한정 |
 | Source package |추출 확인| 원본 디자인 노트/활성 아트/코드/검사 보존. 독립 폴더의 폰트 캐시 준비 후 smoke29+새 속성88+책28+기능 연결31검사 통과 |
-| Delivery |게시 후 검증|5ZIP/체크섬을 새로 다운로드하고 크기·SHA-256·압축 무결성 및 실행payload/권한 확인 결과를 공개QA메타데이터에 기록 |
+| Delivery | pass | 다섯 ZIP과 체크섬을 공식 GitHub 직링크에서 새 다운로드. 크기·SHA-256·ZIP 무결성 및 실행 검증한 payload/권한 일치 확인 |
 
 최종 소스 로그는27개 suite /1,461개 통과입니다. 일곱 속성은12개 실제 소유 주무기로 발사하고, 충돌·물 튐·얼음 둔화와 복원·두 적 관통·돌 밀어내기·잎 유도·번개 속도를 확인합니다. 모든 속성의 성공/실수/폭주를 실제 마도서 방어막에 적용하고, 비화염 주문이 책장이나 바닥에 잘못 불을 만들지 않는지 확인합니다. 시전 준비 중 장비를 바꾸더라도 이미 준비한 주문의 속성과 피해는 유지합니다.
 
@@ -28,3 +28,5 @@
 [소스](qa/v0120-source-tests.txt) · [Windows](qa/v0120-windows-tests.txt) · [Linux](qa/v0120-linux-tests.txt) · [웹](qa/v0120-web-tests.txt) · [오프닝](qa/v0120-story-web-tests.txt) · [언어](qa/v0120-localized-web-tests.txt) · [특수기](qa/v0120-item-skills-web-tests.txt) · [Mac](qa/v0120-macos-package.txt) · [아이콘](qa/v0120-platform-icons.txt) · [측정 방법](qa/v0120-performance/METHOD.md).
 
 [일곱 기본 마법](qa/v0120-elemental-magic.png) · [역발사](qa/v0120-story-reverse.png) · [시험 회상](qa/v0120-story-flashback.png) · [마도서 이야기](qa/v0120-story-archive.png) · [장벽 파괴](qa/v0120-grimoire-boss-shocked.png) · [정원 버섯](qa/v0120-living-stage-02.png) · [관리 통로](qa/v0120-maintenance-nook.png) · [친구와 대화](qa/v0120-shop-moss-ko.png).
+
+전달 검증: [새 다운로드 결과](qa/v0120-download-verification.json), [실행 파일·Web·Mac payload 일치](qa/v0120-payload-verification.json).
