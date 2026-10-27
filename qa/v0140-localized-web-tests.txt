@@ -1,0 +1,16 @@
+PASS: ordinary player URL has no forced language
+PASS: fresh player sees Korean menu by default
+PASS: F10 opens Korean settings and language choice
+PASS: real language dropdown immediately changes the options screen to English
+PASS: closing settings returns to the English start menu
+PASS: English preference survives a complete WASM page reload with no language flag
+PASS: default opening uses English dialogue after the saved language choice; OCR "arcana academy\n\narcana academy, the continent's finest school of magic. today's practical exam had one simple task.\n\n01/14 - enter/ space: next page - esc: skip story\n"
+PASS: settings can open over an active story
+PASS: switching back to Korean keeps the same opening page and translates its dialogue; OCR "아르카나 마법 학교\n\n1\n\n최고의 마법 학교, 아르카나. 오늘 실기 시험의 과제는\n\n느 가다핸\n\nle ll aa\n\n다\n\n01/14 - enter / space: 다음 ㆍㄷ50: 건너뛰기\n\n대륙 최고의 마법 학교, 아르카나. 오늘 실기 시험의 과제는 간단했다.\n\n아르카나 마법 학교\n"
+PASS: Korean professor dialogue advances normally after leaving language options; OCR "교수\n\n화염구 한 발로 표적을 맞히게. 매멀레이드.… 이번에는 제발 표\n\n적만 ots\n\nㄱ ㄴㄴ\n\n즈\n\n|게나.\n\n02 /14- enter / space: 다음 ㆍㄷ50: 건너뛰기\n\n화염구 한 발로 bas 맞히게. 매멀레이드. 이번에는 제발 표적만 맞히게나.\n\n교수\n"
+PASS: skipping the story enters Korean gameplay
+PASS: equipment UI is Korean during the same expedition
+PASS: Korean preference also survives a complete reload
+PASS: all localized assets load successfully
+PASS: localized dropdown, story and reload flow have no JavaScript or engine errors: []
+LOCALIZED WEB RESULT: 15 checks, 0 failures

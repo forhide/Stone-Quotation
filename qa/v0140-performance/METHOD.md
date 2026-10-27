@@ -1,0 +1,5 @@
+# Story rendering verification
+
+Same fixture, sequential actual1280×800 GL Compatibility rendering on Xorg:77/llvmpipe,4rendererthreads, uncapped andVSyncdisabled. Eightsecondspercase, first2swarmup excludedfrommean/p95; rawintervalsinJSON. Twoactualdialoguechangesineachcase. Singletrialasaregessionscreen, notastatisticallyreliableFPSimprovementclaim. Baselineisindependentv0.13.0sourcewith119activefilesmatchedtoitspublishedexportfingerprint. ActualWindowsGPU/Macperformanceandfirst-castcold-driverstallsarenotmeasured.
+
+Newassetsanddrawaccentsarebounded: onepaintedruinbackground,two cachedactorcrops,sixlivingprops,12short-livedpaperaccents; no newdamagingactorsorper-framedebrisnodes.

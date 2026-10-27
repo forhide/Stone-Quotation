@@ -1,0 +1,11 @@
+{
+  "font": "Pretendard-Medium.otf",
+  "sources": [
+    "data/locales/ko.json",
+    "data/story.json",
+    "data/items.json",
+    "data/skills.json"
+  ],
+  "unique_characters": 644,
+  "missing_characters": []
+}
