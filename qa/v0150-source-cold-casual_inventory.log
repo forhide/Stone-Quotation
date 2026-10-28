@@ -1,0 +1,55 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: identical equipment does not fill the panel with unchanged statistics
+PASS: shorter spell and roll recovery use improvement arrows
+PASS: longer recovery is shown as a downgrade rather than a numerical increase
+PASS: the same special skill can compare its meaningful power, recovery and reach
+PASS: different special skills are not given a misleading numeric damage/reach rating
+PASS: qualitative comparison never mutates its input snapshots
+PASS: owned items become grid buttons and exactly three equipment slots remain
+PASS: the paperdoll initially shows the actual equipped items
+PASS: comparison and slot names use the panel directly without a redundant native tooltip window
+PASS: opening the grid selects the currently owned primary tool
+PASS: hover previews an owned item without silently selecting it
+PASS: hover cannot equip, charge currency, heal, reset cooldown or change the worn preview
+PASS: the real hovered wand shows only its damage upgrade and slower-recovery downgrade
+PASS: the visible comparison contains no base/current/after numeric table
+PASS: clicking a grid item selects its comparison without equipping it
+PASS: temporary hover preserves the selected item and cannot activate an unrelated equipment action
+PASS: leaving a hovered item restores the selected comparison
+PASS: unknown or unowned icons cannot select or preview equipment
+PASS: keyboard focus provides the same comparison as pointer hover
+PASS: keyboard comparison remains read-only while combat is paused
+PASS: a selected owned item exposes an explicit equipment action: cinderfork_wand
+PASS: explicit equip updates the actual slot and its miniature artwork: cinderfork_wand
+PASS: explicit equip refreshes the current worn paperdoll: cinderfork_wand
+PASS: a selected owned item exposes an explicit equipment action: brass_bell_collar
+PASS: explicit equip updates the actual slot and its miniature artwork: brass_bell_collar
+PASS: explicit equip refreshes the current worn paperdoll: brass_bell_collar
+PASS: a selected owned item exposes an explicit equipment action: loose_feather
+PASS: explicit equip updates the actual slot and its miniature artwork: loose_feather
+PASS: explicit equip refreshes the current worn paperdoll: loose_feather
+PASS: equipping from the casual screen preserves health and both active cooldowns
+PASS: the equipped-item action puts it away while keeping ownership: loose_feather
+PASS: the equipped-item action puts it away while keeping ownership: brass_bell_collar
+PASS: the equipped-item action puts it away while keeping ownership: cinderfork_wand
+PASS: removing the last slot also clears the final worn item from the paperdoll
+PASS: the full eighteen-item bag remains reachable in the icon grid: ko
+PASS: owned icons stay to the right of the character and inside the clipped viewport: ko
+PASS: the character and all three positioned equipment slots remain visible: ko
+PASS: compact hints and return controls fit both translations: ko
+PASS: the full eighteen-item bag remains reachable in the icon grid: en
+PASS: owned icons stay to the right of the character and inside the clipped viewport: en
+PASS: the character and all three positioned equipment slots remain visible: en
+PASS: compact hints and return controls fit both translations: en
+PASS: closing the redesigned inventory returns control to the current expedition
+PASS: worn equipment has no discard action and even direct callback invocation cannot delete it
+PASS: first discard press requests confirmation without changing a full bag
+PASS: selecting another treasure cancels discard confirmation without consuming gear
+PASS: closing and reopening the wardrobe also cancels a pending discard
+PASS: confirming from the actual wardrobe frees one slot and preserves the worn primary tool
+PASS: discarding unworn gear changes neither vitality, currency nor either combat cooldown
+PASS: a player-created bag slot immediately accepts a previously blocked equipment drop
+PASS: a full-bag shop purchase preserves both stock and money
+PASS: discarding through the wardrobe also makes the same blocked shop offer purchasable exactly once
+CASUAL INVENTORY RESULT: 52 checks, 0 failures

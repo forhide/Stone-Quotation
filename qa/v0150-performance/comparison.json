@@ -1,0 +1,41 @@
+{
+  "method": "Final paired sequential rendered story and combat verification; single virtualized software-renderer trial, no native GPU FPS claim.",
+  "cases": [
+    {
+      "case": "exam",
+      "old_mean": 26.3187772925764,
+      "new_mean": 26.3871659388646,
+      "old_p95": 39.024,
+      "new_p95": 34.499,
+      "old_draws": 38.1572052401747,
+      "new_draws": 49.5152838427948
+    },
+    {
+      "case": "books",
+      "old_mean": 26.1403,
+      "new_mean": 25.2656092436975,
+      "old_p95": 41.331,
+      "new_p95": 34.483,
+      "old_draws": 98.5826086956522,
+      "new_draws": 101.651260504202
+    },
+    {
+      "case": "garden",
+      "old_mean": 23.8008735177866,
+      "new_mean": 24.9887468879668,
+      "old_p95": 29.878,
+      "new_p95": 35.308,
+      "old_draws": 98.0,
+      "new_draws": 92.0124481327801
+    },
+    {
+      "case": "combat",
+      "old_mean": 27.4385205479452,
+      "new_mean": 27.8805138888889,
+      "old_p95": 39.053,
+      "new_p95": 39.338,
+      "old_draws": 218.393835616438,
+      "new_draws": 274.163194444444
+    }
+  ]
+}

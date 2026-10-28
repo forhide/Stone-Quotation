@@ -1,0 +1,50 @@
+{
+  "version": "v0.15.0",
+  "checks": 306,
+  "suites": [
+    {
+      "suite": "smoke",
+      "checks": 29,
+      "passed": true
+    },
+    {
+      "suite": "hd_art",
+      "checks": 36,
+      "passed": true
+    },
+    {
+      "suite": "story_continuity",
+      "checks": 40,
+      "passed": true
+    },
+    {
+      "suite": "display_settings",
+      "checks": 24,
+      "passed": true
+    },
+    {
+      "suite": "story_consequences",
+      "checks": 30,
+      "passed": true
+    },
+    {
+      "suite": "casual_inventory",
+      "checks": 52,
+      "passed": true
+    },
+    {
+      "suite": "shop_reactions",
+      "checks": 62,
+      "passed": true
+    },
+    {
+      "suite": "living_stages",
+      "checks": 33,
+      "passed": true
+    }
+  ],
+  "exported_active_input_files_matched": 125,
+  "source_archive_sha256_at_runtime_check": "e9b968d8bafd3d8afc8f5e79260b18e71f38fab2cbad9d98b796c4a49bf0d873",
+  "cold_second_import_clean": true,
+  "first_import_had_bootstrap_errors": true
+}

@@ -1,0 +1,43 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: a dialogue advance gives the next line its own full reading duration
+PASS: academy narration changes without restarting ambience or the shot
+PASS: the same cat pose stays opaque and at the same position across the page seam
+PASS: page changes reuse the five allocated actor/expression pairs
+PASS: the repeated Grimoire opening line never re-enters or fades its book actor
+PASS: a repeated scene does not rebuild the backdrop or reset the camera clock
+PASS: Pip's two shop-story lines keep one grounded squirrel on the screen
+PASS: identical texture/pose dialogue changes do not create a redundant crossfade
+PASS: garden-to-Moss dialogue keeps the same semantic shot despite a different visual key
+PASS: the same six cultivated mushrooms continue into their uprooting cue without a scene refresh
+PASS: Moss's grounded foot anchor stays planted on the garden page seam
+PASS: the current speaker gives a soft body nod around the same feet
+PASS: returning to garden narration retains its actor without another entrance
+PASS: a different friend fades in at its own floor mark while the previous animal fades out where it stood
+PASS: the failed analysis still selects the book's meaningful shocked expression
+PASS: the previous book drawing remains visible when the new expression begins
+PASS: an expression change does not restart the set or actor entrance
+PASS: different expressions blend smoothly through a visible midpoint
+PASS: the blend settles to one clean actor instead of leaving a doubled portrait
+PASS: the book stays opposite Meowmalade when the dialogue becomes a deadpan reaction
+PASS: changing language updates the dialogue without replacing or restarting the scene
+PASS: the two final candle lines share one uninterrupted failed-spark action
+PASS: many repeated page changes allocate no extra scene actors or expression nodes
+PASS: a true action change resets only the action clock and preserves the fire-to-reverse trajectory
+PASS: the returning spell leaves the frame, followed by a short comic hush before impact
+PASS: the rear impact resolves on its own while the current line remains readable
+PASS: the following narration retains the same aftermath without replaying the explosion
+PASS: a fast manual page advance still triggers the complete explosion once
+PASS: the final spell, failure and reaction keep the cat at one floor anchor
+PASS: the owl stays beside the cat through the report, response and candle joke without covering the report
+PASS: automatic reading time fits the localized paragraph while preserving the authored action minimum
+PASS: the visible auto control resumes with a full fresh reading window
+PASS: manual reading holds a page as its animation continues
+PASS: an opaque story shot stops submitting the fully covered combat world and HUD
+PASS: opening actual options freezes ambience, expression and action clocks together
+PASS: closing story options keeps the obscured world hidden while narration continues
+PASS: closing options resumes the same continuous scene
+PASS: skipping a continuous chapter resumes gameplay without leaking a cast
+PASS: skipping the story restores the original visible game world and HUD
+PASS: closing a new story preserves a world node that was already intentionally hidden
+STORY CONTINUITY RESULT: 40 checks, 0 failures

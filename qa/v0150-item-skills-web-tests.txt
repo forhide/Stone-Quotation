@@ -1,0 +1,9 @@
+PASS: keyboard: starter weapon exposes the actual equipped Pocket Spark skill
+PASS: keyboard: real special action starts the visible shared cooldown
+PASS: keyboard: pressing again during recovery cannot restart or bypass it
+PASS: keyboard: no browser or engine errors: []
+PASS: right-click: starter weapon exposes the actual equipped Pocket Spark skill
+PASS: right-click: real special action starts the visible shared cooldown
+PASS: right-click: pressing again during recovery cannot restart or bypass it
+PASS: right-click: no browser or engine errors: []
+ITEM SKILLS WEB RESULT: 8 checks, 0 failures

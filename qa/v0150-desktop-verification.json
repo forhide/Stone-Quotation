@@ -1,0 +1,14 @@
+[
+  {
+    "platform": "linux",
+    "checks": 25,
+    "passed": true,
+    "scope": "tutorial combat, area02 transition, loot/equipment UI, defeat, permanent-profile reload; not full 8-area clear"
+  },
+  {
+    "platform": "windows",
+    "checks": 25,
+    "passed": true,
+    "scope": "tutorial combat, area02 transition, loot/equipment UI, defeat, permanent-profile reload; not full 8-area clear"
+  }
+]

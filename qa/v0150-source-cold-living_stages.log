@@ -1,0 +1,36 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: detention keeps one old storage case, rather than four arbitrary library cases
+PASS: the library's evenly spaced floating-book row is the actual six enemies
+PASS: one of the real library cases conceals a maintenance nook
+PASS: a book opens its page-cutting warning before causing damage
+PASS: book warning promises its actual 239.2-pixel swoop
+PASS: book locks the swoop direction instead of tracking a sidestep
+PASS: stepping out of the book's lane avoids actual swoop damage
+PASS: remaining in the book's promised lane takes one real hit
+PASS: hitting a book breaks its imposed order and interrupts the attack
+PASS: a standing case cannot hand out the hidden supplies
+PASS: water tips the controlled case without an unrelated fire effect
+PASS: pause also freezes the newly exposed story-prop action
+PASS: falling exposes the former blocked footprint and a visible service hatch
+PASS: the newly visible nook still requires walking close enough
+PASS: E at the revealed hatch finds actual Crowns and a snack
+PASS: the optional accident find contains exactly its authored supplies
+PASS: a maintenance find cannot be claimed twice
+PASS: finding the nook neither skips the fight nor removes its enemies
+PASS: fire retains the original failed-fireball-to-burning-shelf chain
+PASS: ordinary cases remain combat props without duplicating the special find
+PASS: the forbidden garden's aligned reagent beds are the six live mushroom enemies
+PASS: the mushroom farm has no unexplained falling library case
+PASS: a distant controlled reagent crop stays rooted in its bed
+PASS: approaching the crop wakes it and its short feet really move
+PASS: mushroom warns a circular spore sneeze, including the player's actual radius
+PASS: spore boundary: just outside the floor circle is safe
+PASS: spore boundary: just inside the floor circle takes damage
+PASS: a spell wakes a mushroom and breaks its control seal without a hidden delayed hit
+PASS: rest stop3 contains friends and stalls, not arbitrary falling cases
+PASS: rest stop6 contains friends and stalls, not arbitrary falling cases
+PASS: the old reading room continues the book patrol rather than recycling an unrelated slime wave
+PASS: the ordered garden path carries the awakened crop convoy onward, without library furniture
+PASS: archive story enemies preserve the final white-fox boss and barrier rules
+LIVING STAGES RESULT: 33 checks, 0 failures

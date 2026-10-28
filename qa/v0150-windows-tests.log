@@ -1,0 +1,27 @@
+PASS: extracted release renders expedition start menu
+PASS: Shift plus movement performs a roll with recovery
+PASS: Enter starts and Escape pauses executable
+PASS: I opens equipment and satchel panel
+PASS: Escape closes inventory and returns to combat
+PASS: R restores clean start menu
+PASS: aimed debug-overreaction combat opens tutorial passage
+PASS: tutorial completion writes permanent Starlight to isolated profile
+PASS: area 02 visibly announces arrival with its name and position in the eight-area route
+PASS: Enter advances into area 02 without restarting expedition
+PASS: room transition collects enemy Crowns and preserves them in inventory UI
+PASS: hovering the real drop tile shows its improvement hint without changing the worn icon
+PASS: leaving the hover restores the currently worn selection
+PASS: selecting the dropped gear exposes the explicit shared Equip action
+PASS: clicking dropped gear equips it in the release UI
+PASS: next-area enemies defeat idle player
+PASS: M opens permanent legacy studies from defeat screen
+PASS: R after defeat restores expedition start menu
+PASS: legacy UI retains earned Starlight after room reload
+Native close request: {"process_pid": 37217, "cached_window": 12582915, "live_clients": [{"window": 12582915, "pid": 37217, "delete_protocol": true}], "target_window": 12582915, "send_status": 1}
+PASS: first window close exits normally
+PASS: a fresh executable process reopens the saved profile
+PASS: fresh process displays retained Starlight in legacy studies
+PASS: opening the saved profile preserves currency, upgrades and run history
+Native close request: {"process_pid": 37447, "cached_window": 12582915, "live_clients": [{"window": 12582915, "pid": 37447, "delete_protocol": true}], "target_window": 12582915, "send_status": 1}
+PASS: reopened window close exits normally
+PASS: both sessions have no engine/script errors

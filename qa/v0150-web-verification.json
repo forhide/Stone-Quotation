@@ -1,0 +1,26 @@
+[
+  {
+    "suite": "web-smoke",
+    "checks": 15,
+    "passed": true,
+    "log": "docs/qa/v0150-web-smoke-tests.txt"
+  },
+  {
+    "suite": "story-web",
+    "checks": 13,
+    "passed": true,
+    "log": "docs/qa/v0150-story-web-tests.txt"
+  },
+  {
+    "suite": "localized-web",
+    "checks": 15,
+    "passed": true,
+    "log": "docs/qa/v0150-localized-web-tests.txt"
+  },
+  {
+    "suite": "item-skills-web",
+    "checks": 8,
+    "passed": true,
+    "log": "docs/qa/v0150-item-skills-web-tests.txt"
+  }
+]
