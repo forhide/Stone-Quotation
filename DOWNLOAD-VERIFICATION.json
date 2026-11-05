@@ -1,0 +1,104 @@
+{
+  "version": "v0.17.0",
+  "branch": "meowgnificent-handoff-v0.17.0",
+  "verified_at": "2026-11-05T14:34:27.186959+00:00",
+  "max_zip_bytes": 20971520,
+  "files": [
+    {
+      "file": "ART-INDEX.md",
+      "bytes": 7915,
+      "sha256": "b510f8b6f241362af9cd9c6b8441cbcb00c23a0d03c75fa83baa2a2af34e582c",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/ART-INDEX.md",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "FILES.json",
+      "bytes": 161895,
+      "sha256": "32b0b2b1b74be5951add9401134e5b49e12b066bdd7c46963252ca1c7529f46f",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/FILES.json",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "HANDOFF-ko.md",
+      "bytes": 11361,
+      "sha256": "e0b00786b47b2de1b0d2e18fe418f9ba1db4163fbf44eda03040e5eb1711552b",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/HANDOFF-ko.md",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "Meowgnificent-v0.17.0-01-code.zip",
+      "bytes": 635364,
+      "sha256": "ec76c0de0767029f4ece411aa3ef91e705f8a487635731df9adc4ed8e4582ed4",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/Meowgnificent-v0.17.0-01-code.zip",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "Meowgnificent-v0.17.0-02-art-characters.zip",
+      "bytes": 20611945,
+      "sha256": "0c54724fb3283aed3fa4739304ea8de3ecae8b509739a3a272df87a0ce8b067e",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/Meowgnificent-v0.17.0-02-art-characters.zip",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "Meowgnificent-v0.17.0-03-art-world-story.zip",
+      "bytes": 18099159,
+      "sha256": "4a84b49f391aa7581ce6bd40f6fabc20ed09e4a633b4328c99b52e0ea42bcc30",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/Meowgnificent-v0.17.0-03-art-world-story.zip",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip",
+      "bytes": 16766207,
+      "sha256": "3d29a88f938579c3bf05793b04491b9690bc94f37275d4964fed3a2361c98ea5",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/Meowgnificent-v0.17.0-04-art-equipment-ui.zip",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "Meowgnificent-v0.17.0-05-art-original-png-optional.zip",
+      "bytes": 17217655,
+      "sha256": "82e4e794226acff94a4fb4d1755e713515c0026659579af6ad8ecbf326e63048",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/Meowgnificent-v0.17.0-05-art-original-png-optional.zip",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "PACKAGES.json",
+      "bytes": 2240,
+      "sha256": "979144295f472bd380f41a32132b069343f37d8b16945086fd34681e7c528efc",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/PACKAGES.json",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "README.md",
+      "bytes": 3221,
+      "sha256": "c469014848f1bdb71f306566fad316dade0af919447dfeec72467f9e60a5fe3a",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/README.md",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "SHA256SUMS.txt",
+      "bytes": 1030,
+      "sha256": "7de145cb2bd6736af286a46ade649ee098ec6c7c78320343b283d8bf5efceb1c",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/SHA256SUMS.txt",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    },
+    {
+      "file": "VERIFICATION.json",
+      "bytes": 913,
+      "sha256": "e1bfbc3c29978484f8faa0bcb9b245e5e2e3a3c8d571aaac7240d830ab441e1c",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.17.0/VERIFICATION.json",
+      "verified": true,
+      "final_host": "raw.githubusercontent.com"
+    }
+  ]
+}
