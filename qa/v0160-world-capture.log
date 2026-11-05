@@ -1,0 +1,14 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+WORLD_CAPTURE area1 landmarks ["basement", "violet_control_seal"]
+WORLD_CAPTURE area2 landmarks ["synchronized_books", "violet_control_seal"]
+WORLD_CAPTURE area3 landmarks ["equal_height_plants", "mushroom_grid", "violet_control_seal"]
+WORLD_CAPTURE area4 landmarks ["picnic", "chicken"]
+WORLD_CAPTURE area5 landmarks ["reading_room", "unruly_vines"]
+WORLD_CAPTURE area6 landmarks ["ordered_tiles", "city_memorial"]
+WORLD_CAPTURE area7 landmarks ["basement", "pink_picnic"]
+WORLD_CAPTURE area8 landmarks ["archive_tome", "analysis_seal"]
+WORLD_CAPTURE_DONE eight actual areas, no UI overlays

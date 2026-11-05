@@ -1,0 +1,24 @@
+{
+  "archive_sha256": "fd58d05b275980b0b9bc507cf6293b0ccc301ee5556fae3832c5619e9e0fec22",
+  "served_from_extracted_archive": true,
+  "files": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "DEPLOY-WEB.txt": "ca4a22a8b188bc49bae9ff1bbb717a4905d9ed0249d01d2df1d9dc557dea218d",
+    "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
+    "GODOT-THIRD-PARTY.txt": "b3330849267d56ddd3d62a513817506606c2195034411fe05859f0140bff9d8a",
+    "NOTO-FONT-LICENSE.txt": "3ec18e49c08c0f616a4da9f145f19c02a436c0e254dd58bc362ed6234ca30891",
+    "PRETENDARD-LICENSE.txt": "b04538c9abec39a3db75108cf0af0fd9c77032fe8aa2cf38345b4d250e98e38e",
+    "index.apple-touch-icon.png": "3567e2831c72beb4df65172c0ec53feb1f225445d40944fdc8a48506ed4f49c2",
+    "index.apple-touch-icon.png.import": "073c770d2118ab8b2152563ba34cbadd26be3221da6920c3d7f0bddc1f8e6048",
+    "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+    "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+    "index.html": "dc4aac9026841c6232de50596ebe5a866cb92d763c5b819329dd3e01b6538ddb",
+    "index.icon.png": "51933cd744f2389e5644a9d3ec9004426c0663b2078e8552cb70b38510fa0f52",
+    "index.icon.png.import": "895d93dff4fce4ee1b08eebd11232688df13ac7e27ecc14d5a805c2d4be88500",
+    "index.js": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981",
+    "index.pck": "ae8cb411b7bf097e352d928dcb2b9886a0b364857180339abae137cacfde1741",
+    "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+    "index.png.import": "f75adcdaf34a3fbe2ee7c745f0870cea3df4e752139f209d7267d18c2da59a98",
+    "index.wasm": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+  }
+}

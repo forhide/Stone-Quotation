@@ -1,0 +1,32 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: broom: a coarse tick still hits the cat inside the announced dash instead of skipping over it
+PASS: broom: the same coarse tick stops at the promised endpoint and enters recovery
+PASS: broom: one dash cannot charge contact damage twice
+PASS: bat: a coarse tick still hits the cat inside the announced dash instead of skipping over it
+PASS: bat: the same coarse tick stops at the promised endpoint and enters recovery
+PASS: bat: one dash cannot charge contact damage twice
+PASS: book: a coarse tick still hits the cat inside the announced dash instead of skipping over it
+PASS: book: the same coarse tick stops at the promised endpoint and enters recovery
+PASS: book: one dash cannot charge contact damage twice
+PASS: the wall-clipped book dash hits along the advertised wall-slide segment
+PASS: the swept contact fix preserves safety immediately outside the visible lane
+PASS: a surviving living foe compresses visibly without moving its grounded root
+PASS: defeat and loot callbacks occur immediately, independent of the departing picture
+PASS: the brief departure reuses the actual painted foe and follows the final blow
+PASS: inventory or story pause freezes the defeated silhouette
+PASS: the departure resumes from the same age when play resumes
+PASS: simultaneous kills cap their temporary painted silhouettes at eight
+PASS: all temporary silhouettes release themselves after their short duration
+PASS: the awakening is a genuine vault cutaway with the ancient book alone
+PASS: the book is centered in the archive painting rather than left beside an absent classmate
+PASS: the next Grimoire line keeps the same cutaway and animation clock
+PASS: the silent professor stays in the basement for the final innocent-cat reaction
+PASS: Pip's failed summon starts with the shared painted hen still unrevealed
+PASS: a single summon reveals the chicken with its feet on the floor
+PASS: the next line does not replay the summon or move the grounded hen
+PASS: the hen accompanies the final rest, while tea waits for Bloop's offer
+PASS: Bloop's warm drink has a painted teapot, separate from the explosive potion
+PASS: tea and hen stay present when the friends share the same shot
+PASS: companion props do not leak into the boss arena
+POLISH PRESENTATION RESULT: 29 checks, 0 failures

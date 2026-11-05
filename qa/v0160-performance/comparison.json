@@ -1,0 +1,41 @@
+{
+  "method": "One paired sequential trial on identical virtual software renderer llvmpipe4threads1280x800; story8s including2s warmup each, combat10s including2s warmup. Existing seven families compared, no nativeWindows/Mac FPS inference.",
+  "cases": [
+    {
+      "case": "exam",
+      "old_mean": 35.8216449704142,
+      "new_mean": 47.8333492063492,
+      "old_p95": 71.908,
+      "new_p95": 123.947,
+      "old_draws": 51.4792899408284,
+      "new_draws": 53.3412698412698
+    },
+    {
+      "case": "books",
+      "old_mean": 31.5036354166667,
+      "new_mean": 29.7592610837438,
+      "old_p95": 64.643,
+      "new_p95": 54.272,
+      "old_draws": 102.041666666667,
+      "new_draws": 101.325123152709
+    },
+    {
+      "case": "garden",
+      "old_mean": 30.1379554455445,
+      "new_mean": 34.8388505747126,
+      "old_p95": 55.925,
+      "new_p95": 68.244,
+      "old_draws": 91.5742574257426,
+      "new_draws": 92.3103448275862
+    },
+    {
+      "case": "combat",
+      "old_mean": 32.992368852459,
+      "new_mean": 66.6652147651007,
+      "old_p95": 58.912,
+      "new_p95": 75.25,
+      "old_draws": 274.655737704918,
+      "new_draws": 275.697986577181
+    }
+  ]
+}

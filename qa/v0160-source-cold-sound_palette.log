@@ -1,0 +1,25 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: audio preallocates exactly eight voices
+PASS: startup stays silent until an explicit action
+PASS: fresh audio preferences begin softly
+PASS: all eight elements and eight feedback cues use cached original streams
+PASS: all imported material cues are short and nonempty
+PASS: unknown cues fail harmlessly without allocation
+PASS: a genuine cast plays its material cue
+PASS: repeated same-frame cues are throttled
+PASS: eight simultaneous distinct actions fit the bounded pool
+PASS: a busy pool does not allocate or abruptly interrupt active sound
+PASS: muting immediately stops all currently playing cues
+PASS: muted gameplay remains silent
+PASS: unsupported volume choices cannot alter persisted audio state
+PASS: a normal volume selection persists successfully
+PASS: saving volume preserves language and display settings
+PASS: audio has its own saved preference section
+PASS: saved volume restores on a new load
+PASS: invalid saved audio values recover to the soft default
+PASS: extreme pitch requests stay within a gentle bounded range
+PASS: invalid pitch cannot reach the audio server
+PASS: an eligible later hit can use a released voice
+PASS: short cues naturally finish and release the same pool
+SOUND PALETTE RESULT: 22 checks, 0 failures

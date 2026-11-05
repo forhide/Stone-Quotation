@@ -1,0 +1,2 @@
+PASS: ZIP, app metadata, executable permissions, game PCK, Apple Silicon arm64, 9 resource hashes and 89490 signed code pages
+Mac runtime and Apple notarization were not tested.
