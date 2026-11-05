@@ -1,0 +1,29 @@
+{
+  "version": "v0.16.0",
+  "runtime_inputs_preserved": 247,
+  "archives_under_20_mib": true,
+  "all_archive_hashes_and_zip_integrity_verified": true,
+  "merged_without_duplicate_paths": true,
+  "required_extracted_files": 442,
+  "baseline_file_verification": "PASS: 437 baseline files; all 247 released runtime inputs match.",
+  "fresh_second_import_clean": true,
+  "fresh_project_tests": [
+    {
+      "suite": "smoke",
+      "checks": 30,
+      "passed": true
+    },
+    {
+      "suite": "hd_art",
+      "checks": 36,
+      "passed": true
+    },
+    {
+      "suite": "art_mapping",
+      "checks": 95,
+      "passed": true
+    }
+  ],
+  "checks": 161,
+  "scope": "Packaging-only verification: exact released runtime files, clean import and source/art mapping smoke tests. No game behavior changed; full previous release QA is recorded separately."
+}

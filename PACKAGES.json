@@ -1,0 +1,52 @@
+{
+  "version": "v0.16.0",
+  "max_zip_bytes": 20971520,
+  "runtime_inputs_preserved": 247,
+  "packages": [
+    {
+      "file": "Meowgnificent-v0.16.0-01-code.zip",
+      "title": "코드·데이터·테스트·설계 문서",
+      "required": true,
+      "bytes": 591833,
+      "sha256": "0242669521fca927fdf64e05319ab8ffe08ba3e4ba392969502ef05d8df70e62",
+      "files": 320,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.16.0/Meowgnificent-v0.16.0-01-code.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.16.0-02-art-characters.zip",
+      "title": "고양이·NPC·적·보스",
+      "required": true,
+      "bytes": 13760881,
+      "sha256": "25765b99d0ead1b20aa1cca78fb2ede361db63b4f44a1e27818c1ec6d6aa37ea",
+      "files": 24,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.16.0/Meowgnificent-v0.16.0-02-art-characters.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.16.0-03-art-world-story.zip",
+      "title": "배경·이야기·소품",
+      "required": true,
+      "bytes": 13273624,
+      "sha256": "6b79e8293bdcfd610a6ad016d4c8240db4b5e34364aeee1ed8cb3ad58f3ea415",
+      "files": 15,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.16.0/Meowgnificent-v0.16.0-03-art-world-story.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.16.0-04-art-equipment-fx-ui.zip",
+      "title": "장비·FX·UI·폰트·효과음",
+      "required": true,
+      "bytes": 19002957,
+      "sha256": "aa83ae7ae02376990c1ebebb7cefb4bad303d763ff2d6f7695348506f98b4cbc",
+      "files": 83,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.16.0/Meowgnificent-v0.16.0-04-art-equipment-fx-ui.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.16.0-05-art-original-png-optional.zip",
+      "title": "편집 참고용 원본 PNG 7점 (선택)",
+      "required": false,
+      "bytes": 17218827,
+      "sha256": "2fbd41e0a075d291601574e62b2da8ad88b525fae54526e68ee57c406ccc2022",
+      "files": 9,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.16.0/Meowgnificent-v0.16.0-05-art-original-png-optional.zip"
+    }
+  ]
+}
