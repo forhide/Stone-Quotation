@@ -1,0 +1,4062 @@
+{
+  "version": "v0.17.0",
+  "basis_source_zip": "Meowgnificent-v0.17.0-source.zip",
+  "basis_source_sha256": "ae4c28662ffa088b61d8ada824132c80f2be9406f3a129f54fff5aeea3a165a1",
+  "runtime_input_count": 261,
+  "runtime_sha256": {
+    "art/audio/cast_fire.wav": "9386156f18b9b90d353260f478760f4592cdf6673a2a79eaa039bf6a82a278d6",
+    "art/audio/cast_fire.wav.import": "0a5ab4cb0d9f6cf60369e5c37dd921546fc98fc2278ac2f6d9c28d09fc9acbb5",
+    "art/audio/cast_ice.wav": "a7c21597353c992ddf625a5a3fb9748fefb1dcc80333631c93562aa3af22e772",
+    "art/audio/cast_ice.wav.import": "ebc3ba93da13aa9041e8f85535e719aedb6e035fe6c73cf63641fd1841a12e4d",
+    "art/audio/cast_leaf.wav": "4bf36a26083b46dc10e8c9bf18548db07322f39680ee083f29d12be880f97405",
+    "art/audio/cast_leaf.wav.import": "950ed4def246d362a934b9a48c828978b0ba98071a6fe1c3e45fa163b1978bc4",
+    "art/audio/cast_lightning.wav": "c0874fbb6641966a8e51f2a66d6e615838b5b9f28352746dee2cf2664114a6fb",
+    "art/audio/cast_lightning.wav.import": "57861cc074e553394f69226ddc97fa978bb66cfa68e7ffd7a8923920446a7042",
+    "art/audio/cast_metal.wav": "28e75d1255138a00b53a941682b873367a549e90667feb50a26cab0a3745cbfc",
+    "art/audio/cast_metal.wav.import": "ef068bcaf41aeafa56cd277cc19807679bb365d661409368087528b4fd1f1a9c",
+    "art/audio/cast_stone.wav": "714a1feddd8fd20e72fbc9885a7dff7aecba6a5fd3b1e47bc497c807ade60d51",
+    "art/audio/cast_stone.wav.import": "e3b734a23d94db860290a93588aed0bbcfbfbbccb94b27fe41f62bd6b1d1a7e8",
+    "art/audio/cast_water.wav": "16f5e4b2f6cc5a1ab807af8e252fbf1d73d45903f70851b88e721ea950df768f",
+    "art/audio/cast_water.wav.import": "7830bc1dca8fd2aa67c86a438351beb02680082b5a696db760c2178cee3097fc",
+    "art/audio/cast_wind.wav": "413ec2176ab28cd56b237ace3bcf9b469964d1be4d8ceabe547639a78c45c823",
+    "art/audio/cast_wind.wav.import": "120c2063203414c2b829c512af2b6895c10d1133f147567d1ef014ce42b22d95",
+    "art/audio/clear.wav": "76852e68c0c2de90968aea6179343308a0420d6bf383d64a8a056d0501df9e0d",
+    "art/audio/clear.wav.import": "a8385d7bf8ead7fcbb6ad7db4b43306fab56f12764fa1ded334d5654054e6a98",
+    "art/audio/equip.wav": "9fedf6bbb008e17b6a13c158602fbfe71d3b1006451eb7d1cec00ad40f55aca7",
+    "art/audio/equip.wav.import": "49edec5ad983d888273ec9fef86671ce5d27a4fc490196609cd423c1f3b860e9",
+    "art/audio/gear.wav": "a6de2ab230aa56dbc3fa190132e66dd96843ec60168960825d05b40cf34e6dfe",
+    "art/audio/gear.wav.import": "29b33c2a1db8cd17435801581fa56efa94691ad56fe83ae72cfe54d30775f313",
+    "art/audio/hit.wav": "0d2412be48b854b8360c241e29d17f6d9590ba242e7df260c8e71f0e6c83ad50",
+    "art/audio/hit.wav.import": "8537f2cc4bca1d0bf5d4f5a5ddac7b8b38bddafb7ab5d540acc696077b046cc8",
+    "art/audio/hurt.wav": "2c2ae7a852bc3a140f49c0585a0d22f6fe33378b952f4d323e6be0fbff1c677c",
+    "art/audio/hurt.wav.import": "6fa545f8176badef76727df29dbecef42c008e49cadcebace6f05f4331093488",
+    "art/audio/miscast.wav": "eb4ae326306201fef3cb3bf1f7bcd4cd66b55cfea9542032b024e61d2fbb31ab",
+    "art/audio/miscast.wav.import": "c877dee1c2010ba737502f608960986eca4a313aee557caf2596eb3a41e1bbcb",
+    "art/audio/pickup.wav": "c5ca8bee41403e2600ede592153089aca5f2fc7ec70709bcfb039d92cf09f863",
+    "art/audio/pickup.wav.import": "1d1b532a9d9b92790de10f7c5186379b5a17b720dc2ede351ef92c70dd92b9b8",
+    "art/audio/skill.wav": "886ea71c9c7c4edcf7f7efa8392ba3643188cd4fd2dbdf2e00f5fc2442c34645",
+    "art/audio/skill.wav.import": "272845953e1c6c69708b979c76189eff97173e295b742b710f4d45c8e7f74865",
+    "art/characters/meme_walk.png": "8e68c95ab4ebf4b5833c2a62f6fc1532c7c7140a6d078535ff0e1525600c6de7",
+    "art/characters/meme_walk.png.import": "20a2f1b704d7227b840e43c5040b6841edd58c76331cfb30bfc04aefbfb95da7",
+    "art/enemies/living_reagents.png": "7595c88df6a8f76f0fd74de6b79d939d1cc52487b4744cb232efd25e61a378d8",
+    "art/enemies/living_reagents.png.import": "3e2e6f053ffe64ed5e00fa00d33b0221338a165ba8c56afd21d4b8906e484032",
+    "art/enemies/perfect_examiner.svg": "6fb496d8c88cc2b5f502d0222ace13f8e0d08539390afdc8cec4438bb616c1b7",
+    "art/enemies/perfect_examiner.svg.import": "58416e8a433fa19bd1bb83643ec0a5579015cc7986df426f2bdac6fbcb96af37",
+    "art/enemies/storybook_familiars.png": "3813733d6683344eafa02b33c748ff8e00f08e2c5c32c6096a65b5bad09246e6",
+    "art/enemies/storybook_familiars.png.import": "92c891ef8e6b60b303c77dd1fb6e2950c5729f6a5890d8dd059f4dc371a5c001",
+    "art/environments/enchanted_landmarks.png": "0966a1bc7a0fed01d256752a4625397051712092901bb835ec8168867c41944e",
+    "art/environments/enchanted_landmarks.png.import": "700b8e4747650c52092b84227cd8fbcf57d117705ec25e8be4ba0ff3a1e2d7c6",
+    "art/environments/painted_archive_props.png": "74604b6f6a06057597de87b53483680720fe69bffc9ea442ccc164564f65b536",
+    "art/environments/painted_archive_props.png.import": "55af4e565ef546cd88dc2c0d501663d51d21cb1d684e01a71da8a3cf2005fe76",
+    "art/environments/storybook_world_details.png": "1864bb1bb7a091e2721df8f17d2deedb40a6f2490243db83c0e335387df99b9e",
+    "art/environments/storybook_world_details.png.import": "43542015a0eab9974ee4a3a8fcd21d0cf3ec6e0757b878bb4842595745b0e1e5",
+    "art/equipment/cute_charms.png": "f371e798e976d9d3876d911a97923c563df862d638cacde46ee208e5419b513f",
+    "art/equipment/cute_charms.png.import": "e0422b49e2cda5f8091b5b84d4fc5c251dc0d5199e45e888342e8ee251e5bd5e",
+    "art/equipment/cute_equipment.png": "5a85c5ad007b1253bf9041e79967e48ad4309bf6403d3928424a671695e2c32b",
+    "art/equipment/cute_equipment.png.import": "93d5c4d069233a3016aa7ac67d23c936430f20a4c44e0746631a6dfe66da13fc",
+    "art/equipment/cute_pendants.png": "cdb992ee4d068eab6bffeafc9ca38e8c95f8092d3d2ca320a049d973bdd4d956",
+    "art/equipment/cute_pendants.png.import": "8bb4b69ca180d5da4592511442f9afc1de322a0a049e6c000ff02416c00c2ee0",
+    "art/equipment/elemental_weapons.png": "d23c13b4cc6fee1fcc2c7d8b06f303c143ebef0a2fcd80b5a2153565a020f1e9",
+    "art/equipment/elemental_weapons.png.import": "b76fb303638c504aab455c48065d9b07e9039cea3a416451896d6222967892ba",
+    "art/equipment/journey_trinkets.png": "975fc3f4eb65f04df85a8100f635562a5b23d3c2db5c6216676821f15b3ab763",
+    "art/equipment/journey_trinkets.png.import": "923e8b277c45d2c7755f3c4a1320d31381f22dcc932486d829897a08bca0cead",
+    "art/equipment/journey_weapons.png": "f1583fbaca7904099177105a98a81bc388836943974a819fc1572b97541a3a02",
+    "art/equipment/journey_weapons.png.import": "e0f11f6c0414bf505120ec3880433f1ddd33ac22b684b0d7907963eaf9e3d79a",
+    "art/equipment/silverthorn_wand.png": "a969fe02dd43f521d5e368ea11c6987fd88979e281764d6bc38e59e8f04bba00",
+    "art/equipment/silverthorn_wand.png.import": "08907a5cc7a6ce1b24122965f20349ab8fa1aa43177d8af0a0c9b31ab56328a3",
+    "art/fonts/OFL.txt": "3ec18e49c08c0f616a4da9f145f19c02a436c0e254dd58bc362ed6234ca30891",
+    "art/fonts/PRETENDARD-LICENSE.txt": "b04538c9abec39a3db75108cf0af0fd9c77032fe8aa2cf38345b4d250e98e38e",
+    "art/fonts/Pretendard-Medium.otf": "d39e50e4bb52b4993b6a4eeb821a171254745bd824446af01e1f616b89fface0",
+    "art/fonts/Pretendard-Medium.otf.import": "e35d1b1df516b3363d4547bb8079b8382b49eb6ac6c4624d588c9545a56a1e7d",
+    "art/fx/cute_fireball.png": "45f4c72e4a9c9a504ab5c0e79ee69fd3f56a92792db69bc0c3e79af9b3618948",
+    "art/fx/cute_fireball.png.import": "4dd76732719f02b75a5a960a4302a00069f08a772e56239e88c2f05c77f8d0b7",
+    "art/fx/painted_companion_magic.png": "0bacdd97f74955a38d7e35093fdaf6a6f89c09a61c8aef9a0d7f54b30a7299b0",
+    "art/fx/painted_companion_magic.png.import": "dd127654d6192c296ee506dc1ae9bd66bb048592ac6898f43dd216053717fd99",
+    "art/fx/painted_signatures.png": "0a16a402ab047536de323c6c1bf9a170e11e6394b9e61563b1ed6888bf0b3c39",
+    "art/fx/painted_signatures.png.import": "d45b010acf0e8cedb7090b167c35004104572f5535668601588e403d55e66cee",
+    "art/fx/storybook_spell_fx.png": "19b4cea2ef214ed988f9b2edb9992d7a7987551445f8f9685e78f0a0f1935e0e",
+    "art/fx/storybook_spell_fx.png.import": "1f73aa9c6e3b2dc0c1bea4850b819694e8b861910557d1bd41d9240444e6e76c",
+    "art/hd/animal_cast.res": "4b37f0ee70f0eedbad3fc8adc7c197570c61df74ce4b8072bea54142f1dc2b22",
+    "art/hd/hd_academy_library.res": "86eb0b8f6e681d7ea5a6961a4775873e4a0aab45dd8575cb846277a14f397829",
+    "art/hd/hd_basement_storeroom.res": "ad4fc9665b3afcb511f5f72ae2105a12be5721eb1a8f2340ef0146e38135e4fd",
+    "art/hd/hd_forbidden_garden.res": "8407e45619d76feb5df008ebdb4798d71e48a369d72fc4f1f43c0c8c430d1831",
+    "art/hd/hd_grand_archive.res": "ec55d5fcfc456e4bd27a75c1a18b610b5f899639e18e4958eeb7c680d4ff5279",
+    "art/hd/pastel_meme_actions.res": "3d04194aece7eeaaa98806c1c55ddc0c82b075163b431cd53b14a362a61da00a",
+    "art/hd/perfect_grimoire.res": "76b4838b5e55f9671dedddb72e8c6534a1c2b742a086a6de2de2d98052589ec3",
+    "art/items/archive_gate_closed.svg": "6f6ca3bfe84b0eab82ba2b8f47a113a47ca972a8e023bd281622416aad8b172b",
+    "art/items/archive_gate_closed.svg.import": "afd082f9cbd4d67c9217f540172412efaa1e3ef641be9d1186399950c6417129",
+    "art/items/archive_gate_open.svg": "1125d332e93b9c975a58b03d2d8686c8ff63623e429e53ce9652f71bd7f6bd21",
+    "art/items/archive_gate_open.svg.import": "1d48a86c33577eaf858d21e23f3835e123fb725a7df3ea0ef100e7709eb0fa0c",
+    "art/items/archive_route.svg": "900a342e5277819e10008eb4804732672d21ffcdc1dbaff0cf27be2c27829c81",
+    "art/items/archive_route.svg.import": "971b75921c0c38c1b28a9a288aa77b5e0653e0c30b06e1d2c3a29550ce442140",
+    "art/items/drop_charm.svg": "4742f52364d8ebf8f07707f63d2386d0e82f6c9d0b52fb9b12d8478ce1ca8d65",
+    "art/items/drop_charm.svg.import": "6ebdaf52c2848da66928ececd3101d9cb7a7afd25867cb456c01576bf61c4409",
+    "art/items/drop_collar.svg": "280877c924c611078504459fde8d7a0b28405c39a1ae4ad4f738602e7caaf493",
+    "art/items/drop_collar.svg.import": "8da2bc0c6456b49fd34665adf3992cea4183201f7604eadb4c1fb17f3e81d370",
+    "art/items/drop_food.svg": "3786be514eee905635a5013bf3d268e46a815a8686c77d9d0d46a0d6669e774a",
+    "art/items/drop_food.svg.import": "a4eba3c0141034e8348c73005eb408e147b41fa61576a94d9c842ea2028e3eee",
+    "art/items/drop_gold.svg": "e6a2067fc8bd738b296cacb175e060e386551a67ed6daf1f8e4aedd7d5bb15fc",
+    "art/items/drop_gold.svg.import": "d55e52e6179e3cd7729503395cb6d1393ba2dc72f67a36fc78465cf22cd1e0e1",
+    "art/items/drop_wand.svg": "f312c33b16e3747ee33a999a52c0e6522a72b339ed4a2664e850f11a63935f04",
+    "art/items/drop_wand.svg.import": "200697d99581fa45b123ba3d2411d2c9222b82c370fb5994c17955bdbe8ceece",
+    "art/items/floor_fire.svg": "fa66703bbb6a2f10772ef582ca1f42cbf77f802f7070993b5e25dad3ad18eb6c",
+    "art/items/floor_fire.svg.import": "7b75fa3745ac15e7db78006c51d39dd04e043cb6ba217e66482bd6d50c9dd76b",
+    "art/npc/picnic_market.png": "8824855d79644aaebd254cc48675d17c87400c8805e2eef893460d3117db80b1",
+    "art/npc/picnic_market.png.import": "f18e76e11999eb7cc06a350b2724433648f262867dc5d77685865dd6805dbc7c",
+    "art/npc/story_tea.png": "c0a0a90126c759cbcd8d18cfb99576d43e9d01cf1edaa36bf2cc5bf06592bf3a",
+    "art/npc/story_tea.png.import": "470bbd285d8df5643f64033b167c6c2e3fa1dccc9e0cb99f129697022ac0cad6",
+    "art/story/props/exam_aftermath.png": "c2bcbedff8437499b7b88be4a24db1c7f851d8e4ff0b6f03d4e5e3dec51e9830",
+    "art/story/props/exam_aftermath.png.import": "fb106787cb798a427b26325f9b7555c1b2071da3d6204a0e27df620d9fb06a72",
+    "art/story/props/exam_sooty_cast.png": "bb3b55a6b22252266b39ba4b5d41f980334d9f7a1c3ed7b399c599b1c788cc08",
+    "art/story/props/exam_sooty_cast.png.import": "ec8c1456f34a66dc4e3ad44b9914b8e58263f8207241dbb91e5b1e440a0a1986",
+    "art/story/props/practice_target.png": "382cbac1b23ae8d47c4feeafbf414b914e32259f84cd6869103d32b644c79981",
+    "art/story/props/practice_target.png.import": "453f7f03fe44b14ec5ae08d3fb0d94bb4aecfaf7a6e25bb84564cf9a3f32dd57",
+    "art/ui/app_icon.icns": "7add6f6e8763bdd0b3674e6441073e61806ffa08d9422f6033b4a23d3ce5d365",
+    "art/ui/app_icon.ico": "62db3147801a98bb605ca085eb55c348501a0670015329d8035a272d167d8c94",
+    "art/ui/app_icon.png": "cb131d703b14be1465e1315b256b3fc4f0acf6cf3849ff46a3980ceaa970c343",
+    "art/ui/app_icon.png.import": "65648152c40bdccc138a4e050070a2eb3faf5bde2e5abbd348ac2198c038a20d",
+    "art/ui/storybook_theme.tres": "cf5ec598b6bb2059590f2a17259568da083a9c5c035d44751f7b9a24513fcf16",
+    "data/balance.json": "25dce5fe590a7df7830a5191afb5123b536805b48feb246d22306179cd97e87b",
+    "data/expedition.json": "07e65b6cc66db294c3c5a0de82face45f2f08aafa0320b32b4bf90c23f048832",
+    "data/items.json": "b5a7b32292eb2d38041bcc52bb32aaf358211152ae6320279fb3e2af23168900",
+    "data/locales/ko.json": "ad65a0d274932d2009a880f3254940f4b6b7980a7b4ca61175f905d50c5345aa",
+    "data/shop_dialogue.json": "b13310c71675babd44f7e82b98ab406ff69dbe1698632455bcc8ea4ba955d135",
+    "data/skills.json": "374f1467b1ebc43d8aaf028eae764b92ff87a13db658921e2afcb7b2748ff6d8",
+    "data/story.json": "069c86f5942de98c434c6997abe774f3dc45ce87ed9b194c536ecbd2e0a198cf",
+    "export_presets.cfg": "7fb1cdba2e979f65caa58f88c9ade5cff8547037714375ca21a94077b236ed7d",
+    "project.godot": "90f91a26150191fd529f505c133593563a21da495284babb02ab814a0fd9202d",
+    "scenes/main.tscn": "da12b49b83a9921e087576f53278fe1c6b6f6607509462554c979c51df11b765",
+    "scenes/player/player.tscn": "dc44d41288561bb709b4de54a4d26e465e2e3343ea7eec9e2eb4a353c25054eb",
+    "scripts/ai/candle_slime.gd": "f3ddb10e898ca65016f3f399e9cd60f84e2b5c4eebe14fd8f6676a76004e6a21",
+    "scripts/ai/candle_slime.gd.uid": "ecf34d102c80fbd6c428e42aaae75a2737af95370f5e365a45e6d2c7bfe1737e",
+    "scripts/ai/living_stage_enemy.gd": "148483eda335762d002e23f47143a328f589796d448deb919758564d9a1e6600",
+    "scripts/ai/living_stage_enemy.gd.uid": "4b82d7d411adf1bbac6cfb765e80c1cfb1b7fa502cf174afb7c19c1d0cad2ce1",
+    "scripts/ai/perfect_examiner.gd": "ada2e331c60a47da8c3a160e25fc6d8523c8959150c5564ad25e861764675bb9",
+    "scripts/ai/perfect_examiner.gd.uid": "31df80539f04f4ec5ffe5159e3ae71c64746a195b24d4d582c118ade44a3b9a1",
+    "scripts/combat/element_affinity.gd": "07a4150003cbb68217f42c29613ecf3c528d0c520591815baf096dc852da44ae",
+    "scripts/combat/element_affinity.gd.uid": "d632041acac929307532ed8ffd0b554222e57acb5d9df57d7effd10707cdba45",
+    "scripts/combat/health.gd": "52016fab040af12ab14e95c79332376c4c4e6c754f4ef8c959cfd9358ee963a0",
+    "scripts/combat/health.gd.uid": "0d54472d5340dd959dada3cc077fa0a3d750b341182df10d8183a2385b31242e",
+    "scripts/combat/projectile.gd": "e52fd284cc3519f3ae867cbb06467de628d7ba469a5c7ce4ba7234b04cf10478",
+    "scripts/combat/projectile.gd.uid": "6a717ad3b3e017f6c1920b6db088451b8824aa40151f50fca053dd617f6a0b45",
+    "scripts/effects/arcane_shelf.gd": "458df2d891827d9d57d233e1bded9818d85bdb638cc72e6d4de90ce3989f1910",
+    "scripts/effects/arcane_shelf.gd.uid": "0a4210aabdf1bdf97d397925a77ca6d9fcb43f4bb5a321e742d65e2c8e421787",
+    "scripts/effects/archive_backdrop.gd": "c698f6a0c38c3cd7226a32eb1c136f40632a19bcedb49b7fe5380a69b78e6d38",
+    "scripts/effects/archive_backdrop.gd.uid": "aedcd998d76efc9f39c457876da74e79af681513f7dfe25fdbe1f141bb305d57",
+    "scripts/effects/attack_telegraph.gd": "29039d55f52b49cee532c56d423fc915d5b53f7e62c210241ee801aa844694be",
+    "scripts/effects/attack_telegraph.gd.uid": "436c3e6d8b1134b922d2b0e68b8db678242b3ebbfc83e1aa77a6bb940c3e7da6",
+    "scripts/effects/attack_telegraph.gdshader": "ab438b0e70f39c95aed0a204caa67a32a1dc6a8f3db09a6f7c132f06d8f1c231",
+    "scripts/effects/attack_telegraph.gdshader.uid": "8bae5d177ec8cfb4af9bb3c71d9a633cb1b298c57bd6296225114885a1ce6a76",
+    "scripts/effects/basic_magic_impact.gd": "1ac44c8e21da64ce5a403c0a623f44b5221bb203af98087165857b1630608ff3",
+    "scripts/effects/basic_magic_impact.gd.uid": "15e5c19db9ed0e75766efe15b33e9c638dce2d402c407aa79ac441a3fab4e15b",
+    "scripts/effects/elemental_flight_ink.gd": "cf273168824805506e45c90f8585c1bd1d9953131592c910fdba0a72262fbccc",
+    "scripts/effects/elemental_flight_ink.gd.uid": "3366f11028b3012ab3ef2d388a479d4583e04a48fb4ffe68e052987e64e228ac",
+    "scripts/effects/enemy_dissolve.gd": "7c4536f9b4d041d40ec683e9d6c9bc28e66cdb4969ccc402fd156f93cc19d2a7",
+    "scripts/effects/enemy_dissolve.gd.uid": "604bc01c693646765bcb8652acffe3e179354295a6981ff5dca6949424480ded",
+    "scripts/effects/examiner_barrier.gd": "02fc5c35247ba88f1f6f942882c0f8e8fba4f8c2a0eb7a27e6605f6844dedb6b",
+    "scripts/effects/examiner_barrier.gd.uid": "58d99d889fa03e108fc0b9f6f9e9c4ca20ba81cad7a2548c09615a0fb63cc576",
+    "scripts/effects/examiner_barrier.gdshader": "a49e34b2c161a3364c6f8bb307de681b2083edf6d441109b525e8619d7d1c131",
+    "scripts/effects/examiner_barrier.gdshader.uid": "ef6220064f3cddc6f20ac69f068edb31d6db8704673e3e05ef72da531a318dc5",
+    "scripts/effects/expedition_markers.gd": "6e9fbcdd7e7b38f858c224945f74b4a6ad9336290d2d53e6cc5c2d82f11aa78b",
+    "scripts/effects/expedition_markers.gd.uid": "ab789e6d3fa324649be0e19fa742a4bba154070e603e9e2d65f05a979b80394f",
+    "scripts/effects/fireball.gdshader": "e7fea8e821b1d003d8dc74e581740959fe7cccadd2b23d04eb1fcff12858f2d8",
+    "scripts/effects/fireball.gdshader.uid": "eacdb4770d3454763a93d88a6613ad7c6b43b29e303cf7f7fd171937635af26f",
+    "scripts/effects/loot_pickup.gd": "5420f95f0bdbe4a966fc5be8cefd005d08595a7c0f6589adf9b991f1763d32f8",
+    "scripts/effects/loot_pickup.gd.uid": "88311e128f6fde45aa8f40cab7ea071e46bdf81c9c9c609b881058c5bc42c7a1",
+    "scripts/effects/miscast_burst.gd": "4ec9956bc9183b30d27847cfd1c005a40c07fa8df1cd99b6daac61b31f6e8157",
+    "scripts/effects/miscast_burst.gd.uid": "c6f3e883c68b6029d243892c5998f276e83aee642ddf60bc5385918c9b8f721f",
+    "scripts/effects/painted_alpha.gdshader": "6496b74561f97470acd97d8da9d9142a7862742212fd99002245d84493046cf7",
+    "scripts/effects/painted_alpha.gdshader.uid": "ab6b602e227168b1483e6d67e0fb7a4d270c1ba2e8ac7a25decc64aa415e3aab",
+    "scripts/effects/shader_warmup.gd": "b501d38df051223879a3fe1a8bd05aa917a30d24ab80d1da70b9c75687b946ec",
+    "scripts/effects/shader_warmup.gd.uid": "9f2a753e1484cb9de406c9121093876a10f5c2935c9e0dcbc5d9da64050b5d40",
+    "scripts/effects/shelf_art.gd": "3057cb42f519f300254a84ab58d5d533010443e0e2e3ade97568d9bd7188c38a",
+    "scripts/effects/shelf_art.gd.uid": "b08f041671d33ff4a75299c17eb0537b2c56838a96198455ef6f517680e5faec",
+    "scripts/effects/shop_gathering.gd": "a2b28f61acb2fd9e10fa7bf39532172d7c94353d1a6d9af53e8bb244e71faee3",
+    "scripts/effects/shop_gathering.gd.uid": "9f6cbd467dadc84f8d0e3f834859df4e43ce4213b8524b744cb65703fdd55f84",
+    "scripts/effects/shop_gesture.gd": "bc13b26a67644ecaf8197f726012c23d28c942f146cd924b4e6e2cd73b963428",
+    "scripts/effects/shop_gesture.gd.uid": "efc3f6e45fc58db2b675dbfc9ee22e8ce26ee58e3c553a66f722f4f2a8852cf4",
+    "scripts/effects/spell_art.gd": "c49e6fd6befc7028b8a28ecb38e336fce933b1419fb543faed39d4176c3ffbee",
+    "scripts/effects/spell_art.gd.uid": "250d1a753f870ab75001eb5c8a03a8da3e65f87f7e46da0abec2a9d50b74210f",
+    "scripts/player/cat_equipment_visual.gd": "98c50fde6bca656a127c12ccb9fdd0a206196cd3eb2d8172cf9b45be28335097",
+    "scripts/player/cat_equipment_visual.gd.uid": "288931a0f7c4f56262302208677180eabfb35047cd10d529a40969eac8043ce7",
+    "scripts/player/cat_motion.gdshader": "efb75613058b0733a8e38a9d77b33751df34e4ee022a4502b35f36421cd2a2f7",
+    "scripts/player/cat_motion.gdshader.uid": "49d0ba88eec0128733cced08315630e0ddc3a1edaf54b4520800328baa43d84c",
+    "scripts/player/cat_visual.gd": "94e249d7d055d0c4fe9160608c69c68cdc78ba29060b5a64f1dd6cce533479f1",
+    "scripts/player/cat_visual.gd.uid": "448abf2106a12322216e0a94fb60db2820fdd31728940804d56c8eef03882e13",
+    "scripts/player/grounded_gait.gd": "735fa8b38a79f5006bf8bbf9c7004f6b052b7baf4ce8aa82560e6bb379d56a8f",
+    "scripts/player/grounded_gait.gd.uid": "3c4a79d95272731382017a1baea5736d57c0b79c9b1e7e6a55b81879c8ff3ed8",
+    "scripts/player/player.gd": "425544ec8bad7bf54e4bda0344ec33f262df23f0e2aab628640d7dfae4b2fd89",
+    "scripts/player/player.gd.uid": "842018d012972304d9def8ef1d0a1ee112f594850afa44bf3e2f1abb2ad882ee",
+    "scripts/presentation/animal_cast.gd": "a969fd9a5cae9e47c2d7ba28976fca5dd733cb95b0db067c6957afbf49897de7",
+    "scripts/presentation/animal_cast.gd.uid": "f5d5f9e5601f7b8e038c44ecfa9d762d65ae4de6441916da4459c55759379cca",
+    "scripts/presentation/character_stats.gd": "2859f21fcd08a75887450087a5bb320dd017fb8ca1be37e9b378ebafc1529662",
+    "scripts/presentation/character_stats.gd.uid": "fb5abf4019009de15f48823ad411e6eec4baa0dfe40dee021ff5dd4e1d80a355",
+    "scripts/presentation/enchanted_art.gd": "ebd6f71e4c45dadb349121e4cd3bbfae5114e7c6a5f4e8969d6a526a53bc9ebe",
+    "scripts/presentation/enchanted_art.gd.uid": "5a22351579fd9d6ed13c65ebfbe1955a9adcb7d8ed13bda42fe63882ab9c51af",
+    "scripts/presentation/equipment_art.gd": "8aa9a4144e81c3a95f2038d7f4cda606f95e2406e47a04ddcb7552550bd8fbac",
+    "scripts/presentation/equipment_art.gd.uid": "35fc7ee2d1f6d32dc873c2549b1bd687331baf3a76f77d8a2d8722894afe409f",
+    "scripts/presentation/equipment_comparison.gd": "b1ebe615b9b43462ec77ddc8e32080285b6586fae432df31446f02619b3e4a11",
+    "scripts/presentation/equipment_comparison.gd.uid": "a3b4a7afe1d360d0d7dcd132ab70588177e0d877a32a1a0b43f5196180d5cb27",
+    "scripts/presentation/grimoire_art.gd": "72165596e2a39c6a1cf941ab3d36a85e791f9f6a6e59444bddb5b401cc497d60",
+    "scripts/presentation/grimoire_art.gd.uid": "e6b49e4a5219170f7bed5018e991e9e63628c8c80738004af7dafc6aee99cca5",
+    "scripts/presentation/hires_art.gd": "a3896e5571b432fcbc36d9a67efd7f4b8d9902fd913ebffa63128ba84d67b0f2",
+    "scripts/presentation/hires_art.gd.uid": "6a3eb3283cfb870bea382754920deadc3f476052f8f55b29b5ab12de3613d852",
+    "scripts/presentation/living_stage_art.gd": "4bcbf83e61b679a995aac13535e30bca477d4be41544d6ced14303fee89f523b",
+    "scripts/presentation/living_stage_art.gd.uid": "bf8eefb5b216317a2b9590b2a508b0e99ee76280747f520d429fbf7fdd91e44e",
+    "scripts/presentation/story_consequences.gd": "b448046a2d81eadd139677bbcd032194d7b037a0c8f21b0c1917c6b2c1eb5927",
+    "scripts/presentation/story_consequences.gd.uid": "e579c0ba3be1b5a3467d3d5b279b96704da2b545253987b934b565748355fc1c",
+    "scripts/presentation/story_shot.gd": "a95c3f7b7b1fa901782900a9908652836f0f3bda0d33224097028de4eae3e6af",
+    "scripts/presentation/story_shot.gd.uid": "49e109b99de24f72899f4254e42a787a8ef22e580e46f73f792f07bbee1a8166",
+    "scripts/presentation/world_detail_art.gd": "ad08e308151c5648e6186e6eb19638aaa6eedea16ac97a1667fd8e1d844dbe37",
+    "scripts/presentation/world_detail_art.gd.uid": "42ee85e7be88cf8a3faa18967dafae587614a566a51cc78384702e9c92814124",
+    "scripts/skills/item_skill_effect.gd": "85a2c32d6b4a45948f16cac9c667fb0e36704ff516c013fcf22c7e271cef2abd",
+    "scripts/skills/item_skill_effect.gd.uid": "37af968b50c68478e10bcfda5039a4444d4786d282c2fe29334393c8e2e47d1c",
+    "scripts/skills/signature_skill_ink.gd": "4754a5506f67e9148e905807fff7f6bb10646975302adf88d19e0722917514e4",
+    "scripts/skills/signature_skill_ink.gd.uid": "efba4cd2eb17c3e906ffda385d17f542cd4b9186017a2c56effb4e75ae6ccd22",
+    "scripts/skills/skill_cast_cue.gd": "da185dea5f79a79b05cc6d61185d69f08eeded744ae4f39d3e009a2d41493f3f",
+    "scripts/skills/skill_cast_cue.gd.uid": "80fd79230d46ce4ed248acbba037e52f9efc1d77b8766ac3b549af5909c7a5f9",
+    "scripts/skills/skill_effect_ink.gd": "7b1cce5c467a5c5c3e3d8ca5874e8ab12767c78f8f8b8d3af97536c58ba39cff",
+    "scripts/skills/skill_effect_ink.gd.uid": "d9fb25816e4783607ba7e60b67da4bf0984a0a0115ad29d9a10453b2f65fb30c",
+    "scripts/spells/basic_magic.gd": "b2cc51af21e45bed9bd563faa1a7278fc7795066b61e66e3e64bd734d4d3d9fd",
+    "scripts/spells/basic_magic.gd.uid": "7bbb9b48447914978a59a57b51fb340d157fbd1fcbceb8f5f46711f65944c4c4",
+    "scripts/spells/item_skill_controller.gd": "dea0bc978798d444cf2c72720bb5b84b09ae4d247740a942b35f2e2be5f3eca9",
+    "scripts/spells/item_skill_controller.gd.uid": "9a1359c4477657a84d4556603ddb2592db62ddb33240ce7899ccea134ae490b8",
+    "scripts/spells/outcome_resolver.gd": "95f01f9c56cef6f5ef50fd873450e5d44e0b4b38714d60c214e2afd3c514436d",
+    "scripts/spells/outcome_resolver.gd.uid": "46843253d1e560874c70ceb3ffa1009a118fc6396a0d6cbd74c0200873caf08c",
+    "scripts/spells/spell_controller.gd": "acf00d2c6af1da4a884994f6d1b220704fb28f472807eab77ab7a5c2879e72fa",
+    "scripts/spells/spell_controller.gd.uid": "97e459e627ce717ec91e6cb22926cf5aca6a5efc5f41468bba665ea4215fad62",
+    "scripts/systems/display_settings.gd": "8016061ad348a7ecf5d12c39bbaf9687776fe72fc5a6887e0a99dec5bda1a6f4",
+    "scripts/systems/display_settings.gd.uid": "48b46334e4463c8c625a722097c425c896f5c3f1c2f71c77939e1a724729883a",
+    "scripts/systems/encounter_director.gd": "5453ea9b0f28e745c6162ff69a40bccb0c466e4387f4009f58f0de6b53551211",
+    "scripts/systems/encounter_director.gd.uid": "b0d2fd5f5e7c45f4f6ada8d0d6144e17d41c7f049e7b178207b20ac6d2a61954",
+    "scripts/systems/expedition_run.gd": "90d254ff169f9eae3258f90578142fafdf259e8cd3a0048a4d21cae0d40653d3",
+    "scripts/systems/expedition_run.gd.uid": "92684bc621cb3736306c5bc329821ee2d5582d9587e5b65e3d7bd69394122f7a",
+    "scripts/systems/game_locale.gd": "42e27d437d64935d0c602d6124cda6dd5d284bc4beec13108ce5a915f1fd38e9",
+    "scripts/systems/game_locale.gd.uid": "d3468d6674e8c27254ba3bbf842c6723f86ce6c7059ffbb38a470105672c8a26",
+    "scripts/systems/language.gd": "efecdc0c248be583967ceb16923cee7588d43a35a8c51f109ba1b52782f1b166",
+    "scripts/systems/language.gd.uid": "93cbc5ab25d05e7c144e54c635be458fa948edd24a21d14fa303444662d6e406",
+    "scripts/systems/meta_progress.gd": "5e09e09cd5e61af50360e8f0723e14549f62df2f20d38801c7b0499d4d85a335",
+    "scripts/systems/meta_progress.gd.uid": "61eee5264a676cb249e429c2181eeddca2aa3c38d54ca687ae603f079b91a94d",
+    "scripts/systems/room.gd": "672a194522727f56bc15316ead260b3d5a9c75fd25d99592d6d7759ef2f9aa0e",
+    "scripts/systems/room.gd.uid": "6bd87e65dd6f07efca11b827c8b8b4e40422bc5b696f89cf82396c61384b64c5",
+    "scripts/systems/room_obstacles.gd": "3557d7ca4dddbdd7a67763df2b028d731c654dad49a90d744a24afca39253c9e",
+    "scripts/systems/room_obstacles.gd.uid": "0dea627cff87371e25bcfa6c953014ecb9931f6ac2039d4f165e479b6fdbe45e",
+    "scripts/systems/sound_palette.gd": "89ab13d40851fa59230815e14377ea892c5f59dc72bd075ace1a7826e3b2a462",
+    "scripts/systems/sound_palette.gd.uid": "13bf523df3441600cf9b5d3bf963f4ea5ae12529ccf6f2ca13048ab9067d7b69",
+    "scripts/systems/world_layout.gd": "6bbe19234895b8c6342186a1828ee739b801fb496f152b64c5cda3503b6efa57",
+    "scripts/systems/world_layout.gd.uid": "0a78eadfffc3007a83fae938e46eae5d1ade2e619994f7bda93f30290d158552",
+    "scripts/ui/cat_portrait.gd": "0c3595eef1502cbd6e44deecdd63d6667932aee88710f1549ad1e6525610d8ab",
+    "scripts/ui/cat_portrait.gd.uid": "80d9ab62da140208f1cde08d3e4e037d3c8992fa291cfcebb2ab45245cf6ad48",
+    "scripts/ui/equipment_paperdoll.gd": "c9e90209eca1ff0ab7e1bbc6ca9e2c8f9bb92abb6173dbae4a4d01c76f7adcf6",
+    "scripts/ui/equipment_paperdoll.gd.uid": "f5933f17a16f1d0b6106ef69f4911aef2609a05707b6fa566951241fef5752fa",
+    "scripts/ui/equipment_symbol.gd": "cd9c41203cf51b3659a19eac1c0b551a97ad31db0edc520e031e9f6f7ec1ec9d",
+    "scripts/ui/equipment_symbol.gd.uid": "04c85cd4730cddeff2e02979463e9aa3bdb458ad46a0aa546bc60822ee3c78cd",
+    "scripts/ui/expedition_panel.gd": "d132e48daee9849c3606dc5e9948360b428e7d0f24f867d9f138203034acf4e6",
+    "scripts/ui/expedition_panel.gd.uid": "72241ed6554695de6a4d68a5997f7a4ef29ea9cc473b5d00f257736811058c76",
+    "scripts/ui/hud.gd": "03e8f76a899f879326589557f5d6c3b5fb1b0912e40b96a07b6694a8c7dc6723",
+    "scripts/ui/hud.gd.uid": "4e5311ab05358477528111b645809f7747a5039e91a49da775697c524e02db10",
+    "scripts/ui/route_compass.gd": "729aab5b2d609a3b08154d68f43b17b3eff021558ac16650249951bb861fb371",
+    "scripts/ui/route_compass.gd.uid": "8acf61f60fb8e730ba8ed851f048a95cf79ee95cf2d6986d7d01f63d3395676f",
+    "scripts/ui/sector_banner.gd": "1cef662256e40febbf8aa012640f836ae2e4c17480db10baf699c10d795b0b1c",
+    "scripts/ui/sector_banner.gd.uid": "7940d3a131f3c59a7ef0e8c203f7791b59ce0ea4c9b42ebc0f36909c304c3210",
+    "scripts/ui/settings_panel.gd": "b1d65a47ac2897ca35456f6ba9bcc1d5cea5b0104465d80068afdc1b7642f8bf",
+    "scripts/ui/settings_panel.gd.uid": "ddf90fe3c44c243e413ab8202fdff5864342b5415c2911a52ebd90c709692b80",
+    "scripts/ui/shop_conversation.gd": "0b6115090c8c59ac8cc6fe17a0706d361c0ae510855f924dfd059224b609c475",
+    "scripts/ui/shop_conversation.gd.uid": "c183f524fa109a1959c8ca401b1ca6e90d188ccaba6472a4506c91c4dc36fd4f",
+    "scripts/ui/story_director.gd": "61ef0843b4fe958b044419b2b95aad4274a2ba1b7a31cfcafdd0377657cc0eb2",
+    "scripts/ui/story_director.gd.uid": "57c61ecba8c90c1b7ffd143d7aadadfe88a256fcf9d79ec303b1e2e931c65482"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 32,
+      "sha256": "f16ce00b2c0acd57eca9a03ff9a7fcb5e81fba8fd0f6300727bbb96e1a388f6a",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19556,
+      "sha256": "e0e2bffbbcfb020f0d4ab9e44603595778a455c7bd9b3c65e819fd657ed28a49",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "art/audio/README.md",
+      "bytes": 833,
+      "sha256": "8c6f11cf50c88746f5b14ef88a24b9e4405c5d4d0e001b5ec8c8118464b871fa",
+      "group": "gear",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_fire.wav",
+      "bytes": 11068,
+      "sha256": "9386156f18b9b90d353260f478760f4592cdf6673a2a79eaa039bf6a82a278d6",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_fire.wav.import",
+      "bytes": 495,
+      "sha256": "0a5ab4cb0d9f6cf60369e5c37dd921546fc98fc2278ac2f6d9c28d09fc9acbb5",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_ice.wav",
+      "bytes": 14156,
+      "sha256": "a7c21597353c992ddf625a5a3fb9748fefb1dcc80333631c93562aa3af22e772",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_ice.wav.import",
+      "bytes": 492,
+      "sha256": "ebc3ba93da13aa9041e8f85535e719aedb6e035fe6c73cf63641fd1841a12e4d",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_leaf.wav",
+      "bytes": 14596,
+      "sha256": "4bf36a26083b46dc10e8c9bf18548db07322f39680ee083f29d12be880f97405",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_leaf.wav.import",
+      "bytes": 495,
+      "sha256": "950ed4def246d362a934b9a48c828978b0ba98071a6fe1c3e45fa163b1978bc4",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_lightning.wav",
+      "bytes": 7982,
+      "sha256": "c0874fbb6641966a8e51f2a66d6e615838b5b9f28352746dee2cf2664114a6fb",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_lightning.wav.import",
+      "bytes": 510,
+      "sha256": "57861cc074e553394f69226ddc97fa978bb66cfa68e7ffd7a8923920446a7042",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_metal.wav",
+      "bytes": 14156,
+      "sha256": "28e75d1255138a00b53a941682b873367a549e90667feb50a26cab0a3745cbfc",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_metal.wav.import",
+      "bytes": 498,
+      "sha256": "ef068bcaf41aeafa56cd277cc19807679bb365d661409368087528b4fd1f1a9c",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_stone.wav",
+      "bytes": 10188,
+      "sha256": "714a1feddd8fd20e72fbc9885a7dff7aecba6a5fd3b1e47bc497c807ade60d51",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_stone.wav.import",
+      "bytes": 498,
+      "sha256": "e3b734a23d94db860290a93588aed0bbcfbfbbccb94b27fe41f62bd6b1d1a7e8",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_water.wav",
+      "bytes": 12832,
+      "sha256": "16f5e4b2f6cc5a1ab807af8e252fbf1d73d45903f70851b88e721ea950df768f",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_water.wav.import",
+      "bytes": 498,
+      "sha256": "7830bc1dca8fd2aa67c86a438351beb02680082b5a696db760c2178cee3097fc",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_wind.wav",
+      "bytes": 12392,
+      "sha256": "413ec2176ab28cd56b237ace3bcf9b469964d1be4d8ceabe547639a78c45c823",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/cast_wind.wav.import",
+      "bytes": 495,
+      "sha256": "120c2063203414c2b829c512af2b6895c10d1133f147567d1ef014ce42b22d95",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/clear.wav",
+      "bytes": 22094,
+      "sha256": "76852e68c0c2de90968aea6179343308a0420d6bf383d64a8a056d0501df9e0d",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/clear.wav.import",
+      "bytes": 483,
+      "sha256": "a8385d7bf8ead7fcbb6ad7db4b43306fab56f12764fa1ded334d5654054e6a98",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/equip.wav",
+      "bytes": 10188,
+      "sha256": "9fedf6bbb008e17b6a13c158602fbfe71d3b1006451eb7d1cec00ad40f55aca7",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/equip.wav.import",
+      "bytes": 483,
+      "sha256": "49edec5ad983d888273ec9fef86671ce5d27a4fc490196609cd423c1f3b860e9",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/gear.wav",
+      "bytes": 16802,
+      "sha256": "a6de2ab230aa56dbc3fa190132e66dd96843ec60168960825d05b40cf34e6dfe",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/gear.wav.import",
+      "bytes": 480,
+      "sha256": "29b33c2a1db8cd17435801581fa56efa94691ad56fe83ae72cfe54d30775f313",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/hit.wav",
+      "bytes": 7100,
+      "sha256": "0d2412be48b854b8360c241e29d17f6d9590ba242e7df260c8e71f0e6c83ad50",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/hit.wav.import",
+      "bytes": 477,
+      "sha256": "8537f2cc4bca1d0bf5d4f5a5ddac7b8b38bddafb7ab5d540acc696077b046cc8",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/hurt.wav",
+      "bytes": 12392,
+      "sha256": "2c2ae7a852bc3a140f49c0585a0d22f6fe33378b952f4d323e6be0fbff1c677c",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/hurt.wav.import",
+      "bytes": 479,
+      "sha256": "6fa545f8176badef76727df29dbecef42c008e49cadcebace6f05f4331093488",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/miscast.wav",
+      "bytes": 16802,
+      "sha256": "eb4ae326306201fef3cb3bf1f7bcd4cd66b55cfea9542032b024e61d2fbb31ab",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/miscast.wav.import",
+      "bytes": 488,
+      "sha256": "c877dee1c2010ba737502f608960986eca4a313aee557caf2596eb3a41e1bbcb",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/pickup.wav",
+      "bytes": 9746,
+      "sha256": "c5ca8bee41403e2600ede592153089aca5f2fc7ec70709bcfb039d92cf09f863",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/pickup.wav.import",
+      "bytes": 485,
+      "sha256": "1d1b532a9d9b92790de10f7c5186379b5a17b720dc2ede351ef92c70dd92b9b8",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/skill.wav",
+      "bytes": 19448,
+      "sha256": "886ea71c9c7c4edcf7f7efa8392ba3643188cd4fd2dbdf2e00f5fc2442c34645",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/audio/skill.wav.import",
+      "bytes": 483,
+      "sha256": "272845953e1c6c69708b979c76189eff97173e295b742b710f4d45c8e7f74865",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/characters/STORYBOOK-ART.md",
+      "bytes": 2636,
+      "sha256": "f73247f40e2fdccbb7ce0152d9db4c754a2bd541555b8229310b85e43b9b5b70",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/characters/WALK-v0.10.0.md",
+      "bytes": 521,
+      "sha256": "84c0202666c343748a506138af4a015cf073157ea50eb215b5733babd1722009",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/characters/meme_walk.png",
+      "bytes": 2485047,
+      "sha256": "8e68c95ab4ebf4b5833c2a62f6fc1532c7c7140a6d078535ff0e1525600c6de7",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/characters/meme_walk.png.import",
+      "bytes": 945,
+      "sha256": "20a2f1b704d7227b840e43c5040b6841edd58c76331cfb30bfc04aefbfb95da7",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/enemies/LIVING-REAGENTS.md",
+      "bytes": 1002,
+      "sha256": "b6a1e8b16a98f1829de3fa457f2074c578e26145ad29ee29ee4deeb6c6101fde",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/enemies/README.md",
+      "bytes": 734,
+      "sha256": "6852be08c69abb02a3104dfde388f2ff7f2aa29656bd3b00175a58331e516275",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/enemies/living_reagents.png",
+      "bytes": 809872,
+      "sha256": "7595c88df6a8f76f0fd74de6b79d939d1cc52487b4744cb232efd25e61a378d8",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/enemies/living_reagents.png.import",
+      "bytes": 960,
+      "sha256": "3e2e6f053ffe64ed5e00fa00d33b0221338a165ba8c56afd21d4b8906e484032",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/enemies/perfect_examiner-ART.md",
+      "bytes": 1282,
+      "sha256": "906cda1f2ce5b807da0317ff80d7448206b4111a4eb7eb250ff1cefde011d193",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/enemies/perfect_examiner.svg",
+      "bytes": 2502,
+      "sha256": "6fb496d8c88cc2b5f502d0222ace13f8e0d08539390afdc8cec4438bb616c1b7",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/enemies/perfect_examiner.svg.import",
+      "bytes": 1060,
+      "sha256": "58416e8a433fa19bd1bb83643ec0a5579015cc7986df426f2bdac6fbcb96af37",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/enemies/storybook_familiars.png",
+      "bytes": 1301640,
+      "sha256": "3813733d6683344eafa02b33c748ff8e00f08e2c5c32c6096a65b5bad09246e6",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/enemies/storybook_familiars.png.import",
+      "bytes": 972,
+      "sha256": "92c891ef8e6b60b303c77dd1fb6e2950c5729f6a5890d8dd059f4dc371a5c001",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/environments/README.md",
+      "bytes": 2025,
+      "sha256": "81d3aed9e42f3c6c840ce747ed01b73d5f54e487cf95fd2711e680a0fb3f2b8d",
+      "group": "world",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/environments/enchanted_landmarks.png",
+      "bytes": 2452393,
+      "sha256": "0966a1bc7a0fed01d256752a4625397051712092901bb835ec8168867c41944e",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/environments/enchanted_landmarks.png.import",
+      "bytes": 978,
+      "sha256": "700b8e4747650c52092b84227cd8fbcf57d117705ec25e8be4ba0ff3a1e2d7c6",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/environments/painted_archive_props.png",
+      "bytes": 2397138,
+      "sha256": "74604b6f6a06057597de87b53483680720fe69bffc9ea442ccc164564f65b536",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/environments/painted_archive_props.png.import",
+      "bytes": 984,
+      "sha256": "55af4e565ef546cd88dc2c0d501663d51d21cb1d684e01a71da8a3cf2005fe76",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/environments/storybook_world_details.png",
+      "bytes": 2354357,
+      "sha256": "1864bb1bb7a091e2721df8f17d2deedb40a6f2490243db83c0e335387df99b9e",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/environments/storybook_world_details.png.import",
+      "bytes": 988,
+      "sha256": "43542015a0eab9974ee4a3a8fcd21d0cf3ec6e0757b878bb4842595745b0e1e5",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/equipment/README.md",
+      "bytes": 3671,
+      "sha256": "f99430053391c683548f63c375792370ba597b88c7fc41544d841158e6146948",
+      "group": "gear",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/cute_charms.png",
+      "bytes": 1403543,
+      "sha256": "f371e798e976d9d3876d911a97923c563df862d638cacde46ee208e5419b513f",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/cute_charms.png.import",
+      "bytes": 949,
+      "sha256": "e0422b49e2cda5f8091b5b84d4fc5c251dc0d5199e45e888342e8ee251e5bd5e",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/cute_equipment.png",
+      "bytes": 1351745,
+      "sha256": "5a85c5ad007b1253bf9041e79967e48ad4309bf6403d3928424a671695e2c32b",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/cute_equipment.png.import",
+      "bytes": 959,
+      "sha256": "93d5c4d069233a3016aa7ac67d23c936430f20a4c44e0746631a6dfe66da13fc",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/cute_pendants.png",
+      "bytes": 1318434,
+      "sha256": "cdb992ee4d068eab6bffeafc9ca38e8c95f8092d3d2ca320a049d973bdd4d956",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/cute_pendants.png.import",
+      "bytes": 956,
+      "sha256": "8bb4b69ca180d5da4592511442f9afc1de322a0a049e6c000ff02416c00c2ee0",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/elemental_weapons.png",
+      "bytes": 987043,
+      "sha256": "d23c13b4cc6fee1fcc2c7d8b06f303c143ebef0a2fcd80b5a2153565a020f1e9",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/elemental_weapons.png.import",
+      "bytes": 967,
+      "sha256": "b76fb303638c504aab455c48065d9b07e9039cea3a416451896d6222967892ba",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/journey_trinkets.png",
+      "bytes": 2550638,
+      "sha256": "975fc3f4eb65f04df85a8100f635562a5b23d3c2db5c6216676821f15b3ab763",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/journey_trinkets.png.import",
+      "bytes": 965,
+      "sha256": "923e8b277c45d2c7755f3c4a1320d31381f22dcc932486d829897a08bca0cead",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/journey_weapons.png",
+      "bytes": 2367667,
+      "sha256": "f1583fbaca7904099177105a98a81bc388836943974a819fc1572b97541a3a02",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/journey_weapons.png.import",
+      "bytes": 962,
+      "sha256": "e0f11f6c0414bf505120ec3880433f1ddd33ac22b684b0d7907963eaf9e3d79a",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/silverthorn_wand.png",
+      "bytes": 603921,
+      "sha256": "a969fe02dd43f521d5e368ea11c6987fd88979e281764d6bc38e59e8f04bba00",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/equipment/silverthorn_wand.png.import",
+      "bytes": 964,
+      "sha256": "08907a5cc7a6ce1b24122965f20349ab8fa1aa43177d8af0a0c9b31ab56328a3",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/fonts/OFL.txt",
+      "bytes": 4463,
+      "sha256": "3ec18e49c08c0f616a4da9f145f19c02a436c0e254dd58bc362ed6234ca30891",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/fonts/PRETENDARD-LICENSE.txt",
+      "bytes": 4419,
+      "sha256": "b04538c9abec39a3db75108cf0af0fd9c77032fe8aa2cf38345b4d250e98e38e",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/fonts/Pretendard-Medium.otf",
+      "bytes": 1584068,
+      "sha256": "d39e50e4bb52b4993b6a4eeb821a171254745bd824446af01e1f616b89fface0",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/fonts/Pretendard-Medium.otf.import",
+      "bytes": 786,
+      "sha256": "e35d1b1df516b3363d4547bb8079b8382b49eb6ac6c4624d588c9545a56a1e7d",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/fx/README.md",
+      "bytes": 1314,
+      "sha256": "f6c4fd5268afb6dc5a4a81cb11bf6bca06c2f3ec78ad7dd332f5a183260712ef",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/fx/cute_fireball.png",
+      "bytes": 665885,
+      "sha256": "45f4c72e4a9c9a504ab5c0e79ee69fd3f56a92792db69bc0c3e79af9b3618948",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/fx/cute_fireball.png.import",
+      "bytes": 949,
+      "sha256": "4dd76732719f02b75a5a960a4302a00069f08a772e56239e88c2f05c77f8d0b7",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/fx/fireball-ART.md",
+      "bytes": 1996,
+      "sha256": "ad2c5486e24c6f2b89a1114ab088e76f09110663f2f505ea464d10553c4c249d",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/fx/painted_companion_magic.png",
+      "bytes": 2170043,
+      "sha256": "0bacdd97f74955a38d7e35093fdaf6a6f89c09a61c8aef9a0d7f54b30a7299b0",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/fx/painted_companion_magic.png.import",
+      "bytes": 980,
+      "sha256": "dd127654d6192c296ee506dc1ae9bd66bb048592ac6898f43dd216053717fd99",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/fx/painted_signatures.png",
+      "bytes": 2626847,
+      "sha256": "0a16a402ab047536de323c6c1bf9a170e11e6394b9e61563b1ed6888bf0b3c39",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/fx/painted_signatures.png.import",
+      "bytes": 964,
+      "sha256": "d45b010acf0e8cedb7090b167c35004104572f5535668601588e403d55e66cee",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/fx/storybook_spell_fx.png",
+      "bytes": 1678392,
+      "sha256": "19b4cea2ef214ed988f9b2edb9992d7a7987551445f8f9685e78f0a0f1935e0e",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/fx/storybook_spell_fx.png.import",
+      "bytes": 964,
+      "sha256": "1f73aa9c6e3b2dc0c1bea4850b819694e8b861910557d1bd41d9240444e6e76c",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/grimoire/README.md",
+      "bytes": 975,
+      "sha256": "7c0804db53eaa1ce9d77294981541fbff6abbfab43bf2a863f74934673a1f3ef",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/hd/animal_cast.res",
+      "bytes": 2064938,
+      "sha256": "4b37f0ee70f0eedbad3fc8adc7c197570c61df74ce4b8072bea54142f1dc2b22",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/hd/hd_academy_library.res",
+      "bytes": 1010398,
+      "sha256": "86eb0b8f6e681d7ea5a6961a4775873e4a0aab45dd8575cb846277a14f397829",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/hd/hd_basement_storeroom.res",
+      "bytes": 845994,
+      "sha256": "ad4fc9665b3afcb511f5f72ae2105a12be5721eb1a8f2340ef0146e38135e4fd",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/hd/hd_forbidden_garden.res",
+      "bytes": 1109646,
+      "sha256": "8407e45619d76feb5df008ebdb4798d71e48a369d72fc4f1f43c0c8c430d1831",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/hd/hd_grand_archive.res",
+      "bytes": 1228050,
+      "sha256": "ec55d5fcfc456e4bd27a75c1a18b610b5f899639e18e4958eeb7c680d4ff5279",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/hd/pastel_meme_actions.res",
+      "bytes": 1403174,
+      "sha256": "3d04194aece7eeaaa98806c1c55ddc0c82b075163b431cd53b14a362a61da00a",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/hd/perfect_grimoire.res",
+      "bytes": 2089798,
+      "sha256": "76b4838b5e55f9671dedddb72e8c6534a1c2b742a086a6de2de2d98052589ec3",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/items/README.md",
+      "bytes": 944,
+      "sha256": "4575f33d2c0c950aed6644665dae9f213719813698dd65f30489c5d902840cbf",
+      "group": "gear",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/archive_gate_closed.svg",
+      "bytes": 1520,
+      "sha256": "6f6ca3bfe84b0eab82ba2b8f47a113a47ca972a8e023bd281622416aad8b172b",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/archive_gate_closed.svg.import",
+      "bytes": 1067,
+      "sha256": "afd082f9cbd4d67c9217f540172412efaa1e3ef641be9d1186399950c6417129",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/archive_gate_open.svg",
+      "bytes": 1471,
+      "sha256": "1125d332e93b9c975a58b03d2d8686c8ff63623e429e53ce9652f71bd7f6bd21",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/archive_gate_open.svg.import",
+      "bytes": 1061,
+      "sha256": "1d48a86c33577eaf858d21e23f3835e123fb725a7df3ea0ef100e7709eb0fa0c",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/archive_route.svg",
+      "bytes": 552,
+      "sha256": "900a342e5277819e10008eb4804732672d21ffcdc1dbaff0cf27be2c27829c81",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/archive_route.svg.import",
+      "bytes": 1049,
+      "sha256": "971b75921c0c38c1b28a9a288aa77b5e0653e0c30b06e1d2c3a29550ce442140",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/drop_charm.svg",
+      "bytes": 682,
+      "sha256": "4742f52364d8ebf8f07707f63d2386d0e82f6c9d0b52fb9b12d8478ce1ca8d65",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/drop_charm.svg.import",
+      "bytes": 1039,
+      "sha256": "6ebdaf52c2848da66928ececd3101d9cb7a7afd25867cb456c01576bf61c4409",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/drop_collar.svg",
+      "bytes": 686,
+      "sha256": "280877c924c611078504459fde8d7a0b28405c39a1ae4ad4f738602e7caaf493",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/drop_collar.svg.import",
+      "bytes": 1043,
+      "sha256": "8da2bc0c6456b49fd34665adf3992cea4183201f7604eadb4c1fb17f3e81d370",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/drop_food.svg",
+      "bytes": 751,
+      "sha256": "3786be514eee905635a5013bf3d268e46a815a8686c77d9d0d46a0d6669e774a",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/drop_food.svg.import",
+      "bytes": 1036,
+      "sha256": "a4eba3c0141034e8348c73005eb408e147b41fa61576a94d9c842ea2028e3eee",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/drop_gold.svg",
+      "bytes": 742,
+      "sha256": "e6a2067fc8bd738b296cacb175e060e386551a67ed6daf1f8e4aedd7d5bb15fc",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/drop_gold.svg.import",
+      "bytes": 1036,
+      "sha256": "d55e52e6179e3cd7729503395cb6d1393ba2dc72f67a36fc78465cf22cd1e0e1",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/drop_wand.svg",
+      "bytes": 704,
+      "sha256": "f312c33b16e3747ee33a999a52c0e6522a72b339ed4a2664e850f11a63935f04",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/drop_wand.svg.import",
+      "bytes": 1037,
+      "sha256": "200697d99581fa45b123ba3d2411d2c9222b82c370fb5994c17955bdbe8ceece",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/floor_fire.svg",
+      "bytes": 2000,
+      "sha256": "fa66703bbb6a2f10772ef582ca1f42cbf77f802f7070993b5e25dad3ad18eb6c",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/items/floor_fire.svg.import",
+      "bytes": 1039,
+      "sha256": "7b75fa3745ac15e7db78006c51d39dd04e043cb6ba217e66482bd6d50c9dd76b",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/npc/ANIMAL-CAST.md",
+      "bytes": 1089,
+      "sha256": "6fe3683e77e2db1497082a86036304110ff8b81227190d593a2edbbd418123af",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/npc/PICNIC-MARKET.md",
+      "bytes": 939,
+      "sha256": "42b497d29b7cf3ae581ea2c9ae3edd580bdab9d2b5d06ec7900ecbb0eff48f4b",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/npc/PIP-ART.md",
+      "bytes": 985,
+      "sha256": "e347a4aed5f2f6a2bc1426e481358dadb37d302d0c34c876189813cd6e3f6cb3",
+      "group": "actors",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/npc/picnic_market.png",
+      "bytes": 2059958,
+      "sha256": "8824855d79644aaebd254cc48675d17c87400c8805e2eef893460d3117db80b1",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/npc/picnic_market.png.import",
+      "bytes": 950,
+      "sha256": "f18e76e11999eb7cc06a350b2724433648f262867dc5d77685865dd6805dbc7c",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/npc/story_tea.png",
+      "bytes": 1771308,
+      "sha256": "c0a0a90126c759cbcd8d18cfb99576d43e9d01cf1edaa36bf2cc5bf06592bf3a",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/npc/story_tea.png.import",
+      "bytes": 938,
+      "sha256": "470bbd285d8df5643f64033b167c6c2e3fa1dccc9e0cb99f129697022ac0cad6",
+      "group": "actors",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-02-art-characters.zip"
+    },
+    {
+      "path": "art/story/README.md",
+      "bytes": 1054,
+      "sha256": "63979f0222f929620235b2c36d5603481157e1d588158dbf08f8aa237178ba5b",
+      "group": "world",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/story/props/README.md",
+      "bytes": 887,
+      "sha256": "24848f253d6077108f74420a68ab37d9b09cfba27374da9d0955f47c791db361",
+      "group": "world",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/story/props/exam_aftermath.png",
+      "bytes": 2850160,
+      "sha256": "c2bcbedff8437499b7b88be4a24db1c7f851d8e4ff0b6f03d4e5e3dec51e9830",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/story/props/exam_aftermath.png.import",
+      "bytes": 962,
+      "sha256": "fb106787cb798a427b26325f9b7555c1b2071da3d6204a0e27df620d9fb06a72",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/story/props/exam_sooty_cast.png",
+      "bytes": 1907729,
+      "sha256": "bb3b55a6b22252266b39ba4b5d41f980334d9f7a1c3ed7b399c599b1c788cc08",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/story/props/exam_sooty_cast.png.import",
+      "bytes": 964,
+      "sha256": "ec8c1456f34a66dc4e3ad44b9914b8e58263f8207241dbb91e5b1e440a0a1986",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/story/props/practice_target.png",
+      "bytes": 2064292,
+      "sha256": "382cbac1b23ae8d47c4feeafbf414b914e32259f84cd6869103d32b644c79981",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/story/props/practice_target.png.import",
+      "bytes": 964,
+      "sha256": "453f7f03fe44b14ec5ae08d3fb0d94bb4aecfaf7a6e25bb84564cf9a3f32dd57",
+      "group": "world",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-03-art-world-story.zip"
+    },
+    {
+      "path": "art/ui/ICON-ART.md",
+      "bytes": 398,
+      "sha256": "099725538de08427300457896d9294eae9eb0e17490392b6ab31f7bcc2b16023",
+      "group": "gear",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/ui/app_icon.icns",
+      "bytes": 2857809,
+      "sha256": "7add6f6e8763bdd0b3674e6441073e61806ffa08d9422f6033b4a23d3ce5d365",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/ui/app_icon.ico",
+      "bytes": 186929,
+      "sha256": "62db3147801a98bb605ca085eb55c348501a0670015329d8035a272d167d8c94",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/ui/app_icon.png",
+      "bytes": 2152599,
+      "sha256": "cb131d703b14be1465e1315b256b3fc4f0acf6cf3849ff46a3980ceaa970c343",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/ui/app_icon.png.import",
+      "bytes": 935,
+      "sha256": "65648152c40bdccc138a4e050070a2eb3faf5bde2e5abbd348ac2198c038a20d",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "art/ui/storybook_theme.tres",
+      "bytes": 177,
+      "sha256": "cf5ec598b6bb2059590f2a17259568da083a9c5c035d44751f7b9a24513fcf16",
+      "group": "gear",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-04-art-equipment-ui.zip"
+    },
+    {
+      "path": "build.sh",
+      "bytes": 319,
+      "sha256": "eb8b6f65c537bb19e0f2b2376a0bf66c6a6c98ada122237ce702e103d2f223ab",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "data/balance.json",
+      "bytes": 1013,
+      "sha256": "25dce5fe590a7df7830a5191afb5123b536805b48feb246d22306179cd97e87b",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "data/expedition.json",
+      "bytes": 17936,
+      "sha256": "07e65b6cc66db294c3c5a0de82face45f2f08aafa0320b32b4bf90c23f048832",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "data/items.json",
+      "bytes": 29068,
+      "sha256": "b5a7b32292eb2d38041bcc52bb32aaf358211152ae6320279fb3e2af23168900",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "data/locales/ko.json",
+      "bytes": 48880,
+      "sha256": "ad65a0d274932d2009a880f3254940f4b6b7980a7b4ca61175f905d50c5345aa",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "data/shop_dialogue.json",
+      "bytes": 4665,
+      "sha256": "b13310c71675babd44f7e82b98ab406ff69dbe1698632455bcc8ea4ba955d135",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "data/skills.json",
+      "bytes": 6156,
+      "sha256": "374f1467b1ebc43d8aaf028eae764b92ff87a13db658921e2afcb7b2748ff6d8",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "data/story.json",
+      "bytes": 21216,
+      "sha256": "069c86f5942de98c434c6997abe774f3dc45ce87ed9b194c536ecbd2e0a198cf",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "distribution/DEPLOY-WEB.txt",
+      "bytes": 4668,
+      "sha256": "a27e73ca68cb57743d016bdbe67c693dfe61ca97e7bb03aab4ec674b853b3f51",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "distribution/PLAY-LINUX.txt",
+      "bytes": 4253,
+      "sha256": "1019b3035e98b0f558ce86179208fd4dd4f051456e1b2e93b96fc0f18521ca3e",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "distribution/PLAY-MACOS.txt",
+      "bytes": 4810,
+      "sha256": "4fa8a1164f3eb35e752e6bd827be69ab38c57cc357062029578faea522ab13d2",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "distribution/PLAY-WINDOWS.txt",
+      "bytes": 4245,
+      "sha256": "47b3d33f5bce459be980b791d38042bbe34eca4e6bfcd8ae58fb4551baacb3da",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "distribution/prepare_downloads.py",
+      "bytes": 2635,
+      "sha256": "a5e68e3419a41272effef33417906fd47c5186aa82e61e9a7a65ace83c77cb6e",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/ART-CAST-v0.11.0.md",
+      "bytes": 1859,
+      "sha256": "3711b0d781c5865c9d5fa9c91fe5b8f5c4d96cfe5068add59589e482c502b96b",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/ART_REFERENCE.md",
+      "bytes": 15876,
+      "sha256": "2826c66d1f271ccc6609b7077ae9570dccf06865d1276462a6b70606447d4f17",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/CLAUDE-INTEGRATION-v0.13.0.md",
+      "bytes": 4907,
+      "sha256": "88e54f3ea089d4b888ca0cb2c0e9a808d7fcbb6a0575cb78e36a8b7e46d3d911",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/DOWNLOAD-SECURITY-NOTICE.md",
+      "bytes": 1697,
+      "sha256": "fa6e891b0cde41dd18aba5235a978b2f1dee3b09d05c6fe8c3afcaf357416434",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/GODOT-LICENSE.txt",
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/GODOT-THIRD-PARTY.txt",
+      "bytes": 99790,
+      "sha256": "b3330849267d56ddd3d62a513817506606c2195034411fe05859f0140bff9d8a",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/HANDOFF-ko.md",
+      "bytes": 11361,
+      "sha256": "e0b00786b47b2de1b0d2e18fe418f9ba1db4163fbf44eda03040e5eb1711552b",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/LOCALIZATION.md",
+      "bytes": 2289,
+      "sha256": "6ac6a7a7f8c5ea92ce9ebd986540219fb42c1e751b75b87486dd1786a5f6bfbc",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/NOTO-FONT-LICENSE.txt",
+      "bytes": 4463,
+      "sha256": "3ec18e49c08c0f616a4da9f145f19c02a436c0e254dd58bc362ed6234ca30891",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/PRETENDARD-LICENSE.txt",
+      "bytes": 4419,
+      "sha256": "b04538c9abec39a3db75108cf0af0fd9c77032fe8aa2cf38345b4d250e98e38e",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/PUBLISH.md",
+      "bytes": 1959,
+      "sha256": "7e1e9c2c54bdc557d3287e9db6d193b09c8fbe49df0811819a0f4883d7d6cea8",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/QA-v0.17.0.md",
+      "bytes": 5264,
+      "sha256": "07a929760bb0c487c34449b9faf335996bd7662c7eb26e372e422abbb691192f",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 4978,
+      "sha256": "963d09c144c52ea9cd741b69bf4d0959bf37afb2ad5b0169c894653b83a90371",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/RELEASE-v0.17.0.md",
+      "bytes": 3421,
+      "sha256": "6b7e7f2ea7eb004dc7ece816178972a8f4bf26636c06d144a5e4e06fe86dd4ba",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/STORY-DETAIL-v0.14.0.md",
+      "bytes": 2176,
+      "sha256": "b5cb716da6f3981aa37d5220856e1a7de5d4b75fa343868a76b83119454d013e",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/STORY-DETAIL-v0.15.0.md",
+      "bytes": 1912,
+      "sha256": "49307593f6d39e087fa7081e13ceb3412f40f27a2a8415189364bc3cd5e31e71",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/STORY_RUNTIME.md",
+      "bytes": 3793,
+      "sha256": "43c42e25a349f40ae1a9a83889ccde4614b5cf9f72fd4fd0a98bfd727bb7a3c4",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/00_PROJECT_BRIEF.md",
+      "bytes": 1365,
+      "sha256": "a4330fea74dde0731aebd687fcb070e9b1b4545dbc50ee3f7a567c8da240c251",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/01_GAME_CONCEPT.md",
+      "bytes": 1317,
+      "sha256": "d61484648cb91bde57a6b938cf5bd38debb8ea2ef86f0386319474ffe4376117",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/02_CHARACTER_SPEC.md",
+      "bytes": 1215,
+      "sha256": "ce4050bd58a22eca415172bbfb94ef1093f4b707108d116aa23d1c3544499799",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/03_GAMEPLAY_SYSTEMS.md",
+      "bytes": 2027,
+      "sha256": "82e708e0fd183537654f5b69324d88f237715c2ac10e4f1707239b31cdacaeff",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/04_VERTICAL_SLICE_SCOPE.md",
+      "bytes": 664,
+      "sha256": "8e4061f40e6b3bf1db23c3d19016997f8788fcf8d302bfa4c8e7764bc5d71fb5",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/05_ENEMIES_AND_BOSS.md",
+      "bytes": 771,
+      "sha256": "bb2b127a2a41944057656581b61dc9e1a8f9ac226923ab1ba91d884ec6ad2c7e",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/06_ART_DIRECTION.md",
+      "bytes": 904,
+      "sha256": "0cc33932590939fe92a86ffeda6631bd0ceaa47cf5b540d68252d47185517b4f",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/07_TECH_SPEC_GODOT.md",
+      "bytes": 1119,
+      "sha256": "322881592e04130d07501afa462ecc505c6a54245bd95f2df60433f251f9f8a9",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/08_BALANCE_SEED.md",
+      "bytes": 629,
+      "sha256": "bbd5ced298014a5ed455b96d9b5fd650235d8c214fdbc87b6196f4b6ba0fab62",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/09_BACKLOG.md",
+      "bytes": 808,
+      "sha256": "5969b07690b09430aa1b1d698a3fbfa6517f228156b0a021ca348e1f73be6639",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/10_CODEX_MASTER_PROMPT.txt",
+      "bytes": 2456,
+      "sha256": "e047f3ac13aa7031a69a701944db1e5530c5bfae1615242970d7530d0b099f0d",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/11_CODEX_CONTINUATION_PROMPT.txt",
+      "bytes": 718,
+      "sha256": "ed70557874dee0c17c49a45697dac6e1bcabf7580ff9af80c60fa6c0598bc6ed",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/12_README.md",
+      "bytes": 822,
+      "sha256": "98bd8fe31e56a78d1273a91c8f09d1623616ad0076699cf6464deae6790d2367",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/HD-PASTEL-ART-DIRECTION.md",
+      "bytes": 1597,
+      "sha256": "b768fe09dd1ab8c248f4b7f7598d13c1c9a229b3ff252120ea2992071b6ec2de",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/LIVING-STAGE-CONTEXT.md",
+      "bytes": 2984,
+      "sha256": "2f41997a5b6d965aed957c1ef892633bb7b835fa737ac1d4a242beeadc905d28",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/MEOWMALADE-STORYBOARD.md",
+      "bytes": 9408,
+      "sha256": "2e70a92cf36116cc7b1fb3ab4280751cea012be987985c7d9d84f5de14e4306b",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/SHOP-LIFE.md",
+      "bytes": 2010,
+      "sha256": "a9074bf99ff15caa44eac24d770ff7ef52c59fbefcad23066a6888231e8c3a8c",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/design/SKILL-EFFECT-INK.md",
+      "bytes": 1910,
+      "sha256": "661f8c3cdeb2cb507ea27ddeea41d6b49ea79e928133eb03172ae7e032b4c492",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-desktop-verification.json",
+      "bytes": 581,
+      "sha256": "4a3e2076dc4220be4d0aa10a22d155016646c5a53480a6647b689449a21feb7c",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/README.md",
+      "bytes": 2005,
+      "sha256": "6bcc084cfea6e7c3d619463848022d0beffeaffea6e8b1d8319fe33e2402d224",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/baseline16-repeat.json",
+      "bytes": 3184,
+      "sha256": "42f5315d3b59cf8ce6c8bccefee3ce65e7e2d65ca34f655eb3aef1c52a25a42d",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/baseline16.json",
+      "bytes": 4307,
+      "sha256": "1c19ade519c05f0cc00c19e7d893d5219013f109b0f367b410b79fe850400958",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/expanded-combat-1.json",
+      "bytes": 2406,
+      "sha256": "bc7b1df050532812d74538dbe7ee401f681c69cc40af4b1ef4cb96a9c7ae0443",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/expanded-combat-2.json",
+      "bytes": 3694,
+      "sha256": "6729f3d2fb2195b9a286e0c98fec21c82da7857d8e40d4162f50fa6ca45ba680",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/expanded-fixture.gd",
+      "bytes": 9926,
+      "sha256": "b5da34fd79d1ef527d18b2a285624db9b23a29ce7569d4f52df8c92d296fee89",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/expanded-summary.json",
+      "bytes": 10932,
+      "sha256": "8cb805216f4da1c879228c6114c5c1a997c23a1956b03f17ede393e98a5720c2",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/final-story.json",
+      "bytes": 7170,
+      "sha256": "ec5b07416ec810febe640605b751715052ea20dc04e3645c9651eb136aff6cb3",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/painted17.json",
+      "bytes": 6111,
+      "sha256": "4b51819fcdde1168560b4e61f4269f779e9580681b241f93c73a1a9777144720",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/paired-summary.json",
+      "bytes": 2049,
+      "sha256": "4f2c082a1aa42f1efbd8d651803fb92977ce771b63177ae3a0c51b223aab0fbf",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-performance/story-fixture.gd",
+      "bytes": 2534,
+      "sha256": "0ce2cbc067d675702821da2601b98f15c7f607c9ba55a1b033b80246d3e034fb",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-qa-summary.json",
+      "bytes": 1704,
+      "sha256": "1dbf51acb47f12043acdd6d7b67695c489ea24f228fbf3374cc873d00c80f4b9",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-source-package-verification.json",
+      "bytes": 2019,
+      "sha256": "1dfc1837614b386d02b127e2833500506e43eb0fc29d7b0aa9fcb870a596b392",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-source-tests.txt",
+      "bytes": 213316,
+      "sha256": "c2e1ef63e5c5969a3311a8edff4964d8a218ac7799ae5508f8e359764ee00a42",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "docs/qa/v0170-web-verification.json",
+      "bytes": 502,
+      "sha256": "48579229eae93856810fb703efb2f4ba8fa91990c8ee96a80e7b2d4e3d571017",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "export_presets.cfg",
+      "bytes": 8552,
+      "sha256": "7fb1cdba2e979f65caa58f88c9ade5cff8547037714375ca21a94077b236ed7d",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "package.py",
+      "bytes": 3936,
+      "sha256": "ff1aebb3bf5d0cf78344c136ede043bcccdfb5a52964f9b96132403ead341fe3",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 1278,
+      "sha256": "90f91a26150191fd529f505c133593563a21da495284babb02ab814a0fd9202d",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "run.sh",
+      "bytes": 405,
+      "sha256": "c7089650f38b0ef44dec45b46b8990e1a8153152271e1b792fc4dc9194245b29",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scenes/main.tscn",
+      "bytes": 176,
+      "sha256": "da12b49b83a9921e087576f53278fe1c6b6f6607509462554c979c51df11b765",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scenes/player/player.tscn",
+      "bytes": 182,
+      "sha256": "dc44d41288561bb709b4de54a4d26e465e2e3343ea7eec9e2eb4a353c25054eb",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ai/candle_slime.gd",
+      "bytes": 15991,
+      "sha256": "f3ddb10e898ca65016f3f399e9cd60f84e2b5c4eebe14fd8f6676a76004e6a21",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ai/candle_slime.gd.uid",
+      "bytes": 20,
+      "sha256": "ecf34d102c80fbd6c428e42aaae75a2737af95370f5e365a45e6d2c7bfe1737e",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ai/living_stage_enemy.gd",
+      "bytes": 6670,
+      "sha256": "148483eda335762d002e23f47143a328f589796d448deb919758564d9a1e6600",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ai/living_stage_enemy.gd.uid",
+      "bytes": 20,
+      "sha256": "4b82d7d411adf1bbac6cfb765e80c1cfb1b7fa502cf174afb7c19c1d0cad2ce1",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ai/perfect_examiner.gd",
+      "bytes": 9104,
+      "sha256": "ada2e331c60a47da8c3a160e25fc6d8523c8959150c5564ad25e861764675bb9",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ai/perfect_examiner.gd.uid",
+      "bytes": 20,
+      "sha256": "31df80539f04f4ec5ffe5159e3ae71c64746a195b24d4d582c118ade44a3b9a1",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/combat/element_affinity.gd",
+      "bytes": 4905,
+      "sha256": "07a4150003cbb68217f42c29613ecf3c528d0c520591815baf096dc852da44ae",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/combat/element_affinity.gd.uid",
+      "bytes": 20,
+      "sha256": "d632041acac929307532ed8ffd0b554222e57acb5d9df57d7effd10707cdba45",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/combat/health.gd",
+      "bytes": 403,
+      "sha256": "52016fab040af12ab14e95c79332376c4c4e6c754f4ef8c959cfd9358ee963a0",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/combat/health.gd.uid",
+      "bytes": 19,
+      "sha256": "0d54472d5340dd959dada3cc077fa0a3d750b341182df10d8183a2385b31242e",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/combat/projectile.gd",
+      "bytes": 6828,
+      "sha256": "e52fd284cc3519f3ae867cbb06467de628d7ba469a5c7ce4ba7234b04cf10478",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/combat/projectile.gd.uid",
+      "bytes": 19,
+      "sha256": "6a717ad3b3e017f6c1920b6db088451b8824aa40151f50fca053dd617f6a0b45",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/arcane_shelf.gd",
+      "bytes": 7567,
+      "sha256": "458df2d891827d9d57d233e1bded9818d85bdb638cc72e6d4de90ce3989f1910",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/arcane_shelf.gd.uid",
+      "bytes": 19,
+      "sha256": "0a4210aabdf1bdf97d397925a77ca6d9fcb43f4bb5a321e742d65e2c8e421787",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/archive_backdrop.gd",
+      "bytes": 8547,
+      "sha256": "c698f6a0c38c3cd7226a32eb1c136f40632a19bcedb49b7fe5380a69b78e6d38",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/archive_backdrop.gd.uid",
+      "bytes": 20,
+      "sha256": "aedcd998d76efc9f39c457876da74e79af681513f7dfe25fdbe1f141bb305d57",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/attack_telegraph.gd",
+      "bytes": 4588,
+      "sha256": "29039d55f52b49cee532c56d423fc915d5b53f7e62c210241ee801aa844694be",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/attack_telegraph.gd.uid",
+      "bytes": 20,
+      "sha256": "436c3e6d8b1134b922d2b0e68b8db678242b3ebbfc83e1aa77a6bb940c3e7da6",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/attack_telegraph.gdshader",
+      "bytes": 3499,
+      "sha256": "ab438b0e70f39c95aed0a204caa67a32a1dc6a8f3db09a6f7c132f06d8f1c231",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/attack_telegraph.gdshader.uid",
+      "bytes": 20,
+      "sha256": "8bae5d177ec8cfb4af9bb3c71d9a633cb1b298c57bd6296225114885a1ce6a76",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/basic_magic_impact.gd",
+      "bytes": 3535,
+      "sha256": "1ac44c8e21da64ce5a403c0a623f44b5221bb203af98087165857b1630608ff3",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/basic_magic_impact.gd.uid",
+      "bytes": 20,
+      "sha256": "15e5c19db9ed0e75766efe15b33e9c638dce2d402c407aa79ac441a3fab4e15b",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/elemental_flight_ink.gd",
+      "bytes": 15178,
+      "sha256": "cf273168824805506e45c90f8585c1bd1d9953131592c910fdba0a72262fbccc",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/elemental_flight_ink.gd.uid",
+      "bytes": 19,
+      "sha256": "3366f11028b3012ab3ef2d388a479d4583e04a48fb4ffe68e052987e64e228ac",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/enemy_dissolve.gd",
+      "bytes": 2274,
+      "sha256": "7c4536f9b4d041d40ec683e9d6c9bc28e66cdb4969ccc402fd156f93cc19d2a7",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/enemy_dissolve.gd.uid",
+      "bytes": 20,
+      "sha256": "604bc01c693646765bcb8652acffe3e179354295a6981ff5dca6949424480ded",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/examiner_barrier.gd",
+      "bytes": 1097,
+      "sha256": "02fc5c35247ba88f1f6f942882c0f8e8fba4f8c2a0eb7a27e6605f6844dedb6b",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/examiner_barrier.gd.uid",
+      "bytes": 19,
+      "sha256": "58d99d889fa03e108fc0b9f6f9e9c4ca20ba81cad7a2548c09615a0fb63cc576",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/examiner_barrier.gdshader",
+      "bytes": 2572,
+      "sha256": "a49e34b2c161a3364c6f8bb307de681b2083edf6d441109b525e8619d7d1c131",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/examiner_barrier.gdshader.uid",
+      "bytes": 20,
+      "sha256": "ef6220064f3cddc6f20ac69f068edb31d6db8704673e3e05ef72da531a318dc5",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/expedition_markers.gd",
+      "bytes": 7363,
+      "sha256": "6e9fbcdd7e7b38f858c224945f74b4a6ad9336290d2d53e6cc5c2d82f11aa78b",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/expedition_markers.gd.uid",
+      "bytes": 20,
+      "sha256": "ab789e6d3fa324649be0e19fa742a4bba154070e603e9e2d65f05a979b80394f",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/fireball.gdshader",
+      "bytes": 980,
+      "sha256": "e7fea8e821b1d003d8dc74e581740959fe7cccadd2b23d04eb1fcff12858f2d8",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/fireball.gdshader.uid",
+      "bytes": 20,
+      "sha256": "eacdb4770d3454763a93d88a6613ad7c6b43b29e303cf7f7fd171937635af26f",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/loot_pickup.gd",
+      "bytes": 1780,
+      "sha256": "5420f95f0bdbe4a966fc5be8cefd005d08595a7c0f6589adf9b991f1763d32f8",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/loot_pickup.gd.uid",
+      "bytes": 20,
+      "sha256": "88311e128f6fde45aa8f40cab7ea071e46bdf81c9c9c609b881058c5bc42c7a1",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/miscast_burst.gd",
+      "bytes": 1390,
+      "sha256": "4ec9956bc9183b30d27847cfd1c005a40c07fa8df1cd99b6daac61b31f6e8157",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/miscast_burst.gd.uid",
+      "bytes": 20,
+      "sha256": "c6f3e883c68b6029d243892c5998f276e83aee642ddf60bc5385918c9b8f721f",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/painted_alpha.gdshader",
+      "bytes": 198,
+      "sha256": "6496b74561f97470acd97d8da9d9142a7862742212fd99002245d84493046cf7",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/painted_alpha.gdshader.uid",
+      "bytes": 20,
+      "sha256": "ab6b602e227168b1483e6d67e0fb7a4d270c1ba2e8ac7a25decc64aa415e3aab",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/shader_warmup.gd",
+      "bytes": 907,
+      "sha256": "b501d38df051223879a3fe1a8bd05aa917a30d24ab80d1da70b9c75687b946ec",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/shader_warmup.gd.uid",
+      "bytes": 20,
+      "sha256": "9f2a753e1484cb9de406c9121093876a10f5c2935c9e0dcbc5d9da64050b5d40",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/shelf_art.gd",
+      "bytes": 4280,
+      "sha256": "3057cb42f519f300254a84ab58d5d533010443e0e2e3ade97568d9bd7188c38a",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/shelf_art.gd.uid",
+      "bytes": 20,
+      "sha256": "b08f041671d33ff4a75299c17eb0537b2c56838a96198455ef6f517680e5faec",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/shop_gathering.gd",
+      "bytes": 13179,
+      "sha256": "a2b28f61acb2fd9e10fa7bf39532172d7c94353d1a6d9af53e8bb244e71faee3",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/shop_gathering.gd.uid",
+      "bytes": 20,
+      "sha256": "9f6cbd467dadc84f8d0e3f834859df4e43ce4213b8524b744cb65703fdd55f84",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/shop_gesture.gd",
+      "bytes": 2374,
+      "sha256": "bc13b26a67644ecaf8197f726012c23d28c942f146cd924b4e6e2cd73b963428",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/shop_gesture.gd.uid",
+      "bytes": 20,
+      "sha256": "efc3f6e45fc58db2b675dbfc9ee22e8ce26ee58e3c553a66f722f4f2a8852cf4",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/spell_art.gd",
+      "bytes": 812,
+      "sha256": "c49e6fd6befc7028b8a28ecb38e336fce933b1419fb543faed39d4176c3ffbee",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/effects/spell_art.gd.uid",
+      "bytes": 20,
+      "sha256": "250d1a753f870ab75001eb5c8a03a8da3e65f87f7e46da0abec2a9d50b74210f",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/player/cat_equipment_visual.gd",
+      "bytes": 2972,
+      "sha256": "98c50fde6bca656a127c12ccb9fdd0a206196cd3eb2d8172cf9b45be28335097",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/player/cat_equipment_visual.gd.uid",
+      "bytes": 20,
+      "sha256": "288931a0f7c4f56262302208677180eabfb35047cd10d529a40969eac8043ce7",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/player/cat_motion.gdshader",
+      "bytes": 1947,
+      "sha256": "efb75613058b0733a8e38a9d77b33751df34e4ee022a4502b35f36421cd2a2f7",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/player/cat_motion.gdshader.uid",
+      "bytes": 20,
+      "sha256": "49d0ba88eec0128733cced08315630e0ddc3a1edaf54b4520800328baa43d84c",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/player/cat_visual.gd",
+      "bytes": 9043,
+      "sha256": "94e249d7d055d0c4fe9160608c69c68cdc78ba29060b5a64f1dd6cce533479f1",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/player/cat_visual.gd.uid",
+      "bytes": 20,
+      "sha256": "448abf2106a12322216e0a94fb60db2820fdd31728940804d56c8eef03882e13",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/player/grounded_gait.gd",
+      "bytes": 384,
+      "sha256": "735fa8b38a79f5006bf8bbf9c7004f6b052b7baf4ce8aa82560e6bb379d56a8f",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/player/grounded_gait.gd.uid",
+      "bytes": 19,
+      "sha256": "3c4a79d95272731382017a1baea5736d57c0b79c9b1e7e6a55b81879c8ff3ed8",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/player/player.gd",
+      "bytes": 5795,
+      "sha256": "425544ec8bad7bf54e4bda0344ec33f262df23f0e2aab628640d7dfae4b2fd89",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/player/player.gd.uid",
+      "bytes": 20,
+      "sha256": "842018d012972304d9def8ef1d0a1ee112f594850afa44bf3e2f1abb2ad882ee",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/animal_cast.gd",
+      "bytes": 1162,
+      "sha256": "a969fd9a5cae9e47c2d7ba28976fca5dd733cb95b0db067c6957afbf49897de7",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/animal_cast.gd.uid",
+      "bytes": 20,
+      "sha256": "f5d5f9e5601f7b8e038c44ecfa9d762d65ae4de6441916da4459c55759379cca",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/character_stats.gd",
+      "bytes": 4691,
+      "sha256": "2859f21fcd08a75887450087a5bb320dd017fb8ca1be37e9b378ebafc1529662",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/character_stats.gd.uid",
+      "bytes": 20,
+      "sha256": "fb5abf4019009de15f48823ad411e6eec4baa0dfe40dee021ff5dd4e1d80a355",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/enchanted_art.gd",
+      "bytes": 2071,
+      "sha256": "ebd6f71e4c45dadb349121e4cd3bbfae5114e7c6a5f4e8969d6a526a53bc9ebe",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/enchanted_art.gd.uid",
+      "bytes": 20,
+      "sha256": "5a22351579fd9d6ed13c65ebfbe1955a9adcb7d8ed13bda42fe63882ab9c51af",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/equipment_art.gd",
+      "bytes": 8643,
+      "sha256": "8aa9a4144e81c3a95f2038d7f4cda606f95e2406e47a04ddcb7552550bd8fbac",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/equipment_art.gd.uid",
+      "bytes": 20,
+      "sha256": "35fc7ee2d1f6d32dc873c2549b1bd687331baf3a76f77d8a2d8722894afe409f",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/equipment_comparison.gd",
+      "bytes": 1142,
+      "sha256": "b1ebe615b9b43462ec77ddc8e32080285b6586fae432df31446f02619b3e4a11",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/equipment_comparison.gd.uid",
+      "bytes": 20,
+      "sha256": "a3b4a7afe1d360d0d7dcd132ab70588177e0d877a32a1a0b43f5196180d5cb27",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/grimoire_art.gd",
+      "bytes": 946,
+      "sha256": "72165596e2a39c6a1cf941ab3d36a85e791f9f6a6e59444bddb5b401cc497d60",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/grimoire_art.gd.uid",
+      "bytes": 19,
+      "sha256": "e6b49e4a5219170f7bed5018e991e9e63628c8c80738004af7dafc6aee99cca5",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/hires_art.gd",
+      "bytes": 398,
+      "sha256": "a3896e5571b432fcbc36d9a67efd7f4b8d9902fd913ebffa63128ba84d67b0f2",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/hires_art.gd.uid",
+      "bytes": 19,
+      "sha256": "6a3eb3283cfb870bea382754920deadc3f476052f8f55b29b5ab12de3613d852",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/living_stage_art.gd",
+      "bytes": 669,
+      "sha256": "4bcbf83e61b679a995aac13535e30bca477d4be41544d6ced14303fee89f523b",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/living_stage_art.gd.uid",
+      "bytes": 20,
+      "sha256": "bf8eefb5b216317a2b9590b2a508b0e99ee76280747f520d429fbf7fdd91e44e",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/story_consequences.gd",
+      "bytes": 5272,
+      "sha256": "b448046a2d81eadd139677bbcd032194d7b037a0c8f21b0c1917c6b2c1eb5927",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/story_consequences.gd.uid",
+      "bytes": 20,
+      "sha256": "e579c0ba3be1b5a3467d3d5b279b96704da2b545253987b934b565748355fc1c",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/story_shot.gd",
+      "bytes": 2315,
+      "sha256": "a95c3f7b7b1fa901782900a9908652836f0f3bda0d33224097028de4eae3e6af",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/story_shot.gd.uid",
+      "bytes": 20,
+      "sha256": "49e109b99de24f72899f4254e42a787a8ef22e580e46f73f792f07bbee1a8166",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/world_detail_art.gd",
+      "bytes": 1148,
+      "sha256": "ad08e308151c5648e6186e6eb19638aaa6eedea16ac97a1667fd8e1d844dbe37",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/presentation/world_detail_art.gd.uid",
+      "bytes": 19,
+      "sha256": "42ee85e7be88cf8a3faa18967dafae587614a566a51cc78384702e9c92814124",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/skills/item_skill_effect.gd",
+      "bytes": 9567,
+      "sha256": "85a2c32d6b4a45948f16cac9c667fb0e36704ff516c013fcf22c7e271cef2abd",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/skills/item_skill_effect.gd.uid",
+      "bytes": 19,
+      "sha256": "37af968b50c68478e10bcfda5039a4444d4786d282c2fe29334393c8e2e47d1c",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/skills/signature_skill_ink.gd",
+      "bytes": 5901,
+      "sha256": "4754a5506f67e9148e905807fff7f6bb10646975302adf88d19e0722917514e4",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/skills/signature_skill_ink.gd.uid",
+      "bytes": 20,
+      "sha256": "efba4cd2eb17c3e906ffda385d17f542cd4b9186017a2c56effb4e75ae6ccd22",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/skills/skill_cast_cue.gd",
+      "bytes": 3319,
+      "sha256": "da185dea5f79a79b05cc6d61185d69f08eeded744ae4f39d3e009a2d41493f3f",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/skills/skill_cast_cue.gd.uid",
+      "bytes": 20,
+      "sha256": "80fd79230d46ce4ed248acbba037e52f9efc1d77b8766ac3b549af5909c7a5f9",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/skills/skill_effect_ink.gd",
+      "bytes": 15114,
+      "sha256": "7b1cce5c467a5c5c3e3d8ca5874e8ab12767c78f8f8b8d3af97536c58ba39cff",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/skills/skill_effect_ink.gd.uid",
+      "bytes": 20,
+      "sha256": "d9fb25816e4783607ba7e60b67da4bf0984a0a0115ad29d9a10453b2f65fb30c",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/spells/basic_magic.gd",
+      "bytes": 2383,
+      "sha256": "b2cc51af21e45bed9bd563faa1a7278fc7795066b61e66e3e64bd734d4d3d9fd",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/spells/basic_magic.gd.uid",
+      "bytes": 20,
+      "sha256": "7bbb9b48447914978a59a57b51fb340d157fbd1fcbceb8f5f46711f65944c4c4",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/spells/item_skill_controller.gd",
+      "bytes": 16615,
+      "sha256": "dea0bc978798d444cf2c72720bb5b84b09ae4d247740a942b35f2e2be5f3eca9",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/spells/item_skill_controller.gd.uid",
+      "bytes": 20,
+      "sha256": "9a1359c4477657a84d4556603ddb2592db62ddb33240ce7899ccea134ae490b8",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/spells/outcome_resolver.gd",
+      "bytes": 704,
+      "sha256": "95f01f9c56cef6f5ef50fd873450e5d44e0b4b38714d60c214e2afd3c514436d",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/spells/outcome_resolver.gd.uid",
+      "bytes": 20,
+      "sha256": "46843253d1e560874c70ceb3ffa1009a118fc6396a0d6cbd74c0200873caf08c",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/spells/spell_controller.gd",
+      "bytes": 4873,
+      "sha256": "acf00d2c6af1da4a884994f6d1b220704fb28f472807eab77ab7a5c2879e72fa",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/spells/spell_controller.gd.uid",
+      "bytes": 20,
+      "sha256": "97e459e627ce717ec91e6cb22926cf5aca6a5efc5f41468bba665ea4215fad62",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/display_settings.gd",
+      "bytes": 5113,
+      "sha256": "8016061ad348a7ecf5d12c39bbaf9687776fe72fc5a6887e0a99dec5bda1a6f4",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/display_settings.gd.uid",
+      "bytes": 20,
+      "sha256": "48b46334e4463c8c625a722097c425c896f5c3f1c2f71c77939e1a724729883a",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/encounter_director.gd",
+      "bytes": 7551,
+      "sha256": "5453ea9b0f28e745c6162ff69a40bccb0c466e4387f4009f58f0de6b53551211",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/encounter_director.gd.uid",
+      "bytes": 20,
+      "sha256": "b0d2fd5f5e7c45f4f6ada8d0d6144e17d41c7f049e7b178207b20ac6d2a61954",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/expedition_run.gd",
+      "bytes": 5006,
+      "sha256": "90d254ff169f9eae3258f90578142fafdf259e8cd3a0048a4d21cae0d40653d3",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/expedition_run.gd.uid",
+      "bytes": 20,
+      "sha256": "92684bc621cb3736306c5bc329821ee2d5582d9587e5b65e3d7bd69394122f7a",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/game_locale.gd",
+      "bytes": 904,
+      "sha256": "42e27d437d64935d0c602d6124cda6dd5d284bc4beec13108ce5a915f1fd38e9",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/game_locale.gd.uid",
+      "bytes": 20,
+      "sha256": "d3468d6674e8c27254ba3bbf842c6723f86ce6c7059ffbb38a470105672c8a26",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/language.gd",
+      "bytes": 2082,
+      "sha256": "efecdc0c248be583967ceb16923cee7588d43a35a8c51f109ba1b52782f1b166",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/language.gd.uid",
+      "bytes": 19,
+      "sha256": "93cbc5ab25d05e7c144e54c635be458fa948edd24a21d14fa303444662d6e406",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/meta_progress.gd",
+      "bytes": 12604,
+      "sha256": "5e09e09cd5e61af50360e8f0723e14549f62df2f20d38801c7b0499d4d85a335",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/meta_progress.gd.uid",
+      "bytes": 20,
+      "sha256": "61eee5264a676cb249e429c2181eeddca2aa3c38d54ca687ae603f079b91a94d",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/room.gd",
+      "bytes": 33935,
+      "sha256": "672a194522727f56bc15316ead260b3d5a9c75fd25d99592d6d7759ef2f9aa0e",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/room.gd.uid",
+      "bytes": 20,
+      "sha256": "6bd87e65dd6f07efca11b827c8b8b4e40422bc5b696f89cf82396c61384b64c5",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/room_obstacles.gd",
+      "bytes": 4155,
+      "sha256": "3557d7ca4dddbdd7a67763df2b028d731c654dad49a90d744a24afca39253c9e",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/room_obstacles.gd.uid",
+      "bytes": 20,
+      "sha256": "0dea627cff87371e25bcfa6c953014ecb9931f6ac2039d4f165e479b6fdbe45e",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/sound_palette.gd",
+      "bytes": 3466,
+      "sha256": "89ab13d40851fa59230815e14377ea892c5f59dc72bd075ace1a7826e3b2a462",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/sound_palette.gd.uid",
+      "bytes": 20,
+      "sha256": "13bf523df3441600cf9b5d3bf963f4ea5ae12529ccf6f2ca13048ab9067d7b69",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/world_layout.gd",
+      "bytes": 1917,
+      "sha256": "6bbe19234895b8c6342186a1828ee739b801fb496f152b64c5cda3503b6efa57",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/systems/world_layout.gd.uid",
+      "bytes": 20,
+      "sha256": "0a78eadfffc3007a83fae938e46eae5d1ade2e619994f7bda93f30290d158552",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/cat_portrait.gd",
+      "bytes": 1344,
+      "sha256": "0c3595eef1502cbd6e44deecdd63d6667932aee88710f1549ad1e6525610d8ab",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/cat_portrait.gd.uid",
+      "bytes": 20,
+      "sha256": "80d9ab62da140208f1cde08d3e4e037d3c8992fa291cfcebb2ab45245cf6ad48",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/equipment_paperdoll.gd",
+      "bytes": 1709,
+      "sha256": "c9e90209eca1ff0ab7e1bbc6ca9e2c8f9bb92abb6173dbae4a4d01c76f7adcf6",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/equipment_paperdoll.gd.uid",
+      "bytes": 20,
+      "sha256": "f5933f17a16f1d0b6106ef69f4911aef2609a05707b6fa566951241fef5752fa",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/equipment_symbol.gd",
+      "bytes": 2445,
+      "sha256": "cd9c41203cf51b3659a19eac1c0b551a97ad31db0edc520e031e9f6f7ec1ec9d",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/equipment_symbol.gd.uid",
+      "bytes": 19,
+      "sha256": "04c85cd4730cddeff2e02979463e9aa3bdb458ad46a0aa546bc60822ee3c78cd",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/expedition_panel.gd",
+      "bytes": 31934,
+      "sha256": "d132e48daee9849c3606dc5e9948360b428e7d0f24f867d9f138203034acf4e6",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/expedition_panel.gd.uid",
+      "bytes": 20,
+      "sha256": "72241ed6554695de6a4d68a5997f7a4ef29ea9cc473b5d00f257736811058c76",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/hud.gd",
+      "bytes": 30493,
+      "sha256": "03e8f76a899f879326589557f5d6c3b5fb1b0912e40b96a07b6694a8c7dc6723",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/hud.gd.uid",
+      "bytes": 20,
+      "sha256": "4e5311ab05358477528111b645809f7747a5039e91a49da775697c524e02db10",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/route_compass.gd",
+      "bytes": 3866,
+      "sha256": "729aab5b2d609a3b08154d68f43b17b3eff021558ac16650249951bb861fb371",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/route_compass.gd.uid",
+      "bytes": 19,
+      "sha256": "8acf61f60fb8e730ba8ed851f048a95cf79ee95cf2d6986d7d01f63d3395676f",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/sector_banner.gd",
+      "bytes": 3811,
+      "sha256": "1cef662256e40febbf8aa012640f836ae2e4c17480db10baf699c10d795b0b1c",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/sector_banner.gd.uid",
+      "bytes": 19,
+      "sha256": "7940d3a131f3c59a7ef0e8c203f7791b59ce0ea4c9b42ebc0f36909c304c3210",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/settings_panel.gd",
+      "bytes": 9319,
+      "sha256": "b1d65a47ac2897ca35456f6ba9bcc1d5cea5b0104465d80068afdc1b7642f8bf",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/settings_panel.gd.uid",
+      "bytes": 20,
+      "sha256": "ddf90fe3c44c243e413ab8202fdff5864342b5415c2911a52ebd90c709692b80",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/shop_conversation.gd",
+      "bytes": 3483,
+      "sha256": "0b6115090c8c59ac8cc6fe17a0706d361c0ae510855f924dfd059224b609c475",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/shop_conversation.gd.uid",
+      "bytes": 19,
+      "sha256": "c183f524fa109a1959c8ca401b1ca6e90d188ccaba6472a4506c91c4dc36fd4f",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/story_director.gd",
+      "bytes": 49862,
+      "sha256": "61ef0843b4fe958b044419b2b95aad4274a2ba1b7a31cfcafdd0377657cc0eb2",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "scripts/ui/story_director.gd.uid",
+      "bytes": 20,
+      "sha256": "57c61ecba8c90c1b7ffd143d7aadadfe88a256fcf9d79ec303b1e2e931c65482",
+      "group": "code",
+      "runtime_fingerprint": true,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "setup-exports.sh",
+      "bytes": 2567,
+      "sha256": "0a1aa15887388b22581d9a9e9446551f2df5e98620c6bcf58f8e8b13c1bcbec3",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "test.sh",
+      "bytes": 1355,
+      "sha256": "119d10697d0366c8250c9ae114fdb30a6b24e23953dbc59b9475591e7f1c2211",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/academy_refresh.gd",
+      "bytes": 9022,
+      "sha256": "961fcaf11e960f72c6e9a382cd40b31848c23fea0758959a2818b78cae6ba882",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/academy_refresh.gd.uid",
+      "bytes": 20,
+      "sha256": "a3dda30dce58f62e15f224ede43e1e1aeb194a2647b094fd05d1931fe951fe25",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/accidents.gd",
+      "bytes": 6156,
+      "sha256": "ab5f5dbb4c034e22b20dfc2efea0d81fbeac8c058dea694eb1366570f455d300",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/accidents.gd.uid",
+      "bytes": 19,
+      "sha256": "1d40069d39c6ae48ec552b83ea49cd72d0dc5727277c8afe36e5ce3036074f5e",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/animal_cast.gd",
+      "bytes": 7003,
+      "sha256": "0f43c3076aa9e05dee621cf6afa3d1cb607e337d063c874f0bfe2c04a26795cb",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/animal_cast.gd.uid",
+      "bytes": 20,
+      "sha256": "351b90264022aedc8bc77d46669fbe1e315035908653b57f6212ae79f233e104",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/art_mapping.gd",
+      "bytes": 3776,
+      "sha256": "ad2ae2c4cc24b25fbe51ee41523481baa90d6978339bbc2a750127609d36ab6f",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/art_mapping.gd.uid",
+      "bytes": 20,
+      "sha256": "c2f0a859c2cd7e4d7bb2529a589ceafd1759bf43c28c2f8756f40640542a55fb",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/capture.gd",
+      "bytes": 954,
+      "sha256": "be5ca644f3133a44fafcffc71ecced1a0beabc416bd4d1998a3c3d20eb960172",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/capture.gd.uid",
+      "bytes": 19,
+      "sha256": "5cffc5d8fd859e77303354c610a57fb8fc475ee3c7401a43aa084eeefb9c363d",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/casual_inventory.gd",
+      "bytes": 14335,
+      "sha256": "992919c9c26f2a12266be1f1e8d7c6189d218a5f8f7c6d2f7c7749bcfc45ba31",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/casual_inventory.gd.uid",
+      "bytes": 19,
+      "sha256": "53a7ed23cc4b5e805062ef0fffefdf4fdc84092766de14f012ec8be93b2cf838",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/catalog_expansion.gd",
+      "bytes": 13713,
+      "sha256": "3f254b048b47149deb3590702248cc8d3e114a65ab3feb1726995e03131545ae",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/catalog_expansion.gd.uid",
+      "bytes": 20,
+      "sha256": "b93527ebbda28a053e9a4972eff94a5956f433110b55baeccbfd732091065fc4",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/character_stats.gd",
+      "bytes": 4348,
+      "sha256": "84e73c65569e20a452442085b61963b66136a6a7f8254d5a696911f8c0c0b4c7",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/character_stats.gd.uid",
+      "bytes": 19,
+      "sha256": "fecc4d2bbc7185617a4bbca2936af38664b0673c8647d40d8a441d3e5efea56a",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/desktop-smoke.py",
+      "bytes": 30435,
+      "sha256": "2da434ca36f4cde81b04c36bc23623085aa0d341e5c745f4d2c59c69db6ea33f",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/display_settings.gd",
+      "bytes": 6550,
+      "sha256": "a146d0d8d04f7ea71d1f9c4fcaf3a896deadea0b5e4383c600ea6e02f400ec6e",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/display_settings.gd.uid",
+      "bytes": 19,
+      "sha256": "b3dc5ffb2d7bbf29229f71f61c2e67fdd156d669bf0e50f3077a9144fb77f949",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/economy.gd",
+      "bytes": 7297,
+      "sha256": "5fa4cf86cf93dc48d0fed8dce833c32b0a27f424f04b7088b248bbdd6d11f032",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/economy.gd.uid",
+      "bytes": 20,
+      "sha256": "b3e8e2053813f968defea997425b0c495a3b37f0e09b1cc6de6e9a6642583171",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/element_affinity.gd",
+      "bytes": 7904,
+      "sha256": "f6a7c5e498fc9ddad8a893b25a4a8e92ee3014f9389d7586b974b1c5b6363082",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/element_affinity.gd.uid",
+      "bytes": 20,
+      "sha256": "f1010cd0b4ca3a2ea7d4650ef6e66c97251fcb3151ee2c64e837bfd67653d828",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/elemental_magic.gd",
+      "bytes": 10497,
+      "sha256": "3a77fbab8de0792b72122cc416ec8d35d9133a06e0be11ca3f35594d5f945ada",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/elemental_magic.gd.uid",
+      "bytes": 19,
+      "sha256": "08b8ba0b5266e60c0ab5f92012bdad76c31452841226ced12c443d61120ef5e0",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/elemental_nature.gd",
+      "bytes": 4377,
+      "sha256": "b5d3564233106484ed0d1c049d37273b1a940d7e3c6dbbc67ba3032fd2796398",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/elemental_nature.gd.uid",
+      "bytes": 20,
+      "sha256": "2b5787e18515262217aabc9ec6c06f5e5815c9806cbbdc169c29a72f4b8e107f",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/elemental_nature_render.gd",
+      "bytes": 1763,
+      "sha256": "8bc79585a5aca4c06f467e8a453403d4f63f9ec7a5debb46e0f89ba2b4c25b7e",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/elemental_nature_render.gd.uid",
+      "bytes": 19,
+      "sha256": "46646e26b9fab089d8eb74d7944b83e6a6f77c1502516ada5d16704b324b5e37",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/elemental_visual_fixture.gd",
+      "bytes": 4939,
+      "sha256": "57018d694f3eb4c24d82797a4d67517fa2e1bb83492a11f6f08d3562faf1eada",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/elemental_visual_fixture.gd.uid",
+      "bytes": 20,
+      "sha256": "c0dd46f283fbd173884f21832d28cd5d7c302489a3dbc3f28c6e4f9ac319e240",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/encounter_director.gd",
+      "bytes": 9209,
+      "sha256": "02e6b024397c2dea4e835c70c454cd7b15f7f230216408c66906fabc4ebc1db5",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/encounter_director.gd.uid",
+      "bytes": 20,
+      "sha256": "e84edfa8d00dd23d0af86dbba20b0638b9e9ac8a00b30c72b0aa0dda0976f71b",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/exit_loot.gd",
+      "bytes": 16004,
+      "sha256": "9ea8f32d112ac719b8841916982c4206799b2e0400497e29da34658c1ca5f8fd",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/exit_loot.gd.uid",
+      "bytes": 20,
+      "sha256": "eedb86e61bcfb5e2ae052ddc76806643c5660fb9852e11e7d8dea50853bceaa0",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/expedition.gd",
+      "bytes": 16631,
+      "sha256": "b8e702056d200cf4a0e5341544310c61590f5eb69bba398ae1f4430917cd1a05",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/expedition.gd.uid",
+      "bytes": 20,
+      "sha256": "d4b4d0fdd578491cb91732a209cb602bc80ba8a2f7b70c4c12f1c81117c95010",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/expedition_ui.gd",
+      "bytes": 6610,
+      "sha256": "801ebcf7b4a653eb9f4127871a3a565c6f8cc35b5721cf7e576ea0b273882ec3",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/expedition_ui.gd.uid",
+      "bytes": 20,
+      "sha256": "fcdf11a614d91867dc7d837e2c561ffc4eafbf6574927f75db9adf49cc0b58d5",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/feature_integration.gd",
+      "bytes": 6262,
+      "sha256": "14289ac55e89cff4d555c3fd24bedd9ba445c72f8e948db47ed26f8db63187a8",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/feature_integration.gd.uid",
+      "bytes": 20,
+      "sha256": "8822779cfcb945032e3bbd336a995b9c36d76227985519145b2c5aa23c4384bd",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/grimoire.gd",
+      "bytes": 9290,
+      "sha256": "1e92d405d8c81313df72e53932fce9a38e92b3d58934c4752118d954256c3d73",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/grimoire.gd.uid",
+      "bytes": 20,
+      "sha256": "e7e58b804846f42ba721f6c4680bc07eb6ddd48ce8cd23b79b122174f0ecdfd6",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/grimoire_character.gd",
+      "bytes": 4768,
+      "sha256": "eb705800d71b794f1f7b4cad95676abc7240150cd4a64d6e2d33269fc7cb8f92",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/grimoire_character.gd.uid",
+      "bytes": 20,
+      "sha256": "1f089b1d6d00fff342a16e55670a2bd86db268771afc1782850c0faf8697c3a1",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/grimoire_integration.gd",
+      "bytes": 8579,
+      "sha256": "e53c1f489b35905f8a08f517f28764107e8c1af163d49405e09c6468912d8c90",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/grimoire_integration.gd.uid",
+      "bytes": 19,
+      "sha256": "f7a8244faf6f8f54d9424a328867d8b3b8792705e4c6f2c738aa9c37acd7186e",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/grounded_gait.gd",
+      "bytes": 4384,
+      "sha256": "35d547beb9c7ad2750f72b82b458788f04cd146c3d5f1072f1a9e97a80075f65",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/grounded_gait.gd.uid",
+      "bytes": 20,
+      "sha256": "4965bde4007af5ccceb151947252e10d553bcd1164fe74433519f19729255655",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/hd_art.gd",
+      "bytes": 3592,
+      "sha256": "d23c1bf2663240d7824e2b79497c4960a1ad6e569b666ad853e16c550d10a197",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/hd_art.gd.uid",
+      "bytes": 20,
+      "sha256": "26c888493bb61f7c645e03db2b991d50dd87ba9f28ad5d4bdb3cc236f59d833b",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/hud_refresh.gd",
+      "bytes": 5643,
+      "sha256": "708da769050506e247b3279088783dc76ea05b7d07ab578864740b25ae1d45c1",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/hud_refresh.gd.uid",
+      "bytes": 20,
+      "sha256": "d0b78c64e2fc2e6420d4d4c95b2ebd1ce7e861add3fd63365ce51872d58f304d",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/item-skills-web.cjs",
+      "bytes": 3226,
+      "sha256": "ce9438d2383d75e6035fc9b7f89fb85f3b4aed7287944c0ea3c46269c5697e55",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/item_skills.gd",
+      "bytes": 26170,
+      "sha256": "d9a9a246a853a46639daa134acc8e0f34f835cda12226f8d485160e401dd006b",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/item_skills.gd.uid",
+      "bytes": 20,
+      "sha256": "956d2bb26d9134f929fcbdc2265fb0e0f43c2e3a0d2d7b0f250f0d727bd08f8f",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/living_stages.gd",
+      "bytes": 9087,
+      "sha256": "0d2e2e22cf1eeeb70ea70216e6a5256f487b6752b4528d9e7351a3981216c8f5",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/living_stages.gd.uid",
+      "bytes": 20,
+      "sha256": "8d1c63a5ce8a496b78a8f0f6bada708bcd7de7094bb0ce351da7466d5afc07b9",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/localization_appearance.gd",
+      "bytes": 9869,
+      "sha256": "ef46d80366bd849332c58cd4ad0d9d405b41fb8cec2a9ee662aafff900558603",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/localization_appearance.gd.uid",
+      "bytes": 20,
+      "sha256": "bf60781781fae0a0762d92d207a196c76b90fc6a40ab50fa3d6155216d6c8bfa",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/localized-web.cjs",
+      "bytes": 11969,
+      "sha256": "9cf25b0b7f14f0b8e165d37e36b2e730ab1bf4f69616feff181199414336bf43",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/macos-package.py",
+      "bytes": 4686,
+      "sha256": "5c8f10ecf89fd4a6aa68e833974ad82694fd878db050c379b62d477bcedc3107",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/meta_progress.gd",
+      "bytes": 8558,
+      "sha256": "6ddaddbf753245a99c4fdddc2855b84f72d1ab03ae46d25b61334a8757d27cb1",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/meta_progress.gd.uid",
+      "bytes": 19,
+      "sha256": "21e17fcf5b11538838cb5da33eea0ed55bf3ecfbd99aa336aa1d74e7ca0d014d",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/performance.gd",
+      "bytes": 3005,
+      "sha256": "18dd27897bf7d57680e00a5f57eb9fffe1c37db1bd918230b305588e26047899",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/performance.gd.uid",
+      "bytes": 20,
+      "sha256": "53ba24579e518d4688d52556cf21dca57e48f7cbb5816c5acb8ee9af23d76855",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/performance_expedition.gd",
+      "bytes": 3259,
+      "sha256": "7c9e068b7cf5b9d17dcfee17c1aab62f671689c2fe44527c6bd6aaf581f3044b",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/performance_expedition.gd.uid",
+      "bytes": 20,
+      "sha256": "bc491706b3c0d1d9fb97d728124a602c17e521cc5f38ea65a8812ab6fe4ebc91",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/performance_telegraphs.gd",
+      "bytes": 510,
+      "sha256": "7266343f700e3abf5bdc7ced7d00a8579383ea4979a52196109e3beced59ffdb",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/performance_telegraphs.gd.uid",
+      "bytes": 20,
+      "sha256": "fcdaa87b19146834235012884d8b23d3e39fffe324e3be880f10b384b5075f67",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/performance_v013.gd",
+      "bytes": 9350,
+      "sha256": "1e76f20c3095bba7b2114b73dbba6b893d452f4d1275cdc5953add7356096155",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/performance_v013.gd.uid",
+      "bytes": 20,
+      "sha256": "ba6528536744eff307a1927302da3ce15a9f674be2d6ede3bd8eee627ace1cf1",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/performance_wardrobe.gd",
+      "bytes": 362,
+      "sha256": "03bfdfbab45cf60986df8e37e8b3dd665cf71a518ffadca6477369e3b32f45c7",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/performance_wardrobe.gd.uid",
+      "bytes": 20,
+      "sha256": "4cd62aa897fc54cbac46cfd9e6c98e2e33ded58e2cb9b5cb9c0d88423873f39e",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/pip_identity.gd",
+      "bytes": 5281,
+      "sha256": "87c28b82650af6531770d5fcad524d8a92117e17b03fdb96e0528666f212fd01",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/pip_identity.gd.uid",
+      "bytes": 20,
+      "sha256": "34d6872c18a8ee3991853d31fd0b58415a80f9b97e98716a4de9b4c088e9fbaa",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/platform-icons.py",
+      "bytes": 5724,
+      "sha256": "f827bf0af649d81fa471f3bcd81d768baa3be8f2cc0ede465fca3f088070e6dd",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/polish_presentation.gd",
+      "bytes": 8436,
+      "sha256": "504176889a973b6dd24f30e89f35719e3c164a3456d92757a8600a18a7625014",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/polish_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "b65abda6a01ed34d9422462f0178660084e37d41c0b83653724dce661be74615",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/presentation.gd",
+      "bytes": 6287,
+      "sha256": "e0e4fb06018fe5b31ad90efe09c2f17a39ed9caf4fca65653707552b8a92e682",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/presentation.gd.uid",
+      "bytes": 19,
+      "sha256": "7803e10d1239bfb196a12db75a619c136323dd4414e1f8741727f1b22f964b12",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/regression.gd",
+      "bytes": 5745,
+      "sha256": "afa8617968a4af0ae13d4f0325e4a182194ee3f3e60d421fbc9519806bdd6787",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/regression.gd.uid",
+      "bytes": 20,
+      "sha256": "0c45b0f717641637c620e9642e158b3b00313b4102e78c0e931a9be5a163d0c3",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/render_smoothing.gd",
+      "bytes": 5844,
+      "sha256": "3cfc7fe1d656960d7722884cfc55cc49f90c85f404c72e5a8458211a6b2b0c89",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/render_smoothing.gd.uid",
+      "bytes": 20,
+      "sha256": "ca6f7dc672a07b5826df36e8abed6ee4e90ce1d3b9b950547e170a30bb31cead",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/route_fixture.gd",
+      "bytes": 1476,
+      "sha256": "a22656ebda7fcf9295bb6086fe667342f37ddfee6f22badd0a6a1eacee86f694",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/route_fixture.gd.uid",
+      "bytes": 20,
+      "sha256": "1c3f7fd0f1782d41c3b0559d2cf35d78d6779a4677a541d0b7fed1d4ea3f7ac5",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/shop_gathering.gd",
+      "bytes": 4556,
+      "sha256": "9337c91260c1fc7758b63daf936d645437628d2f618002938c13f3743ff2cfed",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/shop_gathering.gd.uid",
+      "bytes": 19,
+      "sha256": "fa971f1f4a950c142932404c07b8a05362818ff5080c0832a653f71d4df8ea3d",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/shop_reactions.gd",
+      "bytes": 11256,
+      "sha256": "e96965ddffeac288ea4efa6154f54157662c62bfdc296cbc3fac6e5b7182a9a3",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/shop_reactions.gd.uid",
+      "bytes": 20,
+      "sha256": "022dc1764267445f7c623d833eaf9bcef597962339abf72b1a6029eb1812d333",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/signature_skills.gd",
+      "bytes": 9746,
+      "sha256": "a4fc5e276ab41afbeef5e3c8b5fe3ce06ab7e48a9f1a023a3f87238a86de3a38",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/signature_skills.gd.uid",
+      "bytes": 19,
+      "sha256": "2abe206f474e4008f4cc5145a22b4db9d126a0fdea4bfa5709f54edf74fe2515",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/skill_presentation.gd",
+      "bytes": 6724,
+      "sha256": "d7b98442841462bd222b873d290b34f14181dcf292b0758b0fa9d01e2fce91c9",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/skill_presentation.gd.uid",
+      "bytes": 20,
+      "sha256": "adb8ab5f1a1f6ce31493b4ead92026d2534ffabc88f89db92c20767490f3902a",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/smoke.gd",
+      "bytes": 6428,
+      "sha256": "a7debed8f4b51f2c9e7ab3aeecca7727b5eb56a5a66ce241c75e9ecf264b4723",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/smoke.gd.uid",
+      "bytes": 19,
+      "sha256": "33b3bf4065f1390e1e3f2a7f1608b7a7a1fa508c2ce1fb1ad0142c306bdec9f5",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/sound_palette.gd",
+      "bytes": 3928,
+      "sha256": "3b0cb52bd8d7c057e59866c62709b73f751683edbba4dc2d8b8464f0257bd30d",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/sound_palette.gd.uid",
+      "bytes": 20,
+      "sha256": "b37cd9c0a9965cf1f23206c11bc6f02c5674a39a124b6917bee13972e3b8cce2",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/story-web.cjs",
+      "bytes": 6476,
+      "sha256": "42eebe76c0a9a9a15e53a99adf157b18d00988b8c6841b21b91223ae9be2860f",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/story.gd",
+      "bytes": 12903,
+      "sha256": "ccb93a99bd92157ab80d14215a6f7169481a2c362eaebb05861a823172f49454",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/story.gd.uid",
+      "bytes": 19,
+      "sha256": "ff3317e940c9c1fa258f25b8b8954dadc2db259d1e85170bf37aaf0d46d84516",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/story_cinematics.gd",
+      "bytes": 7332,
+      "sha256": "0e45fe2c0df523c6bba45f6448e535dd253fc70f44692ada3f3c7fad85868908",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/story_cinematics.gd.uid",
+      "bytes": 20,
+      "sha256": "8aaa4984bac00939572c94781788c60f41f531b83f4afaecd6623f9d36f06d7c",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/story_consequences.gd",
+      "bytes": 7301,
+      "sha256": "e1f6dff124b706258234938f7a6fe1d7f0210344c3ef12632a42d9c1f11432c4",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/story_consequences.gd.uid",
+      "bytes": 20,
+      "sha256": "622b9af79a7ed6fd3405b45f225cd78e0ae867e62a215ce3296fc580f0b65d87",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/story_continuity.gd",
+      "bytes": 13137,
+      "sha256": "16aa13cf6be93b11dffe3b92230e8a020ff1327bd994887226949605e59fe759",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/story_continuity.gd.uid",
+      "bytes": 20,
+      "sha256": "37d9389015a961a6c44f7177f18d5228640122f0f5d827cb62c6f124add8a0ae",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/telegraphs.gd",
+      "bytes": 8037,
+      "sha256": "1fb148e2df92ba7947d33c4c4b1cc645db0e40c5cf677eb5be6ab165b57ca9ee",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/telegraphs.gd.uid",
+      "bytes": 20,
+      "sha256": "95bab2af31a27b3056f3101d523b698acb182e0e9b459cbff1f0fa575558c2b5",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/ui_polish.gd",
+      "bytes": 7715,
+      "sha256": "1e47ef695115f21f2ce1be3c8703bca839168c6fa94bc8bfc976d8e548b18b04",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/ui_polish.gd.uid",
+      "bytes": 20,
+      "sha256": "3966cc85e333393d7759dff36f134c9d89539e07b56c7f5881dd3306cf4c9ec2",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tests/web-smoke.cjs",
+      "bytes": 7550,
+      "sha256": "ca8ced1d375b381ce82156b5c5b7bdb440752ebbeb4691058da8e2b7cc339904",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tools/generate_sound_palette.py",
+      "bytes": 4000,
+      "sha256": "7b8e2b59e03134d9caf473fbf021af9f0a4e1e267b2b9476683e6407f2746385",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tools/package_handoff.py",
+      "bytes": 11852,
+      "sha256": "6c9b8b77d3315713bae2c878fa58836334ac5c52d906a45320764cab8a99cd32",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    },
+    {
+      "path": "tools/release_review.py",
+      "bytes": 14127,
+      "sha256": "cb7c9eb844a1a1bc737933b5cd4df06ea7d384a920d8dc3dd3a6e0021d3805b0",
+      "group": "code",
+      "runtime_fingerprint": false,
+      "archive": "Meowgnificent-v0.17.0-01-code.zip"
+    }
+  ],
+  "omitted_documentation": [
+    "docs/QA-v0.10.0.md",
+    "docs/QA-v0.11.0.md",
+    "docs/QA-v0.12.0.md",
+    "docs/QA-v0.13.0.md",
+    "docs/QA-v0.14.0.md",
+    "docs/QA-v0.15.0.md",
+    "docs/QA-v0.16.0.md",
+    "docs/QA-v0.5.0.md",
+    "docs/QA-v0.6.0.md",
+    "docs/QA-v0.7.0.md",
+    "docs/QA-v0.8.0.md",
+    "docs/QA-v0.9.0.md",
+    "docs/RELEASE-v0.1.4.md",
+    "docs/RELEASE-v0.10.0.md",
+    "docs/RELEASE-v0.11.0.md",
+    "docs/RELEASE-v0.12.0.md",
+    "docs/RELEASE-v0.13.0.md",
+    "docs/RELEASE-v0.14.0.md",
+    "docs/RELEASE-v0.15.0.md",
+    "docs/RELEASE-v0.16.0.md",
+    "docs/RELEASE-v0.2.0.md",
+    "docs/RELEASE-v0.2.1.md",
+    "docs/RELEASE-v0.2.2.md",
+    "docs/RELEASE-v0.2.3.md",
+    "docs/RELEASE-v0.3.0.md",
+    "docs/RELEASE-v0.4.0.md",
+    "docs/RELEASE-v0.5.0.md",
+    "docs/RELEASE-v0.6.0.md",
+    "docs/RELEASE-v0.7.0.md",
+    "docs/RELEASE-v0.8.0.md",
+    "docs/RELEASE-v0.9.0.md",
+    "docs/phase1-gameplay.png",
+    "docs/phase1-gameplay.png.import",
+    "docs/phase1-intro.png",
+    "docs/phase1-intro.png.import",
+    "docs/phase1-paused.png",
+    "docs/phase1-paused.png.import",
+    "docs/qa/v0170-expanded-area-01.png",
+    "docs/qa/v0170-expanded-area-02.png",
+    "docs/qa/v0170-expanded-area-03.png",
+    "docs/qa/v0170-expanded-area-04.png",
+    "docs/qa/v0170-expanded-area-05.png",
+    "docs/qa/v0170-expanded-area-06.png",
+    "docs/qa/v0170-expanded-area-07.png",
+    "docs/qa/v0170-expanded-area-08.png",
+    "docs/qa/v0170-expanded-clean-cat.png",
+    "docs/qa/v0170-expanded-inventory.png",
+    "docs/qa/v0170-expanded-painted-arrival.png",
+    "docs/qa/v0170-expanded-painted-exit.png",
+    "docs/qa/v0170-expanded-research-magic.png",
+    "docs/qa/v0170-expanded-research-paws.png",
+    "docs/qa/v0170-expanded-research-preparation.png",
+    "docs/qa/v0170-expanded-research-rest.png",
+    "docs/qa/v0170-expanded-skill-bubble_guard.png",
+    "docs/qa/v0170-expanded-skill-chain_lightning.png",
+    "docs/qa/v0170-expanded-skill-chicken_dash.png",
+    "docs/qa/v0170-expanded-skill-cyclone.png",
+    "docs/qa/v0170-expanded-skill-frost_nova.png",
+    "docs/qa/v0170-expanded-skill-metal_bloom.png",
+    "docs/qa/v0170-expanded-skill-meteor_shower.png",
+    "docs/qa/v0170-expanded-skill-potion_bomb.png",
+    "docs/qa/v0170-expanded-skill-stone_quake.png",
+    "docs/qa/v0170-expanded-skill-tidal_surge.png",
+    "docs/qa/v0170-expanded-skill-verdant_grove.png",
+    "docs/qa/v0170-expanded-sooty-cat.png",
+    "docs/qa/v0170-export-linux.log",
+    "docs/qa/v0170-export-macos.log",
+    "docs/qa/v0170-export-web.log",
+    "docs/qa/v0170-export-windows.log",
+    "docs/qa/v0170-item-skills-web-tests.txt",
+    "docs/qa/v0170-linux-engine-reopened.log",
+    "docs/qa/v0170-linux-engine.log",
+    "docs/qa/v0170-linux-process-reopened.log",
+    "docs/qa/v0170-linux-process.log",
+    "docs/qa/v0170-linux-results.json",
+    "docs/qa/v0170-linux-tests.log",
+    "docs/qa/v0170-localized-web-tests.txt",
+    "docs/qa/v0170-macos-package.txt",
+    "docs/qa/v0170-performance/baseline16-repeat.log",
+    "docs/qa/v0170-performance/baseline16.log",
+    "docs/qa/v0170-performance/expanded-combat-1.log",
+    "docs/qa/v0170-performance/expanded-combat-2.log",
+    "docs/qa/v0170-performance/final-story.log",
+    "docs/qa/v0170-performance/painted17.log",
+    "docs/qa/v0170-platform-icons.txt",
+    "docs/qa/v0170-source-cold-academy_refresh.log",
+    "docs/qa/v0170-source-cold-casual_inventory.log",
+    "docs/qa/v0170-source-cold-display_settings.log",
+    "docs/qa/v0170-source-cold-element_affinity.log",
+    "docs/qa/v0170-source-cold-elemental_magic.log",
+    "docs/qa/v0170-source-cold-elemental_nature.log",
+    "docs/qa/v0170-source-cold-encounter_director.log",
+    "docs/qa/v0170-source-cold-expedition_ui.log",
+    "docs/qa/v0170-source-cold-hd_art.log",
+    "docs/qa/v0170-source-cold-import-1.log",
+    "docs/qa/v0170-source-cold-import-2.log",
+    "docs/qa/v0170-source-cold-living_stages.log",
+    "docs/qa/v0170-source-cold-polish_presentation.log",
+    "docs/qa/v0170-source-cold-render_smoothing.log",
+    "docs/qa/v0170-source-cold-shop_reactions.log",
+    "docs/qa/v0170-source-cold-signature_skills.log",
+    "docs/qa/v0170-source-cold-smoke.log",
+    "docs/qa/v0170-source-cold-sound_palette.log",
+    "docs/qa/v0170-source-cold-story_consequences.log",
+    "docs/qa/v0170-source-cold-story_continuity.log",
+    "docs/qa/v0170-source-cold-ui_polish.log",
+    "docs/qa/v0170-story-web-tests.txt",
+    "docs/qa/v0170-web-payload-sha256.json",
+    "docs/qa/v0170-web-smoke-tests.txt",
+    "docs/qa/v0170-windows-engine-reopened.log",
+    "docs/qa/v0170-windows-engine.log",
+    "docs/qa/v0170-windows-process-reopened.log",
+    "docs/qa/v0170-windows-process.log",
+    "docs/qa/v0170-windows-results.json",
+    "docs/qa/v0170-windows-tests.log",
+    "docs/web-release-gameplay.png",
+    "docs/web-release-gameplay.png.import"
+  ]
+}
