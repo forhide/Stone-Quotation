@@ -1,0 +1,68 @@
+[
+  {
+    "file": "Meowgnificent-v0.17.0-windows.zip",
+    "bytes": 65434428,
+    "sha256": "b52f9bc97cfc7a5e48d331ba685527b456815ba4adff3b2d2049cef2acc0b5bb",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-windows.zip",
+    "verified": true,
+    "content_type": "application/zip",
+    "final_host": "raw.githubusercontent.com",
+    "retrieval_url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-windows.zip",
+    "reused_exact_download": "download-standard-cache.log: verified full-byte official HTTPS fetch"
+  },
+  {
+    "file": "Meowgnificent-v0.17.0-linux.zip",
+    "bytes": 56464081,
+    "sha256": "8f42642899460b55b0338e1063f13d05838289071ab41127348af0def453f060",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-linux.zip",
+    "verified": true,
+    "content_type": "application/zip",
+    "final_host": "raw.githubusercontent.com",
+    "retrieval_url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-linux.zip",
+    "request_cache_policy": "Standard HTTP caching; full-byte freshly downloaded file verified against local SHA-256."
+  },
+  {
+    "file": "Meowgnificent-v0.17.0-web.zip",
+    "bytes": 40886446,
+    "sha256": "5e2ba7f198190ec477c0bbb454722d7dae4c4f7c146138697283f18e7ad50a6f",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-web.zip",
+    "verified": true,
+    "content_type": "application/zip",
+    "final_host": "raw.githubusercontent.com",
+    "retrieval_url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-web.zip",
+    "request_cache_policy": "Standard HTTP caching; full-byte freshly downloaded file verified against local SHA-256."
+  },
+  {
+    "file": "Meowgnificent-v0.17.0-macos.zip",
+    "bytes": 94501909,
+    "sha256": "1207d02eb552c889dcb76df1c63afa367722b9e1221b78b9c5bc97c5a1110e36",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-macos.zip",
+    "verified": true,
+    "content_type": "application/zip",
+    "final_host": "raw.githubusercontent.com",
+    "retrieval_url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-macos.zip",
+    "request_cache_policy": "Standard HTTP caching; full-byte freshly downloaded file verified against local SHA-256."
+  },
+  {
+    "file": "Meowgnificent-v0.17.0-source.zip",
+    "bytes": 74292834,
+    "sha256": "ae4c28662ffa088b61d8ada824132c80f2be9406f3a129f54fff5aeea3a165a1",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-source.zip",
+    "verified": true,
+    "content_type": "application/zip",
+    "final_host": "raw.githubusercontent.com",
+    "retrieval_url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-source.zip",
+    "request_cache_policy": "Standard HTTP caching; full-byte freshly downloaded file verified against local SHA-256."
+  },
+  {
+    "file": "Meowgnificent-v0.17.0-SHA256SUMS.txt",
+    "bytes": 491,
+    "sha256": "aecf4b3a6268b764a6dbb28eb25ddeb2bb31a56fdb86166cb38109f2c1b39420",
+    "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-SHA256SUMS.txt",
+    "verified": true,
+    "content_type": "text/plain; charset=utf-8",
+    "final_host": "raw.githubusercontent.com",
+    "retrieval_url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.17.0/Meowgnificent-v0.17.0-SHA256SUMS.txt",
+    "request_cache_policy": "Standard HTTP caching; full-byte freshly downloaded file verified against local SHA-256."
+  }
+]
