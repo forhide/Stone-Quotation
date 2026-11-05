@@ -1,0 +1,44 @@
+[
+  {
+    "trial": "baseline16",
+    "before_cpu": "usage_usec 12411961157\nuser_usec 9658962982\nsystem_usec 2752998174\nnice_usec 69716\nnr_periods 534039\nnr_throttled 7092\nthrottled_usec 566893737\nnr_bursts 0\nburst_usec 0\n",
+    "after_cpu": "usage_usec 12468272342\nuser_usec 9709250137\nsystem_usec 2759022205\nnice_usec 84394\nnr_periods 534426\nnr_throttled 7092\nthrottled_usec 566893737\nnr_bursts 0\nburst_usec 0\n",
+    "summary": {
+      "project_version": "0.16.0",
+      "frame_ms_mean": 61.8394864864865,
+      "frame_ms_p50": 57.538,
+      "frame_ms_p95": 122.175,
+      "draw_calls_mean": 380.803088803089,
+      "skill_casts": 11,
+      "rolls": 10
+    }
+  },
+  {
+    "trial": "painted17",
+    "before_cpu": "usage_usec 12468272342\nuser_usec 9709250137\nsystem_usec 2759022205\nnice_usec 84394\nnr_periods 534426\nnr_throttled 7092\nthrottled_usec 566893737\nnr_bursts 0\nburst_usec 0\n",
+    "after_cpu": "usage_usec 12533943349\nuser_usec 9771784040\nsystem_usec 2762159309\nnice_usec 84394\nnr_periods 534811\nnr_throttled 7100\nthrottled_usec 567333230\nnr_bursts 0\nburst_usec 0\n",
+    "summary": {
+      "project_version": "0.17.0",
+      "frame_ms_mean": 38.8147021791768,
+      "frame_ms_p50": 35.849,
+      "frame_ms_p95": 57.933,
+      "draw_calls_mean": 355.615012106538,
+      "skill_casts": 11,
+      "rolls": 10
+    }
+  },
+  {
+    "trial": "baseline16-repeat",
+    "before_cpu": "usage_usec 12533943349\nuser_usec 9771784040\nsystem_usec 2762159309\nnice_usec 84394\nnr_periods 534811\nnr_throttled 7100\nthrottled_usec 567333230\nnr_bursts 0\nburst_usec 0\n",
+    "after_cpu": "usage_usec 12593439523\nuser_usec 9822274512\nsystem_usec 2771165011\nnice_usec 84394\nnr_periods 535213\nnr_throttled 7119\nthrottled_usec 569677538\nnr_bursts 0\nburst_usec 0\n",
+    "summary": {
+      "project_version": "0.16.0",
+      "frame_ms_mean": 97.8658780487805,
+      "frame_ms_p50": 53.313,
+      "frame_ms_p95": 198.252,
+      "draw_calls_mean": 375.84756097561,
+      "skill_casts": 11,
+      "rolls": 10
+    }
+  }
+]

@@ -1,0 +1,4 @@
+PASS: Windows PE application icons match authored game ICO at 6 sizes
+PASS: Mac bundle references and contains the authored game ICNS
+PASS: project/window, Windows export and Mac export icon configuration uses the game assets
+PLATFORM ICONS RESULT: 3 checks, 0 failures

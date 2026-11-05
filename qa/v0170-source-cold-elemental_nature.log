@@ -1,0 +1,20 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: a travelling vine retains a bounded history instead of allocating an endless trail
+PASS: living growth has a short84–90px physical extent at normal physics cadence
+PASS: the final stem sample remains beside the actual growing contact point
+PASS: coarse and fine stepping preserve the same actual spell movement
+PASS: a frame hitch does not stretch or shorten the visible vine
+PASS: the new growing presentation retains gentle existing seeking rather than snapping
+PASS: the stored stem follows the real curved route rather than one rigid rotated sprite
+PASS: a coarse frame still sweeps the growing tip into its foe exactly once
+PASS: an old visible stem never damages a foe behind the true moving hit point
+PASS: a stationary spell cannot fill its history with duplicate samples
+PASS: water: material contact effect expires promptly without lingering nodes
+PASS: ice: material contact effect expires promptly without lingering nodes
+PASS: wind: material contact effect expires promptly without lingering nodes
+PASS: stone: material contact effect expires promptly without lingering nodes
+PASS: leaf: material contact effect expires promptly without lingering nodes
+PASS: lightning: material contact effect expires promptly without lingering nodes
+PASS: metal: material contact effect expires promptly without lingering nodes
+ELEMENTAL NATURE RESULT: 17 checks, 0 failures
