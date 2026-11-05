@@ -1,0 +1,38 @@
+[
+  {
+    "trial": "garden17-before",
+    "version": "0.17.0",
+    "summary": {
+      "frame_ms_mean": 27.4203835616439,
+      "frame_ms_p50": 26.545,
+      "frame_ms_p95": 37.217,
+      "frame_ms_max": 307.807,
+      "draw_calls_mean": 83.7671232876712,
+      "actual_page_changes": 2
+    }
+  },
+  {
+    "trial": "garden18-repeat",
+    "version": "0.18.0",
+    "summary": {
+      "frame_ms_mean": 26.8527142857143,
+      "frame_ms_p50": 25.39,
+      "frame_ms_p95": 37.838,
+      "frame_ms_max": 57.115,
+      "draw_calls_mean": 88.90625,
+      "actual_page_changes": 2
+    }
+  },
+  {
+    "trial": "garden17-after",
+    "version": "0.17.0",
+    "summary": {
+      "frame_ms_mean": 38.3526751592357,
+      "frame_ms_p50": 34.439,
+      "frame_ms_p95": 61.766,
+      "frame_ms_max": 142.205,
+      "draw_calls_mean": 84.3949044585987,
+      "actual_page_changes": 2
+    }
+  }
+]

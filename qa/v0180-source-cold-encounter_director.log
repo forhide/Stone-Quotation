@@ -1,0 +1,46 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Storeroom Mischief: a bounded thematic group fits its authored room
+PASS: The Broom Cupboard: a bounded thematic group fits its authored room
+PASS: The Returned Books: a bounded thematic group fits its authored room
+PASS: Whispering Index: a bounded thematic group fits its authored room
+PASS: The Reference Desk: a bounded thematic group fits its authored room
+PASS: Awakened Reagent Beds: a bounded thematic group fits its authored room
+PASS: The Rainwater Patch: a bounded thematic group fits its authored room
+PASS: The Overgrown Nursery: a bounded thematic group fits its authored room
+PASS: Reading-Room Patrol: a bounded thematic group fits its authored room
+PASS: The Unfinished Homework: a bounded thematic group fits its authored room
+PASS: The Overflowing Inkwell: a bounded thematic group fits its authored room
+PASS: The Reagent Convoy: a bounded thematic group fits its authored room
+PASS: The Crooked Flowerbeds: a bounded thematic group fits its authored room
+PASS: The Crystal Greenhouse: a bounded thematic group fits its authored room
+PASS: The Archive Threshold: a bounded thematic group fits its authored room
+PASS: The Binding Hall: a bounded thematic group fits its authored room
+PASS: The Perfect Grimoire: a bounded thematic group fits its authored room
+PASS: eight story areas now contain seventeen finite encounters and106foes, with both peaceful shops intact
+PASS: all eight enchantments occur in the real route with aligned roles, families and valid elite slots
+PASS: the library begins with its original six story-linked book positions
+PASS: a caller cannot mutate the authored encounter data through a returned definition
+PASS: clearing the first group opens an exploration interval instead of the stage exit
+PASS: the first group reports one clear without awarding final-stage completion
+PASS: waiting away from the next seal never spawns timer-based reinforcements
+PASS: inventory, story and settings pause exploration and its arrival clock
+PASS: approaching the marked zone begins a visible warning before any enemy spawns
+PASS: all previewed arrivals keep a safe gap around the cat and inside the enlarged arena
+PASS: a severe stalled frame cannot swallow the complete arrival telegraph
+PASS: pausing during the visible warning preserves its remaining time
+PASS: walking out of the seal cancels the unspawned group safely
+PASS: returning and completing the full warning requests exactly one bounded new group
+PASS: an active group cannot be duplicated by later director ticks
+PASS: the second clear still leaves one finite library encounter
+PASS: the third encounter starts through the same visible exploration flow
+PASS: only the third clear completes the library route
+PASS: repeated clear/tick calls cannot duplicate completion, rewards or enemies
+PASS: the final area begins with defenders and does not spawn its boss early
+PASS: the second archive encounter remains a defender group
+PASS: the last encounter brings the original180HP boss with three supporting defenders
+PASS: a shop resets pending combat and has no artificial encounters
+PASS: loading another area cancels a previous area's armed reinforcements
+PASS: every followup group remains inside the world, separated and safely away from five approach directions
+PASS: entering a landing circle moves it away and restarts the full visible warning
+ENCOUNTER DIRECTOR RESULT: 43 checks, 0 failures

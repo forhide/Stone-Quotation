@@ -1,0 +1,29 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: the primary spell name has its own line instead of competing with its readiness caption
+PASS: both primary captions remain inside their card and clear of the special skill
+PASS: a future long equipment spell name is contained rather than widening the HUD
+PASS: the primary recovery fill advances between rounded timer updates
+PASS: the full primary recovery bar agrees with readiness
+PASS: changing equipment during recovery cannot draw the fill outside its card
+PASS: Pip's shop exposes the direct satchel action
+PASS: a full satchel blocks equipment purchases while allowing useful food
+PASS: the purchase shortcut cannot charge for gear that will not fit
+PASS: the shop's satchel action opens the wardrobe without resuming combat
+PASS: the wardrobe clearly leads back to the same shop
+PASS: making room still requires a deliberate second discard press
+PASS: the shop wardrobe can free a real equipment slot
+PASS: discard rebuilds the grid without losing keyboard focus
+PASS: I returns to Pip with the same stock, prices and sold flags
+PASS: the newly freed slot immediately re-enables the blocked purchase
+PASS: buying after making room charges once and fills the free slot
+PASS: a sold offer moves keyboard focus to an available control
+PASS: equipping from the shop wardrobe restores focus to the selected item
+PASS: the entire shopping route preserves paused spell and special recovery
+PASS: the first Escape returns from wardrobe to the paused shop
+PASS: full-satchel notice and both footer actions fit without overlap: ko
+PASS: the comparison and return-to-shop action fit the wardrobe: ko
+PASS: full-satchel notice and both footer actions fit without overlap: en
+PASS: the comparison and return-to-shop action fit the wardrobe: en
+PASS: the second Escape closes the shop and returns control to the same stage
+UI POLISH RESULT: 26 checks, 0 failures

@@ -1,0 +1,16 @@
+[
+  {
+    "platform": "linux",
+    "checks": 25,
+    "passed": true,
+    "scope": "tutorial combat, area02 transition, loot/equipment UI, defeat, permanent-profile reload; not full 8-area clear",
+    "archive_sha256": "2e4044099b3976a77b8c55e9e8d7d8794c4522fd9a93639d97ad637b86890270"
+  },
+  {
+    "platform": "windows",
+    "checks": 25,
+    "passed": true,
+    "scope": "tutorial combat, area02 transition, loot/equipment UI, defeat, permanent-profile reload; not full 8-area clear",
+    "archive_sha256": "65d4457620da7005c06cd6f5fe2e2a30a93f8fcb121d8575a781d391e765426a"
+  }
+]

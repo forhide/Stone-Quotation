@@ -1,0 +1,25 @@
+[
+  {
+    "platform": "windows",
+    "export_payload_matches": true,
+    "files": 1,
+    "sha256": "b76d5d3450d7add4ebd59dadf49e8f31ec1fa6f9c4318910b79146bf2104adfe"
+  },
+  {
+    "platform": "linux",
+    "export_payload_matches": true,
+    "files": 1,
+    "sha256": "2131758e0e7477395b2c121333f7f2491ef36045e159c49129d9a46733a14f7a"
+  },
+  {
+    "platform": "macos",
+    "export_and_permissions_match": true,
+    "mac_structure_and_signatures_checked": true,
+    "runtime_tested": false
+  },
+  {
+    "platform": "web",
+    "export_payload_matches": true,
+    "files": 13
+  }
+]

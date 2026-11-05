@@ -1,0 +1,190 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: full motion stops before furniture even at coarse travel: 150.0
+PASS: full motion stops before furniture even at coarse travel: 500.0
+PASS: full motion stops before furniture even at coarse travel: 4000.0
+PASS: diagonal motion slides outside the ground footprint
+PASS: an inside spawn can be safely moved to the nearest free edge
+PASS: grounded enemies steer around the same cover
+PASS: the solid table foreground shares actor depth sorting
+PASS: reloading the same rest stop retains table depth sorting
+PASS: a real roll cannot cross the shop's painted table
+PASS: the clear lane beside the table stays traversable
+PASS: a cupboard stops a roll before it topples
+PASS: collapsed furniture opens its former footprint
+PASS: attack warning ends at solid cover
+PASS: a coarse enemy dash cannot hit the cat through furniture
+PASS: miscasting applies visible soot for2.8seconds
+PASS: soot is distinct from damage and never grants hit protection
+PASS: pause freezes soot duration
+PASS: soot remains through the middle of the requested duration
+PASS: soot clears without a permanent palette change
+PASS: version1 saves retain currency and old ranks, with new studies empty
+PASS: sixteen real studies offer125total ranks
+PASS: a normal commit migrates the save to the protected version2 format
+PASS: a first defeat with one foe beaten keeps a research reward
+PASS: the same defeat never pays twice
+PASS: research pays for actual progress and rejects repeated counts
+PASS: research survives defeat and an independent profile reload
+PASS: real purchase: vitality rank 1
+PASS: real purchase: vitality rank 2
+PASS: real purchase: vitality rank 3
+PASS: real purchase: vitality rank 4
+PASS: real purchase: vitality rank 5
+PASS: real purchase: vitality rank 6
+PASS: real purchase: vitality rank 7
+PASS: real purchase: vitality rank 8
+PASS: real purchase: purse rank 1
+PASS: real purchase: purse rank 2
+PASS: real purchase: purse rank 3
+PASS: real purchase: purse rank 4
+PASS: real purchase: purse rank 5
+PASS: real purchase: purse rank 6
+PASS: real purchase: purse rank 7
+PASS: real purchase: purse rank 8
+PASS: real purchase: magnet rank 1
+PASS: real purchase: magnet rank 2
+PASS: real purchase: magnet rank 3
+PASS: real purchase: magnet rank 4
+PASS: real purchase: magnet rank 5
+PASS: real purchase: magnet rank 6
+PASS: real purchase: magnet rank 7
+PASS: real purchase: magnet rank 8
+PASS: real purchase: starter_wand rank 1
+PASS: real purchase: spell_power rank 1
+PASS: real purchase: spell_power rank 2
+PASS: real purchase: spell_power rank 3
+PASS: real purchase: spell_power rank 4
+PASS: real purchase: spell_power rank 5
+PASS: real purchase: spell_power rank 6
+PASS: real purchase: spell_power rank 7
+PASS: real purchase: spell_power rank 8
+PASS: real purchase: spell_power rank 9
+PASS: real purchase: spell_power rank 10
+PASS: real purchase: spell_pace rank 1
+PASS: real purchase: spell_pace rank 2
+PASS: real purchase: spell_pace rank 3
+PASS: real purchase: spell_pace rank 4
+PASS: real purchase: spell_pace rank 5
+PASS: real purchase: spell_pace rank 6
+PASS: real purchase: spell_pace rank 7
+PASS: real purchase: spell_pace rank 8
+PASS: real purchase: skill_power rank 1
+PASS: real purchase: skill_power rank 2
+PASS: real purchase: skill_power rank 3
+PASS: real purchase: skill_power rank 4
+PASS: real purchase: skill_power rank 5
+PASS: real purchase: skill_power rank 6
+PASS: real purchase: skill_power rank 7
+PASS: real purchase: skill_power rank 8
+PASS: real purchase: skill_power rank 9
+PASS: real purchase: skill_power rank 10
+PASS: real purchase: skill_pace rank 1
+PASS: real purchase: skill_pace rank 2
+PASS: real purchase: skill_pace rank 3
+PASS: real purchase: skill_pace rank 4
+PASS: real purchase: skill_pace rank 5
+PASS: real purchase: skill_pace rank 6
+PASS: real purchase: skill_pace rank 7
+PASS: real purchase: skill_pace rank 8
+PASS: real purchase: speed rank 1
+PASS: real purchase: speed rank 2
+PASS: real purchase: speed rank 3
+PASS: real purchase: speed rank 4
+PASS: real purchase: speed rank 5
+PASS: real purchase: speed rank 6
+PASS: real purchase: speed rank 7
+PASS: real purchase: speed rank 8
+PASS: real purchase: roll_power rank 1
+PASS: real purchase: roll_power rank 2
+PASS: real purchase: roll_power rank 3
+PASS: real purchase: roll_power rank 4
+PASS: real purchase: roll_power rank 5
+PASS: real purchase: roll_power rank 6
+PASS: real purchase: roll_power rank 7
+PASS: real purchase: roll_power rank 8
+PASS: real purchase: roll_pace rank 1
+PASS: real purchase: roll_pace rank 2
+PASS: real purchase: roll_pace rank 3
+PASS: real purchase: roll_pace rank 4
+PASS: real purchase: roll_pace rank 5
+PASS: real purchase: roll_pace rank 6
+PASS: real purchase: roll_pace rank 7
+PASS: real purchase: roll_pace rank 8
+PASS: real purchase: protection rank 1
+PASS: real purchase: protection rank 2
+PASS: real purchase: protection rank 3
+PASS: real purchase: protection rank 4
+PASS: real purchase: protection rank 5
+PASS: real purchase: protection rank 6
+PASS: real purchase: protection rank 7
+PASS: real purchase: protection rank 8
+PASS: real purchase: armor rank 1
+PASS: real purchase: armor rank 2
+PASS: real purchase: armor rank 3
+PASS: real purchase: armor rank 4
+PASS: real purchase: armor rank 5
+PASS: real purchase: armor rank 6
+PASS: real purchase: armor rank 7
+PASS: real purchase: armor rank 8
+PASS: real purchase: healing rank 1
+PASS: real purchase: healing rank 2
+PASS: real purchase: healing rank 3
+PASS: real purchase: healing rank 4
+PASS: real purchase: healing rank 5
+PASS: real purchase: healing rank 6
+PASS: real purchase: healing rank 7
+PASS: real purchase: healing rank 8
+PASS: real purchase: reach rank 1
+PASS: real purchase: reach rank 2
+PASS: real purchase: reach rank 3
+PASS: real purchase: reach rank 4
+PASS: real purchase: reach rank 5
+PASS: real purchase: reach rank 6
+PASS: real purchase: reach rank 7
+PASS: real purchase: reach rank 8
+PASS: real purchase: tea rank 1
+PASS: real purchase: tea rank 2
+PASS: real purchase: tea rank 3
+PASS: real purchase: tea rank 4
+PASS: real purchase: tea rank 5
+PASS: real purchase: tea rank 6
+PASS: real purchase: tea rank 7
+PASS: real purchase: tea rank 8
+PASS: all branches are purchasable and have finite caps
+PASS: permanent vitality, movement and basic magic affect the actual stat model
+PASS: special and roll research affect the actual stat model
+PASS: armor and hit protection change real incoming damage
+PASS: snack research heals actual missing vitality without overheal
+PASS: all sixteen studies appear on one board: ko
+PASS: permanent studies need no scrolling or notebook tabs: ko
+PASS: all studies and return control fit the screen: ko
+PASS: all sixteen studies appear on one board: en
+PASS: permanent studies need no scrolling or notebook tabs: en
+PASS: all studies and return control fit the screen: en
+PASS: painted atlas crop is valid: fire_meteor
+PASS: painted atlas crop is valid: chain_lightning
+PASS: painted atlas crop is valid: tidal_surge
+PASS: painted atlas crop is valid: frost_nova
+PASS: painted atlas crop is valid: cyclone
+PASS: painted atlas crop is valid: stone_quake
+PASS: painted atlas crop is valid: verdant_grove
+PASS: painted atlas crop is valid: metal_bloom
+PASS: painted atlas crop is valid: ember
+PASS: painted atlas crop is valid: portal
+PASS: painted atlas crop is valid: seal
+PASS: painted atlas crop is valid: plaque
+PASS: painted atlas crop is valid: soot
+PASS: painted atlas crop is valid: shelf
+PASS: painted atlas crop is valid: fallen_shelf
+PASS: painted atlas crop is valid: cart
+PASS: painted atlas crop is valid: planter
+PASS: painted atlas crop is valid: crate
+PASS: painted atlas crop is valid: barrel
+PASS: painted atlas crop is valid: hatch
+PASS: painted atlas crop is valid: chest
+PASS: painted atlas crop is valid: bubble_painted
+PASS: painted atlas crop is valid: potion_splash
+PASS: painted atlas crop is valid: potion_bottle
+PASS: painted atlas crop is valid: feather
+ACADEMY REFRESH RESULT: 187 checks, 0 failures
