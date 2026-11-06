@@ -1,0 +1,49 @@
+{
+  "version": "v0.19.0",
+  "runtime_inputs_preserved": 291,
+  "archives_under_20_mib": true,
+  "all_archive_hashes_and_zip_integrity_verified": true,
+  "merged_without_duplicate_paths": true,
+  "required_extracted_files": 498,
+  "baseline_file_verification": "PASS: 493 baseline files; 291 runtime inputs match.",
+  "fresh_second_import_clean": true,
+  "fresh_project_tests": [
+    {
+      "suite": "smoke",
+      "checks": 30,
+      "passed": true
+    },
+    {
+      "suite": "hd_art",
+      "checks": 36,
+      "passed": true
+    },
+    {
+      "suite": "art_mapping",
+      "checks": 95,
+      "passed": true
+    },
+    {
+      "suite": "academy_refresh",
+      "checks": 189,
+      "passed": true
+    },
+    {
+      "suite": "storybook_refresh",
+      "checks": 238,
+      "passed": true
+    },
+    {
+      "suite": "world_readability",
+      "checks": 150,
+      "passed": true
+    },
+    {
+      "suite": "title_identity",
+      "checks": 19,
+      "passed": true
+    }
+  ],
+  "checks": 757,
+  "scope": "Exact v0.19.0 exported runtime inputs, clean independent import, source/art mapping and obstacle/soot/progression checks. Full runtime QA is recorded in QA-v0.19.0.md."
+}
