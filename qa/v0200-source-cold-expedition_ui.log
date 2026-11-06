@@ -1,0 +1,29 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: the playable floor has grown in both axes, rather than merely changing the window resolution
+PASS: the cached illustration covers the entire enlarged world
+PASS: the live world retains book and mushroom landmarks without baking the fixed HUD into the floor
+PASS: the actual cat and enemy presentations are reduced inside the larger arena
+PASS: the first guardian stays near its enlarged authored position while clearing painted furniture
+PASS: camera clamping never exposes empty space at floor corner (160.0, 256.0)
+PASS: camera clamping never exposes empty space at floor corner (1888.0, 256.0)
+PASS: camera clamping never exposes empty space at floor corner (160.0, 1112.0)
+PASS: camera clamping never exposes empty space at floor corner (1888.0, 1112.0)
+PASS: the minimap fits inside the purse header without covering the inventory button
+PASS: the real minimap includes every live guardian in the active group
+PASS: a locked passage is not prematurely advertised as the map destination
+PASS: the header distinguishes the first combat group from completion of the whole area
+PASS: aiming at a candle shows readable material weaknesses instead of raw array data
+PASS: aimed weakness feedback refreshes into Korean without retaining English element names
+PASS: clearing the first group reveals the next encounter rather than the stage exit
+PASS: between fights the map points to the actual next seal and removes defeated guardians
+PASS: the header explains what to do between fights
+PASS: the visible arrival warning has a matching preparation caption
+PASS: a safe stop map leads to its real open exit
+PASS: interaction and illustrated feet share the same world anchor: moss
+PASS: scrolling to moss opens a readable speech card inside the fixed UI safe area
+PASS: the animal keeps the new actor scale rather than inheriting the enlarged scenery: moss
+PASS: interaction and illustrated feet share the same world anchor: bloop
+PASS: scrolling to bloop opens a readable speech card inside the fixed UI safe area
+PASS: the animal keeps the new actor scale rather than inheriting the enlarged scenery: bloop
+EXPEDITION UI RESULT: 26 checks, 0 failures

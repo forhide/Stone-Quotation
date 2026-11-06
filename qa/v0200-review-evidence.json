@@ -1,0 +1,27 @@
+{
+  "version": "v0.20.0",
+  "visual_review_verified": true,
+  "performance_measured": true,
+  "runtime_inputs": 301,
+  "runtime_fingerprint_sha256": "340094861ed403dc7eaf4b7eb958f1457e2a4055ccd459112e78dad06d14d1a8",
+  "reviewed": {
+    "backgrounds": 8,
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "window_sizes": [
+      "1280x800",
+      "1024x640",
+      "1920x1080"
+    ],
+    "new_spell_silhouettes": 16,
+    "necklaces": 3,
+    "npc_conversation": true,
+    "guide_and_aside": true,
+    "pause_menu": true
+  },
+  "evidence_prefix": "docs/qa/v0200-",
+  "notes": "Root inspected actual OpenGL screenshots of8areas, separate16spellforms, connected necklaces, Pip depth/pages, persistent guidance/asides and pause. Storage cabinet floor boundary was corrected following native execution and rechecked by full source regression and executable navigation. Some visual fixtures freeze foes; performance fixture is separate.",
+  "performance_evidence": "docs/qa/v0200-performance/expanded-summary.json"
+}

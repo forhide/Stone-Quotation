@@ -1,0 +1,153 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: start-screen settings do not overlap the tall introduction or research action
+PASS: full destination, identity and eyebrow have breathing room: ko0
+PASS: objective and encounter text fit without relying on ellipsis: ko0
+PASS: full destination, identity and eyebrow have breathing room: ko1
+PASS: objective and encounter text fit without relying on ellipsis: ko1
+PASS: full destination, identity and eyebrow have breathing room: ko2
+PASS: objective and encounter text fit without relying on ellipsis: ko2
+PASS: full destination, identity and eyebrow have breathing room: ko3
+PASS: objective and encounter text fit without relying on ellipsis: ko3
+PASS: full destination, identity and eyebrow have breathing room: ko4
+PASS: objective and encounter text fit without relying on ellipsis: ko4
+PASS: full destination, identity and eyebrow have breathing room: ko5
+PASS: objective and encounter text fit without relying on ellipsis: ko5
+PASS: full destination, identity and eyebrow have breathing room: ko6
+PASS: objective and encounter text fit without relying on ellipsis: ko6
+PASS: full destination, identity and eyebrow have breathing room: ko7
+PASS: objective and encounter text fit without relying on ellipsis: ko7
+PASS: equipped spell name and readiness stay readable: ko / crooked_ash_wand
+PASS: equipped spell name and readiness stay readable: ko / cinderfork_wand
+PASS: equipped spell name and readiness stay readable: ko / apprentice_thesis
+PASS: equipped spell name and readiness stay readable: ko / practice_wand
+PASS: equipped spell name and readiness stay readable: ko / frost_whisker_wand
+PASS: equipped spell name and readiness stay readable: ko / hopscotch_wand
+PASS: equipped spell name and readiness stay readable: ko / pip_feather_staff
+PASS: equipped spell name and readiness stay readable: ko / moss_bud_staff
+PASS: equipped spell name and readiness stay readable: ko / bloop_bottle_wand
+PASS: equipped spell name and readiness stay readable: ko / thunder_spoon
+PASS: equipped spell name and readiness stay readable: ko / bubble_teapot
+PASS: equipped spell name and readiness stay readable: ko / comet_crayon
+PASS: equipped spell name and readiness stay readable: ko / silverthorn_wand
+PASS: equipped spell name and readiness stay readable: ko / embermatch_wand
+PASS: equipped spell name and readiness stay readable: ko / hearth_lantern_staff
+PASS: equipped spell name and readiness stay readable: ko / sunfizz_scepter
+PASS: equipped spell name and readiness stay readable: ko / brook_reed_wand
+PASS: equipped spell name and readiness stay readable: ko / tide_shell_staff
+PASS: equipped spell name and readiness stay readable: ko / moonwell_scepter
+PASS: equipped spell name and readiness stay readable: ko / icicle_chopstick
+PASS: equipped spell name and readiness stay readable: ko / snowbell_staff
+PASS: equipped spell name and readiness stay readable: ko / aurora_crown_staff
+PASS: equipped spell name and readiness stay readable: ko / whistle_reed_wand
+PASS: equipped spell name and readiness stay readable: ko / ribbon_kite_staff
+PASS: equipped spell name and readiness stay readable: ko / cloudwheel_scepter
+PASS: equipped spell name and readiness stay readable: ko / pebble_mallet_wand
+PASS: equipped spell name and readiness stay readable: ko / geode_lantern_staff
+PASS: equipped spell name and readiness stay readable: ko / mountain_tortoise_staff
+PASS: equipped spell name and readiness stay readable: ko / sprout_spindle_wand
+PASS: equipped spell name and readiness stay readable: ko / fern_crook_staff
+PASS: equipped spell name and readiness stay readable: ko / elder_bloom_scepter
+PASS: equipped spell name and readiness stay readable: ko / copper_fork_wand
+PASS: equipped spell name and readiness stay readable: ko / storm_bell_staff
+PASS: equipped spell name and readiness stay readable: ko / tempest_coil_scepter
+PASS: equipped spell name and readiness stay readable: ko / sewing_needle_wand
+PASS: equipped spell name and readiness stay readable: ko / silver_rose_staff
+PASS: equipped spell name and readiness stay readable: ko / starlance_scepter
+PASS: currency and vitality have full line-height padding: ko
+PASS: complete outcome copy fits its separate status rows: ko / success
+PASS: complete outcome copy fits its separate status rows: ko / miscast
+PASS: complete outcome copy fits its separate status rows: ko / overreaction
+PASS: health and outcome captions are separated from the next row: ko
+PASS: Pip's shop/talk instructions belong to a padded screen-space status card: ko
+PASS: an illustrated exit still has an accessible localized interaction instruction: ko
+PASS: full destination, identity and eyebrow have breathing room: en0
+PASS: objective and encounter text fit without relying on ellipsis: en0
+PASS: full destination, identity and eyebrow have breathing room: en1
+PASS: objective and encounter text fit without relying on ellipsis: en1
+PASS: full destination, identity and eyebrow have breathing room: en2
+PASS: objective and encounter text fit without relying on ellipsis: en2
+PASS: full destination, identity and eyebrow have breathing room: en3
+PASS: objective and encounter text fit without relying on ellipsis: en3
+PASS: full destination, identity and eyebrow have breathing room: en4
+PASS: objective and encounter text fit without relying on ellipsis: en4
+PASS: full destination, identity and eyebrow have breathing room: en5
+PASS: objective and encounter text fit without relying on ellipsis: en5
+PASS: full destination, identity and eyebrow have breathing room: en6
+PASS: objective and encounter text fit without relying on ellipsis: en6
+PASS: full destination, identity and eyebrow have breathing room: en7
+PASS: objective and encounter text fit without relying on ellipsis: en7
+PASS: equipped spell name and readiness stay readable: en / crooked_ash_wand
+PASS: equipped spell name and readiness stay readable: en / cinderfork_wand
+PASS: equipped spell name and readiness stay readable: en / apprentice_thesis
+PASS: equipped spell name and readiness stay readable: en / practice_wand
+PASS: equipped spell name and readiness stay readable: en / frost_whisker_wand
+PASS: equipped spell name and readiness stay readable: en / hopscotch_wand
+PASS: equipped spell name and readiness stay readable: en / pip_feather_staff
+PASS: equipped spell name and readiness stay readable: en / moss_bud_staff
+PASS: equipped spell name and readiness stay readable: en / bloop_bottle_wand
+PASS: equipped spell name and readiness stay readable: en / thunder_spoon
+PASS: equipped spell name and readiness stay readable: en / bubble_teapot
+PASS: equipped spell name and readiness stay readable: en / comet_crayon
+PASS: equipped spell name and readiness stay readable: en / silverthorn_wand
+PASS: equipped spell name and readiness stay readable: en / embermatch_wand
+PASS: equipped spell name and readiness stay readable: en / hearth_lantern_staff
+PASS: equipped spell name and readiness stay readable: en / sunfizz_scepter
+PASS: equipped spell name and readiness stay readable: en / brook_reed_wand
+PASS: equipped spell name and readiness stay readable: en / tide_shell_staff
+PASS: equipped spell name and readiness stay readable: en / moonwell_scepter
+PASS: equipped spell name and readiness stay readable: en / icicle_chopstick
+PASS: equipped spell name and readiness stay readable: en / snowbell_staff
+PASS: equipped spell name and readiness stay readable: en / aurora_crown_staff
+PASS: equipped spell name and readiness stay readable: en / whistle_reed_wand
+PASS: equipped spell name and readiness stay readable: en / ribbon_kite_staff
+PASS: equipped spell name and readiness stay readable: en / cloudwheel_scepter
+PASS: equipped spell name and readiness stay readable: en / pebble_mallet_wand
+PASS: equipped spell name and readiness stay readable: en / geode_lantern_staff
+PASS: equipped spell name and readiness stay readable: en / mountain_tortoise_staff
+PASS: equipped spell name and readiness stay readable: en / sprout_spindle_wand
+PASS: equipped spell name and readiness stay readable: en / fern_crook_staff
+PASS: equipped spell name and readiness stay readable: en / elder_bloom_scepter
+PASS: equipped spell name and readiness stay readable: en / copper_fork_wand
+PASS: equipped spell name and readiness stay readable: en / storm_bell_staff
+PASS: equipped spell name and readiness stay readable: en / tempest_coil_scepter
+PASS: equipped spell name and readiness stay readable: en / sewing_needle_wand
+PASS: equipped spell name and readiness stay readable: en / silver_rose_staff
+PASS: equipped spell name and readiness stay readable: en / starlance_scepter
+PASS: currency and vitality have full line-height padding: en
+PASS: complete outcome copy fits its separate status rows: en / success
+PASS: complete outcome copy fits its separate status rows: en / miscast
+PASS: complete outcome copy fits its separate status rows: en / overreaction
+PASS: health and outcome captions are separated from the next row: en
+PASS: Pip's shop/talk instructions belong to a padded screen-space status card: en
+PASS: an illustrated exit still has an accessible localized interaction instruction: en
+PASS: toppling blends into an authored ground pose: (0.0, -1.0)
+PASS: fallen perspective is never spun in screen space: (0.0, -1.0)
+PASS: the direction of falling damage and the opened passage still agree: (0.0, -1.0)
+PASS: the no-text maintenance nook keeps its one-shot interaction: (0.0, -1.0)
+PASS: toppling blends into an authored ground pose: (0.0, 1.0)
+PASS: fallen perspective is never spun in screen space: (0.0, 1.0)
+PASS: the direction of falling damage and the opened passage still agree: (0.0, 1.0)
+PASS: the no-text maintenance nook keeps its one-shot interaction: (0.0, 1.0)
+PASS: toppling blends into an authored ground pose: (-1.0, 0.0)
+PASS: fallen perspective is never spun in screen space: (-1.0, 0.0)
+PASS: the direction of falling damage and the opened passage still agree: (-1.0, 0.0)
+PASS: the no-text maintenance nook keeps its one-shot interaction: (-1.0, 0.0)
+PASS: toppling blends into an authored ground pose: (1.0, 0.0)
+PASS: fallen perspective is never spun in screen space: (1.0, 0.0)
+PASS: the direction of falling damage and the opened passage still agree: (1.0, 0.0)
+PASS: the no-text maintenance nook keeps its one-shot interaction: (1.0, 0.0)
+PASS: painted world symbol has a complete valid crop: library
+PASS: painted world symbol has a complete valid crop: garden
+PASS: painted world symbol has a complete valid crop: paving_moss
+PASS: painted world symbol has a complete valid crop: paving_grass
+PASS: world scenery and combat effects contain no live font stamps: effects/archive_backdrop.gd
+PASS: world scenery and combat effects contain no live font stamps: effects/arcane_shelf.gd
+PASS: world scenery and combat effects contain no live font stamps: effects/expedition_markers.gd
+PASS: world scenery and combat effects contain no live font stamps: effects/loot_pickup.gd
+PASS: world scenery and combat effects contain no live font stamps: effects/miscast_burst.gd
+PASS: world scenery and combat effects contain no live font stamps: presentation/story_consequences.gd
+PASS: world scenery and combat effects contain no live font stamps: systems/encounter_director.gd
+PASS: world scenery and combat effects contain no live font stamps: systems/room.gd
+PASS: world scenery and combat effects contain no live font stamps: ai/perfect_examiner.gd
+WORLD READABILITY RESULT: 150 checks, 0 failures

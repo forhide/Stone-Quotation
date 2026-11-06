@@ -1,0 +1,22 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: the real opening begins with its illustrated dialogue, before the brand reveal
+PASS: the first game name reveals a separate CI screen with no dialogue window
+PASS: the custom game wordmark is a high resolution transparent illustration
+PASS: the logo begins a deliberate reveal rather than flashing as a dialogue label
+PASS: the CI fades and settles smoothly into place
+PASS: language changes keep the brand image and animation time: ko
+PASS: language changes keep the brand image and animation time: en
+PASS: the reveal settles to a clear stable logo and continuation action
+PASS: automatic playback reserves a title moment without starting combat early
+PASS: CI composition and controls stay inside the screen's safe area
+PASS: CI composition and controls stay inside the screen's safe area
+PASS: CI composition and controls stay inside the screen's safe area
+PASS: narration and the continue action have generous space around the CI
+PASS: options pause the CI reveal without dismissing its current shot
+PASS: Continue restores the story and retains the ruined classroom and soot
+PASS: re-entering the title initializes one clean reveal
+PASS: skipping from the CI restores gameplay and starts the expedition exactly once
+PASS: the ending reuses the same CI without an extra dialogue window
+PASS: the end-card action completes its sequence once and removes the cover
+TITLE IDENTITY RESULT: 19 checks, 0 failures

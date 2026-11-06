@@ -1,0 +1,28 @@
+PASS: extracted release renders expedition start menu
+PASS: Shift plus movement performs a roll with recovery
+PASS: Enter starts and Escape pauses executable
+PASS: I opens equipment and satchel panel
+PASS: Escape closes inventory and returns to combat
+PASS: pause menu returns to the clean start menu
+PASS: aimed combat clears the first group and real seal navigation summons the second group
+PASS: defeating real guardians writes permanent research Starlight to the isolated profile
+PASS: clearing a group displays the persistent next-battle purpose and approach instruction
+PASS: arriving at the actual seal advances the encounter counter without restarting the expedition
+PASS: collecting real enemy drops preserves Crowns in the inventory UI
+PASS: hovering the real drop tile shows its improvement hint without changing the worn icon
+PASS: leaving the hover restores the currently worn selection
+PASS: selecting the dropped gear exposes the explicit shared Equip action
+PASS: clicking dropped gear equips it in the release UI
+PASS: second-wave enemies defeat an idle unupgraded player
+PASS: permanent legacy studies open from the defeat screen
+TIMEOUT waiting for defeat-legacy-closed; last canvas OCR: "——\n\noe\n\nar\n\n01\n\nutorial\n\ndetention\n\n16/1\n\npractice your magic\n\nre fg\n\na\n\nry fit\n\nmeowgnificent\n\n@\n\nhd\n\nan\n\n=s\n\noy\n\na br\n\nf\n\nuptiot\n\n<)\n\n4\n\n-\n\n=\n\n=\n\nnew expedition / enter\n\na\n\nlegacy studi\n\nverdant ten\n\nmain menu\n\nbaa '\n\nxx\n"
+PASS: result Main menu action restores the expedition start menu
+PASS: legacy UI retains earned Starlight after room reload
+Native close request: {"process_pid": 459047, "cached_window": 12582915, "live_clients": [{"window": 12582915, "pid": 459047, "delete_protocol": true, "protocol_atoms": [246, 273, 259], "protocol_query_status": 1, "properties": "WM_PROTOCOLS(ATOM): protocols  WM_DELETE_WINDOW, _NET_WM_PING, WM_TAKE_FOCUS\n_NET_WM_PID(CARDINAL) = 459047\n"}], "target_window": 12582915, "send_status": 1}
+PASS: first window close exits normally
+PASS: a fresh executable process reopens the saved profile
+PASS: fresh process displays retained Starlight in legacy studies
+PASS: opening the saved profile preserves currency, upgrades and run history
+Native close request: {"process_pid": 459772, "cached_window": 12582915, "live_clients": [{"window": 12582915, "pid": 459772, "delete_protocol": true, "protocol_atoms": [246, 273, 259], "protocol_query_status": 1, "properties": "WM_PROTOCOLS(ATOM): protocols  WM_DELETE_WINDOW, _NET_WM_PING, WM_TAKE_FOCUS\n_NET_WM_PID(CARDINAL) = 459772\n"}], "target_window": 12582915, "send_status": 1}
+PASS: reopened window close exits normally
+PASS: both sessions have no engine/script errors

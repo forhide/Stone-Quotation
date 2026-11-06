@@ -1,0 +1,20 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: the running scene tree actually enables physics interpolation
+PASS: VSync can follow the display without a competing60FPS application cap
+PASS: the moving cat inherits interpolation through its real actor parent
+PASS: the camera keeps one render-time smoothing path instead of double interpolation
+PASS: render-driven body and worn-equipment rigs retain their smooth parent while avoiding local interpolation delay
+PASS: render-time shop gestures and exit reveals are not quantized to physics updates
+PASS: a 2x window repaints the enlarged world at the bounded source-art resolution
+PASS: a resized cached backdrop still covers the full enlarged world
+PASS: background cache allocation stays bounded at 3x on displays larger than4K
+PASS: returning to the normal window restores the enlarged 2048px cache without compounded scaling
+PASS: UI definition copies cannot mutate the cached projectile color
+PASS: loading the next room resets actual interpolation history at the new entrance
+PASS: the real blink moves the cat and resets its old transform instead of drawing a trail across the room
+PASS: real basic projectiles share the interpolated world-motion path
+PASS: a short non-damaging impact animates on render time
+PASS: the actual projectile-root pause freezes the render-time impact
+PASS: a cosmetic impact resumes or finishes naturally after the menu closes
+RENDER SMOOTHING RESULT: 17 checks, 0 failures

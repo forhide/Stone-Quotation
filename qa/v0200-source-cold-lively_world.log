@@ -1,0 +1,86 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: R cannot reset the current expedition
+PASS: the cat's aside and strain price do not replace progression instructions
+PASS: critical recoil costs exactly5 vitality through armor and invulnerability
+PASS: a miscast costs exactly10 and keeps its distinct soot
+PASS: a successful basic cast has no strain price
+PASS: a canned snack really restores vitality spent on casting
+PASS: a fresh profile faces stronger guardians without buying upgrades
+PASS: clearing the first group keeps a dedicated next-wave guide visible
+PASS: the next-wave instructions outlive transient messages
+PASS: the full next-wave instruction fits: ko
+PASS: the full next-wave instruction fits: en
+PASS: entry stays outside every new solid in area 1
+PASS: painted storage cabinets/pots have volume: (220.0, 245.0)
+PASS: painted storage cabinets/pots have volume: (500.0, 205.0)
+PASS: painted storage cabinets/pots have volume: (960.0, 240.0)
+PASS: painted storage cabinets/pots have volume: (1110.0, 260.0)
+PASS: entry stays outside every new solid in area 2
+PASS: illustrated world sign blocks a coarse roll in area 2
+PASS: entry stays outside every new solid in area 3
+PASS: illustrated world sign blocks a coarse roll in area 3
+PASS: painted garden panels/pots have volume: (138.0, 174.0)
+PASS: painted garden panels/pots have volume: (1140.0, 174.0)
+PASS: painted garden panels/pots have volume: (400.0, 167.0)
+PASS: painted garden panels/pots have volume: (500.0, 704.0)
+PASS: entry stays outside every new solid in area 4
+PASS: painted garden panels/pots have volume: (138.0, 174.0)
+PASS: painted garden panels/pots have volume: (1140.0, 174.0)
+PASS: painted garden panels/pots have volume: (400.0, 167.0)
+PASS: painted garden panels/pots have volume: (500.0, 704.0)
+PASS: entry stays outside every new solid in area 5
+PASS: illustrated world sign blocks a coarse roll in area 5
+PASS: entry stays outside every new solid in area 6
+PASS: illustrated world sign blocks a coarse roll in area 6
+PASS: painted garden panels/pots have volume: (138.0, 174.0)
+PASS: painted garden panels/pots have volume: (1140.0, 174.0)
+PASS: painted garden panels/pots have volume: (400.0, 167.0)
+PASS: painted garden panels/pots have volume: (500.0, 704.0)
+PASS: entry stays outside every new solid in area 7
+PASS: painted storage cabinets/pots have volume: (220.0, 245.0)
+PASS: painted storage cabinets/pots have volume: (500.0, 205.0)
+PASS: painted storage cabinets/pots have volume: (960.0, 240.0)
+PASS: painted storage cabinets/pots have volume: (1110.0, 260.0)
+PASS: entry stays outside every new solid in area 8
+PASS: shopping is available only below the table, separate from Pip
+PASS: hen and Pip participate in world depth sorting
+PASS: the animal's floor contact is solid: pip
+PASS: E opens a finite paged conversation: pip
+PASS: reading time never expires a dialogue page: pip
+PASS: E turns to the next authored page: pip1
+PASS: E turns to the next authored page: pip2
+PASS: finishing one loop closes the conversation: pip
+PASS: the animal's floor contact is solid: moss
+PASS: E opens a finite paged conversation: moss
+PASS: reading time never expires a dialogue page: moss
+PASS: E turns to the next authored page: moss1
+PASS: E turns to the next authored page: moss2
+PASS: finishing one loop closes the conversation: moss
+PASS: the animal's floor contact is solid: bloop
+PASS: E opens a finite paged conversation: bloop
+PASS: reading time never expires a dialogue page: bloop
+PASS: E turns to the next authored page: bloop1
+PASS: E turns to the next authored page: bloop2
+PASS: finishing one loop closes the conversation: bloop
+PASS: the hen cannot be walked over
+PASS: the unlocked gate is both solid and depth-sorted
+PASS: normal and critical have separate painted silhouettes: fire
+PASS: normal and critical have separate painted silhouettes: water
+PASS: normal and critical have separate painted silhouettes: ice
+PASS: normal and critical have separate painted silhouettes: wind
+PASS: normal and critical have separate painted silhouettes: stone
+PASS: normal and critical have separate painted silhouettes: leaf
+PASS: normal and critical have separate painted silhouettes: lightning
+PASS: normal and critical have separate painted silhouettes: metal
+PASS: compact lossless neck patches contain actual fur
+PASS: changing a wand preserves the replacement pendant and its cord: linen_star_collar
+PASS: changing a wand preserves the replacement pendant and its cord: brass_bell_collar
+PASS: changing a wand preserves the replacement pendant and its cord: silver_moon_collar
+PASS: ESC pause uses its own compact menu
+PASS: all three pause actions remain inside the screen
+PASS: Continue preserves the current expedition
+PASS: Restart starts one fresh expedition immediately
+PASS: Main menu returns to preparation without starting another attempt
+PASS: a fatal recoil ends the run without a posthumous cast
+LIVELY WORLD RESULT: 83 checks, 0 failures

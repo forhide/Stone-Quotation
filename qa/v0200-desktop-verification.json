@@ -1,0 +1,16 @@
+[
+  {
+    "platform": "linux",
+    "checks": 25,
+    "passed": true,
+    "scope": "first tutorial group, persistent next-battle guide and actual second-wave arrival, loot/equipment UI, defeat and profile reload; no GUI area/campaign-clear claim",
+    "archive_sha256": "4e57b36dcc3bce6e9a94f2bea8d1a99180c45ebaf480a52983fafed30ab72768"
+  },
+  {
+    "platform": "windows",
+    "checks": 25,
+    "passed": true,
+    "scope": "first tutorial group, persistent next-battle guide and actual second-wave arrival, loot/equipment UI, defeat and profile reload; no GUI area/campaign-clear claim",
+    "archive_sha256": "aa1e1199999e91918eac82d8907f5ccebcc30bf001ba22a476724b7d83d99ead"
+  }
+]

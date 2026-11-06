@@ -1,0 +1,27 @@
+PASS: extracted release renders expedition start menu
+PASS: Shift plus movement performs a roll with recovery
+PASS: Enter starts and Escape pauses executable
+PASS: I opens equipment and satchel panel
+PASS: Escape closes inventory and returns to combat
+PASS: pause menu returns to the clean start menu
+PASS: aimed combat clears the first group and real seal navigation summons the second group
+PASS: defeating real guardians writes permanent research Starlight to the isolated profile
+PASS: clearing a group displays the persistent next-battle purpose and approach instruction
+PASS: arriving at the actual seal advances the encounter counter without restarting the expedition
+PASS: collecting real enemy drops preserves Crowns in the inventory UI
+PASS: hovering the real drop tile shows its improvement hint without changing the worn icon
+PASS: leaving the hover restores the currently worn selection
+PASS: selecting the dropped gear exposes the explicit shared Equip action
+PASS: clicking dropped gear equips it in the release UI
+PASS: second-wave enemies defeat an idle unupgraded player
+PASS: permanent legacy studies open from the defeat screen
+PASS: result Main menu action restores the expedition start menu
+PASS: legacy UI retains earned Starlight after room reload
+Native close request: {"process_pid": 454413, "cached_window": 4194307, "live_clients": [{"window": 4194307, "pid": 454413, "delete_protocol": true, "protocol_atoms": [246], "protocol_query_status": 1, "properties": "WM_PROTOCOLS(ATOM): protocols  WM_DELETE_WINDOW\n_NET_WM_PID(CARDINAL) = 454413\n"}], "target_window": 4194307, "send_status": 1}
+PASS: first window close exits normally
+PASS: a fresh executable process reopens the saved profile
+PASS: fresh process displays retained Starlight in legacy studies
+PASS: opening the saved profile preserves currency, upgrades and run history
+Native close request: {"process_pid": 455249, "cached_window": 4194307, "live_clients": [{"window": 4194307, "pid": 455249, "delete_protocol": true, "protocol_atoms": [246], "protocol_query_status": 1, "properties": "WM_PROTOCOLS(ATOM): protocols  WM_DELETE_WINDOW\n_NET_WM_PID(CARDINAL) = 455249\n"}], "target_window": 4194307, "send_status": 1}
+PASS: reopened window close exits normally
+PASS: both sessions have no engine/script errors
