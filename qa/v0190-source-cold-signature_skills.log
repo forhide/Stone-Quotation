@@ -1,0 +1,147 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: practice_wand:success enters its equipped signature
+PASS: practice_wand:success has a bounded world effect and caster flourish
+PASS: practice_wand:success gives a visible anticipation before damage
+PASS: practice_wand:success affects real enemy health
+PASS: practice_wand:success expires all effect nodes
+PASS: practice_wand:miscast enters its equipped signature
+PASS: practice_wand:miscast has a bounded world effect and caster flourish
+PASS: practice_wand:miscast gives a visible anticipation before damage
+PASS: practice_wand:miscast affects real enemy health
+PASS: practice_wand:miscast expires all effect nodes
+PASS: practice_wand:overreaction enters its equipped signature
+PASS: practice_wand:overreaction has a bounded world effect and caster flourish
+PASS: practice_wand:overreaction gives a visible anticipation before damage
+PASS: practice_wand:overreaction affects real enemy health
+PASS: practice_wand:overreaction expires all effect nodes
+PASS: thunder_spoon:success enters its equipped signature
+PASS: thunder_spoon:success has a bounded world effect and caster flourish
+PASS: thunder_spoon:success gives a visible anticipation before damage
+PASS: thunder_spoon:success affects real enemy health
+PASS: thunder_spoon:success expires all effect nodes
+PASS: thunder_spoon:miscast enters its equipped signature
+PASS: thunder_spoon:miscast has a bounded world effect and caster flourish
+PASS: thunder_spoon:miscast gives a visible anticipation before damage
+PASS: thunder_spoon:miscast affects real enemy health
+PASS: thunder_spoon:miscast expires all effect nodes
+PASS: thunder_spoon:overreaction enters its equipped signature
+PASS: thunder_spoon:overreaction has a bounded world effect and caster flourish
+PASS: thunder_spoon:overreaction gives a visible anticipation before damage
+PASS: thunder_spoon:overreaction affects real enemy health
+PASS: thunder_spoon:overreaction expires all effect nodes
+PASS: brook_reed_wand:success enters its equipped signature
+PASS: brook_reed_wand:success has a bounded world effect and caster flourish
+PASS: brook_reed_wand:success gives a visible anticipation before damage
+PASS: brook_reed_wand:success affects real enemy health
+PASS: brook_reed_wand:success expires all effect nodes
+PASS: brook_reed_wand:miscast enters its equipped signature
+PASS: brook_reed_wand:miscast has a bounded world effect and caster flourish
+PASS: brook_reed_wand:miscast gives a visible anticipation before damage
+PASS: brook_reed_wand:miscast affects real enemy health
+PASS: brook_reed_wand:miscast expires all effect nodes
+PASS: brook_reed_wand:overreaction enters its equipped signature
+PASS: brook_reed_wand:overreaction has a bounded world effect and caster flourish
+PASS: brook_reed_wand:overreaction gives a visible anticipation before damage
+PASS: brook_reed_wand:overreaction affects real enemy health
+PASS: brook_reed_wand:overreaction expires all effect nodes
+PASS: frost_whisker_wand:success enters its equipped signature
+PASS: frost_whisker_wand:success has a bounded world effect and caster flourish
+PASS: frost_whisker_wand:success gives a visible anticipation before damage
+PASS: frost_whisker_wand:success affects real enemy health
+PASS: frost_whisker_wand:success expires all effect nodes
+PASS: frost_whisker_wand:miscast enters its equipped signature
+PASS: frost_whisker_wand:miscast has a bounded world effect and caster flourish
+PASS: frost_whisker_wand:miscast gives a visible anticipation before damage
+PASS: frost_whisker_wand:miscast affects real enemy health
+PASS: frost_whisker_wand:miscast expires all effect nodes
+PASS: frost_whisker_wand:overreaction enters its equipped signature
+PASS: frost_whisker_wand:overreaction has a bounded world effect and caster flourish
+PASS: frost_whisker_wand:overreaction gives a visible anticipation before damage
+PASS: frost_whisker_wand:overreaction affects real enemy health
+PASS: frost_whisker_wand:overreaction expires all effect nodes
+PASS: apprentice_thesis:success enters its equipped signature
+PASS: apprentice_thesis:success has a bounded world effect and caster flourish
+PASS: apprentice_thesis:success gives a visible anticipation before damage
+PASS: apprentice_thesis:success affects real enemy health
+PASS: apprentice_thesis:success expires all effect nodes
+PASS: apprentice_thesis:miscast enters its equipped signature
+PASS: apprentice_thesis:miscast has a bounded world effect and caster flourish
+PASS: apprentice_thesis:miscast gives a visible anticipation before damage
+PASS: apprentice_thesis:miscast affects real enemy health
+PASS: apprentice_thesis:miscast expires all effect nodes
+PASS: apprentice_thesis:overreaction enters its equipped signature
+PASS: apprentice_thesis:overreaction has a bounded world effect and caster flourish
+PASS: apprentice_thesis:overreaction gives a visible anticipation before damage
+PASS: apprentice_thesis:overreaction affects real enemy health
+PASS: apprentice_thesis:overreaction expires all effect nodes
+PASS: hopscotch_wand:success enters its equipped signature
+PASS: hopscotch_wand:success has a bounded world effect and caster flourish
+PASS: hopscotch_wand:success gives a visible anticipation before damage
+PASS: hopscotch_wand:success affects real enemy health
+PASS: hopscotch_wand:success expires all effect nodes
+PASS: hopscotch_wand:miscast enters its equipped signature
+PASS: hopscotch_wand:miscast has a bounded world effect and caster flourish
+PASS: hopscotch_wand:miscast gives a visible anticipation before damage
+PASS: hopscotch_wand:miscast affects real enemy health
+PASS: hopscotch_wand:miscast expires all effect nodes
+PASS: hopscotch_wand:overreaction enters its equipped signature
+PASS: hopscotch_wand:overreaction has a bounded world effect and caster flourish
+PASS: hopscotch_wand:overreaction gives a visible anticipation before damage
+PASS: hopscotch_wand:overreaction affects real enemy health
+PASS: hopscotch_wand:overreaction expires all effect nodes
+PASS: moss_bud_staff:success enters its equipped signature
+PASS: moss_bud_staff:success has a bounded world effect and caster flourish
+PASS: moss_bud_staff:success gives a visible anticipation before damage
+PASS: moss_bud_staff:success affects real enemy health
+PASS: moss_bud_staff:success expires all effect nodes
+PASS: moss_bud_staff:miscast enters its equipped signature
+PASS: moss_bud_staff:miscast has a bounded world effect and caster flourish
+PASS: moss_bud_staff:miscast gives a visible anticipation before damage
+PASS: moss_bud_staff:miscast affects real enemy health
+PASS: moss_bud_staff:miscast expires all effect nodes
+PASS: moss_bud_staff:overreaction enters its equipped signature
+PASS: moss_bud_staff:overreaction has a bounded world effect and caster flourish
+PASS: moss_bud_staff:overreaction gives a visible anticipation before damage
+PASS: moss_bud_staff:overreaction affects real enemy health
+PASS: moss_bud_staff:overreaction expires all effect nodes
+PASS: silverthorn_wand:success enters its equipped signature
+PASS: silverthorn_wand:success has a bounded world effect and caster flourish
+PASS: silverthorn_wand:success gives a visible anticipation before damage
+PASS: silverthorn_wand:success affects real enemy health
+PASS: silverthorn_wand:success expires all effect nodes
+PASS: silverthorn_wand:miscast enters its equipped signature
+PASS: silverthorn_wand:miscast has a bounded world effect and caster flourish
+PASS: silverthorn_wand:miscast gives a visible anticipation before damage
+PASS: silverthorn_wand:miscast affects real enemy health
+PASS: silverthorn_wand:miscast expires all effect nodes
+PASS: silverthorn_wand:overreaction enters its equipped signature
+PASS: silverthorn_wand:overreaction has a bounded world effect and caster flourish
+PASS: silverthorn_wand:overreaction gives a visible anticipation before damage
+PASS: silverthorn_wand:overreaction affects real enemy health
+PASS: silverthorn_wand:overreaction expires all effect nodes
+PASS: three meteor actors produce only their first impact at the first landing time
+PASS: second and third meteors strike at separate delayed landing times
+PASS: chain lightning starts with one real contact after its warning
+PASS: chain lightning connects at most five distinct foes with actual acquired points
+PASS: the sixth reachable foe is excluded by the chain cap
+PASS: a lightning chain never revisits and damages the same enemy twice
+PASS: tidal surge sweeps across coarse time steps, wets and pushes its target
+PASS: lightning consumes a real water skill's wet state for one non-stacking conductive hit
+PASS: frost nova slows actual movement while allowing enemy behavior
+PASS: inventory freezes the nova picture and its debuff duration
+PASS: nova slow restores the exact original speed after resuming
+PASS: cyclone deals damage and pulls a nearby enemy toward the moving vortex
+PASS: stone quake begins with a small first ring
+PASS: stone quake reaches outer foes only on the wider late pulse
+PASS: verdant grove grows into a real root and damage effect
+PASS: the growing grove deals bounded repeated damage and renews its root
+PASS: explicit transition cleanup restores rooted enemies and removes the grove
+PASS: metal bloom has exactly two real eruptions
+PASS: the same meteor obeys enemy weaknesses and resistances
+PASS: equipping a different weapon cannot change the element of an already launched meteor
+PASS: encounter cleanup keeps only a landed meteor's harmless impact tail
+PASS: repeated area cleanup cannot extend a cosmetic impact indefinitely
+PASS: the preserved tail cannot damage a new foe and expires within a bounded time
+PASS: a later full transition removes even previously preserved cosmetic tails
+SIGNATURE SKILLS RESULT: 144 checks, 0 failures

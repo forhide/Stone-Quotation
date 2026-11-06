@@ -1,0 +1,241 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: every painted obstacle has one live floor contact in area 1
+PASS: arrival position is outside furniture in area 1
+PASS: walkable route reaches required destination in area 1: (1817.6, 688.0)
+PASS: walkable route reaches required destination in area 1: (1024.0, 696.0)
+PASS: walkable route reaches required destination in area 1: (1504.0, 712.0)
+PASS: coarse roll cannot skip crate in area 1
+PASS: loot is projected outside crate
+PASS: coarse roll cannot skip barrel in area 1
+PASS: loot is projected outside barrel
+PASS: coarse roll cannot skip cart in area 1
+PASS: loot is projected outside cart
+PASS: initial foes spawn outside solid furniture in area 1
+PASS: every painted obstacle has one live floor contact in area 2
+PASS: arrival position is outside furniture in area 2
+PASS: walkable route reaches required destination in area 2: (1817.6, 688.0)
+PASS: walkable route reaches required destination in area 2: (1200.0, 552.0)
+PASS: walkable route reaches required destination in area 2: (520.0, 696.0)
+PASS: walkable route reaches required destination in area 2: (1504.0, 712.0)
+PASS: coarse roll cannot skip cart in area 2
+PASS: loot is projected outside cart
+PASS: coarse roll cannot skip cart in area 2
+PASS: loot is projected outside cart
+PASS: initial foes spawn outside solid furniture in area 2
+PASS: every painted obstacle has one live floor contact in area 3
+PASS: arrival position is outside furniture in area 3
+PASS: walkable route reaches required destination in area 3: (1817.6, 688.0)
+PASS: walkable route reaches required destination in area 3: (1192.0, 688.0)
+PASS: walkable route reaches required destination in area 3: (520.0, 696.0)
+PASS: walkable route reaches required destination in area 3: (1504.0, 712.0)
+PASS: coarse roll cannot skip planter in area 3
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 3
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 3
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 3
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 3
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 3
+PASS: loot is projected outside planter
+PASS: initial foes spawn outside solid furniture in area 3
+PASS: every painted obstacle has one live floor contact in area 4
+PASS: arrival position is outside furniture in area 4
+PASS: walkable route reaches required destination in area 4: (1817.6, 688.0)
+PASS: coarse roll cannot skip planter in area 4
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 4
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip crate in area 4
+PASS: loot is projected outside crate
+PASS: initial foes spawn outside solid furniture in area 4
+PASS: every painted obstacle has one live floor contact in area 5
+PASS: arrival position is outside furniture in area 5
+PASS: walkable route reaches required destination in area 5: (1817.6, 688.0)
+PASS: walkable route reaches required destination in area 5: (1264.0, 696.0)
+PASS: walkable route reaches required destination in area 5: (520.0, 696.0)
+PASS: walkable route reaches required destination in area 5: (1504.0, 712.0)
+PASS: coarse roll cannot skip crate in area 5
+PASS: loot is projected outside crate
+PASS: coarse roll cannot skip crate in area 5
+PASS: loot is projected outside crate
+PASS: coarse roll cannot skip barrel in area 5
+PASS: loot is projected outside barrel
+PASS: initial foes spawn outside solid furniture in area 5
+PASS: every painted obstacle has one live floor contact in area 6
+PASS: arrival position is outside furniture in area 6
+PASS: walkable route reaches required destination in area 6: (1817.6, 688.0)
+PASS: walkable route reaches required destination in area 6: (1216.0, 704.0)
+PASS: walkable route reaches required destination in area 6: (520.0, 696.0)
+PASS: walkable route reaches required destination in area 6: (1504.0, 712.0)
+PASS: coarse roll cannot skip cart in area 6
+PASS: loot is projected outside cart
+PASS: coarse roll cannot skip planter in area 6
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 6
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 6
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 6
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 6
+PASS: loot is projected outside planter
+PASS: initial foes spawn outside solid furniture in area 6
+PASS: every painted obstacle has one live floor contact in area 7
+PASS: arrival position is outside furniture in area 7
+PASS: walkable route reaches required destination in area 7: (1817.6, 688.0)
+PASS: coarse roll cannot skip planter in area 7
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip planter in area 7
+PASS: loot is projected outside planter
+PASS: coarse roll cannot skip barrel in area 7
+PASS: loot is projected outside barrel
+PASS: initial foes spawn outside solid furniture in area 7
+PASS: every painted obstacle has one live floor contact in area 8
+PASS: arrival position is outside furniture in area 8
+PASS: walkable route reaches required destination in area 8: (1817.6, 688.0)
+PASS: walkable route reaches required destination in area 8: (1216.0, 672.0)
+PASS: walkable route reaches required destination in area 8: (520.0, 696.0)
+PASS: walkable route reaches required destination in area 8: (1312.0, 656.0)
+PASS: coarse roll cannot skip cart in area 8
+PASS: loot is projected outside cart
+PASS: initial foes spawn outside solid furniture in area 8
+PASS: extra bookcases and contextual furnishings populate the whole expedition
+PASS: a spare weapon is available for the real mouse equip flow
+PASS: a real tile click selects the spare without equipping it
+PASS: the first real mouse click equips after focus leaves the selected tile
+PASS: real equipped collar: brass_bell_collar
+PASS: action pose replaces its original bell: brass_bell_collar / 0
+PASS: pendant stays at its neck anchor in action pose 0
+PASS: action pose replaces its original bell: brass_bell_collar / 1
+PASS: pendant stays at its neck anchor in action pose 1
+PASS: action pose replaces its original bell: brass_bell_collar / 2
+PASS: pendant stays at its neck anchor in action pose 2
+PASS: action pose replaces its original bell: brass_bell_collar / 3
+PASS: pendant stays at its neck anchor in action pose 3
+PASS: action pose replaces its original bell: brass_bell_collar / 4
+PASS: pendant stays at its neck anchor in action pose 4
+PASS: walking frame replaces original bell: brass_bell_collar / 0
+PASS: walking frame replaces original bell: brass_bell_collar / 1
+PASS: walking frame replaces original bell: brass_bell_collar / 2
+PASS: walking frame replaces original bell: brass_bell_collar / 3
+PASS: walking frame replaces original bell: brass_bell_collar / 4
+PASS: walking frame replaces original bell: brass_bell_collar / 5
+PASS: real equipped collar: linen_star_collar
+PASS: action pose replaces its original bell: linen_star_collar / 0
+PASS: pendant stays at its neck anchor in action pose 0
+PASS: action pose replaces its original bell: linen_star_collar / 1
+PASS: pendant stays at its neck anchor in action pose 1
+PASS: action pose replaces its original bell: linen_star_collar / 2
+PASS: pendant stays at its neck anchor in action pose 2
+PASS: action pose replaces its original bell: linen_star_collar / 3
+PASS: pendant stays at its neck anchor in action pose 3
+PASS: action pose replaces its original bell: linen_star_collar / 4
+PASS: pendant stays at its neck anchor in action pose 4
+PASS: walking frame replaces original bell: linen_star_collar / 0
+PASS: walking frame replaces original bell: linen_star_collar / 1
+PASS: walking frame replaces original bell: linen_star_collar / 2
+PASS: walking frame replaces original bell: linen_star_collar / 3
+PASS: walking frame replaces original bell: linen_star_collar / 4
+PASS: walking frame replaces original bell: linen_star_collar / 5
+PASS: real equipped collar: raindrop_locket
+PASS: action pose replaces its original bell: raindrop_locket / 0
+PASS: pendant stays at its neck anchor in action pose 0
+PASS: action pose replaces its original bell: raindrop_locket / 1
+PASS: pendant stays at its neck anchor in action pose 1
+PASS: action pose replaces its original bell: raindrop_locket / 2
+PASS: pendant stays at its neck anchor in action pose 2
+PASS: action pose replaces its original bell: raindrop_locket / 3
+PASS: pendant stays at its neck anchor in action pose 3
+PASS: action pose replaces its original bell: raindrop_locket / 4
+PASS: pendant stays at its neck anchor in action pose 4
+PASS: walking frame replaces original bell: raindrop_locket / 0
+PASS: walking frame replaces original bell: raindrop_locket / 1
+PASS: walking frame replaces original bell: raindrop_locket / 2
+PASS: walking frame replaces original bell: raindrop_locket / 3
+PASS: walking frame replaces original bell: raindrop_locket / 4
+PASS: walking frame replaces original bell: raindrop_locket / 5
+PASS: real equipped collar: silver_moon_collar
+PASS: action pose replaces its original bell: silver_moon_collar / 0
+PASS: pendant stays at its neck anchor in action pose 0
+PASS: action pose replaces its original bell: silver_moon_collar / 1
+PASS: pendant stays at its neck anchor in action pose 1
+PASS: action pose replaces its original bell: silver_moon_collar / 2
+PASS: pendant stays at its neck anchor in action pose 2
+PASS: action pose replaces its original bell: silver_moon_collar / 3
+PASS: pendant stays at its neck anchor in action pose 3
+PASS: action pose replaces its original bell: silver_moon_collar / 4
+PASS: pendant stays at its neck anchor in action pose 4
+PASS: walking frame replaces original bell: silver_moon_collar / 0
+PASS: walking frame replaces original bell: silver_moon_collar / 1
+PASS: walking frame replaces original bell: silver_moon_collar / 2
+PASS: walking frame replaces original bell: silver_moon_collar / 3
+PASS: walking frame replaces original bell: silver_moon_collar / 4
+PASS: walking frame replaces original bell: silver_moon_collar / 5
+PASS: paperdoll keeps approved cat art and replaces only its embedded bell
+PASS: unequipped paperdoll restores the original bell
+PASS: unequipping restores the gameplay cat's original bell
+PASS: high-density material source for fire_meteor
+PASS: material uses the dedicated four-cell source atlas: fire_meteor
+PASS: high-density material source for chain_lightning
+PASS: material uses the dedicated four-cell source atlas: chain_lightning
+PASS: high-density material source for tidal_surge
+PASS: material uses the dedicated four-cell source atlas: tidal_surge
+PASS: high-density material source for frost_nova
+PASS: material uses the dedicated four-cell source atlas: frost_nova
+PASS: high-density material source for cyclone
+PASS: material uses the dedicated four-cell source atlas: cyclone
+PASS: high-density material source for stone_quake
+PASS: material uses the dedicated four-cell source atlas: stone_quake
+PASS: high-density material source for verdant_grove
+PASS: material uses the dedicated four-cell source atlas: verdant_grove
+PASS: high-density material source for metal_bloom
+PASS: material uses the dedicated four-cell source atlas: metal_bloom
+PASS: all sixteen permanent options visible together: ko
+PASS: no tab or scrolling needed for study board: ko
+PASS: study purchase remains fully accessible: kovitality
+PASS: study purchase remains fully accessible: kopurse
+PASS: study purchase remains fully accessible: komagnet
+PASS: study purchase remains fully accessible: kostarter_wand
+PASS: study purchase remains fully accessible: kospell_power
+PASS: study purchase remains fully accessible: kospell_pace
+PASS: study purchase remains fully accessible: koskill_power
+PASS: study purchase remains fully accessible: koskill_pace
+PASS: study purchase remains fully accessible: kospeed
+PASS: study purchase remains fully accessible: koroll_power
+PASS: study purchase remains fully accessible: koroll_pace
+PASS: study purchase remains fully accessible: koprotection
+PASS: study purchase remains fully accessible: koarmor
+PASS: study purchase remains fully accessible: kohealing
+PASS: study purchase remains fully accessible: koreach
+PASS: study purchase remains fully accessible: kotea
+PASS: return control is not pushed off screen: ko
+PASS: all sixteen permanent options visible together: en
+PASS: no tab or scrolling needed for study board: en
+PASS: study purchase remains fully accessible: envitality
+PASS: study purchase remains fully accessible: enpurse
+PASS: study purchase remains fully accessible: enmagnet
+PASS: study purchase remains fully accessible: enstarter_wand
+PASS: study purchase remains fully accessible: enspell_power
+PASS: study purchase remains fully accessible: enspell_pace
+PASS: study purchase remains fully accessible: enskill_power
+PASS: study purchase remains fully accessible: enskill_pace
+PASS: study purchase remains fully accessible: enspeed
+PASS: study purchase remains fully accessible: enroll_power
+PASS: study purchase remains fully accessible: enroll_pace
+PASS: study purchase remains fully accessible: enprotection
+PASS: study purchase remains fully accessible: enarmor
+PASS: study purchase remains fully accessible: enhealing
+PASS: study purchase remains fully accessible: enreach
+PASS: study purchase remains fully accessible: entea
+PASS: return control is not pushed off screen: en
+PASS: non-first-column study can be purchased directly: tea
+PASS: visible study button commits correct rank and exact cost: tea
+PASS: non-first-column study can be purchased directly: skill_power
+PASS: visible study button commits correct rank and exact cost: skill_power
+PASS: one-page board's purchases survive a fresh profile load
+PASS: rounded display and open body typography are shared by both languages
+STORYBOOK REFRESH RESULT: 238 checks, 0 failures

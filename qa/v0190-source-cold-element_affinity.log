@@ -1,0 +1,75 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: candle: a material weakness increases the real20damage hit to30
+PASS: candle: the upward feedback represents an actual weak-point hit
+PASS: candle: resistance reduces the same hit to13 rather than granting immunity
+PASS: candle: downward feedback represents actual resistance
+PASS: candle: body rolls and falling scenery retain neutral physical damage
+PASS: broom: a material weakness increases the real20damage hit to30
+PASS: broom: the upward feedback represents an actual weak-point hit
+PASS: broom: resistance reduces the same hit to13 rather than granting immunity
+PASS: broom: downward feedback represents actual resistance
+PASS: broom: body rolls and falling scenery retain neutral physical damage
+PASS: book: a material weakness increases the real20damage hit to30
+PASS: book: the upward feedback represents an actual weak-point hit
+PASS: book: resistance reduces the same hit to13 rather than granting immunity
+PASS: book: downward feedback represents actual resistance
+PASS: book: body rolls and falling scenery retain neutral physical damage
+PASS: mushroom: a material weakness increases the real20damage hit to30
+PASS: mushroom: the upward feedback represents an actual weak-point hit
+PASS: mushroom: resistance reduces the same hit to13 rather than granting immunity
+PASS: mushroom: downward feedback represents actual resistance
+PASS: mushroom: body rolls and falling scenery retain neutral physical damage
+PASS: bat: a material weakness increases the real20damage hit to30
+PASS: bat: the upward feedback represents an actual weak-point hit
+PASS: bat: resistance reduces the same hit to13 rather than granting immunity
+PASS: bat: downward feedback represents actual resistance
+PASS: bat: body rolls and falling scenery retain neutral physical damage
+PASS: fire: a later-encounter ward has a complete explicit profile
+PASS: fire: ward weakness affects actual HP
+PASS: fire: ward resistance affects actual HP
+PASS: water: a later-encounter ward has a complete explicit profile
+PASS: water: ward weakness affects actual HP
+PASS: water: ward resistance affects actual HP
+PASS: ice: a later-encounter ward has a complete explicit profile
+PASS: ice: ward weakness affects actual HP
+PASS: ice: ward resistance affects actual HP
+PASS: wind: a later-encounter ward has a complete explicit profile
+PASS: wind: ward weakness affects actual HP
+PASS: wind: ward resistance affects actual HP
+PASS: stone: a later-encounter ward has a complete explicit profile
+PASS: stone: ward weakness affects actual HP
+PASS: stone: ward resistance affects actual HP
+PASS: leaf: a later-encounter ward has a complete explicit profile
+PASS: leaf: ward weakness affects actual HP
+PASS: leaf: ward resistance affects actual HP
+PASS: lightning: a later-encounter ward has a complete explicit profile
+PASS: lightning: ward weakness affects actual HP
+PASS: lightning: ward resistance affects actual HP
+PASS: metal: a later-encounter ward has a complete explicit profile
+PASS: metal: ward weakness affects actual HP
+PASS: metal: ward resistance affects actual HP
+PASS: unknown ward metadata falls back to the enemy's material
+PASS: unknown spell metadata is neutral rather than silently becoming fire
+PASS: zero and negative damage cannot manufacture feedback or material states
+PASS: an unsoaked lightning ward initially resists electricity
+PASS: water deals its own neutral hit before setting conduction
+PASS: a real water hit leaves three seconds of visible wetness
+PASS: water enables a single conductive weakness through an electrical ward
+PASS: the conductive discharge consumes wetness and shows upward feedback
+PASS: subsequent dry electricity returns to the ordinary resistance
+PASS: inventory/story pause freezes the same wetness timer used by combat
+PASS: rooting the AI does not freeze its material status indefinitely
+PASS: material state and temporary hit markers expire without lingering nodes
+PASS: conduction does not multiply an existing electrical weakness twice
+PASS: the unified elemental entry point retains book disruption and crop awakening
+PASS: a predicted water spell cannot soak the boss through its closed shield
+PASS: a blocked spell cannot claim weakness feedback or damage
+PASS: a genuine wood miscast opens the shield and applies the exposed book's weakness
+PASS: a reformed shield does not let a conductive hit bypass prediction or consume wetness
+PASS: an overreaction legitimately breaks the shield and consumes the conductive opening once
+PASS: neutral belly rolls preserve the boss's accidental opening rule
+PASS: accidental floor fire retains its elemental damage and can break the prediction barrier
+PASS: the real primary projectile uses the same affinity and wetness entry point
+PASS: water's actual nearby splash also respects weakness and sets conduction
+ELEMENT AFFINITY RESULT: 72 checks, 0 failures

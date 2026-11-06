@@ -1,0 +1,27 @@
+# Meowgnificent v0.19.0
+
+오프닝에서 처음 나오는 게임 이름을 별도 손그림 CI 화면으로 만들었습니다. 모자·고양이 귀·꼬리·지팡이를 엮은 로고가 부드럽게 나타나고, 대화창 없이 내레이션과 계속 버튼을 보여 줍니다. 결말도 같은 CI를 씁니다. 원래53개 이야기 비트와 한국어/영어 전환, 설정·건너뛰기·자동 넘김을 유지합니다.
+
+배경에 찍던 폰트 안내를 걷어내고, 도서관과 정원의 의미는 책/방패·물약/새싹 그림으로 보여 줍니다. 출구·보관함·상점·친구 대화의 조작법은 화면에 고정된 상태 카드에 표시합니다. 소환진·보스 머리 위·전리품/효과에 붙던 글자는 제거하고 실제 수치/보스 방어막 안내는 HUD가 맡습니다. 프롤로그와 결말의 성적표·분석 카드는 인터페이스입니다.
+
+상하단 상태창은 제목·현재 목표·전투 수·재화·기본/특수 주문·결과·구르기의 줄을 분리하고 높이와 간격을 늘렸습니다. 실제 폰트 폭과 줄 높이로 한글/영문,8구역, 모든 지팡이의 표시를 검사합니다. 현재 이름이 말줄임표에 의존하지 않으며 긴 미래 문자열에는 경계 보호를 유지합니다.
+
+책장은 세이지색 목재로 새로 그리고, 정면·뒷면·옆면으로 쓰러진 모습을 각각 사용합니다. 완성된 원근 그림을 통째로 회전하던 표현을 없애고 짧은 기울기/바닥 자세 전환으로 바꿨습니다. 충돌·낙하 피해·화재·숨은 보관함은 유지합니다. 정원 디딤돌은 두 손그림으로 바꾸고 버섯 재배 구역 밑으로 겹치지 않게 배치했습니다.8구역을 실제 화면으로 검토했습니다.
+
+8구역·17전투·장비85종·8속성·장착 특수기11종·영구 연구16종/125단계를 유지합니다. 저장 경로와 기존 별빛·연구는 이어집니다.
+
+Windows·Linux·Web·Apple Silicon Mac 실행 묶음과 동일한 소스/그래픽 인계 세트를 함께 제공합니다. ZIP은 일반 파일이며 CMD 명령이나 설치 프로그램이 필요하지 않습니다. 공식 GitHub HTTPS 직링크와 SHA-256을 확인한 후 공개합니다. 자세한 실제 검증 범위는 QA-v0.19.0.md를 참고하세요.
+
+
+## Direct downloads
+
+- [Meowgnificent-v0.19.0-windows.zip](https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.19.0/Meowgnificent-v0.19.0-windows.zip)
+- [Meowgnificent-v0.19.0-linux.zip](https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.19.0/Meowgnificent-v0.19.0-linux.zip)
+- [Meowgnificent-v0.19.0-web.zip](https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.19.0/Meowgnificent-v0.19.0-web.zip)
+- [Meowgnificent-v0.19.0-macos.zip](https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.19.0/Meowgnificent-v0.19.0-macos.zip)
+- [Meowgnificent-v0.19.0-source.zip](https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.19.0/Meowgnificent-v0.19.0-source.zip)
+- [Meowgnificent-v0.19.0-SHA256SUMS.txt](https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.19.0/Meowgnificent-v0.19.0-SHA256SUMS.txt)
+
+Download the ZIP, extract it, and launch the executable or app. No MSI installer or CMD download command is needed.
+
+[같은 버전 코드·그래픽 인계 세트 — ZIP마다20MiB 미만](https://github.com/forhide/Stone-Quotation/tree/meowgnificent-handoff-v0.19.0)

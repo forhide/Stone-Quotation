@@ -1,0 +1,121 @@
+{
+  "version": "v0.19.0",
+  "checks": 1401,
+  "suites": [
+    {
+      "suite": "smoke",
+      "checks": 30,
+      "passed": true
+    },
+    {
+      "suite": "hd_art",
+      "checks": 36,
+      "passed": true
+    },
+    {
+      "suite": "story_continuity",
+      "checks": 40,
+      "passed": true
+    },
+    {
+      "suite": "display_settings",
+      "checks": 24,
+      "passed": true
+    },
+    {
+      "suite": "story_consequences",
+      "checks": 30,
+      "passed": true
+    },
+    {
+      "suite": "casual_inventory",
+      "checks": 52,
+      "passed": true
+    },
+    {
+      "suite": "shop_reactions",
+      "checks": 62,
+      "passed": true
+    },
+    {
+      "suite": "living_stages",
+      "checks": 34,
+      "passed": true
+    },
+    {
+      "suite": "elemental_magic",
+      "checks": 101,
+      "passed": true
+    },
+    {
+      "suite": "render_smoothing",
+      "checks": 17,
+      "passed": true
+    },
+    {
+      "suite": "elemental_nature",
+      "checks": 17,
+      "passed": true
+    },
+    {
+      "suite": "polish_presentation",
+      "checks": 29,
+      "passed": true
+    },
+    {
+      "suite": "ui_polish",
+      "checks": 26,
+      "passed": true
+    },
+    {
+      "suite": "sound_palette",
+      "checks": 22,
+      "passed": true
+    },
+    {
+      "suite": "element_affinity",
+      "checks": 72,
+      "passed": true
+    },
+    {
+      "suite": "encounter_director",
+      "checks": 43,
+      "passed": true
+    },
+    {
+      "suite": "signature_skills",
+      "checks": 144,
+      "passed": true
+    },
+    {
+      "suite": "expedition_ui",
+      "checks": 26,
+      "passed": true
+    },
+    {
+      "suite": "academy_refresh",
+      "checks": 189,
+      "passed": true
+    },
+    {
+      "suite": "storybook_refresh",
+      "checks": 238,
+      "passed": true
+    },
+    {
+      "suite": "world_readability",
+      "checks": 150,
+      "passed": true
+    },
+    {
+      "suite": "title_identity",
+      "checks": 19,
+      "passed": true
+    }
+  ],
+  "exported_active_input_files_matched": 291,
+  "fingerprint_includes_import_metadata_and_uids": true,
+  "source_archive_sha256_at_runtime_check": "f3f7dde9d5e40597d999ae4c5ad01302fbc28d4e74683acb8b920489789d6f2c",
+  "cold_second_import_clean": true,
+  "first_import_had_bootstrap_errors": true
+}

@@ -1,0 +1,28 @@
+{
+  "version": "v0.19.0",
+  "visual_review_verified": true,
+  "performance_measured": true,
+  "runtime_inputs": 291,
+  "runtime_fingerprint_sha256": "c4d6bd755009e5c2be8f38b6560b1af7d2c9d803b07e8546614dc4f62625676c",
+  "reviewed": {
+    "backgrounds": 8,
+    "bookcase_fall_directions": 4,
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "window_sizes": [
+      "1280x800",
+      "1024x640",
+      "1920x1080"
+    ],
+    "opening_ci": [
+      "ko",
+      "en"
+    ]
+  },
+  "evidence_prefix": "docs/qa/v0190-",
+  "notes": "Actual OpenGL screenshot review. World text removed, live instructions retained in fixed UI, authored fallen perspectives. Final CI cover and restored story both reviewed. Native Windows GPU and Mac not reviewed.",
+  "performance_evidence": "docs/qa/v0190-performance/expanded-summary.json",
+  "final_intro_settings_reviewed": true
+}

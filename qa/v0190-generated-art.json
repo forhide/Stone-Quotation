@@ -1,0 +1,20 @@
+[
+  {
+    "runtime_path": "art/environments/academy_bookcases.png",
+    "generated_original": "exec-7dbfdca9-2ba4-4fbb-8cd9-97dfbfe9d141.png",
+    "sha256": "d53fdbe121aaa5e8cb6dd012fd7e8a940deeced7f650ff9864e6c4f1616ba1db",
+    "original_bytes_preserved": true
+  },
+  {
+    "runtime_path": "art/environments/painted_world_glyphs.png",
+    "generated_original": "exec-cf13828b-0940-4b91-87ff-f711a06eb4ab.png",
+    "sha256": "a2dfad0955a2ec10bbabbdc5e3f6db21442a1caf74932102568e8b20b7d17caa",
+    "original_bytes_preserved": true
+  },
+  {
+    "runtime_path": "art/ui/meowgnificent_wordmark.png",
+    "generated_original": "exec-8e28870f-1439-4266-a8ec-8b8bc142971f.png",
+    "sha256": "60377a21ab146af0424c988ef3ef546e8151fbc325528150da48dabb29cf2859",
+    "original_bytes_preserved": true
+  }
+]
