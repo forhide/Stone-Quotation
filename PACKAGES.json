@@ -1,0 +1,70 @@
+{
+  "version": "v0.20.0",
+  "max_zip_bytes": 20971520,
+  "runtime_inputs_preserved": 301,
+  "packages": [
+    {
+      "file": "Meowgnificent-v0.20.0-01-code.zip",
+      "bytes": 690155,
+      "sha256": "ba4ecab22fef85029baa916ea7fee0e725b34238d62a796116f00844b7dd638a",
+      "required": true,
+      "title": "코드·데이터·테스트·인계 문서",
+      "files": 362,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.20.0/Meowgnificent-v0.20.0-01-code.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.20.0-02-art-characters-part1.zip",
+      "bytes": 9224193,
+      "sha256": "b21c74ec15157b8931e5979c59cd4787a357e8ce01bd63c98651814d3bb83d01",
+      "required": true,
+      "title": "고양이·NPC·적·마법 효과",
+      "files": 20,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.20.0/Meowgnificent-v0.20.0-02-art-characters-part1.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.20.0-02-art-characters-part2.zip",
+      "bytes": 15183855,
+      "sha256": "c1147d1d62b1cc73b3b3817096cf16bbd81d70db1ef871bb2da8ff46649a52d7",
+      "required": true,
+      "title": "고양이·NPC·적·마법 효과",
+      "files": 20,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.20.0/Meowgnificent-v0.20.0-02-art-characters-part2.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.20.0-03-art-world-story-part1.zip",
+      "bytes": 12219403,
+      "sha256": "3a743e90ecb3f0a394eb9f1753b8cbacdd7ca482add9ea604d230fcf0e0b4e05",
+      "required": true,
+      "title": "배경·이야기·소품",
+      "files": 12,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.20.0/Meowgnificent-v0.20.0-03-art-world-story-part1.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.20.0-03-art-world-story-part2.zip",
+      "bytes": 10929943,
+      "sha256": "db5e7e1cda925e8725fad102364b979bfcc5b2a51cdb5b440ed9255a5979cd42",
+      "required": true,
+      "title": "배경·이야기·소품",
+      "files": 13,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.20.0/Meowgnificent-v0.20.0-03-art-world-story-part2.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.20.0-04-art-equipment-ui.zip",
+      "bytes": 19690367,
+      "sha256": "70bcc26007ddfc6146710ab5b90c17933186043305bcc14976e50a7fdc9cefe1",
+      "required": true,
+      "title": "장비·UI·폰트·효과음",
+      "files": 83,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.20.0/Meowgnificent-v0.20.0-04-art-equipment-ui.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.20.0-05-art-original-png-optional.zip",
+      "bytes": 17217655,
+      "sha256": "4dd35aa517d9d2059e459ec0a6797b7669cd7d41e1f1ce25558effb62c439dc9",
+      "required": false,
+      "title": "변환 전 원본 PNG · 선택",
+      "files": 9,
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-handoff-v0.20.0/Meowgnificent-v0.20.0-05-art-original-png-optional.zip"
+    }
+  ]
+}
