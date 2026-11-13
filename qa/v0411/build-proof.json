@@ -1,0 +1,43 @@
+{
+  "version": "v0.41.1",
+  "source_commit": "ca168d8f76170167bc8802b30d39b8ceddf85040",
+  "command": "./build.sh",
+  "exit_code": 0,
+  "test_suites": 61,
+  "checks": 4131,
+  "failures": 0,
+  "engine_errors": 0,
+  "exports": [
+    {
+      "path": "exports/windows/Meowgnificent.exe",
+      "bytes": 171763184,
+      "sha256": "941d3d3982055c79783686f3d9a0bb6921cebbe42d261bd4fbe7a46f2ebb8aff"
+    },
+    {
+      "path": "exports/linux/Meowgnificent.x86_64",
+      "bytes": 138137088,
+      "sha256": "fdada0c2ec4d1540efd533246a617a94d1f6a4cc0c3718e2c4fc7cc808e33d37"
+    },
+    {
+      "path": "exports/web/index.pck",
+      "bytes": 67061220,
+      "sha256": "d6e580166039c00417b22f8654047e9ca83506303c9235b675bcd24882962cbf"
+    },
+    {
+      "path": "exports/macos/Meowgnificent.zip",
+      "bytes": 98861646,
+      "sha256": "1d7a512bc02a4fd11e72b0bdbedb8627f099aef6bbbfdac95b99513b2d88559f"
+    }
+  ],
+  "windows_metadata": {
+    "file_version": "0.41.1.0",
+    "product_version": "0.41.1.0",
+    "utf16_version_string_count": 2,
+    "fixed_file_info_words": [
+      41,
+      65536,
+      41,
+      65536
+    ]
+  }
+}

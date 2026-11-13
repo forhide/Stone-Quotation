@@ -1,0 +1,36 @@
+{
+  "version": "v0.41.1",
+  "branch": "meowgnificent-downloads-v0.41.1",
+  "files": [
+    {
+      "file": "Meowgnificent-v0.41.1-windows.zip",
+      "bytes": 102709308,
+      "sha256": "6eb6768d04cf0d2a996100c3072cccca042988200580c7e70b70b8dc57c392f1",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.41.1/Meowgnificent-v0.41.1-windows.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.41.1-linux.zip",
+      "bytes": 93738636,
+      "sha256": "01651e166d210ebd5d9fbc7092701cf19d35ed5711ce64b56aa8871595b71ae9",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.41.1/Meowgnificent-v0.41.1-linux.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.41.1-web.zip",
+      "bytes": 78673228,
+      "sha256": "bb77446e8dc3849ac29e937e0fae0a89e5d447e7fec460e41d268d956bb784b7",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.41.1/Meowgnificent-v0.41.1-web.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.41.1-macos.zip",
+      "bytes": 98903678,
+      "sha256": "fda9f7285cf2d7fc797d5fc2c29b6b7b819a6d5d93f482047d87a6e83dd54c31",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.41.1/Meowgnificent-v0.41.1-macos.zip"
+    },
+    {
+      "file": "Meowgnificent-v0.41.1-SHA256SUMS.txt",
+      "bytes": 392,
+      "sha256": "2f022595ff6216afffdc7ef80a649cd5e789a9d264a1f3e97cc4eb1ec3570f91",
+      "url": "https://github.com/forhide/Stone-Quotation/raw/refs/heads/meowgnificent-downloads-v0.41.1/Meowgnificent-v0.41.1-SHA256SUMS.txt"
+    }
+  ]
+}

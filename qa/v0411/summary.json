@@ -1,0 +1,16 @@
+{
+  "version": "v0.41.1",
+  "source_commit": "ca168d8f76170167bc8802b30d39b8ceddf85040",
+  "test_suites": 61,
+  "checks": 4131,
+  "failures": 0,
+  "linux_runtime_tested": true,
+  "linux_runtime_checks": 6,
+  "web_runtime_tested": true,
+  "web_runtime_checks": 15,
+  "pwa_update_offline_checks": 7,
+  "actual_phone_tested": false,
+  "mac_runtime_tested": false,
+  "native_windows_tested": false,
+  "music_human_listening": false
+}

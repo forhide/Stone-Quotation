@@ -1,0 +1,16 @@
+{
+  "base_main": "d9ca046f78cc6f28fef09acf6fbd4287b3cd797f",
+  "version_locations": {
+    "project.godot": 1,
+    "export_presets.cfg": 4,
+    "package.py": 1,
+    "scripts/ui/title_screen.gd": 1
+  },
+  "game_logic_diff": "only the title version literal; data and gameplay rules unchanged",
+  "version_file_sha256": {
+    "project.godot": "feefc6c63de1c99f65cf56758b492767328898bfcf1294d2f39db1feabf6df3f",
+    "export_presets.cfg": "f3845f506ed730f8da49475519c8acc65fd6987b52068e0a8dbff541e47a4f93",
+    "package.py": "82bebd49a169164817547c0a88a782dae96db092f7f4702d594e1441b7bd01e4",
+    "scripts/ui/title_screen.gd": "a635f0c1a473f7f32e2db372cab6725c9e8e46a2cf6b2539c689c2683b355298"
+  }
+}

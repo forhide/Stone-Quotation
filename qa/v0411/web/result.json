@@ -1,0 +1,42 @@
+{
+  "checks": [
+    "web HTML and WASM start with the game title",
+    "normal exported title renders its menu lettering",
+    "the exported PC title visibly identifies v0.41.1",
+    "exported equipment screen loads game art and starter gear",
+    "Escape opens the real sleeping-cat pause menu",
+    "pause guide renders all three pairing rows in the exported game",
+    "Escape closes the guide back to pause without resuming combat",
+    "real input unlocks the browser audio context",
+    "exported game reloads with persisted browser storage without an exception",
+    "the phone title visibly identifies v0.41.1",
+    "real touch opens the responsive phone bag with the worn starter fire wand",
+    "phone touch opens the readable guide with all three pairings",
+    "the phone guide return button responds to real touch and returns to pause",
+    "browser reports no JavaScript or engine console errors",
+    "exported game requests return no HTTP error"
+  ],
+  "errors": [],
+  "http_errors": [],
+  "screens": [
+    "pc-title.png",
+    "pc-bag.png",
+    "pc-pause.png",
+    "pc-pairings.png",
+    "pc-guide-back.png",
+    "pc-reload.png",
+    "phone-title.png",
+    "phone-bag.png",
+    "phone-pause.png",
+    "phone-pairings.png",
+    "phone-guide-back.png"
+  ],
+  "actual_phone": false,
+  "audio": [
+    {
+      "state": "running",
+      "sampleRate": 44100
+    }
+  ],
+  "passed": true
+}
