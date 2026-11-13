@@ -1,0 +1,22 @@
+{
+  "source_commit": "db56392b54ca477b71251eb179f1a64cd397d841",
+  "exported_targets": [
+    "Windows",
+    "Linux",
+    "Web",
+    "macOS"
+  ],
+  "windows_pe_file_version": [
+    0,
+    42,
+    0,
+    0
+  ],
+  "windows_pe_product_version": [
+    0,
+    42,
+    0,
+    0
+  ],
+  "web_pwa_audio_unlock_inline": true
+}

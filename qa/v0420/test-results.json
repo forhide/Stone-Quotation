@@ -1,0 +1,322 @@
+{
+  "source_commit": "db56392b54ca477b71251eb179f1a64cd397d841",
+  "test_suites": 62,
+  "checks": 4205,
+  "failures": 0,
+  "engine_errors": [],
+  "command": "./build.sh",
+  "build_exit": 0,
+  "build_log_sha256": "a9c0d3bdc7c317d60c2bf8778b2b2b6ed86e4a68e08df8d74294300b84af68c6",
+  "results": [
+    {
+      "suite": "SMOKE",
+      "checks": 36,
+      "failures": 0
+    },
+    {
+      "suite": "REGRESSION",
+      "checks": 32,
+      "failures": 0
+    },
+    {
+      "suite": "ACCIDENT",
+      "checks": 38,
+      "failures": 0
+    },
+    {
+      "suite": "ECONOMY",
+      "checks": 33,
+      "failures": 0
+    },
+    {
+      "suite": "META",
+      "checks": 34,
+      "failures": 0
+    },
+    {
+      "suite": "EXPEDITION",
+      "checks": 111,
+      "failures": 0
+    },
+    {
+      "suite": "PRESENTATION",
+      "checks": 86,
+      "failures": 0
+    },
+    {
+      "suite": "GRIMOIRE",
+      "checks": 39,
+      "failures": 0
+    },
+    {
+      "suite": "GRIMOIRE INTEGRATION",
+      "checks": 33,
+      "failures": 0
+    },
+    {
+      "suite": "STORY",
+      "checks": 84,
+      "failures": 0
+    },
+    {
+      "suite": "LOCALIZATION APPEARANCE",
+      "checks": 219,
+      "failures": 0
+    },
+    {
+      "suite": "GROUNDED GAIT",
+      "checks": 32,
+      "failures": 0
+    },
+    {
+      "suite": "TELEGRAPHS",
+      "checks": 54,
+      "failures": 0
+    },
+    {
+      "suite": "CATALOG EXPANSION",
+      "checks": 31,
+      "failures": 0
+    },
+    {
+      "suite": "ITEM SKILLS",
+      "checks": 222,
+      "failures": 0
+    },
+    {
+      "suite": "PIP IDENTITY",
+      "checks": 22,
+      "failures": 0
+    },
+    {
+      "suite": "CHARACTER STATS",
+      "checks": 322,
+      "failures": 0
+    },
+    {
+      "suite": "CASUAL INVENTORY",
+      "checks": 87,
+      "failures": 0
+    },
+    {
+      "suite": "ART MAPPING",
+      "checks": 95,
+      "failures": 0
+    },
+    {
+      "suite": "SHOP GATHERING",
+      "checks": 48,
+      "failures": 0
+    },
+    {
+      "suite": "ANIMAL CAST",
+      "checks": 80,
+      "failures": 0
+    },
+    {
+      "suite": "SHOP REACTIONS",
+      "checks": 64,
+      "failures": 0
+    },
+    {
+      "suite": "ELEMENTAL MAGIC",
+      "checks": 101,
+      "failures": 0
+    },
+    {
+      "suite": "LIVING STAGES",
+      "checks": 34,
+      "failures": 0
+    },
+    {
+      "suite": "STORY CINEMATICS",
+      "checks": 30,
+      "failures": 0
+    },
+    {
+      "suite": "GRIMOIRE CHARACTER",
+      "checks": 29,
+      "failures": 0
+    },
+    {
+      "suite": "FEATURE INTEGRATION",
+      "checks": 51,
+      "failures": 0
+    },
+    {
+      "suite": "SKILL PRESENTATION",
+      "checks": 199,
+      "failures": 0
+    },
+    {
+      "suite": "STORY CONTINUITY",
+      "checks": 40,
+      "failures": 0
+    },
+    {
+      "suite": "EXIT LOOT",
+      "checks": 81,
+      "failures": 0
+    },
+    {
+      "suite": "RENDER SMOOTHING",
+      "checks": 17,
+      "failures": 0
+    },
+    {
+      "suite": "HD ART",
+      "checks": 36,
+      "failures": 0
+    },
+    {
+      "suite": "DISPLAY SETTINGS",
+      "checks": 24,
+      "failures": 0
+    },
+    {
+      "suite": "HUD REFRESH",
+      "checks": 16,
+      "failures": 0
+    },
+    {
+      "suite": "STORY CONSEQUENCES",
+      "checks": 30,
+      "failures": 0
+    },
+    {
+      "suite": "ELEMENTAL NATURE",
+      "checks": 17,
+      "failures": 0
+    },
+    {
+      "suite": "POLISH PRESENTATION",
+      "checks": 29,
+      "failures": 0
+    },
+    {
+      "suite": "UI POLISH",
+      "checks": 26,
+      "failures": 0
+    },
+    {
+      "suite": "SOUND PALETTE",
+      "checks": 25,
+      "failures": 0
+    },
+    {
+      "suite": "ELEMENT AFFINITY",
+      "checks": 100,
+      "failures": 0
+    },
+    {
+      "suite": "ENCOUNTER DIRECTOR",
+      "checks": 43,
+      "failures": 0
+    },
+    {
+      "suite": "SIGNATURE SKILLS",
+      "checks": 163,
+      "failures": 0
+    },
+    {
+      "suite": "EXPEDITION UI",
+      "checks": 26,
+      "failures": 0
+    },
+    {
+      "suite": "ACADEMY REFRESH",
+      "checks": 201,
+      "failures": 0
+    },
+    {
+      "suite": "STORYBOOK REFRESH",
+      "checks": 250,
+      "failures": 0
+    },
+    {
+      "suite": "WORLD READABILITY",
+      "checks": 160,
+      "failures": 0
+    },
+    {
+      "suite": "TITLE IDENTITY",
+      "checks": 19,
+      "failures": 0
+    },
+    {
+      "suite": "LIVELY WORLD",
+      "checks": 89,
+      "failures": 0
+    },
+    {
+      "suite": "TOUCH CONTROLS",
+      "checks": 24,
+      "failures": 0
+    },
+    {
+      "suite": "GEAR REWARDS",
+      "checks": 57,
+      "failures": 0
+    },
+    {
+      "suite": "MISCAST RECOVERY",
+      "checks": 50,
+      "failures": 0
+    },
+    {
+      "suite": "READING ROOM MIDBOSS",
+      "checks": 46,
+      "failures": 0
+    },
+    {
+      "suite": "ENCOUNTER VARIANTS",
+      "checks": 28,
+      "failures": 0
+    },
+    {
+      "suite": "SHOP CHECKPOINT",
+      "checks": 53,
+      "failures": 0
+    },
+    {
+      "suite": "BUILD EFFECTS",
+      "checks": 41,
+      "failures": 0
+    },
+    {
+      "suite": "STAGE GIMMICKS",
+      "checks": 38,
+      "failures": 0
+    },
+    {
+      "suite": "EXPEDITION EVENTS",
+      "checks": 53,
+      "failures": 0
+    },
+    {
+      "suite": "AREA CHECKPOINT",
+      "checks": 42,
+      "failures": 0
+    },
+    {
+      "suite": "MUSIC DIRECTOR",
+      "checks": 32,
+      "failures": 0
+    },
+    {
+      "suite": "PERF PROBE",
+      "checks": 12,
+      "failures": 0
+    },
+    {
+      "suite": "MEDIA READABILITY",
+      "checks": 27,
+      "failures": 0
+    },
+    {
+      "suite": "ELEMENT PAIRINGS",
+      "checks": 64,
+      "failures": 0
+    }
+  ]
+}

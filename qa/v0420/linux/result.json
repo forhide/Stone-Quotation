@@ -1,0 +1,14 @@
+{
+  "platform": "linux",
+  "native_windows_tested": false,
+  "mac_runtime_tested": false,
+  "checks": [
+    "extracted Linux executable renders its title through its own PCK",
+    "ordinary input opens the exported equipment menu with starter art",
+    "Escape pauses the exported game with the sleeping-cat card",
+    "native pairing guide renders the current-slot rule and new element recipe",
+    "Escape closes only the pairing guide before resuming",
+    "normal Quit exits the exported game cleanly without script or engine errors"
+  ],
+  "passed": true
+}

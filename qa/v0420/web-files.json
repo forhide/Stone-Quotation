@@ -1,0 +1,111 @@
+{
+  "files": [
+    {
+      "file": "index.144x144.png",
+      "bytes": 39963,
+      "sha256": "75e5c359125eea57f59a43249550bb5ab9984ee71f0b026bec23ec6cc95cf7fa"
+    },
+    {
+      "file": "index.144x144.png.import",
+      "bytes": 955,
+      "sha256": "10127ba0acc916dd3ea8644f8f616d53b78b8f7213ef8da5f0911bef32178ef2"
+    },
+    {
+      "file": "index.180x180.png",
+      "bytes": 59766,
+      "sha256": "2f494da3d8007473b8a5080d11eccffed1e2fda34385c35ca5076aa93af8665c"
+    },
+    {
+      "file": "index.180x180.png.import",
+      "bytes": 954,
+      "sha256": "d57ca3a0f518752ccf9e939611ccc959b1ece7ac6ec2c487039deb990ff1e6df"
+    },
+    {
+      "file": "index.512x512.png",
+      "bytes": 407225,
+      "sha256": "3df87f340579a10a974feef6279ba30e7e1a72c3c31b8610e835b99b2c741763"
+    },
+    {
+      "file": "index.512x512.png.import",
+      "bytes": 955,
+      "sha256": "56adf1700bbd7c220106abd3549b8890f773483ef0dac099a12f98246f5124c5"
+    },
+    {
+      "file": "index.apple-touch-icon.png",
+      "bytes": 60823,
+      "sha256": "3567e2831c72beb4df65172c0ec53feb1f225445d40944fdc8a48506ed4f49c2"
+    },
+    {
+      "file": "index.apple-touch-icon.png.import",
+      "bytes": 982,
+      "sha256": "a0f45451c2719b9b5b4864296ddc01c443eb2a45a7ad4b372b80459322085b38"
+    },
+    {
+      "file": "index.audio.position.worklet.js",
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    {
+      "file": "index.audio.worklet.js",
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "file": "index.html",
+      "bytes": 8765,
+      "sha256": "bc276062668523d2976156f207f9a266962c077e757eaa54df520cbbafdaed6d"
+    },
+    {
+      "file": "index.icon.png",
+      "bytes": 2069563,
+      "sha256": "51933cd744f2389e5644a9d3ec9004426c0663b2078e8552cb70b38510fa0f52"
+    },
+    {
+      "file": "index.icon.png.import",
+      "bytes": 946,
+      "sha256": "1b4f4c4188b874eb5a3d091a2e2b84f430cf744bbc719b14d2906dd533ceaec2"
+    },
+    {
+      "file": "index.js",
+      "bytes": 315759,
+      "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+    },
+    {
+      "file": "index.manifest.json",
+      "bytes": 349,
+      "sha256": "1fe6f221280624d41864feb91194fa3efcf150b2a8f484f3a41a90923ebe632e"
+    },
+    {
+      "file": "index.offline.html",
+      "bytes": 971,
+      "sha256": "b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f"
+    },
+    {
+      "file": "index.pck",
+      "bytes": 68530536,
+      "sha256": "581b5f299e18e665f8b17350da55b9734b1b3f53e881b2548277df08db4517b5"
+    },
+    {
+      "file": "index.png",
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "file": "index.png.import",
+      "bytes": 931,
+      "sha256": "f75adcdaf34a3fbe2ee7c745f0870cea3df4e752139f209d7267d18c2da59a98"
+    },
+    {
+      "file": "index.service.worker.js",
+      "bytes": 5829,
+      "sha256": "caba51991c054a57942fa149b1b8702a587bd76688be5317715e333be557e161"
+    },
+    {
+      "file": "index.wasm",
+      "bytes": 37700666,
+      "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+    }
+  ],
+  "old_cache": "1794565575|5931860",
+  "new_cache": "1794571665|5087296"
+}

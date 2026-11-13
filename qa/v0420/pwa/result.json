@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "the previous v0.41.1 export runs under its installed service worker",
+    "the previous version has an offline cache",
+    "publishing the new export installs a waiting update while the old game remains open",
+    "closing and reopening updates to v0.42.0 without deleting browser storage",
+    "the activated service worker replaces the old version cache",
+    "the updated v0.42.0 export starts offline from the same installed cache",
+    "the update and offline reload report no JavaScript exceptions"
+  ],
+  "errors": [],
+  "actual_iphone": false,
+  "old_cache": [
+    "Meowgnificent th-sw-cache-1794565575|5931860"
+  ],
+  "new_cache": [
+    "Meowgnificent th-sw-cache-1794571665|5087296"
+  ],
+  "offline_start_url": "http://127.0.0.1:8095/index.html",
+  "passed": true
+}

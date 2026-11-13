@@ -1,0 +1,27 @@
+{
+  "checks": [
+    "the real engine audio context is captured by the offline inline unlock bridge",
+    "a trusted touch selects the iPhone playback session and resumes audio",
+    "decoded background music reaches the actual browser audio graph",
+    "the test reproduces a context stopped after backgrounding",
+    "another trusted touch resumes the stopped audio context without reloading or deleting saves",
+    "the resumed browser context emits music again",
+    "audio unlocking and resuming cause no JavaScript exceptions"
+  ],
+  "errors": [],
+  "actual_iphone": false,
+  "callbacks": {
+    "registered": 1,
+    "called": 3
+  },
+  "graph": [
+    {
+      "state": "running",
+      "meter": true,
+      "time": 29.22231292517007
+    }
+  ],
+  "music_peak": 0.02734375,
+  "resumed_peak": 0.057342529296875,
+  "passed": true
+}

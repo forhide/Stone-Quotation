@@ -1,0 +1,18 @@
+{
+  "previous_release_main": "c804f94d35dbfb1c290d39acc343523e23a785a0",
+  "feature_branch_tip": "334f6c4931023c2e856821aeb709390ca1b29182",
+  "build_source": "db56392b54ca477b71251eb179f1a64cd397d841",
+  "version_locations": {
+    "project.godot": 1,
+    "export_presets.cfg": 4,
+    "package.py": 1,
+    "scripts/ui/title_screen.gd": 1
+  },
+  "gameplay_changes": "all implementation comes from the reviewed codex/synergies-world-audio branch; release prep changes only version literals and guides",
+  "version_file_sha256": {
+    "project.godot": "052b245af98bbce9e00b3c0f096ceb6f70695450946743ec799de10c12512c6c",
+    "export_presets.cfg": "2925ea1ebc861c00fd6906c1618a0615e90b648831663e382335aa50ba7f8670",
+    "package.py": "cd81179b075a71d34fa3161b470cb330464981c4b5052a05b9b078f0a45b33db",
+    "scripts/ui/title_screen.gd": "880233c5c97d3b863b8941e2691659824654b260b00a6a4ff1923610c212ffbd"
+  }
+}
